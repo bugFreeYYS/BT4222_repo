@@ -62,12 +62,12 @@ for item in query:
     post_comments['created'] = post_comments['created'].apply(lambda x: dt.datetime.fromtimestamp(x))
     post_comments = post_comments[(post_comments['created'] > start) & (post_comments['created'] < now)]
     post_comments['date'] = post_comments['created'].apply(lambda x: x.date())
-    post_comments.to_csv("/Users/bolin/Desktop/NUS_Y4S2/BT4222/Bitcoin_Scraper/Data/Reddit_Data/Comments/{}.csv".format(now.date()))
+    post_comments.to_csv("./data/comments/{}.csv".format(now.date()))
     
     # posts
     post_data = pd.DataFrame(post_dict)
     post_data['created'] = post_data['created'].apply(lambda x: dt.datetime.fromtimestamp(x))
     post_data['date'] = post_data['created'].apply(lambda x: x.date())
-    post_data.to_csv("/Users/bolin/Desktop/NUS_Y4S2/BT4222/Bitcoin_Scraper/Data/Reddit_Data/Posts/{}.csv".format(now.date()))
+    post_data.to_csv("./data/posts/{}.csv".format(now.date()))
 
 

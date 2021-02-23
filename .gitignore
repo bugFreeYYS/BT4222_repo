@@ -1,3 +1,10 @@
+# data files
+
+*.csv
+data/*
+Data/*
+DATA/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

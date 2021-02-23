@@ -15,7 +15,7 @@ base = datetime.datetime.today()
 numdays = 3
 date_list = [(base - datetime.timedelta(days=x)).strftime('%m/%d/%Y') for x in range(numdays)]
 # print(date_list)
-driver = webdriver.Chrome('/Users/bolin/Desktop/NUS Y4S2/BT4222/Bitcoin Scraper/chromedriver')
+driver = webdriver.Chrome('./chromedriver')
 
 for date in date_list:
     driver.get('https://www.google.com/search?rlz=1C5CHFA_enSG857SG857&biw=1252&bih=1001&tbm=nws&sxsrf=ALeKk01WJ9KVpEaOLElQuoxvFIXyU0Ye_w%3A1612095496103&ei=CKAWYLrqBcj6rQGD4L6oBw&q=bitcoin&oq=bitcoin&gs_l=psy-ab.3...0.0.0.238750.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.Ewp5Y2WlQvM')
