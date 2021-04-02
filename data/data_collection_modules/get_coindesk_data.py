@@ -11,7 +11,7 @@ def getArticleComplete(page_url):
     articles = soup.find_all('div', {'class': 'article-module article'})
     return articles[0].text
 
-def get_coindesk_data(num_pages=8):
+def get_coindesk_data(num_pages=1):
     output = dict()
     for i in range(num_pages):
         print('Processing page {}'.format(i))

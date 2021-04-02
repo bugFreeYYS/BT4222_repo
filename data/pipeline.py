@@ -15,7 +15,7 @@ from data_collection_modules import get_reddit_data
 from sentiment_extraction_modules import *
 
 import sys
-sys.path.insert(1, '/Users/bolin/Desktop/NUS_Y4S2/BT4222/project_submission')
+sys.path.insert(1, '/Users/bolin/Desktop/NUS_Y4S2/BT4222/BT4222_repo')
 from custom_utils import *
 
 end = str(datetime.datetime.now().date())
@@ -56,4 +56,7 @@ reddit_posts_sentiments = extract_reddit_posts_sentiments(reddit_posts_data, str
 #### joining datasets #####
 ###########################
 cleaned_df = merge([yahoo_finance_data, coindesk_sentiments, reddit_comments_sentiments, reddit_posts_sentiments])
-append(config['cooked_dir']+config['cooked_data_file_name'], cleaned_df, start)
+try:
+    append(config['cooked_dir']+config['cooked_data_file_name'], cleaned_df, start)
+except:
+    cleaned_df.to_csv(config['cooked_dir']+config['cooked_data_file_name'])
