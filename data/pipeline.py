@@ -18,11 +18,10 @@ import sys
 sys.path.insert(1, '/Users/bolin/Desktop/NUS_Y4S2/BT4222/BT4222_repo')
 from custom_utils import *
 
-end = str(datetime.datetime.now().date())
 start = str((datetime.datetime.now() - datetime.timedelta(days=1)).date())
 
 # yahoo finance data
-yahoo_finance_data = get_yahoo_finance_data(start, end)
+yahoo_finance_data = get_yahoo_finance_data()
 try:
     append(config['raw_dir']+config['raw_yahoo_finance_file_name'], yahoo_finance_data, start)
 except:

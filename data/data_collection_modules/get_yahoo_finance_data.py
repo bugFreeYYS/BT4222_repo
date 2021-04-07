@@ -3,9 +3,11 @@ yf.pdr_override()
 import pandas as pd
 import datetime
 
-def get_yahoo_finance_data(start_date, end_date, tickers=["BTC-USD", "SPY", "GLD", "CHFUSD=X", "EURUSD=X", "GBPUSD=X", "JPYUSD=X", "CNYUSD=X"]): 
+def get_yahoo_finance_data(tickers=["BTC-USD", "SPY", "GLD", "CHFUSD=X", "EURUSD=X", "GBPUSD=X", "JPYUSD=X", "CNYUSD=X"]): 
     # downloading data 
-    data_df = yf.download(tickers, start=start_date, end=end_date)
+    end_date = str(datetime.datetime.now().date())
+    date = str((datetime.datetime.now() - datetime.timedelta(days=1)).date())
+    data_df = yf.download(tickers, start='2021-01-01', end=end_date)
 
     df = data_df[[('Adj Close',  'BTC-USD'),
                   ('Open', 'BTC-USD'),
@@ -24,4 +26,5 @@ def get_yahoo_finance_data(start_date, end_date, tickers=["BTC-USD", "SPY", "GLD
     df.columns = map(lambda x: x.replace(' ', '_'), map(lambda x: x[0] + ' ' + x[1], list(df.columns)))
     df['date'] = list(map(lambda x: str(x.date()), df.index))    
     df = df.fillna(method='ffill')
+    df = df[df['date'] == date]
     return df

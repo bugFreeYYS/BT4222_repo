@@ -12,4 +12,4 @@ spreadsheet = client.open('cooked_complete_dataset')
 
 with open('/Users/bolin/Desktop/NUS_Y4S2/BT4222/BT4222_repo/data/cooked_data/cooked_complete_dataset.csv', 'r') as file_obj:
     content = file_obj.read()
-    client.import_csv(spreadsheet.id, data=content)
+    client.import_csv(spreadsheet.id, data=content) 
