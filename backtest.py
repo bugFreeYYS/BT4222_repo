@@ -4,51 +4,51 @@ import pandas as pd
 import numpy as np
 
 
-# def backtest_classification_noSentiment(y_pre, # up --> 1, down --> -1
-#                                         date, 
-#                                         filename = str(int((datetime.utcnow() - datetime(1970, 1, 1)).total_seconds()))): 
-#     # init a log file
-#     file = open(filename,'w')
+def backtest_classification_noSentiment(y_pre, # up --> 1, down --> -1
+                                        date, 
+                                        filename): 
+    # init a log file
+    file = open(filename,'w')
     
-#     # read in data
-#     data = pd.read_csv("../data/bitcoin_price.csv")
-#     # convert to datetime
-#     data["Date"] = pd.to_datetime(data["Date"])
-#     # subset data set
-#     data = data[data["Date"].isin(date)]
+    # read in data
+    data = pd.read_csv("../../cooked_complete_dataset.csv")
+    # convert to datetime
+    data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
+    data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
+    # subset data set
+    data = data[data["date"].isin(date)]
 
-#     open_p, close_p = data["24h Open (USD)"].tolist(), data["Closing Price (USD)"].tolist()  
+    open_p, close_p = data["Open_BTC-USD"].tolist(), data["Adj_Close_BTC-USD"].tolist()
     
-#     # init portfolio at 1
-#     portfolio = [1,]
+    # init portfolio at 1
+    portfolio = [1,]
     
-#     # loop every day
-#     for i in range(len(date)):
-#         file.write("---------------------------------------------\n")
-#         file.write(str(date[i]) + "\n")
-#         pre, open_price, close_price = y_pre[i], open_p[i], close_p[i]
-#         # if predicted up
-#         if pre == 1: # strategy --> buy at open, sell at close
-#             file.write("Predicted price UP, LONG {} at open and SELL {} at close.\n".format("100%", "100%"))
-#             percentage = (close_price - open_price) / open_price
-#             new_portfolio = portfolio[-1] * (1 + percentage)
-#             portfolio.append(new_portfolio)
-#             file.write("Percentage return is {} and the new portfolio is {}.\n".format(
-#                 round(percentage, 2), round(new_portfolio,2)))
+    # loop every day
+    for i in range(len(date)):
+        file.write("---------------------------------------------\n")
+        file.write(str(date[i]) + "\n")
+        pre, open_price, close_price = y_pre[i], open_p[i], close_p[i]
+        # if predicted up
+        if pre == 1: # strategy --> buy at open, sell at close
+            file.write("Predicted price UP, LONG {} at open and SELL {} at close.\n".format("100%", "100%"))
+            percentage = (close_price - open_price) / open_price
+            new_portfolio = portfolio[-1] * (1 + percentage)
+            portfolio.append(new_portfolio)
+            file.write("Percentage return is {} and the new portfolio is {}.\n".format(
+                round(percentage, 2), round(new_portfolio,2)))
 
-#         # if predicted down
-#         else: # strategy --> short at open, cover at close
-#             file.write("Predicted price DOWN, SHORT {} at open and COVER {} at close.\n".format("100%", "100%"))
-#             percentage = (open_price - close_price) / open_price
-#             new_portfolio = portfolio[-1] * (1 + percentage)
-#             portfolio.append(new_portfolio)
-#             file.write("Percentage return is {} and the new portfolio is {}.\n".format(
-#                 round(percentage,2), round(new_portfolio,2)))
+        # if predicted down
+        else: # strategy --> short at open, cover at close
+            file.write("Predicted price DOWN, SHORT {} at open and COVER {} at close.\n".format("100%", "100%"))
+            percentage = (open_price - close_price) / open_price
+            new_portfolio = portfolio[-1] * (1 + percentage)
+            portfolio.append(new_portfolio)
+            file.write("Percentage return is {} and the new portfolio is {}.\n".format(
+                round(percentage,2), round(new_portfolio,2)))
     
-#     return portfolio[1:]
+    return portfolio[:]
 
 
-# fixed
 def backtest_regression_noSentiment(y_pre, 
                                     date,
                                     filename):
@@ -56,9 +56,9 @@ def backtest_regression_noSentiment(y_pre,
     file = open(filename,'w')
     
     # read in data
-    data = pd.read_csv("./cooked_complete_dataset.csv")
+    data = pd.read_csv("../../cooked_complete_dataset.csv")
     # convert to datetime
-    data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%Y-%m-%d"))
+    data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
     data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
     # subset data set
     data = data[data["date"].isin(
@@ -145,58 +145,6 @@ def backtest_regression_noSentiment(y_pre,
     return portfolio[:]
 
 
-# def backtest_classification_WithSentiment(y_pre, # up --> 1, down --> -1
-#                                         date, sentiments,
-#                                         filename = str(int((datetime.utcnow() - datetime(1970, 1, 1)).total_seconds()))): 
-#     # init a log file
-#     file = open(filename,'w')
-    
-#     # read in data
-#     data = pd.read_csv("../data/bitcoin_price.csv")
-#     # convert to datetime
-#     data["Date"] = pd.to_datetime(data["Date"])
-#     # subset data set
-#     data = data[data["Date"].isin(date)]
-
-#     open_p, close_p = data["24h Open (USD)"].tolist(), data["Closing Price (USD)"].tolist()  
-    
-#     # init portfolio at 1
-#     portfolio = [1,]
-    
-#     # loop every day
-#     for i in range(len(date)):
-#         file.write("---------------------------------------------\n")
-#         file.write(str(date[i]) + "\n")
-#         pre, open_price, close_price, sentiment = y_pre[i], open_p[i], close_p[i], sentiments[i]
-#         # if predicted up
-#         if pre == 1: # strategy --> buy at open, sell at close
-#             if sentiment == "positive":
-#                 p = 0.8
-#             else:
-#                 p = 0.4
-#             file.write("Predicted price UP, LONG {} at open and SELL {} at close.\n".format(str(p*100) + "%", str(p*100) + "%"))
-#             percentage = (close_price - open_price) / open_price
-#             new_portfolio = portfolio[-1] * (1-p) + portfolio[-1] * p * percentage
-#             portfolio.append(new_portfolio)
-#             file.write("Percentage return is {} and the new portfolio is {}.\n".format(
-#                 round(percentage, 2), round(new_portfolio,2)))
-
-#         # if predicted down
-#         else: # strategy --> short at open, cover at close
-#             if sentiment == "positive":
-#                 p = 0.3
-#             else:
-#                 p = 0.6
-#             file.write("Predicted price DOWN, SHORT {} at open and COVER {} at close.\n".format(str(p*100) + "%", str(p*100) + "%"))
-#             percentage = (open_price - close_price) / open_price
-#             new_portfolio = portfolio[-1] * (1-p) + portfolio[-1] * p * percentage
-#             portfolio.append(new_portfolio)
-#             file.write("Percentage return is {} and the new portfolio is {}.\n".format(
-#                 round(percentage,2), round(new_portfolio,2)))
-    
-#     return portfolio[1:]
-
-
 
 def backtest_regression_WithSentiment(y_pre, 
                                     date, sentiments,
@@ -206,9 +154,9 @@ def backtest_regression_WithSentiment(y_pre,
     file = open(filename,'w')
     
     # read in data
-    data = pd.read_csv("./cooked_complete_dataset.csv")
+    data = pd.read_csv("../../cooked_complete_dataset.csv")
     # convert to datetime
-    data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%Y-%m-%d"))
+    data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
     data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
     # subset data set
     data = data[data["date"].isin(
@@ -302,4 +250,56 @@ def backtest_regression_WithSentiment(y_pre,
             file.write("Predicted price {} is same as the previous close {}, NO ACTION.\n".format(
                 round(pre,2), round(close_p[i-1],2)))
             
+    return portfolio[:]
+
+def backtest_classification_WithSentiment(y_pre, # up --> 1, down --> -1
+                                        date, sentiments,
+                                        filename): 
+    # init a log file
+    file = open(filename,'w')
+    
+    # read in data
+    data = pd.read_csv("../../cooked_complete_dataset.csv")
+    # convert to datetime
+    data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
+    data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
+    # subset data set
+    data = data[data["date"].isin(date)]
+
+    open_p, close_p = data["Open_BTC-USD"].tolist(), data["Adj_Close_BTC-USD"].tolist()
+    
+    # init portfolio at 1
+    portfolio = [1,]
+    
+    # loop every day
+    for i in range(len(date)):
+        file.write("---------------------------------------------\n")
+        file.write(str(date[i]) + "\n")
+        pre, open_price, close_price, sentiment = y_pre[i], open_p[i], close_p[i], sentiments[i]
+        # if predicted up
+        if pre == 1: # strategy --> buy at open, sell at close
+            if sentiment == "positive":
+                p = 0.8
+            else:
+                p = 0.4
+            file.write("Predicted price UP, LONG {} at open and SELL {} at close.\n".format(str(p*100) + "%", str(p*100) + "%"))
+            percentage = (close_price - open_price) / open_price
+            new_portfolio = portfolio[-1] * (1-p) + portfolio[-1] * p * (1+percentage)
+            portfolio.append(new_portfolio)
+            file.write("Percentage return is {} and the new portfolio is {}.\n".format(
+                round(percentage, 2), round(new_portfolio,2)))
+
+        # if predicted down
+        else: # strategy --> short at open, cover at close
+            if sentiment == "positive":
+                p = 0.3
+            else:
+                p = 0.6
+            file.write("Predicted price DOWN, SHORT {} at open and COVER {} at close.\n".format(str(p*100) + "%", str(p*100) + "%"))
+            percentage = (open_price - close_price) / open_price
+            new_portfolio = portfolio[-1] * (1-p) + portfolio[-1] * p * (1+percentage)
+            portfolio.append(new_portfolio)
+            file.write("Percentage return is {} and the new portfolio is {}.\n".format(
+                round(percentage,2), round(new_portfolio,2)))
+    
     return portfolio[:]
