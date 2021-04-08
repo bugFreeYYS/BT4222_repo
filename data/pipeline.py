@@ -38,8 +38,8 @@ except:
 # reddit posts and comments data
 reddit_comments_data, reddit_posts_data = get_reddit_data()
 date_version = str((datetime.datetime.now() - datetime.timedelta(days=1)).date())
-reddit_comments_data.to_csv("/Users/bolin/Desktop/NUS_Y4S2/BT4222/BT4222_repo/data/raw_data/raw_reddit_df/Comments/{}.csv".format(date_version))
-reddit_posts_data.to_csv("/Users/bolin/Desktop/NUS_Y4S2/BT4222/BT4222_repo/data/raw_data/raw_reddit_df/Posts/{}.csv".format(date_version))
+reddit_comments_data.to_csv("./raw_data/raw_reddit_df/Comments/{}.csv".format(date_version))
+reddit_posts_data.to_csv("./raw_data/raw_reddit_df/Posts/{}.csv".format(date_version))
 
 
 ##########################
