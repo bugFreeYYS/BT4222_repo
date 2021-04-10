@@ -1,0 +1,130 @@
+---------------------------------------------
+2021-03-11 00:00:00
+Predicted price 54928.27 is lower than the previous close 56008.55078, SHORT 30.0%.
+Price movement hits the predicted price, COVER 100% on hit 54928.27.
+Percentage return is 0.02 and the new portfolio is 1.01.
+---------------------------------------------
+2021-03-12 00:00:00
+Predicted price 55060.74 is lower than the previous close 57805.12109, SHORT 30.0%.
+Price movement does not hit the predicted price, SELL 100% at close 57332.09.
+Percentage return is 0.01 and the new portfolio is 1.01.
+---------------------------------------------
+2021-03-13 00:00:00
+Predicted price 56088.52 is lower than the previous close 57332.08984, SHORT 60.0%.
+Price movement does not hit the predicted price, SELL 100% at close 61243.09.
+Percentage return is -0.07 and the new portfolio is 0.97.
+---------------------------------------------
+2021-03-14 00:00:00
+Predicted price 55216.57 is lower than the previous close 61243.08594, SHORT 30.0%.
+Price movement does not hit the predicted price, SELL 100% at close 59302.32.
+Percentage return is 0.03 and the new portfolio is 0.98.
+---------------------------------------------
+2021-03-15 00:00:00
+Predicted price 56052.97 is lower than the previous close 59302.31641, SHORT 30.0%.
+Price movement hits the predicted price, COVER 100% on hit 56052.97.
+Percentage return is 0.05 and the new portfolio is 0.99.
+---------------------------------------------
+2021-03-16 00:00:00
+Predicted price 56170.21 is higher than the previous close 55907.2, LONG 80.0%.
+Price movement hits the predicted price, SELL 100% on hit 56170.21.
+Percentage return is 0.01 and the new portfolio is 1.0.
+---------------------------------------------
+2021-03-17 00:00:00
+Predicted price 54911.03 is lower than the previous close 56804.90234, SHORT 30.0%.
+Price movement hits the predicted price, COVER 100% on hit 54911.03.
+Percentage return is 0.03 and the new portfolio is 1.01.
+---------------------------------------------
+2021-03-18 00:00:00
+Predicted price 54907.09 is lower than the previous close 58870.89453, SHORT 30.0%.
+Price movement hits the predicted price, COVER 100% on hit 54907.09.
+Percentage return is 0.07 and the new portfolio is 1.03.
+---------------------------------------------
+2021-03-19 00:00:00
+Predicted price 55074.15 is lower than the previous close 57858.92188, SHORT 30.0%.
+Price movement does not hit the predicted price, SELL 100% at close 58346.65.
+Percentage return is -0.01 and the new portfolio is 1.02.
+---------------------------------------------
+2021-03-20 00:00:00
+Predicted price 56851.11 is lower than the previous close 58346.65234, SHORT 30.0%.
+Price movement does not hit the predicted price, SELL 100% at close 58313.64.
+Percentage return is 0.0 and the new portfolio is 1.02.
+---------------------------------------------
+2021-03-21 00:00:00
+Predicted price 55683.54 is lower than the previous close 58313.64453, SHORT 30.0%.
+Price movement does not hit the predicted price, SELL 100% at close 57523.42.
+Percentage return is 0.01 and the new portfolio is 1.03.
+---------------------------------------------
+2021-03-22 00:00:00
+Predicted price 56609.8 is lower than the previous close 57523.42188, SHORT 30.0%.
+Price movement hits the predicted price, COVER 100% on hit 56609.8.
+Percentage return is 0.02 and the new portfolio is 1.03.
+---------------------------------------------
+2021-03-23 00:00:00
+Predicted price 56886.39 is higher than the previous close 54529.14, LONG 80.0%.
+Price movement does not hit the predicted price, SELL 100% at close 54738.95.
+Percentage return is 0.0 and the new portfolio is 1.04.
+---------------------------------------------
+2021-03-24 00:00:00
+Predicted price 55313.59 is higher than the previous close 54738.95, LONG 80.0%.
+Price movement hits the predicted price, SELL 100% on hit 55313.59.
+Percentage return is 0.01 and the new portfolio is 1.05.
+---------------------------------------------
+2021-03-25 00:00:00
+Predicted price 52991.4 is higher than the previous close 52774.27, LONG 80.0%.
+Price movement hits the predicted price, SELL 100% on hit 52991.4.
+Percentage return is 0.01 and the new portfolio is 1.05.
+---------------------------------------------
+2021-03-26 00:00:00
+Predicted price 55248.09 is higher than the previous close 51704.16, LONG 80.0%.
+Price movement does not hit the predicted price, SELL 100% at close 55137.31.
+Percentage return is 0.07 and the new portfolio is 1.11.
+---------------------------------------------
+2021-03-27 00:00:00
+Predicted price 55938.13 is higher than the previous close 55137.31, LONG 40.0%.
+Price movement hits the predicted price, SELL 100% on hit 55938.13.
+Percentage return is 0.01 and the new portfolio is 1.11.
+---------------------------------------------
+2021-03-28 00:00:00
+Predicted price 55936.72 is lower than the previous close 55973.51172, SHORT 60.0%.
+Price movement hits the predicted price, COVER 100% on hit 55936.72.
+Percentage return is 0.0 and the new portfolio is 1.11.
+---------------------------------------------
+2021-03-29 00:00:00
+Predicted price 55260.11 is lower than the previous close 55950.74609, SHORT 60.0%.
+Price movement hits the predicted price, COVER 100% on hit 55260.11.
+Percentage return is 0.01 and the new portfolio is 1.12.
+---------------------------------------------
+2021-03-30 00:00:00
+Predicted price 55801.68 is lower than the previous close 57750.19922, SHORT 60.0%.
+Price movement does not hit the predicted price, SELL 100% at close 58917.69.
+Percentage return is -0.02 and the new portfolio is 1.11.
+---------------------------------------------
+2021-03-31 00:00:00
+Predicted price 55099.72 is lower than the previous close 58917.69141, SHORT 30.0%.
+Price movement does not hit the predicted price, SELL 100% at close 58918.83.
+Percentage return is 0.0 and the new portfolio is 1.11.
+---------------------------------------------
+2021-04-01 00:00:00
+Predicted price 55036.34 is lower than the previous close 58918.832, SHORT 60.0%.
+Price movement does not hit the predicted price, SELL 100% at close 59095.81.
+Percentage return is -0.0 and the new portfolio is 1.11.
+---------------------------------------------
+2021-04-02 00:00:00
+Predicted price 55817.0 is lower than the previous close 59095.8086, SHORT 60.0%.
+Price movement does not hit the predicted price, SELL 100% at close 59384.31.
+Percentage return is -0.0 and the new portfolio is 1.1.
+---------------------------------------------
+2021-04-03 00:00:00
+Predicted price 55176.33 is lower than the previous close 59384.3125, SHORT 30.0%.
+Price movement does not hit the predicted price, SELL 100% at close 57603.89.
+Percentage return is 0.03 and the new portfolio is 1.11.
+---------------------------------------------
+2021-04-04 00:00:00
+Predicted price 55845.45 is lower than the previous close 57603.8906, SHORT 60.0%.
+Price movement does not hit the predicted price, SELL 100% at close 58758.55.
+Percentage return is -0.02 and the new portfolio is 1.1.
+---------------------------------------------
+2021-04-05 00:00:00
+Predicted price 55724.08 is lower than the previous close 58758.5547, SHORT 30.0%.
+Price movement does not hit the predicted price, SELL 100% at close 59057.88.
+Percentage return is -0.01 and the new portfolio is 1.1.

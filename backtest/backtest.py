@@ -8,10 +8,10 @@ def backtest_classification_noSentiment(y_pre, # up --> 1, down --> -1
                                         date, 
                                         filename): 
     # init a log file
-    file = open(filename,'w')
+    file = open("./backtesting_log/" + filename,'w')
     
     # read in data
-    data = pd.read_csv("./data/cooked_data/cooked_complete_dataset.csv")
+    data = pd.read_csv("../data/cooked_data/cooked_complete_dataset.csv")
     # convert to datetime
     data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
     data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
@@ -53,10 +53,10 @@ def backtest_regression_noSentiment(y_pre,
                                     date,
                                     filename):
     # init a log file
-    file = open(filename,'w')
+    file = open("./backtesting_log/" + filename,'w')
     
     # read in data
-    data = pd.read_csv("./data/cooked_data/cooked_complete_dataset.csv")
+    data = pd.read_csv("../data/cooked_data/cooked_complete_dataset.csv")
     # convert to datetime
     data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
     data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
@@ -151,10 +151,10 @@ def backtest_regression_WithSentiment(y_pre,
                                     filename):
     
     # init a log file
-    file = open(filename,'w')
+    file = open("./backtesting_log/" + filename,'w')
     
     # read in data
-    data = pd.read_csv("./data/cooked_data/cooked_complete_dataset.csv")
+    data = pd.read_csv("../data/cooked_data/cooked_complete_dataset.csv")
     # convert to datetime
     data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
     data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
@@ -256,10 +256,10 @@ def backtest_classification_WithSentiment(y_pre, # up --> 1, down --> -1
                                         date, sentiments,
                                         filename): 
     # init a log file
-    file = open(filename,'w')
+    file = open("./backtesting_log/" + filename,'w')
     
     # read in data
-    data = pd.read_csv("./data/cooked_data/cooked_complete_dataset.csv")
+    data = pd.read_csv("../data/cooked_data/cooked_complete_dataset.csv")
     # convert to datetime
     data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
     data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
