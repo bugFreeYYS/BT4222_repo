@@ -1,0 +1,241 @@
+,title,score,id,url,comms_num,created,body,date
+0,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,407,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,159,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+1,"Daily Discussion, March 21, 2021",77,m9p276,https://www.reddit.com/r/Bitcoin/comments/m9p276/daily_discussion_march_21_2021/,1163,2021-03-21 13:10:30,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m900xg/daily_discussion_march_20_2021/) for unanswered questions.",2021-03-21
+2,Xbox has put out a survey to get a feel for using Bitcoin for purchases in its online store,2860,ma2iwf,https://i.redd.it/ekc4gtnsafo61.jpg,215,2021-03-22 02:17:21,,2021-03-22
+3,Satoshi Nakamoto changing someone's mind about the energy consumption of Bitcoin in 2010.,455,ma3hdh,https://i.redd.it/r9qbno9tifo61.jpg,67,2021-03-22 03:02:25,,2021-03-22
+4,Crypto Newbies every time Bitcoin Dips.,5242,m9myin,https://v.redd.it/ydj8t7r7sao61,199,2021-03-21 11:06:12,,2021-03-21
+5,HODL,175,ma4j9d,https://www.reddit.com/gallery/ma4j9d,9,2021-03-22 03:50:23,,2021-03-22
+6,When it’s your first time buying Bitcoin,71,ma8ktm,https://v.redd.it/bdizu1mmpgo61,3,2021-03-22 07:02:35,,2021-03-22
+7,The distribution of reachable Bitcoin nodes,293,m9ypfa,https://i.redd.it/m6ibd1vydeo61.jpg,53,2021-03-21 23:13:34,,2021-03-21
+8,I coded a bot that buys Bitcoin when Elon Musk tweets about bitcoin and open-sourced it,165,ma04gd,https://www.reddit.com/r/Bitcoin/comments/ma04gd/i_coded_a_bot_that_buys_bitcoin_when_elon_musk/,39,2021-03-22 00:22:13,"Last week I asked you to come up with ideas on new crypto currency trading bots and I promised that I will try to code them and share my code with you. You guys came up with a lot of amazing ideas and gave me tons of work!
+
+I decided to start off with the simple requests first before I can accommodate the more sophisticated bots that were mentioned in the thread.
+
+The idea was suggested by [regionjthr](https://www.reddit.com/user/regionjthr).
+
+Article and Guide: [https://www.cryptomaton.org/2021/03/21/program-a-trading-bot-to-buy-bitcoin-when-musk-tweets-about-it/](https://www.cryptomaton.org/2021/03/21/program-a-trading-bot-to-buy-bitcoin-when-musk-tweets-about-it/)
+
+GitHub Repo: [https://github.com/CyberPunkMetalHead/bitcoin-bot-buy-if-elon-tweets](https://github.com/CyberPunkMetalHead/bitcoin-bot-buy-if-elon-tweets)
+
+Let me know your thoughts on this!
+
+&#x200B;
+
+Edit: thanks for the gold!",2021-03-22
+9,Aight guys,734,m9safp,https://v.redd.it/8wzq2f23eco61,65,2021-03-21 16:30:53,,2021-03-21
+10,"Bitcoin has become the third currency in the world, bypassing the Japanese yen",327,m9v2t0,https://www.reddit.com/r/Bitcoin/comments/m9v2t0/bitcoin_has_become_the_third_currency_in_the/,55,2021-03-21 19:51:42," ***Here is some interesting statistics.***
+
+The population of the Earth is *7 879 275 500* people. Emission of bitcoin *18 659 618*. The price of bitcoin at the time of this writing is $*58528*. Satoshi per person on Earth: *236,819*, which is $138.6 at current price.  
+Each year, the price of entry into the 1% of humanity that owns bitcoin will be higher and will soon become unaffordable for most of the population.  
+It is convenient to look at these statistics [here](https://satoshisperperson.com/).
+
+By buying Bitcoin for $139 today, you will be, on average, richer than the rest of the world's population. Moreover, the amount of bitcoin per person will decrease every day. And you will become richer.
+
+*The price of one dollar is 1718 satoshi. Let's save this statistic to return to it in half a year.*
+
+But the here is the most interesting thing:
+
+Today, **Bitcoin has become the third currency in the world, bypassing the Japanese yen.** Only the Euro and the US Dollar are ahead. Only money is involved in the calculation, in free circulation in the aggregates M1 and M2, that is, all bills and coins issued for free circulation without taking into account deposits in banks and derivatives.
+
+https://preview.redd.it/c49gyanyddo61.jpg?width=1211&format=pjpg&auto=webp&s=72cbfea269cd96e4085b12f312fe687d6adcdfaa
+
+In order to catch up with the US dollar and become the number one currency in the world, bitcoin needs to grow only 2 times to the price of $ 120K per bitcoin.
+
+Who wants a bet that this will happen this year?",2021-03-21
+11,"When someone told you Gold is the best store of value because it's more environmental-friendly than bitcoin, show them this",177,m9y2m1,https://www.youtube.com/watch?v=hzrJ9I3AJAQ,38,2021-03-21 22:41:49,,2021-03-21
+12,Bought a btc silver coin with my btc 🤩,177,m9x0am,https://v.redd.it/tf26sfs6ydo61,127,2021-03-21 21:44:56,,2021-03-21
+13,40 yr old new to crypto,81,ma1y9b,https://www.reddit.com/r/Bitcoin/comments/ma1y9b/40_yr_old_new_to_crypto/,112,2021-03-22 01:49:48,"
+Just hoping anyone has some advice. I’m a 40yr old husband and dad of two teenagers and believe it or not new to the crypto world. I have a small company and along with my family takes up all of my time. I’ve tried to learn about it as much as I can but my old school mentality just finds a lot of different content in so many different platforms that make me skeptical and not being able to trust what I see or hear and since crypto is so volatile fill me with more doubts ,I also don’t know personally anybody who knows about crypto to be able to ask questions to someone I’d know. Could anybody share any advice on where to start learning? A place where I could gradually understand concept like you would explain a 5yr old lol. I understand the risk and the volatility but I also see it as the future and would like to be able to not have to work until I’m dead to enjoy some years.",2021-03-22
+14,Bitcoin searches on google double in Turkey after their currency drops 14% in one day,30,ma8c1d,https://trends.google.com/trends/explore?date=now%207-d&geo=TR&q=Bitcoin,6,2021-03-22 06:50:51,,2021-03-22
+15,Why we gotta HODL — 100K in sight!,2349,m9j79q,https://v.redd.it/yd2p0a63r9o61,127,2021-03-21 07:40:31,,2021-03-21
+16,"Oh no! They're 3D printing new homes and selling them for half the price. Another ""store of value"" turning out to not be scarce",64,ma2pv2,https://youtu.be/bj8kZ3llS5E,61,2021-03-22 02:26:35,,2021-03-22
+17,Get on the ark now!,168,m9wjep,https://v.redd.it/vkzd6bwdtdo61,14,2021-03-21 21:19:45,,2021-03-21
+18,"My company refuses to pay me in Bitcoin , and my colleagues laughed when I asked",36,ma584d,https://www.reddit.com/r/Bitcoin/comments/ma584d/my_company_refuses_to_pay_me_in_bitcoin_and_my/,92,2021-03-22 04:22:21,"I work for a Software company, and this week I had a meeting with the CEO, we can submit questions *anonymously* so the CEO will reply those in the Q&A.
+
+I asked if those who wanted, could be paid part of the salary or the bonus in Crypto, and not only the CEO said no, but everyone laughed, and started to make very ignorant comments and jokes about Crypto and Bitcoin like 'where is that money even coming from'. The CEO also used a patronising excuse : 'Bitcoin is too volatile'.
+
+  
+Now, I want to repeat this: it was a meeting in a Software Company. Most of the people working in the company are Developers, the kind of people who knows about Bitcoin, and should be able to understand it. 
+
+I used to think people will rush to buy Bitcoin when it will be at 100K, but I think I was wrong, and 'most people' will only rush into it when it is at $1M
+
+  
+Does any medium/big company pay in BTC?",2021-03-22
+19,Bitcoin before and after headlines,31,ma5lmd,https://i.redd.it/om6wdsl70go61.jpg,9,2021-03-22 04:39:47,,2021-03-22
+20,I purchased some BTC 4 years ago after being given some advice and knowing very little about it and still not knowing much. But the problem now is a modest deposit has now become a lot of money and I am nervous.,71,m9ynq0,https://www.reddit.com/r/Bitcoin/comments/m9ynq0/i_purchased_some_btc_4_years_ago_after_being/,91,2021-03-21 23:11:11,"I am one of these people who know very little about Bitcoin while at the same time keep a close eye on what clever(and not so clever) people comment  about it's progress. 4 years ago now I took some advice and purchased some Bitcoin using the easiest method open to me and fr my IT skill level(which is low)
+
+I used a fair sum of money to buy some BTC, but not so much that I wouldn't get over it after 2 days pissed off if I lost it all to then return to normal life, my plan was just to buy and hold and even after the early 2018 massive pullback I barely lost a minutes sleep.
+
+I used a popular online wallet for the time that is still operating today and very user friendly and hardly looked at my account/wallet it until this last year. My problem now is(and it's a nice problem) is that my initial ""fair sum of money"" has now grown into a lot of money, life changing sum of money even.
+
+All of a sudden and after 4 years not really caring about the workings of Bitcoin I am now getting a little concerned about it's security and more so after just a few hours researching online. I have something called and ID number for my wallet where I need a password to get in and then apparently my wallet holds ""the keys"" which I assume are the several Bitcoin purchases I made 4 years ago.
+
+In short I now want to know about how to make it secure, I have heard about hardware wallets etc, I want to know how to move BTC from one wallet to another or someone elses wallet, how to cash out, how to cash out with as smaller costs as possible, though my intention is still to hold for a while yet.
+
+Before the critics jump in I am 60 years old and my IT is OK but not brilliant, I have just treated Bitcoin like a share/stock when I should have been doing so much more, which I will now remedy.
+
+So I am looking for an idiots guide for what I have just mentioned, a good book or website where I can get a full understanding in the next few days and then get it out of the online wallet that I now know I should not be risking because of the dangers.
+
+Keys, Bitcoin transactions and payments, unique numbers it is all gobbledygook to me and I am terrified should I try and move any of it I will end up moving it into someone else's wallet never to see it again, but I am sure it is not that scary once you know what you are doing",2021-03-21
+21,Control the meme (control the universe) - EDM tribute to Bitcoin,122,m9vdvi,https://v.redd.it/uuj0xogxgdo61,12,2021-03-21 20:11:11,,2021-03-21
+22,Woke up and bought the dip!,157,m9tupj,https://www.reddit.com/r/Bitcoin/comments/m9tupj/woke_up_and_bought_the_dip/,54,2021-03-21 18:24:10,A very happy Sunday to all :),2021-03-21
+23,Number of public companies holding Bitcoin surged by 400% in the last year..,30,ma3bue,https://quizzoon.com/blogs/38-number-of-public-companies-holding-bitcoin-surged-by-400-in-the-last-year,2,2021-03-22 02:55:13,,2021-03-22
+24,Why MicroStrategy CEO Michael Saylor Bet Company Cash on Bitcoin,37,ma16ft,https://time.com/5947722/microstrategy-ceo-bitcoin/,9,2021-03-22 01:12:31,,2021-03-22
+25,Why The Yuppie Elite Dismiss Bitcoin,46,m9z63e,https://www.citadel21.com/why-the-yuppie-elite-dismiss-bitcoin,16,2021-03-21 23:36:32,,2021-03-21
+26,"Updating the numbers: last week the traded amount in Venezuela only using LocalBitcoin was 71 BTC (Down from 92), that is 7,185,000,000,000 Bs. (Bolivares, local currency, ISO: VES). One BTC is around 104,000,000,000 Bs. Monthly minimum wage is 1,800,000 Bs. (less than 1 USD).",51,m9yc3v,https://www.reddit.com/r/Bitcoin/comments/m9yc3v/updating_the_numbers_last_week_the_traded_amount/,9,2021-03-21 22:55:24," Hi guys, as you know Venezuelan living here, crypto enthusiast like to post these weekly updates.
+
+Around 4,000,000 USD in trades (71 BTC at 60k)
+
+This is ONLY using LocalBitcoin (Trades there are mostly Bolivares to BTC and BTC to Bolivares).
+
+Months  ago Binance started P2P trades with  Venezuelan bolivares, I think some  people migrated there (it lets you  trade other cryptos). Also AirTM is  used as exchange too. There are other exchanges (Even local ones like  Cryptia and AmberesCoin). I don't have a way of measure the  daily/weekly/monthly trade there so that is why I use LocalBitcoin as  reference.
+
+* Who  trades BTC to Bolivares? People that needs to pay in some places where   crypto is not accepted. Where do these BTC come from? Could be miners,   could be people abroad that send money to their families in Venezuela,  could be the goverment itself (sadly), people with crypto savings, etc.
+* Who   trades Bolivares to BTC? People that gets insane amounts of Bolivares   (like store owners), people that get paid in Bolivares, and want to   convert them in something better and stable than Bolivares digitally and   easy.
+
+A  big chunk of  the population that works for the goverment (around 3 millions) have a  monthly  wage of around 1-10 monthly minium wages, monthly minimum wage  is  around 1 USD (recently increased). So that would put that people  from 1 to 10 USD  monthly. There is also a food bonus that is the same  than the wage.
+
+But the ""average"" wage is around (in some research) is around 60-80 USD.
+
+According   to a NGO (CENDAS) a 5 members family need around 350 USD monthly to   ""live"", yes if you are from USA, Canada, Australia, Germany that amount   is ridiculous low, but that is a standar in Latin America, problem more   that what you need to spend are the WAGES, they are crazy low. A  really  good wage here is around 400 USD monthly (in my opinion).
+
+Sources (PLEASE  check them!!!):
+
+[https://www.usefultulips.org/combined\_VES\_Page.html](https://www.usefultulips.org/combined_VES_Page.html)
+
+[https://www.caracaschronicles.com/](https://www.caracaschronicles.com/)
+
+[https://coin.dance/volume/localbitcoins/VES/BTC](https://coin.dance/volume/localbitcoins/VES/BTC)
+
+[https://localbitcoins.com/buy-bitcoins-online/ves/](https://localbitcoins.com/buy-bitcoins-online/ves/)
+
+[https://www.reuters.com/article/venezuela-economy/venezuela-to-introduce-1-million-bolivar-bill-as-inflation-persists-idUSL2N2L401H](https://www.reuters.com/article/venezuela-economy/venezuela-to-introduce-1-million-bolivar-bill-as-inflation-persists-idUSL2N2L401H)
+
+[https://www.caracaschronicles.com/2020/10/23/you-need-285-minimum-wages-in-venezuela-to-feed-your-family/](https://www.caracaschronicles.com/2020/10/23/you-need-285-minimum-wages-in-venezuela-to-feed-your-family/)",2021-03-21
+27,"If you feeling scared I feel bad for you son, I got 99 problems but a dip ain’t 1!",76,m9vh1z,https://www.reddit.com/r/Bitcoin/comments/m9vh1z/if_you_feeling_scared_i_feel_bad_for_you_son_i/,29,2021-03-21 20:16:45,And you know this man!,2021-03-21
+28,The show must go on,84,m9um05,https://v.redd.it/5muvhy7o7do61,7,2021-03-21 19:20:03,,2021-03-21
+29,Once in a lifetime opportunity or what?,8,ma8qbo,https://www.reddit.com/r/Bitcoin/comments/ma8qbo/once_in_a_lifetime_opportunity_or_what/,2,2021-03-22 07:09:59,"I feel like bitcoin is one of those once in a lifetime opportunity’s that we currently have and not only Have the responsibility to ook into the near future for our familiesbut those of our future generations. Although we all know there’s no crystal ball to look into the future, those of us who have been involved in cryptocurrency’s early on I believe are beginning to feel as if we had the correct assumptions in understandings all along...As much of an unproven risk as it was. That being said, do many of you find that both family and friends still think you are crazy for not cashing in on your achievements now? I’ve been a long-term Holder and I plan on continuing that projectory. I just feel that many of these naysayers are missing out on what could be and most likely will be a great future for them in their future generations as well as what will most likely be One of the top two recognized currencies in the world within the next 10 years. I am not here to predict anything but I’m just looking for other peoples opinions and how their families and friends are reacting to your decisions in cryptocurrency, specifically bitcoin. 
+If nothing else, those of us who entered early on and rode the waves have gotten the coin to a point now that  confidence has obviously grown to a level where large industry and corporations  are now intrigued. If nothing else this should limit the nervousness of the new crypto investor.",2021-03-22
+30,Made a smile Buddha shirine of bitcoins!,82,m9tj7t,https://i.imgur.com/EIwzNlP.jpg,13,2021-03-21 18:00:53,,2021-03-21
+31,"There are now 32,305 bitcoin ATMs or BTMs in the US alone. How far we've come! When will every individual have their own BTM? :)",19,ma1lsw,https://howmanybitcoinatms.com/,8,2021-03-22 01:33:11,,2021-03-22
+32,"Nigerians are free to use Bitcoin, says Central Bank of Nigeria declares",1024,m9eb17,https://www.withinnigeria.com/news/2021/03/20/cryptocurrency-ban-nigerians-are-free-to-use-bitcoin-says-cbn-declares/,102,2021-03-21 03:30:26,,2021-03-21
+33,Opportunity Costs,17,ma1fjc,https://www.reddit.com/r/Bitcoin/comments/ma1fjc/opportunity_costs/,7,2021-03-22 01:24:52,"We all buy stupid shit - old or young, rich or poor, smart or dumb. Whether it brings us joy or satisfies a vice - we purchase things beyond our means or that are consider “nice”.
+
+Some examples: sneakers, cars, nice whiskey, brand name clothes, electronics, food... this list could go on and on.
+
+I was at the liquor store - debating between bottle X and bottle Y... bottle Y was +$20 compared to bottle X. I can afford both, I like both. 
+
+ENTER OPPORTUNITY COSTS - For the price of bottle Y, I can buy bottle X AND it comes with 35,000 satoshis. 
+
+Anyways, I have been enjoy bottle X and stacking sats. I now do this with everything.
+
+This pairs nicely with DCA’ing",2021-03-22
+34,Someone is mining 1 sat/vbyte transactions,29,m9x19v,https://www.reddit.com/r/Bitcoin/comments/m9x19v/someone_is_mining_1_satvbyte_transactions/,19,2021-03-21 21:46:29,"Has anyone else noticed this in the past day?
+
+https://jochen-hoenicke.de/queue/#BTC,24h,weight
+
+Normally, miners would include transactions in serial order by fee per vbyte, however, transactions from all fee levels are making it in.
+
+At first I thought it might be rbf or cpfp, but it seems this is going on fairly consistently and at a pretty large scale.  It's pretty cool if true.  A little bit altruistic of that miner.
+
+Anyone know what's going on?",2021-03-21
+35,The struggle is temporary,11821,m92y4e,https://v.redd.it/0hn5quhxa5o61,724,2021-03-20 16:40:41,,2021-03-20
+36,"Bitcoin ATM Machine Hits 17,000 Globally",61,m9tjsu,https://ns.reddit.com/user/Fatherthinger/comments/m9tij1/bitcoin_atm_machine_hits_17000_globally/,6,2021-03-21 18:01:47,,2021-03-21
+37,What I don't understand is why NVIDIA itself isn't becoming the biggest miner on the planet?,10,ma5feb,https://www.reddit.com/r/Bitcoin/comments/ma5feb/what_i_dont_understand_is_why_nvidia_itself_isnt/,10,2021-03-22 04:31:41,"I mean, if they instead of selling all the graphics cards, build themselves gigantic mining farms from the ground, they could even secure dominance of the coins mining. it's certainly not quite their core business, but if I could make a machine for Money printing, I would use it myself... 
+
+Why dont they do that? Sorry i am just a normal gamer and was thinking about that.",2021-03-22
+38,Crazy - Just realised the first ever ‘currency’ my newborn daughter ever owned was Bitcoin!,26,m9xfwe,https://www.reddit.com/r/Bitcoin/comments/m9xfwe/crazy_just_realised_the_first_ever_currency_my/,10,2021-03-21 22:09:43,"We’re fortunate enough to live in a country, and be in circumstance that make it easy to obtain a bank account. 
+
+And yet Bitcoin was still my first port of call. 
+
+Now I’ve just got to decide whether I let her have it when she becomes an adult, or make her wait til I die 🤔 lol",2021-03-21
+39,Bitcoin: The greatest story ever told,4,ma8013,https://www.reddit.com/r/Bitcoin/comments/ma8013/bitcoin_the_greatest_story_ever_told/,1,2021-03-22 06:34:52,"I first heard about bitcoin from a dear friend, in 2013 but I thought it would never catch up so I didn’t buy any.
+
+I then started my bitcoin journey reading and learning on this subreddit in 2017, when btc surged past the previous ath of 1000 usd, and I started buying some with the cash I had available which wasn’t much.
+
+At the time (in 2017) I still had a high time preference (fiat mentality) 
+
+If bitcoin would’ve touched 30k back than i would’ve sold all my bitcoin to buy an expensive sport car.
+I would’ve struggled to pay the gasoline for such a car and today I’d have no bitcoin.
+
+Instead bitcoin crashed, I had to focus completely on my 9-5 job that doesn’t pay me much but it helped me stack some more sats during the 2019 bear market.
+
+During the last couple of years my mind slowly changed and I started to learn how much bitcoin was actually worth.
+
+Reading you guys here on Reddit but also on Twitter definitely helped a lot and I changed (the bitcoin standard is a great book by the way... thanks @saifedean).
+
+Now I’m confident when I say that I’ll never sell my BTC for Fiat or for shallow cars or stuff I don’t really need.
+
+The [Neo/Morpheus Meme](https://i.redd.it/3525lt9kvir01.jpg) was true after all.
+
+I fully expect another bear market to happen and it will suck because my bitcoin stash will be worth significantly less at some point, but I accept that 100%
+
+Bitcoin gave me hope, freedom and taught me how important savings are for my future, and the future of my kids, that I really want to have in the next few years.
+That’s where I’ll probably end up spending my bitcoin.
+Raising kids will be a great adventure and I understand now that, in the past, I really thought that I’d never could’ve afforded them.
+
+That’s why my generation (millennials) have so few kids... we just learn this high time preference mentality that we will never be able to afford kids and so we might as well burn money on shallow stuff we don’t need....
+
+Central banks convinced us that there is no future for us, that in the long run we are all dead anyways, so we should just party and spend money until it’s over.
+
+They are destroying our world and we are not even fighting because people don’t even realize what’s going on.
+
+I hope bitcoin will succeed... I really do. And I’ll just go down with the ship if it comes down to that.
+
+I don’t freaking care about taking profits that don’t mean shit if they can print money indefinitely.
+
+Hodl on folks, we have a good shot at this, and I hope many more people will wake up. 
+
+I believe in Bitcoin, it can truly change the world, and I’m putting my money where my mouth is (80% of my net worth is in bitcoin) and I will never sell.
+
+Thank you",2021-03-22
+40,"Bitcoin is now worth more than the three largest payment services in the world, combined.",2578,m972yd,https://i.redd.it/qqln641mq6o61.jpg,177,2021-03-20 21:30:04,,2021-03-20
+41,"Michael Saylor on Bitcoin, Speaking at 2021 OSL Conference: Livestream Repost - March 18th 2021",7,ma6pam,https://youtu.be/FYs1w2ZvS-M,1,2021-03-22 05:32:05,,2021-03-22
+42,Visa Taps Deeper Into Bitcoin Through New Global Partnership With Crypto.com,6,ma7qk6,https://www.forbes.com/sites/ninabambysheva/2021/03/18/visa-taps-deeper-into-bitcoin-through-new-global-partnership-with-cryptocom/,6,2021-03-22 06:22:09,,2021-03-22
+43,Market suffers after over $100 million Bitcoin “long positions” got liquidated,6,ma7f1h,https://zycrypto.com/market-suffers-after-over-100-million-bitcoin-long-positions-got-liquidated/,9,2021-03-22 06:06:29,,2021-03-22
+44,"If you still don't understand that it's still too early to buy BTC, you need to wake up now. The bitcoin era is just beginning.",313,m9jbha,https://www.reddit.com/gallery/m9jbha,135,2021-03-21 07:46:48,,2021-03-21
+45,somebody please help me feel better,4,ma6p98,https://www.reddit.com/r/Bitcoin/comments/ma6p98/somebody_please_help_me_feel_better/,76,2021-03-22 05:32:02,"i just sold all my bitcoin. it's enough to buy a house, which is why i sold it. i feel so weak. i feel like i just made the dumbest decision in my life. i should just continue living in an apartment and wait until bitcoin hits 100k, at least, before selling it. somebody make me feel better please",2021-03-22
+46,What happens on weekends,7,ma49ul,https://www.reddit.com/r/Bitcoin/comments/ma49ul/what_happens_on_weekends/,8,2021-03-22 03:38:17,"I'm relatively new to crypto but have a question regarding market trends. If one of the benefits of BTC is it being traded 24/7 in comparison to stocks, which only trade in working hours, why does the market seem to dip most weekend? As a retail buyer I do a vast majority of my research and purchasing on weekends and would assume many do the same as me so don't understand the drop each week before the uplift again.",2021-03-22
+47,We have found our middle ground.,5,ma69w9,https://www.reddit.com/r/Bitcoin/comments/ma69w9/we_have_found_our_middle_ground/,38,2021-03-22 05:11:26,"For those who fear a repeat of 2017/2018 with bitcoin, please pay attention. Nearly every single person who has invested in bitcoin has made a profit now. There will be slight corrections along the way, but this is not the same as 2017/2018 when it went from $20k to 3.5k. During that time there was a lot of uncertainty and a lot of millionaires riding a wave. This isn't just ""hype"" like GME. Its different. Your now investing in the future of currency. As long as the government doesn't interfere then your are a part of a historical change in our financial system and its corruption. With that being said there is still a huge road block that will happen in the coming years. The government will create their own cyrptocurrency to kill bitcoin and possibly ban all trading websites. There is nothing we can do to stop this, but as long as The People continue to stand for justice for all and cut out this corrupt system, then we will prevail. Buy and HODL people.",2021-03-22
+48,Hal Finney Bitcoin & Me,23,m9wlk7,https://www.coindesk.com/podcasts/coindesk-podcast-network/hal-finney-bitcoin-and-me,15,2021-03-21 21:23:08,,2021-03-21
+49,How to gift someone a gift card with BTC?,6,ma4d4b,https://www.reddit.com/r/Bitcoin/comments/ma4d4b/how_to_gift_someone_a_gift_card_with_btc/,12,2021-03-22 03:42:20,I want to give a wedding gift in Bitcoin. It would be about half of my gift- the couple would LOVE it so it’s not like I’m being one of those trying to force people into it.  Where/ how can I gift it in gift card form?,2021-03-22

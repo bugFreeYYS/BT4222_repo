@@ -1,0 +1,146 @@
+,title,score,id,url,comms_num,created,body,date
+0,"promising taproot/schnorr activation proposal BIP8(3m,false)",109,lz0gl9,https://www.reddit.com/r/Bitcoin/comments/lz0gl9/promising_taprootschnorr_activation_proposal/,45,2021-03-06 20:19:21,"https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg09604.html
+
+- 3months activation period, 90% hashrate threshold
+- if activated, schnorr enablement is 6mo after start
+- if not activated, try something else
+
+the longer enablement delay after activation is interesting and reduces the risk from unupgraded nodes on services, miners, wallets, users and gives them time (a risk otherwise increased by short activation window)
+
+while the short activation period avoids delays or perceived indecision resulting in a user-led UASF as SPDY8 is ""fast enough"", and if the unexpected were to happen and miners unreasonably delayed, then it should be easier to find consensus on a flag height activation from there. (actually not clear if BIP 8 or BIP 9, I think BIP 8 is considered an improvement due to use of block heights vs dates which created some subtle problem in the past).",2021-03-06
+1,"Daily Discussion, March 06, 2021",68,lyuhq2,https://www.reddit.com/r/Bitcoin/comments/lyuhq2/daily_discussion_march_06_2021/,727,2021-03-06 13:01:19,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/ly4mb1/daily_discussion_march_05_2021/) for unanswered questions.",2021-03-06
+2,"If you’re like me and trying to consume as much Bitcoin knowledge as possible, I highly recommend MIT OpenCourseWare on YouTube. Taught by Gary Gensler, the nominee to head up the SEC. I can’t believe this is free! 🚀",2477,lz4s6p,https://youtube.com/watch?v=EH6vE97qIP4&feature=share,167,2021-03-07 00:12:01,,2021-03-07
+3,Deeply prophetic ...,421,lz8tgs,https://i.redd.it/iuxkdujajgl61.jpg,17,2021-03-07 03:15:00,,2021-03-07
+4,Peter Schiff tweets more about Bitcoin than about Gold,806,lz0yjo,https://twitter.com/DRevc222/status/1367991027160788993,103,2021-03-06 20:51:03,,2021-03-06
+5,Another $1.9T stimulus incoming... The reason we choose Bitcoin is simple: because we prefer money that can’t be printed out of thin air. This is what the no-coiners refuse to acknowledge. They’re mad that we don’t want to play the same game anymore.,265,lz8aux,https://www.reddit.com/r/Bitcoin/comments/lz8aux/another_19t_stimulus_incoming_the_reason_we/,205,2021-03-07 02:51:51,,2021-03-07
+6,PayPal announces a cryptocurrency business division,1033,lyyvvm,http://www.cashtalk.co/2021/03/paypal-announces-cryptocurrency.html,209,2021-03-06 18:26:07,,2021-03-06
+7,"I got access to Bitcoin I mined 7 years ago, thanks SlushPool!",418,lyzile,https://i.redd.it/kvycfsui5el61.png,44,2021-03-06 19:13:49,,2021-03-06
+8,For the intellectuals out there,8933,lykzdv,https://i.redd.it/6izwdwhlq9l61.jpg,276,2021-03-06 04:22:49,,2021-03-06
+9,"Bloomberg: GBTC discount could signal a bottom, BTC on track for 100K by the end of 2021, BTC replacing gold is happening",307,lz0udq,https://www.reddit.com/r/Bitcoin/comments/lz0udq/bloomberg_gbtc_discount_could_signal_a_bottom_btc/,60,2021-03-06 20:44:10,"There has been a lot of recent discussion regarding GBTC trading at a discount. 
+
+While acknowledging that circumstances may be different now, this article notes that historically this may signal a bottom for BTC, meaning prices are heading up soon. 
+
+Bloomberg sees BTC marching towards $100k by the end of 2021, and notes that bitcoin is beginning to replace gold as an alternative investment. 
+
+Once it hits $100k, Bloomberg sees BTC becoming less volatile. It sees BTC becoming less volatile than Amazon’s stock in 2022. 
+
+Links to “The Street” summary of the report, and the actual report itself (linked in the article), below. 
+
+https://www.thestreet.com/crypto/bitcoin/bloomberg-report-bitcoin-could-hit-100000-this-year-as-gold-replacement
+
+
+https://assets.bbhub.io/promo/sites/12/1029441_Crypto-Mar2021Outlook.pdf",2021-03-06
+10,Explaining Bitcoin to my 80 year old grandma,87,lz8q1r,https://www.reddit.com/r/Bitcoin/comments/lz8q1r/explaining_bitcoin_to_my_80_year_old_grandma/,23,2021-03-07 03:10:50,"While visiting my grandparents today we started talking about saving money and investing. I tried to avoid bringing up Bitcoin (as it would be hard to explain to a 80 and 82 year old) so I just told that I have a portion of my savings on an easy to access savings account and another portion is 'invested'. Then my grandpa went 'Well I just hope you don't fall for that Bitcoin scam, they have been sending me spam for a while now'. After telling them I actually did own some Bitcoin my grandma seemed interested and started asking questions on how it could not be a scam.
+
+So in the most simple and easiest way I tried to explain to her how bitcoin works. I know she is a smart lady and that even at her age she can understand a lot of technical stuff (she has her own webshop) so I just went for it. Then in the middle of me explaining on how the blockchain works she interrupted me and said 'Well this all just reminds me a lot of the gold market'. Taken aback a bit I could just grin and say 'yeah.. that is actually a very good comparison'. Then after patting herself on her back calling herself a smart granny she just took over my whole explanation and just started talking about the benefits of a decentralized currency. I wasn't even finished explaining and she just tied the rest of the knots together herself! After she was finished she seemed visibly excited to have learned something new and just said 'Well now it all just makes complete sense, all I can say is that you are now at the right time in your life to be experimenting with something like this, and I'd rather have you buy some Bitcoins than to see you spend it all in a casino'. 
+
+My grandma has always been able to pull me back to earth and has been a voice of reason for me since I can remember. She usually ends up being right about basically anything she says, so to have her be so excited about Bitcoin truly means a lot for me and gives me a lot of extra confidence in Bitcoin itself.",2021-03-07
+11,Am I missing something?,97,lz4yc3,https://www.reddit.com/r/Bitcoin/comments/lz4yc3/am_i_missing_something/,32,2021-03-07 00:19:11,"It seems like everybody loves to talk about people who spent Bitcoin years ago and how much it would be worth today. “They’re so stupid, dumb” etc. etc. However, aren’t we all just Bitcoin pizza guy? He spends bitcoins on pizza and he misses out on the value of those bitcoins today. We spend fiat on those pizzas, fiat that could’ve bought Bitcoin at that time, and we miss out on the value of those Bitcoins today. We’re all just Bitcoin pizza guys! Happy hodling everyone.
+
+P.S. i’m not Bitcoin pizza guy",2021-03-07
+12,Moving off of RH to Coinbase Pro finally,83,lz3xt9,https://www.reddit.com/r/Bitcoin/comments/lz3xt9/moving_off_of_rh_to_coinbase_pro_finally/,28,2021-03-06 23:32:31,"So I initially started getting into BTC after a friend recommended RH as a good initial intro to it. After enough DYOR I realized this was not the way I wanted to continue moving forward. I finished my verification with CB pro today and liquidated my BTC position on RH, about 4k equity.
+
+ I have a Ledger on the way, should be a few more days until arrival. I was very sad to sell my position but I’ll be relieved once I have my own bitcoin secure! Of course it’s the weekend plus normal bank transfer time so I’ll be out of the Bitcoin game until my funds hit the bank from RH. Take this as a sign that bitcoin will absolutely soar in the next few days 😅 
+
+Anyways, just wanted to share with everyone, thanks! Keep HODLing folks",2021-03-06
+13,HitBTC is a Scam - Here is Exactly How their Scam Works,256,lyxuup,https://www.reddit.com/r/Bitcoin/comments/lyxuup/hitbtc_is_a_scam_here_is_exactly_how_their_scam/,74,2021-03-06 17:04:53,"HItbtc is a scam exchange. Period. Let me explain how the scam works.
+HitBTC scams by creating endless obstacles to people trying to access their funds. They make deposits incredibly simple. They make withdrawals incredibly hard. And they do this very opaquely. Crypto deposits NEVER require KYC.
+When you sign into HitBTC, there is no indication that KYC is required for withdrawals. In fact, their platform says you can withdraw certain amounts with no KYC. In their ToS though, they make sure to add a clause which says they MIGHT require KYC in certain circumstances. Most users assume that they will be able to withdraw crypto funds without KYC. That is what HitBTC wants you to believe.
+There are regulated cryptocurrency exchanges around the world which allow you to withdraw your crypto without KYC. Most of them are much larger than HitBTC. There is no international law, or any type of rule, which requires exchanges to KYC a customer before they withdraw their crypto balance. Especially if they are not involved with fiat trading.
+What HitBTC did to me was delete my 2 FA code. They do this often. They delete your 2 FA code (of course, with funds on your account), requiring you to go through 2FA recovery process. This takes ages, and they require a bunch of personal and transaction info. They act as if you lost your 2FA device, but actually, they just manually remove it on their end.
+They expect a good amount of people will never be able to complete 2 FA recovery. It's a lengthy process, and their support is slow to answer. They know that for small amounts, a lot of people give up right here. They'll act like they're trying to help you, but really their entire business model revolves around wearing you out. They get a good amount of crypto to keep just from people not being able to complete the 2 FA recovery.
+Now, 2 FA recovery can eventually be completed. It'll take a few weeks, maybe months at this point. The customer will think they're getting somewhere. They'll get back into their account, see their crypto balance, they'll feel fairly confident at this point. The support will say there's a 4 day freezing period on your funds, for safety, after which you'll be back to normal.
+So you wait the 4 days, and most people will then try to withdraw their funds. 100% of the time, I guarantee, the withdrawal will fail. Even though it's well within the stated withdrawal limits, HitBTC will fail your withdrawal. They won't even tell you why. You'll need to follow up with support.
+Support is going to eventually tell you that you need to KYC. They'll quote some bullshit vague legal reason and say hey, we're just following the rules. What rules, HitBTC? You're a sketchy crypto exchange in the fucking Seychelles. You're a faceless organization. There's much larger, much more trusted exchanges who don't have any similar requirement. They are not legally required to KYC you, but they say they must.
+So now you're back at their mercy. They'll ask for photo ID, proof of residence, they'll ask about what the coins are for. But not all at once. They'll ask for these things 1-2 at a time, with incredibly slow response times. They'll ask for new versions of the same thing, higher resolution, higher quality, better lighting. They'll wear you down. They will do whatever they can for you to just give up.
+That is how they make their money. They make their money by putting endless obstacles between you and your funds, so that eventually you give up. They ask for personal information like photo ID, proof of residence, etc. which can be resold on the dark web, especially when it's a crypto user's documents. These documents can be used to obtain access to your other crypto platforms.
+Who does HitBTC think they are? They're a sketchy, faceless, reputation-less shitty crypto exchange in Seychelles. Is it reasonable for them to request your personal information, without the reputation to securely store such information? Surely their requests would be illegal in most jurisdictions. Good luck doing anything about it though. You won't find any real people linked to the HitBTC platform. You gonna go sue their shell company in Seychelles?
+So here you are, a year into the process, you've handed over a mountain of your personal information to a scamming, faceless organization who is holding your funds hostage. If you make a big enough stink on social media, and you've completed all of the obstacles, they might in certain cases decide to release your funds. You'll finally withdraw, pay an exorbitant withdrawal fee (USDT was $65 USD last I checked). You'll get your funds out, you'll say, HitBTC wasn't a scam, they're just annoying!
+No, HitBTC absolutely is a scam. The scam is to wear down 95% of people. If you're one of the 5% that handed every personal document you have to get back your funds, and attacked them on social, after spending dozens of hours on just getting your funds back, you are just a small cost of doing business. The scam doesn't need to hit 100% of users. It just needs to hit most of them. HitBTC is a scam.",2021-03-06
+14,"Hyperinflation Pushes Venezuela to Print 1,000,000-Bolivar Bills",176,lyzac5,https://www.bloomberg.com/news/articles/2021-03-05/hyperinflation-pushes-venezuela-to-print-1-000-000-bolivar-bills?srnd=economics-vp,52,2021-03-06 18:57:52,,2021-03-06
+15,"Iranian hodler here! I'll be glad to answer any BTC/Crypto related question to Iran, also some weird facts going on here I'll post them in the comments",36,lz8mv4,https://i.redd.it/79wc4k5ohgl61.png,33,2021-03-07 03:06:43,,2021-03-07
+16,"Got drunk last night. woke up with a beer on my nightstand, and $31k worth of Bitcoin in my coinbase wallet.",239,lyy26o,https://www.reddit.com/r/Bitcoin/comments/lyy26o/got_drunk_last_night_woke_up_with_a_beer_on_my/,124,2021-03-06 17:20:39,"
+One of the crazier nights I’ve had in my young illustrious life .  Ended up getting talked into going out to a patio bar/restaurant situation for HH, had a great night and was in bed by midnight like a boss.  Woke up just now looking for my phone, found it! It was on the floor. Unlocked it, and I apparently spent close to all the money I have in savings on btc @ $48.9k last night .  For a min my dumb brain was like ‘cancel it you idiot’ but then I remembered I can’t. It’s cool because that was fate though sometimes we make good decisions when drunk and who am I to stifle drunk _____’s decision making? Nobody. That’s who. Thanks dude don’t even worry about the fridge it’s cool we can buy another one",2021-03-06
+17,Iran considers use of Bitcoin mining to avoid sanctions,96,lz2a94,https://cryptoreportage.com/bitcoin-news/iran-considers-use-of-bitcoin-mining-to-avoid-sanctions/,20,2021-03-06 22:10:21,,2021-03-06
+18,Bitcoin was invented to allow us to protect ourselves against this,58,lz4ei4,https://www.reddit.com/r/Bitcoin/comments/lz4ei4/bitcoin_was_invented_to_allow_us_to_protect/,28,2021-03-06 23:55:13,"[**Venezuela to issue 1-million-bolivar bill, but it’s worth only 50 cents amid raging hyperinflation**             ](https://www.rt.com/business/517393-venezuela-1-million-banknotes/)
+
+Venezuela is set to have a new highest valued banknote of  one million bolivars as soon as next week. But as the sanctions-hit  country is facing enormous inflation, the bill is only worth around 50  cents.",2021-03-06
+19,"Bitcoin News Today: Paypal may Acquire BitGo ($13 Billion AUM), aims to be ""Bigger than Goldman Sachs"" & CBDC Risks Explained ""The Federal Reserve isn't going out of business anytime soon...""",64,lz3g5w,https://youtu.be/NUhG6JgZopU,6,2021-03-06 23:07:54,,2021-03-06
+20,SUCCESS! First item bought in the Netherlands with a Lastbit Debit Card. Topped up over the Lightning Network!,46,lz5rhl,https://www.reddit.com/r/Bitcoin/comments/lz5rhl/success_first_item_bought_in_the_netherlands_with/,14,2021-03-07 00:56:44,"Just tested my Lastbit Debit Card and bought 2 (plant based) [burgers](https://Bitkoins.nl/lastbit.jpg) with my [Lastbit Debit Card](https://Bitkoins.nl/lastbit2.jpg) in the Netherlands. The money on the card was sent to the card over the Bitcoin Lightning Network. 
+
+This is Bitcoin's KillerApp (for now). Using the power of the Lightning Network and the existing legacy credit card payment rail.",2021-03-07
+21,Novogratz Says Bitcoin Will Hit $100k By End of Year,25,lz8kt0,https://youtu.be/5GTj_ciethI,8,2021-03-07 03:04:02,,2021-03-07
+22,My son (grade 2) will be presenting to his class about Bitcoin,11,lzdrl1,https://www.reddit.com/r/Bitcoin/comments/lzdrl1/my_son_grade_2_will_be_presenting_to_his_class/,26,2021-03-07 07:18:04,"I thought this would be a good place for him to start his research. Not only am I teaching him about Bitcoin, I'm also showing him reference points, I hope this will be resourceful for him.
+
+He is doing this through virtual learning and I will be helping with a kick ass presentation.
+
+SO?! What can we advise him to present?",2021-03-07
+23,[PSA] Mempool prices are at a 30 day low,47,lz3ks4,https://www.reddit.com/r/Bitcoin/comments/lz3ks4/psa_mempool_prices_are_at_a_30_day_low/,12,2021-03-06 23:14:32,"Mempool prices are at a 30 day low.  Everything above 10 sat/vB is getting confirmed.  That is $0.67 per TXN if your using segwit currently.
+
+Enjoy the weekend sale.",2021-03-06
+24,The Separation of Church and State...,29,lz77be,https://www.reddit.com/r/Bitcoin/comments/lz77be/the_separation_of_church_and_state/,7,2021-03-07 02:02:13,Was a huge leap for mankind. We made great progress. Now it is time for a Separation of Money and State. And yes The Fed is basically a part of the government despite the semantics and axiomatic gymnastics.,2021-03-07
+25,Employer WANTS to Pay me in BTC!,135,lyxx4p,https://www.reddit.com/r/Bitcoin/comments/lyxx4p/employer_wants_to_pay_me_in_btc/,29,2021-03-06 17:09:42,"Hey!  
+Preface: I'm a Realtor in the USA, Michigan.  
+So, I've gotten a worm in my broker's (my employer) ear about converting part of our balance sheet to Bitcoin, but they are apprehensive. Curious - but very wary.
+
+I mentioned I would be willing to help prove the power, utility, and safeness of BTC as a store of value and begin taking my commission checks in BTC. They said ""if you can tell me how we can do so in a safe, easy, legal (regarding taxes) way, I won't just pay your commissions - I'll *advertise* to the community that we are doing that and begin converting part of our balance..."" etc.
+
+My question/the ""issue.""  
+Everywhere I'm looking seems to more specifically be referring to paying BTC in regards to ***wages***. I don't earn a wage - I'm paid commission. I can't really seem to find anywhere a definitive ""guide,"" so to speak, on what the steps are...specifically what the liability, legal, and tax steps are.
+
+Does anyone have experience with this? Or a handy guide?   
+Thanks!!",2021-03-06
+26,Senate Approves $1.9 Trillion Package,22,lz8j9z,https://www.npr.org/sections/coronavirus-live-updates/2021/03/06/973126199/senate-passes-1-9-trillion-coronavirus-relief-package?utm_term=nprnews&utm_source=twitter.com&utm_campaign=npr&utm_medium=social,26,2021-03-07 03:02:08,,2021-03-07
+27,$1.9B *Bitcoin* stimulus bill clears the Senate,10,lzcfgs,http://cnn.com/2021/03/05/politics/senate-covid-relief-vote-a-rama/index.html,12,2021-03-07 06:10:23,,2021-03-07
+28,Michael Saylor Defends MicroStrategy's Aggressive Bitcoin Buys,17,lz8mv1,https://youtu.be/kkY5PrzlCD0,7,2021-03-07 03:06:43,,2021-03-07
+29,Crypto lesson from a seven year old...,9,lzc9z8,https://www.reddit.com/r/Bitcoin/comments/lzc9z8/crypto_lesson_from_a_seven_year_old/,6,2021-03-07 06:02:55,"Today while feeding sheep and moving hay my seven year old son talked for an hour about how he needed a bow and arrow. I wasn’t immediately opposed so as he talked I would ask a question here and there but never outright rejected the idea. Just now my wife asked me if I thought he was big enough for a bow and arrow. Without much thought I just started telling her that I wasn’t real sure one way or the other and then I started telling her, using my sons similar language from this morning, why he’s probably ok to have a bow and arrow. After I finished talking she said, “yeah he said the same things to me.” When she said that I realized that even though I was only halfway paying attention to him while I worked my brain still actively heard what he was saying. By halfway listening he convinced me, without me realizing, that he needed a bow and arrow. 
+
+So how the fuck does this apply to crypto you may ask? 
+
+In that moment I realized that sometimes I let Reddit and YouTube do the same thing to me. I scroll through or listen so something half assed and then I walk away and later is see the same altcoin mentioned and my brain immediately says “you need to go research this coin” or “should I buy now?” Over the last thirty days I’ve been on reddit I’ve realized that most of my temptations to buy or sense of FOMO have been because I halfway read a shill comment and then a day or two later I saw the same coin shilled again. Before Reddit I didn’t make near as many random, lesser researched, and poorly timed purchases. 
+
+Fuck you assholes and thank you assholes all at the same time! Remember as you post with great power comes great responsibility :)",2021-03-07
+30,JPMorgan Sends Its Private Clients a Primer on Crypto,20,lz4q0u,https://www.coindesk.com/jpmorgan-sends-its-private-clients-a-primer-on-crypto,2,2021-03-07 00:09:22,,2021-03-07
+31,"Dear Frances Coppola. If you want money supply to be elastic, then that’s fine. You have your govt fiat. Other people like Bitcoiners want money with an inelastic supply. Your column on Coindesk entirely ignores choice in money. Like everything in life, money is not one size fits all.",29,lz1v9v,https://www.reddit.com/r/Bitcoin/comments/lz1v9v/dear_frances_coppola_if_you_want_money_supply_to/,14,2021-03-06 21:45:15,,2021-03-06
+32,JP Morgan Crypto Primer - Who’s got a copy?,17,lz557g,https://www.reddit.com/r/Bitcoin/comments/lz557g/jp_morgan_crypto_primer_whos_got_a_copy/,6,2021-03-07 00:28:21,"https://www.coindesk.com/jpmorgan-sends-its-private-clients-a-primer-on-crypto
+
+Come on....I know someone out there has a copy or has access to a copy. Cough it up for the common good please!",2021-03-07
+33,Crypto on YouTube be like :,1275,lygy2e,https://i.redd.it/92pvmov7v8l61.png,185,2021-03-06 01:27:07,,2021-03-06
+34,"Michael Saylor - ""MicroStrategy has purchased an additional ~205 bitcoins for ~$10.0 million in cash at an average price of ~$48,888 per #bitcoin. As of 3/5/2021, we #hodl ~91,064 bitcoins acquired for ~$2.196 billion at an average price of ~$24,119 per bitcoin. $MSTR""",2562,lyblb4,https://twitter.com/michael_saylor/status/1367824821011296257?s=20,396,2021-03-05 21:15:55,,2021-03-05
+35,How important is it to own (at least) one Bitcoin?,12,lz6m2r,https://www.reddit.com/r/Bitcoin/comments/lz6m2r/how_important_is_it_to_own_at_least_one_bitcoin/,18,2021-03-07 01:34:30,"Considering there are only 21 million of them, and that maybe 10% are lost, it seems like it would be a pretty big deal to own one.
+I mined and lost about 180 coins back in 2011 and it took me a while to get back into bitcoin. Bought a little over the last few years, nowhere near a whole one yet.
+Is it worth the punt to get, at least, one bitcoin before it's'too late'?",2021-03-07
+36,Even if only 1% of the new stimulus bill money gets into Bitcoin...,9,lz9hcl,https://www.reddit.com/r/Bitcoin/comments/lz9hcl/even_if_only_1_of_the_new_stimulus_bill_money/,16,2021-03-07 03:46:04,"That's around $20 billion USD.
+
+How much could that move the price higher?
+
+I think that would get it to a new ATH over 60K in the next few weeks, even if no new institutional money continues to get on board (that I think now, more than ever, will be motivated to get out of fake printed-to-infinity government money)",2021-03-07
+37,"You Can Earn 6%, 8%, Even 12% on a Bitcoin ‘Savings Account’—Yeah, Right",8,lz8fhn,https://www.wsj.com/articles/you-can-earn-6-8-even-12-percent-on-a-bitcoin-savings-account-yeah-right-11614959768,4,2021-03-07 02:57:23,,2021-03-07
+38,"Senate passes $1.9T relief bill - must now pass Congress again. | If it does, we may see another large investment in BTC over the coming months.",11,lz8dcd,https://nyti.ms/30kgYi8,21,2021-03-07 02:54:43,,2021-03-07
+39,Michael Saylor bought the dip.,1529,lyea6u,https://v.redd.it/kmsuv2wk98l61,101,2021-03-05 23:28:17,,2021-03-05
+40,"FNG here investing in BTC. I have done the whole stock market thing for a few years, but this crypto currency is fascinating. 24/7 my money is changing. Will buy and hold as much as I can afford to lose every paycheck. I want to thank everyone on this site that posts all the BTC info.",5,lzc2lb,https://www.reddit.com/r/Bitcoin/comments/lzc2lb/fng_here_investing_in_btc_i_have_done_the_whole/,3,2021-03-07 05:52:53,,2021-03-07
+41,Max Keiser Thinks the US Government Should Start Mining Bitcoin (1.5-minute audio clip),27,lz0jpp,https://podclips.com/c/HmLmqg?ss=r&ss2=bitcoin&d=2021-03-06,5,2021-03-06 20:25:04,,2021-03-06
+42,"JPMorgan presents to private clients that Bitcoin can reach $540,000 if compared to ""Gold"" and $1,904,00 if compared to ""Narrow Money Supply"".",332,lynr6o,https://www.reddit.com/r/Bitcoin/comments/lynr6o/jpmorgan_presents_to_private_clients_that_bitcoin/,104,2021-03-06 06:38:19,"Link : [https://www.theblockcrypto.com/post/97257/jp-morgan-bitcoin-deck-private-client](https://www.theblockcrypto.com/post/97257/jp-morgan-bitcoin-deck-private-client)
+
+Based on this slide Bitcoin can reach $540,000 if compared to ""Gold"" and $1,904,00 if compared to ""Narrow Money Supply"".: [https://www.tbstat.com/wp/uploads/2021/03/Screen-Shot-2021-03-05-at-1.57.26-PM-e1614923921645.png](https://www.tbstat.com/wp/uploads/2021/03/Screen-Shot-2021-03-05-at-1.57.26-PM-e1614923921645.png)
+
+Note: Typo in the title.  **$1,904,00**  should be read as  **$1,904,000**
+
+Edit: Coindesk decided to pick this story as well: [https://www.coindesk.com/jpmorgan-sends-its-private-clients-a-primer-on-crypto](https://www.coindesk.com/jpmorgan-sends-its-private-clients-a-primer-on-crypto)",2021-03-06
+43,"Now whenever I lift my cup, I get reminded where my priorities lie.",24,lz0yfq,https://i.redd.it/620em0qlmel61.jpg,2,2021-03-06 20:50:53,,2021-03-06
+44,"Printer goes ""Brrr""",4,lzcacb,https://www.bbc.com/news/world-us-canada-56307889,3,2021-03-07 06:03:27,,2021-03-07
+45,Made a tool that y'all might find useful: btcsim.app,6,lzb07e,https://www.reddit.com/r/Bitcoin/comments/lzb07e/made_a_tool_that_yall_might_find_useful_btcsimapp/,4,2021-03-07 05:00:06,"https://btcsim.app
+
+The lump sum vs DCA question pops up a lot, and I've asked it many times myself. I made this tool to test different investment scenarios throughout Bitcoin's history. Let me know what you think!
+
+HODL baby",2021-03-07
+46,My first successful trade!,2,lzawh1,https://www.reddit.com/r/Bitcoin/comments/lzawh1/my_first_successful_trade/,21,2021-03-07 04:55:03,"I'm finally old enough and also have the money now to buy my first bitcoin! After 8 years of waiting, i have finally acquired my very own bitcoin which unfortunately only stayed with me for hours because i successfully traded it and made a (Redacted)% profit HAHA! I am still a beginner when it comes to trading and hodl but i really want to learn more about it. If you guys have any tips to share then i thank you in advanced!",2021-03-07
+47,What is lightning network?,42,lyx32z,https://www.reddit.com/r/Bitcoin/comments/lyx32z/what_is_lightning_network/,56,2021-03-06 16:05:39,I keep seeing people say it will get rid of the horrifyingly absurd fees but what is it? Is it a wallet or a program? Where and how do I get it? Can you get it on a hardware wallet?,2021-03-06
+48,"Record-Breaking Bitcoin Has Now Stayed Above $40,000 for 25 days and Counting",293,lymffh,https://coinfomania.com/bitcoin-has-traded-over-40000-for-25-days-in-a-row/,22,2021-03-06 05:31:57,,2021-03-06
+49,Selling house to buy ₿ to flip house?,2,lzedem,https://www.reddit.com/r/Bitcoin/comments/lzedem/selling_house_to_buy_to_flip_house/,1,2021-03-07 07:50:20,"I've seen someone do this on the subreddit before. It seems like a really good idea, since ₿s fundamentals show us it's more likely to go up than the real estate market. Is this strategy recommended?",2021-03-07

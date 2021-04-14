@@ -1,0 +1,267 @@
+,title,score,id,url,comms_num,created,body,date
+0,Another CoinSwap milestone: Multi-hop CoinSwaps. Undetectable bitcoin privacy is being built,424,lm6nmk,https://www.reddit.com/r/Bitcoin/comments/lm6nmk/another_coinswap_milestone_multihop_coinswaps/,153,2021-02-18 06:34:13,"Suppose Alice has bitcoins and wants to send them with maximal privacy, so she creates a special kind of transaction. For anyone looking at the blockchain her transaction appears completely normal with her coins seemingly going from bitcoin address A to address B. But in reality her coins end up in address Z which is entirely unconnected to either A or B.
+
+Now imagine another user, Carol, who isn't too bothered by privacy and sends her bitcoin using a regular wallet. But because Carol's transaction looks exactly the same as Alice's, anybody analyzing the blockchain must now deal with the possibility that Carol's transaction actually sent her coins to a totally unconnected address. So Carol's privacy is improved even though she didn't change her behaviour, and perhaps had never even heard of this software.
+
+In a world where advertisers, social media and other companies want to collect all of Alice's and Carol's data, such privacy improvement would be incredibly valuable. And also the doubt added to every transaction would greatly boost the fungibility of bitcoin and so make it a better form of money.
+
+This undetectable privacy can be developed today by implementing CoinSwap. The software could be standalone as a kind of bitcoin mixing app, but it could also be a library that existing wallets can implement allowing their users to send Bitcoin transactions with much greater privacy.
+
+
+For the last few months I've been working on implementing this project, and recently reached another milestone: Multi-hop CoinSwaps.
+
+In the original CoinSwap design there would be only two peers involved, that meant if your wallet did a CoinSwap the other party knew exactly where your coins went. They were a single point of failure in privacy. Multi-hop CoinSwap is where the user routes their coins of multiple CoinSwap peers, and all of them need to collude in order to figure out the final source and destination of the coins.
+
+
+Just for fun I created a 5-hop CoinSwap on testnet. Each hop has 3 individual transactions:
+
+Taker's outgoing transactions:
+
+https://blockstream.info/testnet/tx/f45349bd279bea20b8b218300f8e2416abf28f3858470ad8c5eb2f6cd5ec10a9
+
+https://blockstream.info/testnet/tx/40ea5c9e478b66fa3f615c2b8d3accfd69308443d90a5353de669767cb02c51f
+
+https://blockstream.info/testnet/tx/8fe245e9c433127af4df8ff8853650808e3281fed7de6bfda62066a3fd3ad36e
+
+First maker funding transactions:
+
+https://blockstream.info/testnet/tx/3d9b879866ad136f9fe6e80599e1b97d610b6330be3ab4aa7df4161fce1e41d4,
+
+https://blockstream.info/testnet/tx/fa11e778d135be28b4e35498fc668c5aba7c70dcc43334b39e7488bd1259e8be,
+
+https://blockstream.info/testnet/tx/a7713452bab711c09be83a8c630fb91127771ed99cf15b528eacd28b00ba6b20,
+
+Second maker funding transactions:
+
+https://blockstream.info/testnet/tx/245e1e87d83a4bef06ceb8933c758137ee2f7ba7aa66800ebb7103707d5de5f7,
+
+https://blockstream.info/testnet/tx/15727b91e09a80634587f6210bdcba8808b93e4a780c55dd113ee85314db45c4,
+
+https://blockstream.info/testnet/tx/94e4e4e9e8fc2012158ed068145c8b883c295b37f5b3b6cba7a21c229d4da103,
+
+Third maker funding transactions:
+
+https://blockstream.info/testnet/tx/1384d58e534543e22e4f23a367728bff12177ee9af01b036c397cfca9bbe2eb8,
+
+https://blockstream.info/testnet/tx/eff3b1367f403c13927ddcb01c6d3c5c0d46076f7cb4419f8a18d6b62d884540,
+
+https://blockstream.info/testnet/tx/617c52caec2f7f17f3ebd1cab80233cdc1b414591f1cc49affbd828ffec10278,
+
+Fourth maker funding transactions (also taker's incoming transactions):
+https://blockstream.info/testnet/tx/8fde61974a4e0801ae5b76b620e2effd6c837310c1bd76d738216451ae1226e3,
+
+https://blockstream.info/testnet/tx/6491b85ef73a8f88e276a9b0f951c09e0367851a83aa49ffee8f8ad095f50de2,
+
+https://blockstream.info/testnet/tx/363b6803b7e3ed45472277448ce9938e3e73167a67762d6a9ac621243b8db019,
+
+These transactions don't look particularly special (which is the point), but they are CoinSwaps. Following the CoinSwap protocol, those coins are transferred off-chain to the next market maker. Even though the coin are unspent at the time of writing, they are unilaterally controlled by the other party.
+
+The user created a CoinSwap for 0.05 tBTC in this case (but it could have been any amount), and out the other side they got the same amount of coins (minus a fee) entirely disconnected to their initial coins. The fee goes to the makers which provides them an incentive to cooperate to improve privacy, and also gets spent on miner fees.
+
+From the point of view of someone just passively observing the blockchain, a single-hop CoinSwap is as private as a multi-hop CoinSwap, so I suspect in practice most users will just create 1-hop or 2-hop CoinSwaps.
+
+
+These example CoinSwaps have a visible 2-of-2 multisig address. But the plan is to later use a protocol called ECDSA-2P which allows us to create 2-of-2 multisig addresses that look the same as regular single-signature addresses. This allows CoinSwaps to blend in with the rest of the bitcoin transactions out there. Even the legacy p2pkh addresses starting with 1 can be CoinSwap addresses.
+
+CoinSwap is the next generation of bitcoin on-chain privacy tech. It improves on CoinJoin because it breaks the transaction graph, and even improves the privacy of people who don't use it. CoinSwap also uses less block space for the same privacy and therefore is cheaper in miner fees.
+
+
+Links: 
+
+* The code: https://github.com/bitcoin-teleport/teleport-transactions/
+
+* Discussion: `##coinswap` IRC channel on the freenode network
+
+* Design document: https://gist.github.com/chris-belcher/9144bd57a91c194e332fb5ca371d0964
+
+* Previous reddit thread: https://www.reddit.com/r/Bitcoin/comments/k95iu4/the_first_coinswap_on_testnet_massive/
+
+* Podcast: https://anchor.fm/tales-from-the-crypt/episodes/170-Chris-Belcher-ef8blj
+
+* Donations: https://bitcoinprivacy.me/coinswap-donations",2021-02-18
+1,"Daily Discussion, February 28, 2021",77,lumbpo,https://www.reddit.com/r/Bitcoin/comments/lumbpo/daily_discussion_february_28_2021/,848,2021-03-01 02:09:55,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/ltokur/daily_discussion_february_27_2021/) for unanswered questions.",2021-03-01
+2,Me this morning after seeing all the red..,4971,lud024,https://v.redd.it/2y28d1ly67k61,585,2021-02-28 18:45:36,,2021-02-28
+3,Today I did for my brother something that nobody did for me,642,lufv3k,https://www.reddit.com/r/Bitcoin/comments/lufv3k/today_i_did_for_my_brother_something_that_nobody/,129,2021-02-28 21:18:30,"So today is my brother's 13th birthday.He is pretty tech savvy and he looks up to me a lot so I did what someone never did for me on my 13th birthday.I bought him $50 worth of BTC and gave him his very first bitcoin address.Considering I am now 21,if someone bought me this amount in 2013 and taught me what bitcoin and crypto is all about,I would now be in the 5-digit mark,just from that $50 alone. So for anyone out there with younger relatives,give them the gift of bitcoin.They will definitely appreciate it sooner or later.",2021-02-28
+4,Current BTC Situation,294,lukd28,https://v.redd.it/wj4for4cz8k61,27,2021-03-01 00:46:24,,2021-03-01
+5,Bitcoin and cryptocurrency markets crash 20% but analysts predict new record highs,399,luhtha,https://www.independent.co.uk/life-style/gadgets-and-tech/bitcoin-price-crash-cryptocurrency-market-b1808011.html,140,2021-02-28 22:53:19,,2021-02-28
+6,I’m not sure if it’s a 🇺🇸 thing but.... it seems people forget that other countries utilize BTC as currency and not a hedge 🤷🏽‍♂️,480,lueibt,https://www.reddit.com/r/Bitcoin/comments/lueibt/im_not_sure_if_its_a_thing_but_it_seems_people/,165,2021-02-28 20:09:25,The point is BTC will always fluctuate typically on the upside of things. anyways I’m  a stupid 🦍 what do I know.,2021-02-28
+7,Bitcoin blessed 💯,104,lup7tu,https://www.reddit.com/r/Bitcoin/comments/lup7tu/bitcoin_blessed/,12,2021-03-01 04:12:01,"I simply do not feel comfortable talking to anyone I know about this nor do I think anyone I know could relate. My hope is someone here understands. 
+
+This recent crypto correction has put me near 30% off the top of my portfolio... and this is by far the most money I’ve ever had in my life. 
+
+And what I can’t believe is that I can still fall asleep at night and make it to the gym in the morning. How am I numb to my portfolio swinging more money than I’ve made in my entire life.... in a matter of a couple days. I feel blessed to say the least. 🙏",2021-03-01
+8,"Only 83 BTC were traded last week in Venezuela using LocalBitcoin (lowest since July 2016). That amount was 7,299,000,000,000 Bs. (Venezuelan currency). Right now one BTC reached 84,000,000,000 Bs. Monthly minimim wage at 1.25 USD.",301,luh13q,https://www.reddit.com/r/Bitcoin/comments/luh13q/only_83_btc_were_traded_last_week_in_venezuela/,145,2021-02-28 22:14:23," Hi guys happy hodling and trading! Hope you are doing ok.
+
+As I always explain, I'm a Venezuelan ""living"" here.
+
+Lower  volume in BTC but still around 5-6 million USD weekly, that is way, it  is constant in USD not BTC. So many years since we are under 100 BTC  weekly, I think some people that use LocalBitcoin are moving to Binance,  that is just my explanation without any proof.
+
+People  that usually trade are mostly miners, people sending remittances and    store owners getting rid of their bolivares and even the    goverment/military as well. Considering the low minimum wage, forget  that people using crypto, it is impossible for them.
+
+If  you want to know something ask me anything. Here the economy is a mess,  so many poor people and a lot of people surviving! I have gotten even  puntual work from some redditors since I started posting here, what a  great community.
+
+And MOONS (cryptocurrency subreddit), wow, have helped me a lot (Sadly I have to cash out).
+
+Sources:
+
+[https://www.usefultulips.org/combined\_VES\_Page.html](https://www.usefultulips.org/combined_VES_Page.html)
+
+[https://www.caracaschronicles.com/](https://www.caracaschronicles.com/)
+
+[https://coin.dance/volume/localbitcoins/VES/BTC](https://coin.dance/volume/localbitcoins/VES/BTC)
+
+[https://localbitcoins.com/buy-bitcoins-online/ves/](https://localbitcoins.com/buy-bitcoins-online/ves/)",2021-02-28
+9,"Thank u for the discount, number go up now pls",138,lulxyn,https://www.reddit.com/r/Bitcoin/comments/lulxyn/thank_u_for_the_discount_number_go_up_now_pls/,30,2021-03-01 01:54:09,"&#x200B;
+
+https://preview.redd.it/d7epnd4fb9k61.png?width=613&format=png&auto=webp&s=ffc520558bd094f1b7da21ba410e45c12093c04c",2021-03-01
+10,"Attention anyone who bought bitcoin and now is worried about the end of the bull run, pleass check out this.",205,luiqgx,https://twitter.com/360_trader/status/1365987935905013763?s=19,61,2021-02-28 23:34:34,,2021-02-28
+11,Sold all my BCH for BTC,89,lunzos,https://www.reddit.com/r/Bitcoin/comments/lunzos/sold_all_my_bch_for_btc/,55,2021-03-01 03:19:36,"I had been keeping a small amount of BCH as a just in case investment, but the more I have learned about crypto in general, the more I realize that Bitcoin resistance is futile. This thing is a black hole that is going to consume all other storage of value mediums. The consolidation is underway, you can see it in the overall crypto market. After this consolidation period is over, BTC will be even stronger. Long live the king!!",2021-03-01
+12,To the man at the grocery store...,3506,ltzbn5,https://www.reddit.com/r/Bitcoin/comments/ltzbn5/to_the_man_at_the_grocery_store/,361,2021-02-28 06:50:23,"Saw an elderly man (maybe 65-75) today at the grocery store in a Bitcoin shirt. Didn’t say anything the first time I saw him but told my wife and was like “adoption, that man gets it”. 
+
+Later seeing him at the checkout, I told him I love the shirt and he replied “keep stacking”. That’s why I’m a believer in Bitcoin bc if the older generation is starting to get on board and adapting then we have even more growth in our future, so from the guy at the store,
+Keep stacking.",2021-02-28
+13,a reminder for the newbies,54,luqjkn,https://www.reddit.com/r/Bitcoin/comments/luqjkn/a_reminder_for_the_newbies/,10,2021-03-01 05:08:57,"bitcoin never sleeps, but we still need to. 
+
+i know it can be hard not to look at BTC price during the day, afternoon, evenings, heck even to wake up just to look at the price, but everyone needs a break. 
+
+disconnect for digital for a while",2021-03-01
+14,"Shower thought: You don‘t sell BTC, you just convert it to a weaker currency.",318,lucgr3,https://www.reddit.com/r/Bitcoin/comments/lucgr3/shower_thought_you_dont_sell_btc_you_just_convert/,119,2021-02-28 18:11:55,"People think ‚oh i‘ve made profit, imma sell‘.  You are not selling, you are most likely converting from a limited currency to a currency thats being printed on the day. 
+It‘s like profiting on a Argentine Peso -> USD Forex trade. No point converting back to Peso‘s, just hold the USD it‘s much stronger.",2021-02-28
+15,A message for our fellow Bitcoiners.,65,lumchc,https://www.reddit.com/r/Bitcoin/comments/lumchc/a_message_for_our_fellow_bitcoiners/,36,2021-03-01 02:10:48,"Michael Saylor invested more than 2B USD, Elon Musk invested 1,5B. Do you see them being scared? Relax, BTC will go past 100k by the end of this year no matter how many times it dips. Keep investing what you can afford and you'll be a very happy person in less than 10 months from now.
+
+&#x200B;
+
+&#x200B;
+
+&#x200B;
+
+&#x200B;
+
+^^^^^^^^^^^(ORnot!)",2021-03-01
+16,Max Keiser in one of the all time great freakouts. This is why we buy BTC!,175,lueh0a,https://www.youtube.com/watch?v=I9o18gdojRw&feature=emb_title,82,2021-02-28 20:07:20,,2021-02-28
+17,[bitcoin-dev] LOT=False is dangerous and shouldn't be used,35,luplag,https://www.reddit.com/r/Bitcoin/comments/luplag/bitcoindev_lotfalse_is_dangerous_and_shouldnt_be/,15,2021-03-01 04:28:14,"(Note: I am writing this as a general case against LOT=False, but using Taproot simply as an example softfork. Note that this is addressing activation under the assumption that the softfork is ethical and has sufficient community support. If those criteria have not been met, no activation should be deployed at all, of any type.)
+
+As we saw in 2017 with BIP 9, coordinating activation by miner signal alone, despite its potential benefits, also leaves open the door to a miner veto. This was never the intended behaviour, and a bug, which took a rushed deployment of BIP148 to address. LOT=False would reintroduce that same bug. It wouldn't be much different than adding back the inflation bug (CVE-2018-17144) and trusting miners not to exploit it.
+
+Some have tried to spin LOT=True as some kind of punishment for miners or reactive ""counter-attack"". Rather, it is simply a fallback to avoid regression on this and other bugs. ""Flag day"" activation is not fundamentally flawed or dangerous, just slow since everyone needs time to upgrade. BIP 8(LOT=True) combines the certainty of such a flag day, with the speed improvement of a MASF, so that softforks can be activated both reasonably quick and safely.
+
+In the normal path, and that which BIP8(True) best incentivises, miners will simply upgrade and signal, and activation can occur as soon as the economic majority is expected to have had time to upgrade. In the worst-case path, the behaviour of LOT=True is the least-harmful result: unambiguous activation and enforcement by the economy, with miners either deciding to make an anti-Taproot(eg) altcoin, or continue mining Bitcoin. Even if ALL the miners  revolt against the softfork, the LOT=True nodes are simply faced with a choice to hardfork (replacing the miners with a PoW change) or concede - they do not risk vulnerability or loss.
+
+With LOT=False in the picture, however, things can get messy: some users will enforce Taproot(eg) (those running LOT=True), while others will not (those with LOT=False). Users with LOT=True will still get all the safety thereof, but those with LOT=False will (in the event of miners deciding to produce a chain split) face an unreliable chain, being replaced by the LOT=True chain every time it overtakes the LOT=False chain in work. For 2 weeks, users with LOT=False would not have a usable network. The only way to resolve this would be to upgrade to LOT=True or to produce a softfork that makes an activated chain invalid (thereby taking the anti-Taproot path). Even if nobody ran LOT=True (very unlikely), LOT=False would still fail because users would be faced with either accepting the loss of Taproot(eg), or re-deploying from scratch with LOT=True. It accomplishes nothing compared to just deploying LOT=True from the beginning. Furthermore, this process creates a lot of confusion for users (""Yep, I upgraded for Taproot(eg). Wait, you mean I have to do it AGAIN?""), and in some scenarios additional code may be needed to 
+handle the subsequent upgrade cleanly.
+
+To make matters worse for LOT=False, giving miners a veto also creates an incentive to second-guess the decision to activate and/or hold the activation hostage. This is a direct result of the bug giving them a power they weren't intended to have. Even if we trust miners to act ethically, that does not justify sustaining the bug creating both a possibility and incentive to behave unethically.
+
+So in all possible scenarios, LOT=False puts users and the network at significant risk. In all possible scenarios, LOT=True minimises risk to everyone and has no risk to users running LOT=True.
+
+The overall risk is maximally reduced by LOT=True being the only deployed parameter, and any introduction of LOT=False only increases risk probability and severity.
+
+For all these reasons, I regret adding LOT as an option to BIP 8, and think it would be best to remove it entirely, with all deployments in the future behaving as LOT=True. I do also recognise that there is not yet consensus on this, and for that reason I have not taken action (nor intend to) to remove LOT from BIP 8. However, the fact remains that LOT=False should not be used, and it is best if every softfork is deployed with LOT=True.
+
+https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-February/018498.html",2021-03-01
+18,Get ready...,37,lunods,https://www.reddit.com/r/Bitcoin/comments/lunods/get_ready/,25,2021-03-01 03:06:28,"I DCA daily; however, today I bought a lump sum when I saw the price. The last three times I’ve done this the price continued to tank. If it keeps going down today’s discount is brought to you by me.",2021-03-01
+19,Then and Now,29,luq8lc,https://www.reddit.com/r/Bitcoin/comments/luq8lc/then_and_now/,7,2021-03-01 04:56:01,"&#x200B;
+
+https://preview.redd.it/z1dio8pw7ak61.png?width=640&format=png&auto=webp&s=45f6366250815bbe6d30b035a276563a1974fd71",2021-03-01
+20,"When you just entered crypto last month, and are already an expert and professional trader...",34,lunyjk,https://www.youtube.com/watch?v=lQegMA_kY9Y,7,2021-03-01 03:18:11,,2021-03-01
+21,Bought the dip 🙃,42,lum7yo,https://www.reddit.com/r/Bitcoin/comments/lum7yo/bought_the_dip/,26,2021-03-01 02:05:41,"Bought the dip yesterday, bought the dip today... can honestly say never felt so underwhelmed, reason been I first bought at 10k then bought at 29k and now buying at 46 and 43k... feel like I really missed the boat 😫",2021-03-01
+22,"""The"" Reason to Never Sell BTC",17,lurwge,https://www.reddit.com/r/Bitcoin/comments/lurwge/the_reason_to_never_sell_btc/,19,2021-03-01 06:07:01,"I'll never sell any of my btc, and I will continue to stack sats indefinitely (dca ftw). My reason is simple, and when I share it with people I know, I can see the light bulb moment in their eyes.
+
+Why would I ever sell an appreciating asset that I could borrow against for cash at low (or even market) interest rates? Why would anybody? The answer is they probably haven't thought about their coin as collateral. 
+
+Everyone I know that has ever financed a house did so by getting a home mortgage. Notably, the houses they bought always served as the underlying collateral for the home loan. And we all know what that means: default on the home loan and the lender(s) will eventually foreclose on the roof over your head. 
+
+Enter bitcoin. 
+
+Consistent stackers with diamond hands can obtain a home free and clear by using enough of their coin as collateral for the home loan, instead of the home itself. Do you still have to make regular loan payments? Sure. But guess what doesn't happen if you get sick years later and can't make those payments? Guess what happens if you default? That's right. Your roof stays over your head. Presumably, your coin collateral will be in escrow. And if you default, the lenders will foreclose on the coin collateral. Fine. At least you still have your home. I like that piece of mind.
+
+Another scenerio. 
+
+You or someone you love gets an awful medical diagnosis. They need expensive surgery. You don't have the cash. But, damnit, you've been stacking sats for years and your hands are made of cold hard diamond. What do you do? Sell your coin? No. Once again, you borrow against it. You'll get all the cash you need or, if not all, a helpful chunk. Pay for the surgery. And do your best to make the payments so you don't default and lose your coin collateral. But guess what? If you do default, you're not put in a situation where you may have to declare bankruptcy. You'd just lose your coin collateral. Not the end of the world.
+
+To each their own. But examples like those above are why my hands are made of solid diamond. I will never sell one effing sat. Not one. Because they're too valuable. To me, btc is akin to a Vincent Van Gogh painting hanging on my wall or a faberge egg. Hard and scarce assets likely to appreciate considerably over the next 30 years. Longer, many argue.
+
+I'll keep every sat and pass them all down to those in my family and friend groups that understand how to wield the coin.
+
+My $.02. Curious if anyone else thinks of their coin in this way.",2021-03-01
+23,I think I’ve been given special powers over Bitcoin price,51,luis1p,https://www.reddit.com/r/Bitcoin/comments/luis1p/i_think_ive_been_given_special_powers_over/,34,2021-02-28 23:36:33,"Absolutely every time I take advantage of bitcoins new low price sale and buy more, it immediately drops down even lower to new record lows. Either you guys should beg me to stop buying so it stops dipping or send me money to buy more so it goes even further on sale. My timing has truly been the worst it could be as of lately.",2021-02-28
+24,Finally got up to 1% of a coin!,682,lu2k7q,https://www.reddit.com/r/Bitcoin/comments/lu2k7q/finally_got_up_to_1_of_a_coin/,127,2021-02-28 09:47:53,"Guys I'm so broke, but 50 bucks here and there from paychecks and I've got my .01",2021-02-28
+25,Used Gemini (Flexa) to pay for Baskin Robins and it was actually easier than paying with card...,448,lu3q2e,https://v.redd.it/qf6ehzefv4k61,144,2021-02-28 10:56:55,,2021-02-28
+26,When You Find Your Old Wallet,12,lurxzo,https://v.redd.it/qzm505lykak61,2,2021-03-01 06:08:54,,2021-03-01
+27,Original Bitcoin art! Help me find it a home!,36,luk51g,https://www.reddit.com/gallery/luk51g,26,2021-03-01 00:36:48,,2021-03-01
+28,Antidote to FUD,15,luppf8,https://www.reddit.com/r/Bitcoin/comments/luppf8/antidote_to_fud/,2,2021-03-01 04:33:08,"I was taking a loot at the 2017-2018 chart against the 2020-2021 chart and trying to decide if I should DCA this week.  I made the mistake of reading through some of the top comments in the past 24 hours on here.  I see a lot of people posting here looking for reassurance that they didn't buy at the top, and others stating that if MSM is saying we are in a bull run, it must be the end of the bull run.
+
+The people who make money in the long run (unless you are a very skilled trader) are the people who do their research and just hold.  I'm sure most of you are like me and have a day job or are in school and thus do not fit in the ""skilled trader"" category.  Sure, you can trim profits, but don't be emotional and sell when there is a dip during a bull run. While gold is a different animal, it was remarkably volatile if getting exposure through stocks in 2020. Just a few weeks into gold's increase, when everyone was saying gold is too hyped etc, I bought and panic sold on a big dip.  Sure enough, many of the stocks I had sold went up by 3x over the next few months.
+
+What I'm saying is, look at the historical data, do your research and/or listen to people who seem to understand the crypto space well (and have called for crashes in the past and been somewhat correct) and invest what you are willing to lose.  Then, just calm down and look in a few months.
+
+Why would Square and MicroStrategy be buying bitcoin around $50,000 if they thought this bull run was over?  These large companies opening/increasing positions are going to cause other large companies to jump in, and institutions do not panic sell like the retail investors spreading FUD in here.  This is a major difference from 2017, where bitcoin was widely misunderstood and had little (if any) institutional support.
+
+Something to keep in mind before you panic sell and are kicking yourself in a few months.   Sure it could go down, but history is pointing to at least a two-fold increase from here this year.  Additionally, as mentioned above, this time institutions are committing to bitcoin, and they won't easily be scared off.",2021-03-01
+29,I am responsible for the last night’s dip...,25,lul1co,https://www.reddit.com/r/Bitcoin/comments/lul1co/i_am_responsible_for_the_last_nights_dip/,13,2021-03-01 01:14:51,I put $100 in btc last night at $45.5k and now its at $43k. Had I not put money it may have shot up and I’d regretted not putting money. Sorry guys...,2021-03-01
+30,BTC dipping :( Anyone bought at the highs 2 weeks ago?,36,lujhz1,https://www.reddit.com/r/Bitcoin/comments/lujhz1/btc_dipping_anyone_bought_at_the_highs_2_weeks_ago/,47,2021-03-01 00:08:51,Still hodling of course. But shout out to all my mates who bought at the highs 2 weeks ago :’(... let’s have a commiseration party,2021-03-01
+31,"Bloomberg posts another Bitcoin article, not as negative as some. I wrote the editor two days ago to stop the negative editorial bias. BITCOIN WHALES ARE MIXED BLESSING",11,luskb6,https://www.bloomberg.com/opinion/articles/2021-02-28/bitcoin-whales-are-a-mixed-blessing?sref=0ULnsDlp,3,2021-03-01 06:36:41,,2021-03-01
+32,The BIG Dipper ! 🚀,36,luixx9,https://www.reddit.com/r/Bitcoin/comments/luixx9/the_big_dipper/,31,2021-02-28 23:44:02,As an avid believer that this will ultimately end up being my retirement money lol. I want to hear all the other people who have faith in this gift of a coin. Where are all the HODLERS at?,2021-02-28
+33,How to make a limit order on Coinbase Pro to try and catch a Bitcoin dip,23,lulkh1,https://youtu.be/mKBHVPLfKTg,4,2021-03-01 01:38:10,,2021-03-01
+34,List of companies and funds holding BTC and how much they hold.,62,lue1op,https://bitcointreasuries.org/index.html,13,2021-02-28 19:45:45,,2021-02-28
+35,Google Finance added tab with Crypto. Is this new?,17,luoel0,https://www.google.com/finance,3,2021-03-01 03:37:37,,2021-03-01
+36,Is everything outside of btc overvalued?,10,lus9g8,https://www.reddit.com/r/Bitcoin/comments/lus9g8/is_everything_outside_of_btc_overvalued/,11,2021-03-01 06:23:12,"Look at stock market index average PE ratios
+
+Look at regional median incomes to median home prices anywhere in the world
+
+Look at bond yields
+
+It's all absurdly overvalued.
+
+&#x200B;
+
+Now look at the price of satoshis.
+
+The average number of satoshis per human on earth is 280K satoshi. 21M / 7.5B = .0028 btc = 280,000 satoshis.   If 280K satoshis can represent the life savings of a single human, then look at the price of 280K satoshi at 129 usd / 107 euro today.  Seems less overvalued, to put it mildly. Then consider that although the average human will own 280K satoshi, but the average human doesn't exist - the median person today probably owns 0 satoshi (because some people and companies already own trillions of satoshi). So with 130 usd buying 280K satoshi, and 280K satoshi being far more than most people will ever own, it seems less overvalued than negative yielding bonds, inflated and levered real estate, and the equity of companies that may or may not be solvent but are able to survive on a steady stream of new loans at ever decreasing interest rates.",2021-03-01
+37,Anyone else have most of their net worth in bitcoin?,271,lu5f3f,https://www.reddit.com/r/Bitcoin/comments/lu5f3f/anyone_else_have_most_of_their_net_worth_in/,213,2021-02-28 12:06:42,How do you justify it? I’ve been told many times that it’s not a good idea. Still do it tho 🤪.,2021-02-28
+38,I just love that the price has stabilized around 48k for this long.,1108,ltwoqv,https://www.reddit.com/r/Bitcoin/comments/ltwoqv/i_just_love_that_the_price_has_stabilized_around/,251,2021-02-28 04:32:44,"Behind a bull run...few things make me happier than when this baby stabilizes. Just had to say it, no one around me even cares.",2021-02-28
+39,"Bitcoin option expiration week, many people buy bitcoin options on margin and margin call is a bitch. Same thing happened during the last dip last month",22,lulhsd,https://www.reddit.com/r/Bitcoin/comments/lulhsd/bitcoin_option_expiration_week_many_people_buy/,15,2021-03-01 01:35:01,"Bitcoins current bearish trend is normal. The same exact thing happened back in January after its options expiration week, every bitcoin bull cycle has declines 20 to 40% every couple weeks before it reaches a new all-time high again. It’s just a breather before we blow past 60K, buy it on sale while you can, and don’t panic sell at the bottom of the bull cycle. Every options expiration week sends the crypto into a decline while people liquidate they’re current positions, only to buy them back at a discounted price.",2021-03-01
+40,Get Ready For The RIDE,10,lurkuw,https://www.reddit.com/r/Bitcoin/comments/lurkuw/get_ready_for_the_ride/,7,2021-03-01 05:53:17,"To everyone doubting the Bitcoin Bull Run, look right by the ""Optimism"", and really understand what's about to happen. Everyone that has been here for a long time, and is already fully positioned, don't let the big players shake you out of your crypto. Just HODL, and as soon as these big players are done playing their games so they can get positioned in something they're very late for, THAT's when we will Really take off. Congratulations to all the ""forward thinkers""  that seen the true value in this market, and HODL your asses off till September.
+
+https://preview.redd.it/76lm96r9hak61.png?width=1366&format=png&auto=webp&s=c6fd2bab670a99a8012fb2ef90520a7e9bcfc1e5",2021-03-01
+41,Just Hodl it,22,lukk5j,https://www.reddit.com/r/Bitcoin/comments/lukk5j/just_hodl_it/,9,2021-03-01 00:54:44,"&#x200B;
+
+https://preview.redd.it/eboc3m7v09k61.png?width=261&format=png&auto=webp&s=be8130282e72ec7f6848d0780186169a5bfbda60",2021-03-01
+42,Really - selling Bitcoin to buy bonds?,44,luftjt,https://www.reddit.com/r/Bitcoin/comments/luftjt/really_selling_bitcoin_to_buy_bonds/,50,2021-02-28 21:16:19,"According to Fox Business today, a number of Bitcoin sales are a result of people chasing that juicy rising 1.6% interest rate per year. 
+
+A rising bond rate will let their money erode just a slight bit slower. Good luck with that. 
+
+https://www.foxbusiness.com/markets/bitcoin-buyers-punished-by-surging-bond-yields",2021-02-28
+43,Found an old USB key...,3784,lto0rt,https://www.reddit.com/gallery/lto0rt,405,2021-02-27 21:22:19,,2021-02-27
+44,Why a Flag-Day Taproot Activation may be the Only Path to Consensus,15,lummxe,https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-February/018495.html,3,2021-03-01 02:23:17,,2021-03-01
+45,"I did not know this.... ""The Winklevoss Twins Bought 200,000 Bitcoins When It Was Priced at $7"" (1-minute audio clip)",55,ludidu,https://podclips.com/c/jvjg6I?ss=r&ss2=bitcoin&d=2021-02-28,39,2021-02-28 19:15:04,,2021-02-28
+46,English is outdated!,8,lus3dm,https://www.reddit.com/r/Bitcoin/comments/lus3dm/english_is_outdated/,18,2021-03-01 06:15:42,"English is sooo inefficient and slow, there's so many other languages that have bigger vocabulary, can communicate faster and convey ideas better!
+
+Just because it's the number 1° language and most widespread in the world doesn't mean that another one won't substitute it! Network effect isn't that important!
+
+Wait a couple years and you'll see english fall back behind to new and more update languages!
+
+(contains irony)",2021-03-01
+47,See how easy it is to attack your phone number,55,ludcn3,https://www.youtube.com/watch?v=fHhNWAKw0bY,11,2021-02-28 19:06:07,,2021-02-28
+48,I think Elon musk should start a bitcoin mining farm with Tesla. He has all the infrastructure to build the most energy efficient bitcoin mining farm the world has ever seen.,885,ltwc8g,https://www.reddit.com/r/Bitcoin/comments/ltwc8g/i_think_elon_musk_should_start_a_bitcoin_mining/,220,2021-02-28 04:15:17,,2021-02-28
+49,When did bitcoin become about simping for billionaires?,516,ltyxsq,https://www.reddit.com/r/Bitcoin/comments/ltyxsq/when_did_bitcoin_become_about_simping_for/,210,2021-02-28 06:30:07,"Andreas Antonopoulos brought this up in a recent podcast. Bitcoin's narrative has shifted a lot from banking the un-banked, and replacing old corrupt institutions. 
+
+Now, the community is simping for these same corrupt institutions, as soon as they started pumping the price. I can guarantee, these institutions do not care about Bitcoin's censorship resistance, decentralization, or about banking the un-banked. They've just bought Bitcoin, then created hype so that their own investments can go up.
+
+These institutions will not support changes that improve privacy, as that makes it harder for regulators. They will try to ""normalize"" Bitcoin into traditional systems. For example, Michael Saylor has said that Bitcoin isn't meant to be used as a currency, he said its just a store of value and a gold replacement.
+
+He's trying to make it fit into traditional systems. So called ""normalization of Bitcoin"" is bad. People are trying to make it fit into the same institutions it was meant to replace.
+
+This institutional investment into Bitcoin is only good, if the only you care about is the price of Bitcoin.
+
+This community overall has also degraded to where all anyone talks about is these institutions, and the price.
+
+This hype cycle will eventually die out, and the people who care about price will leave. The people who care about price will sell, and then the big institutions will also panic and sell, and 2017 will be repeated.
+
+To anyone who is newly into to Bitcoin and bought hoping the price will go up, I don't want to attack you. Instead, I highly encourage you to learn more about what Bitcoin, and cryptocurrency in general is. Learn about how it works, and what problems it actually solves.",2021-02-28

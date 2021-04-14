@@ -1,0 +1,223 @@
+,title,score,id,url,comms_num,created,body,date
+0,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,162,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,69,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+1,"Daily Discussion, March 11, 2021",93,m2jh3u,https://www.reddit.com/r/Bitcoin/comments/m2jh3u/daily_discussion_march_11_2021/,1509,2021-03-11 14:15:47,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m1r0ji/daily_discussion_march_10_2021/) for unanswered questions.",2021-03-11
+2,The first-ever Bitcoin post on Reddit got downvoted.,1470,m2zez2,https://i.redd.it/9jxq7mauggm61.jpg,243,2021-03-12 04:04:59,,2021-03-12
+3,"The worlds first anonymous poker tournament was announced 11 years ago today. The prizes were 1000 bitcoin. That's $56,000,000 in today's value.",1101,m2prh5,https://i.redd.it/qcz8mwlzeem61.jpg,62,2021-03-11 21:12:08,,2021-03-11
+4,I work at a brewery in the UK and my boss wants to start accepting BTC and other cryptos as payment for pints.. please advise!,238,m2te4d,https://www.reddit.com/r/Bitcoin/comments/m2te4d/i_work_at_a_brewery_in_the_uk_and_my_boss_wants/,140,2021-03-11 23:55:37,"Hello,
+
+As the title states I'm looking for advice on the best way to accept cryptos for pints at the brewery I work at. I am aware of the lightening network but I have no clue about the best way to set this up. 
+
+Any help is much appreciated... let's start the transition to a FIAT free world!",2021-03-11
+5,"One sec, gotta check my emails",347,m2qf35,https://i.redd.it/luhtiohnlem61.jpg,23,2021-03-11 21:48:15,,2021-03-11
+6,2.0722 Bitcoin,663,m2myh0,https://www.reddit.com/r/Bitcoin/comments/m2myh0/20722_bitcoin/,342,2021-03-11 18:08:17,"Want the ultimate lesson in weak hands? Listen. Really listen. Realize this could be you. I had 2.0722 BTC. I was so worried about getting my money back after investing $9000 at 11,300 that after the bounce back, despite KNOWING the halving would cause insane prices, I sold everything at $11,400. 
+
+I could have $110,000 right now, and be a solid THREE AND A HALF YEARS ahead of where I am in terms of savings. That isn't casual saving money, thats saving EVERYTHING I have to save, with absolutely NO discretionary spending. When you have a gut feeling, don't you dare fucking go against it. 
+
+On some level I hate myself for this, because I knew and saved for 4 years because I KNEW this would happen, and I still passed it up. Don't be afraid, be excited that you don't know where things could go because they could be so much better than what you think is possible.",2021-03-11
+7,ECB just promised to support the Bitcoin Moon Mission and decided to donate some extra Euros towards the rocket fuel.,59,m31kgn,https://v.redd.it/f1bxz7ahygm61,12,2021-03-12 05:43:38,,2021-03-12
+8,"Peter Schiff: ""My son @SpencerKSchiff went all in on #Bitcoin ..""",489,m2l9rv,https://www.reddit.com/r/Bitcoin/comments/m2l9rv/peter_schiff_my_son_spencerkschiff_went_all_in_on/,158,2021-03-11 16:10:53,"&#x200B;
+
+https://preview.redd.it/6zqt415hxcm61.png?width=574&format=png&auto=webp&s=af353c21658e928356eb5ed0f20effa6dd84cd0e
+
+[https://twitter.com/PeterSchiff/status/1369695876726276106](https://twitter.com/PeterSchiff/status/1369695876726276106)
+
+HIS OWN SON!? SON, HOW COULD YOU!!! :)
+
+It's tweets like this that convince me: this is all a show somehow maximizing profits for someone. well, at least it's entertaining...",2021-03-11
+9,When that stimulus check hits your bank account and you can't help but buy Bitcoin and break into song and dance. #StimmyShimmy,181,m2q2vc,https://v.redd.it/0uxzo4tbiem61,19,2021-03-11 21:29:43,,2021-03-11
+10,"""Bitcoin Preferred"" for an ocean front home in Florida",3070,m2ako5,https://i.redd.it/my9bl5710am61.jpg,233,2021-03-11 06:20:01,,2021-03-11
+11,"When someone says bitcoin wastes so much power, context matters.",73,m2wo7m,https://i.redd.it/0og2f505wfm61.png,34,2021-03-12 02:09:04,,2021-03-12
+12,LedgerPrime Buys $50 Million Bitcoin,96,m2t9ix,https://www.trustnodes.com/2021/03/11/ledgerprime-buys-50-million-bitcoin,6,2021-03-11 23:49:57,,2021-03-11
+13,"OK. STOP posting about how hard it is to NOT sell your Bitcoin at these prices! For the love of God. Watch this video, then get a damn marshmallow, and practice.",42,m2zje7,https://www.youtube.com/watch?v=5DGAsjUa6cA,17,2021-03-12 04:10:37,,2021-03-12
+14,BlockFi lands a $350M Series D at a $3B valuation for its fast-growing crypto-lending platform,102,m2scet,https://techcrunch.com/2021/03/11/blockfi-lands-a-350m-series-d-at-3b-valuation-for-its-fast-growing-crypto-lending-platform/,53,2021-03-11 23:10:07,,2021-03-11
+15,"Found myself habitually checking the BTC price, so I created an Apple Shortcut that makes me wait 15 seconds before I can open Luno",242,m2mzyg,https://v.redd.it/vfzhbhkwidm61,36,2021-03-11 18:11:08,,2021-03-11
+16,BitCoIn HaS nO uSe CaSe,117,m2qu7n,https://www.reddit.com/r/Bitcoin/comments/m2qu7n/bitcoin_has_no_use_case/,65,2021-03-11 22:08:27,"I recently bought a house and this is how it went - I had to put my down payment of $85k into a 0.1% interest bearing savings account for two months because the lenders need to see evidence of where the money is coming from and where it has  been for the past two months for some reason.  (It’s been in a bitcoin wallet is not good enough). The day before the closing I had to drive 20’minutes one way to my bank branch and wire the money to the title company.  I missed the 4 pm cut off so the money didn’t transfer until the next morning at 9 am.  
+
+Bitcoin was $35k when I put that money in my bank account - it was $48k when I closed on the house.  I lost out on $30k in gains I could have had if I’d been able to store it on the bitcoin blockchain instead.   I spent an hour of my life driving and at the bank to do the wire transfer on a hectic day.  
+
+Alternatively transferring bitcoin to the title company from my wallet would have taken me 5 secs from home and they’d have had it in an hour.  
+
+I hate that society is so resistant to doing things a clearly easier and better way.",2021-03-11
+17,"According to Kraken Intelligence, market participants continue to come to market, load up their bags & move their Bitcoin into storage.",240,m2msmb,https://i.redd.it/7z3c3mhfgdm61.jpg,57,2021-03-11 17:57:15,,2021-03-11
+18,"Michael Saylor on Bitcoin, The FED, ECB, Monetary versus CPI Inflation & Taproot - March 10th 2021",138,m2oqhp,https://youtu.be/kQL00eY2wjg,32,2021-03-11 20:11:04,,2021-03-11
+19,"LET'S START A MOVEMENT - Let's start talking about the BTC value per 1 SATOSHI (= $ 0'00057416 USD), SO THAT people start seeing it as not so expensive. They are NOW focused on 1 BTC = $ 47K which they see as expensive, and they fear it as LATE TO GET IN. So, let's re-focus on the spendable unit",27,m2xpoq,https://www.reddit.com/r/Bitcoin/comments/m2xpoq/lets_start_a_movement_lets_start_talking_about/,39,2021-03-12 02:52:52,"Why not refocusing the discussion on what will really become the unit for spending on a daily basis, the more manageable unit, THE SATOSHIS. When people starts talking SATOSHIS unit, we will will a HUGE BATTLE, as it will shift the discussion to the sub-unit that will start / should start being used for daily spending. ALSO, I think this will educate people as they will all try to understand what's behind the unit of measure and the history behind BTC. 
+
+In the future, when you start talking about how much does this cost in BTC, you will not say 'this is worth 0´0000…082 BTC', you will instead say, this is worth 500 Satoshis (for example). 
+
+The moment people start to think in value per Satoshi, given the current USD per such, it will keep going up, as people will shift the perception.",2021-03-12
+20,Each bitcoin is 2000 acres of land,20,m316zz,https://www.reddit.com/r/Bitcoin/comments/m316zz/each_bitcoin_is_2000_acres_of_land/,15,2021-03-12 05:26:05,"There are 37 billion acres of dry land on earth.  Comparing that to 18.65 million bitcoin, each bitcoin represents about 2000 acres of land.   
+
+Just to put a single bitcoin in perspective with the limited supply of land.",2021-03-12
+21,She was explaining Bitcoin to us when it was only $20 and we didn't listen!,9391,m1wvok,https://v.redd.it/z1w4tfal77m61,682,2021-03-10 20:57:01,,2021-03-10
+22,Cryptocurrency is the future and the US needs to lead: Former CFTC chair | On Air Videos,82,m2otmy,https://video.foxbusiness.com/v/6238836565001#sp=show-clips,9,2021-03-11 20:16:44,,2021-03-11
+23,Savings in Bitcoin,13,m31kky,https://www.reddit.com/r/Bitcoin/comments/m31kky/savings_in_bitcoin/,25,2021-03-12 05:43:47,"I've done it. Put 1k of my savings into bitcoin. Still don't know if this was a terrible idea yet. Now we just wait. I'm hoping bitcoin keeps going up so I can grow off of this. I'm just a broke ass college student with a car that needs fixing, lets hope in the next few years as I put money in, I can fix my car at least haha",2021-03-12
+24,I sold GME to buy bitcoin,801,m2cx81,https://www.reddit.com/r/Bitcoin/comments/m2cx81/i_sold_gme_to_buy_bitcoin/,262,2021-03-11 08:04:36,"Why? Because the stock market is not decentralized.
+
+Sure, I switched from robinhood to etrade, but GUESS WHAT...even e-trade blocked trading.
+
+The curruption isn't the company, it's the system.
+
+So I gained $900 and bought cryptotendies with the total investment.",2021-03-11
+25,Lets be clear: Weak hands are a direct result of two things,52,m2qi14,https://www.reddit.com/r/Bitcoin/comments/m2qi14/lets_be_clear_weak_hands_are_a_direct_result_of/,24,2021-03-11 21:52:32,"1. Lack of understanding of the current monetary system
+2. Lack of understanding of Bitcoin and the tech that powers it.
+ 
+If you understand both of these things and still sell, you may be diagnosed with what they commonly refer to as ""Chicken-Livered.""",2021-03-11
+26,U.S. and ECB pumping BTC,46,m2r3hw,https://www.reddit.com/r/Bitcoin/comments/m2r3hw/us_and_ecb_pumping_btc/,12,2021-03-11 22:20:21,"https://www.wsj.com/articles/ecb-to-speed-up-bond-purchases-11615467768
+
+Plus
+
+$1.9 trilly stimies
+
+=
+
+🚀",2021-03-11
+27,"5000 BTC or 280,814,423 $USD was moved. Last time it's used 7 years ago!",44,m2rz1x,https://www.reddit.com/r/Bitcoin/comments/m2rz1x/5000_btc_or_280814423_usd_was_moved_last_time_its/,22,2021-03-11 22:55:40,"5,000 $BTC or 280,814,423 $USD was moved this morning from an inactive address according to [Whale Alert](https://twitter.com/whale_alert/status/1369914221480312836). Last time it was used 7 years ago! Let’s see what it means.  
+
+**1. How much did he or she earn?** 
+
+In 2014 or 7 years ago bitcoin price was $340–$530 so 5,000 BTC cost about $2.6 million. It raised more than 10000%.
+
+**2. Can 5000 BTC move the market?** 
+
+$280m is a huge amount though 5K BTC is just 0.027% of all 18,650,775 BTC existed. It hardly may move the market. 
+
+**3. Why could that happen?** 
+
+There might be several reasons: cashing out, selling to institutions, after 7 years someone could even remember his/her password and transfered the amount to a [better BTC wallet](https://guarda.com/coins/bitcoin-wallet/), that’s it!",2021-03-11
+28,Bitcoin Custody Firm Bakkt Receives BitLicense in New York,34,m2tg8b,https://decrypt.co/60982/bitcoin-custody-firm-bakkt-receives-bitlicense-in-new-york?utm_source=reddit&utm_medium=social&utm_campaign=sm,3,2021-03-11 23:58:12,,2021-03-11
+29,How do I owe more taxes than profits for BTC capital gains?,18,m2www4,https://www.reddit.com/r/Bitcoin/comments/m2www4/how_do_i_owe_more_taxes_than_profits_for_btc/,27,2021-03-12 02:19:08,"According to my personal tracking sheet, I have made X amount of dollars in profit after long term BTC sales in 2021. According to Cryptotrader.tax, I had Y in Capital Gains. Y is 5 times larger than X. Multiplied by 21% for my tax bracket, Z is my federal tax payment. Z is about equal to X. How can I possibly owe ALL of my profits in Bitcoin/USD as tax? If my long term cost basis was hypothetically $2000 and my Proceeds were hypothetically $50000, would I not just owe 21% of my profits, $48000? What is the difference between gains and profits?",2021-03-12
+30,Swiss Retailers to Introduce Bitcoin Gift Cards,101,m2mgu6,https://dailycoin.com/swiss-retailers-bitcoin-gift-cards/,4,2021-03-11 17:33:57,,2021-03-11
+31,"Andreas M. Antonopoulos answering student questions on the topic ""Blockchain Types'"". This is part of a 12-week Massive Open Online Course (MOOC): 'Introduction to digital currency' also part of our Master's Degree offered free by the University of Nicosia.",20,m2vy0n,https://www.youtube.com/watch?v=lFrMxwL3nSA,1,2021-03-12 01:40:05,,2021-03-12
+32,100% of holders made money,8,m32x2n,https://www.reddit.com/r/Bitcoin/comments/m32x2n/100_of_holders_made_money/,0,2021-03-12 06:47:03,All time high is just another way of saying that those who didn't sell are now making more money than what they spent.,2021-03-12
+33,Bitcoin’s Energy Consumption Is A Highly Charged Debate – Who’s Right?,286,m2gb9a,https://www.forbes.com/sites/lawrencewintermeyer/2021/03/10/bitcoins-energy-consumption-is-a-highly-charged-debate--whos-right/?sh=692945c57e78,136,2021-03-11 11:01:20,,2021-03-11
+34,JPMorgan To Launch Cryptocurrency Exposure Basket With 11 'Bitcoin Stocks' Including MicroStrategy And Square!,119,m2kk39,https://finance.yahoo.com/news/jpmorgan-launch-cryptocurrency-exposure-basket-152716603.html,16,2021-03-11 15:24:33,,2021-03-11
+35,Nervous newbies are taking profits while long-term BTC investors hodl strong,98,m2l95e,https://www.reddit.com/r/Bitcoin/comments/m2l95e/nervous_newbies_are_taking_profits_while_longterm/,12,2021-03-11 16:09:47,"&#x200B;
+
+https://preview.redd.it/100d7h4axcm61.png?width=798&format=png&auto=webp&s=2f483ba834c6b5ef63ffe55e23ef13cba8faaa8c",2021-03-11
+36,"Showerthought: The more money the US prints, the more ""value"" for all BTC hodlers, including the one's outside the US.",36,m2qsxz,https://www.reddit.com/r/Bitcoin/comments/m2qsxz/showerthought_the_more_money_the_us_prints_the/,10,2021-03-11 22:06:48,"Thanks JPOW.
+
+PS: 1 BTC = 1 BTC.",2021-03-11
+37,Peter Schiff blatantly lying on Twitter about GBTC selling BTC. CEO corrects him.,8,m31yvq,https://www.reddit.com/r/Bitcoin/comments/m31yvq/peter_schiff_blatantly_lying_on_twitter_about/,7,2021-03-12 06:02:09,"https://twitter.com/Sonnenshein/status/1370068975292416000?s=19
+
+Peter Schiff just making stuff up on Twitter.",2021-03-12
+38,Using an old laptop solely for btc/crypto?,20,m2u6xr,https://www.reddit.com/r/Bitcoin/comments/m2u6xr/using_an_old_laptop_solely_for_btccrypto/,23,2021-03-12 00:28:41,"I am starting to think I should have a little more security for my btc and crypto type stuff. I use my desktop and my trezor and have had no issues thus far.
+
+I'm starting to wonder if I should use a dedicated laptop only for moving from cash app and coinbase into my trezor. I also use metamask with Firefox. 
+
+Anyone do this or have recommendations?",2021-03-12
+39,Any Big Lebowski fans here wanting to build their own bowling alley with Bitcoin? Recently saw that you can now do so in Germany with Brunswick. Bitcoin abides!,6,m31r8t,https://www.reddit.com/gallery/m31r8t,3,2021-03-12 05:52:25,,2021-03-12
+40,How much will be needed to FIRE by 2030? - Honest discussion,14,m2vv5d,https://www.reddit.com/r/Bitcoin/comments/m2vv5d/how_much_will_be_needed_to_fire_by_2030_honest/,13,2021-03-12 01:37:01,"People are waking up to the fact that Bitcoin is here to stay, if that materializes, an amount that is still somewhat achievable could allow someone to obtain financial independence and retire early. 
+
+We already know that everyone has different spending habits and have different costs of living depending on where they live. 
+
+What would that number of BTC could be for the average Joe in the US or Europe? What would that number be if someone was willing to move to South America or Southeast Asia?
+
+Is that 1BTC? 3BTC? 5BTC?
+
+In my opinion anyone with more than half a coin with 20+ years to retire should have more than the the current average of savings at retirement (Average Retirement Savings for Ages 65-69: $206,819.35, [https://www.synchronybank.com/blog/median-retirement-savings-by-age/](https://www.synchronybank.com/blog/median-retirement-savings-by-age/)).
+
+That is why I think everyone should try to get their hands on half a coin that will try to never to sell and save for retirement. 
+
+Now, inflation is arguably going to increase, devaluing savings, plus we know that the average is most often not good enough unfortunately, that is why I think the true goal should be to have one whole coin set aside for retirement. 
+
+From there, anything is icing on the cake IMO. 
+
+I also believe the space is early and if Bitcoin become what it intends, you will be able to use your BTC to borrow against it and not need to sell. 
+
+As always, BTC is an investment with its risks, it could go to 0. Don't invest what you cannot afford to lose. However, I believe the risk is decreasing by the day and BTC is currently the most asymmetric opportunity out there. 
+
+Thoughts?
+
+Thanks for joining the discussion and have a great day!",2021-03-12
+41,I‘m in and i want to say sorry,14,m2wvgg,https://www.reddit.com/r/Bitcoin/comments/m2wvgg/im_in_and_i_want_to_say_sorry/,18,2021-03-12 02:17:25,"Hello everyone,
+So finally I managed to get my first Bitcoin (0,04 for the start).
+Unfortunately right after that it dropped. I‘m sorry for it. I hope it gets back up soon. 
+Greetings",2021-03-12
+42,#tb,5,m33kc7,https://v.redd.it/7xj6m7h6fhm61,0,2021-03-12 07:17:48,,2021-03-12
+43,Everything you need to know about Bitcoin's Taproot,5,m33j30,https://www.youtube.com/watch?v=_dqDP1qZHd4,0,2021-03-12 07:16:07,,2021-03-12
+44,"⚡ Lightning Thursday! March 11, 2021: Explore the Lightning Network!⚡",86,m2kf5w,https://www.reddit.com/r/Bitcoin/comments/m2kf5w/lightning_thursday_march_11_2021_explore_the/,88,2021-03-11 15:16:12,"The lightning network is a second-layer solution on top of the Bitcoin blockchain that enables quick, cheap and scalable Bitcoin payments.
+
+Here is the place to discuss and learn more about lightning!
+
+Ask your questions about lightning
+
+Provide reviews, feedback, comparisons of LN apps, services, websites etc
+
+Learn about new LN features, development, apps
+
+Link to good quality resources (articles, wikis etc)
+
+Resources:
+
+* Here is an awesome list of resources compiled by Jameson Lopp: https://www.lopp.net/lightning-information.html
+
+* Want to test out your lightning fire power? tip the Bitcoin devs! https://bitcoindevlist.com/
+
+* Previous threads: [Search](https://www.reddit.com/r/Bitcoin/search?q=Lightning+Thursday&restrict_sr=on&include_over_18=on&sort=new&t=all)
+
+* Lnbook getting closer towards being finished and can already be seen at: https://github.com/lnbook/lnbook
+
+* Lightning Dedicated YouTube Channel: https://youtube.com/renepickhardt
+
+* Also there is the playlist by chaincode labs: https://youtube.com/playlist?list=PLpLH33TRghT17_U3as2P3vHfAGL8pSOOY
+
+* Lightning stores: https://www.lightningnetworkstores.com/",2021-03-11
+45,I make laser engraved posters and thought you guys might like this!,1105,m242ho,https://i.redd.it/1ftx6i6zp8m61.png,132,2021-03-11 02:04:16,,2021-03-11
+46,"My dad got all his bitcoin sent out from his Paxful account, how fucked is he?",5,m32nkm,https://www.reddit.com/r/Bitcoin/comments/m32nkm/my_dad_got_all_his_bitcoin_sent_out_from_his/,6,2021-03-12 06:34:05,"As the title says, he logged in and saw his account at 0 btc. I logged with his account to check it out and I saw the account activity. There was a transfer to some wallet 20 minutes ago. I checked out the login activity and it says someone logged in 21 minutes ago and logged out 19 minutes ago. 
+
+He didn't have 2FA (I just enabled it for him) and his password was kindof short (9 digits with upper, lowercase, numbers and symbols).
+
+He had $1k USD in btc (which doesn't seem like much, but for someone living in a 3rd world country, that was his entire savings). 
+
+I opened a ticket to Paxful but I doubt there gonna do anything. Having the wallet address is pointless right? It's totally anonymous?
+
+The logged account IP from where the transfer was made was from Pakistan.
+
+Anyway, it's really sad :/",2021-03-12
+47,$64 Billion Asset Manager Files Bitcoin ETF Proposal,6,m304wv,https://u.today/64-billion-asset-manager-files-bitcoin-etf-proposal,2,2021-03-12 04:37:39,,2021-03-12
+48,Imagine if you educate one person a day on the value of Bitcoin,16,m2tno1,https://www.reddit.com/r/Bitcoin/comments/m2tno1/imagine_if_you_educate_one_person_a_day_on_the/,6,2021-03-12 00:06:26,"I had a quick, random chat with someone about Bitcoin. He was very skeptical about Bitcoin, saying it is only used for illegal transactions. I politely countered his point by saying the USD is also used for illegal transactions. I also tried to tell him that BTC has a lot of value to citizens of countries where their currency is being devalued or they don't have formalized banking system. 
+
+Think about this: we control the power to spread the knowledge of BTC. If you educate one person on the value of BTC, that information proliferates at a compound rate, much like the growth of BTC! The more educated I am on BTC, the more I can help other people see that it solves a major problem in society today. I believe it is very similar to the early days of the internet, where everyone thought it was a hoax.",2021-03-12
+49,Proving ownership without sending,5,m2ziel,https://www.reddit.com/r/Bitcoin/comments/m2ziel/proving_ownership_without_sending/,16,2021-03-12 04:09:24,"Is there a way to prove ownership of a bitcoin without sending it?
+
+E.g could I sign a message with my a private key that people can use not address (public key?) To read?",2021-03-12

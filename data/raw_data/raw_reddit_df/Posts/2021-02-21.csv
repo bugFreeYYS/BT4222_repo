@@ -1,0 +1,488 @@
+,title,score,id,url,comms_num,created,body,date
+0,Bitcoin Newcomers FAQ - Please read!,772,krqrmf,https://www.reddit.com/r/Bitcoin/comments/krqrmf/bitcoin_newcomers_faq_please_read/,690,2021-01-07 00:06:25,"# Welcome to the /r/Bitcoin Sticky FAQ
+
+You've probably been hearing a lot about Bitcoin recently and are wondering what's the big deal?  Most of your questions should be answered by the resources below but if you have additional questions feel free to ask them in the comments.  
+
+It all started with the release of **[Satoshi Nakamoto's whitepaper](https://bitcoin.org/bitcoin.pdf)** however that will probably go over the head of most readers so we recommend the following articles/books/videos as a good starting point for understanding how bitcoin works and a little about its long term potential:
+
+* [Article: The Bullish Case for Bitcoin](https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1)
+* [Book: The Bitcoin Standard](https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861)
+* [Video 1: The Stories We Tell About Money - Andreas Antonopoulos](https://youtu.be/ONvg9SbauMg?t=1)
+* [Video 2: The Bitcoin Standard - Saifdean Ammous](https://www.youtube.com/watch?v=Zbm772vF-5M&t=272s)
+* [Video 3: Bitcoin 101 - Balaji Srinivasan](https://youtu.be/JIxwTx7o_B4?t=1)
+* [Video 4: Bitcoin Macro Strategy - Michael Saylor & Ross Stevens](https://www.microstrategy.com/en/resources/events/world-2021/bitcoin-summit/sessions/bitcoin-macro-strategy?CID=7014W0000014yhJQAQ)
+* [Video 5: The Saylor Series - Michael Saylor & Robert Breedlove](https://youtu.be/4rvTppy1qLI?t=1)
+* [Video 6: Bitcoin S2FX, S2F and Evolution From Collectible to Financial Asset - Stephan Livera, PlanB & Saifdean Ammous](https://www.youtube.com/watch?v=j2cP8k_QUaw)
+
+
+Some other great resources include Michael Saylor's [""Bitcoin for Everybody""'](https://learn.saylor.org/course/view.php?id=468) course, Jameson Lopp's [resource page](http://lopp.net/bitcoin.html), Gigi's [resource page](https://bitcoin-resources.com/#bitcoin-non-technical), and James D'Angelo's [Bitcoin 101 Blackboard series](https://www.youtube.com/watch?v=Bhe61JaNFLU&list=PLzctEq7iZD-7-DgJM604zsndMapn9ff6q&index=7&t=0s).  Some excellent writing on Bitcoin's value proposition and future can be found at the [Satoshi Nakamoto Institute](http://nakamotoinstitute.org/mempool/).  
+
+If you are technically or academically inclined check out [developer resources](https://developer.bitcoin.org/) and peer-reviewed [research papers](https://docs.google.com/spreadsheets/d/1VaWhbAj7hWNdiE73P-W-wrl5a0WNgzjofmZXe0Rh5sg), course lectures from both [MIT](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/video-lectures/) and [Princeton](https://www.reddit.com/r/Bitcoin/comments/7qynvj/dont_panic_just_learn_sixty_free_lectures_from/) as well as future [protocol improvements](http://diyhpl.us/wiki/transcripts/2018-01-24-rusty-russell-future-bitcoin-tech-directions/) and [scaling resources](https://www.reddit.com/r/Bitcoin/comments/56nnd8/the_scaling_bitcoin_website_is_awesome_videos/).  Some Bitcoin statistics can be found [here](https://data.bitcoinity.org/bitcoin/hashrate/6m?c=m&g=15&r=week&t=a), [here](https://bitcoinvisuals.com/) and [here](https://bitcoin.clarkmoody.com/dashboard/).  MicroStrategy's [Bitcoin for Corporations](https://www.microstrategy.com/en/resources/events/world-2021/bitcoin-summit?CID=7014W0000014yhJQAQ) is an excellent open source series on corporate legal and financial bitcoin integration.
+
+You can also see the number of times Bitcoin was [declared dead by the media](https://99bitcoins.com/obituary-stats) (LOL) and [what you could have earned](https://dontbuybitcointheysaid.com/) if you didn't listen to them!  XD
+
+## Key properties of Bitcoin
+
+* **Limited Supply** - There will only ever be 21,000,000 bitcoin created and they are issued in a predictable fashion per the [inflation schedule](https://bashco.github.io/Bitcoin_Monetary_Inflation/).  Once they are all issued Bitcoin will be truly deflationary.  The [halving countdown](http://bitcoinblockhalf.com/) tells you how much time until the next drop in block rewards.
+* **Open source** - Bitcoin code is fully auditable.  You can read and contribute to the [source code](https://github.com/bitcoin/bitcoin) yourself.
+* **Accountable** - The public ledger is transparent, all transactions are [seen by everyone](https://blockstream.info/).
+* **Decentralized** - Bitcoin is globally distributed across thousands of nodes with no single point of failure and as such can't be shut down similar to how [Bittorrent](https://en.wikipedia.org/wiki/BitTorrent) works.  You can even [run a node on a Raspberry Pi](https://getumbrel.com/).  
+* **Censorship resistant** - No one can prevent you from interacting with the bitcoin network and no one can censor, alter or block transactions that they disagree with, see [Operation Chokepoint](https://en.wikipedia.org/wiki/Operation_Choke_Point).
+* **Push system** - There are [no chargebacks](https://gendal.me/2013/10/21/lessons-from-bitcoin-push-versus-pull/) in bitcoin because only the person who owns the address where the bitcoin resides has the authority to move them.
+* **Low fee scaling** - Most wallets calculate on chain fees automatically but you can view [fee estimates](https://bitcoinfees.earn.com/) and [mempool activity](https://jochen-hoenicke.de/queue/#0,2w) if you want to set your fee manually.  On chain fees may rise occasionally due to network demand, however instant micropayments that do not require confirmations are happening via the [Lightning Network](https://www.reddit.com/r/Bitcoin/comments/7pwna9/lightning_network_megathread/), a second layer scaling solution currently rolling out on the Bitcoin mainnet.  
+* **Borderless** - No country can stop it from going in/out, even in areas currently unserved by traditional banking as the ledger is [globally distributed](https://bitnodes.earn.com/).
+* **Trustless** - Bitcoin solved the [Byzantine's Generals Problem](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance) which means nobody needs to trust anybody for it to work.
+* **Pseudonymous** - No need to [expose personal information](http://bitcoinsimplified.org/learn-more/anonymity/) when purchasing with cash or transacting. 
+* **Secure** - Blocks and transactions are cryptographically secured (using hashes and signatures) and can’t be [brute forced](http://i.imgur.com/fYFBsqp.jpg) or confiscated with proper key management such as hardware wallets.
+* **Programmable** - Individual units of bitcoin can be [programmed to transfer](https://en.bitcoin.it/wiki/Script) based on certain criteria being met
+* **Nearly instant** - From a few seconds on the lightning network to a [few minutes](https://www.blockchain.com/charts/median-confirmation-time) on-chain depending on need for confirmations.  Transactions are irreversible by normal users after one confirmation and irreversible by anyone (including miners) after 6 confirmations. 
+* **Peer-to-peer** - No intermediaries taking a cut, no need for [trusted third parties](https://nakamotoinstitute.org/trusted-third-parties/).
+* **Portable** - Bitcoin are digital so they are easier to move than cash or gold.  They can be transported by simply carrying a seed (a string of 12 to 24 words) on a device or by [memorizing it for wallet recovery](https://en.bitcoin.it/wiki/Brainwallet) (while cool, memorizing is generally not recommended due to potential for forgetting the seed and the potential for insecure key generation by inexperienced users.  Hardware wallets are the preferred method for most users for their ease of use and additional security).
+* **Scalable** - While the protocol is still being optimized for [increased transaction capacity](https://en.bitcoin.it/wiki/Scalability), blockchains do not scale very well, so most transaction volume is expected to occur on Layer 2 networks built on top of Bitcoin.
+* **Divisible** - Each bitcoin can be [divided down to 8 decimals](https://en.bitcoin.it/wiki/Satoshi_(unit\)), which means you don't have to worry about buying an entire bitcoin.
+* **Designed Money** - Bitcoin was created to fit all the [fundamental properties of money](http://i.imgur.com/wkTyyaV.png) better than gold or fiat
+
+## Where can I buy bitcoin?
+
+[Bitcoin.org](https://bitcoin.org/en/buy) and [BuyBitcoinWorldwide.com](https://www.buybitcoinworldwide.com/) are helpful sites for beginners.  You can buy or sell any amount of bitcoin (even just a few dollars worth) and there are several easy methods to purchase bitcoin with cash, credit card or bank transfer.  Some of the more popular resources are below, also check out the [bitcoinity exchange resources](https://data.bitcoinity.org/markets/exchanges/USD/30d) for a larger list of options for purchases.  
+
+* [Cash app](https://cash.app/)
+* [Gemini](https://gemini.com/)
+* [Swan](https://www.swanbitcoin.com/)
+* [River Financial](https://river.com/)
+* [Bitstamp](https://www.bitstamp.net/)
+* [BitFinex](https://www.bitfinex.com/)
+* [Xapo](https://xapo.com/)
+* [Kraken](https://www.kraken.com/)
+* [Cex](https://cex.io/)
+* [LocalBitcoins](https://localbitcoins.com/)
+* [LibertyX](https://libertyx.com/)
+* [P2P exchange list](https://github.com/cointastical/P2P-Trading-Exchanges/) (decentralized) 
+
+You can also purchase in cash with [local ATMs](http://coinatmradar.com/).  If you would like your paycheck automatically converted to bitcoin use [Bitwage](https://www.bitwage.com/).  
+
+**Note:** Bitcoin are valued at whatever [market price](https://cryptowat.ch/bitstamp/btcusd) people are willing to pay for them in balancing act of supply vs demand. Unlike traditional markets, bitcoin markets operate 24 hours per day, 365 days per year. 
+
+## Securing your bitcoin
+
+With bitcoin you can **""Be your own bank""** and personally secure your bitcoin **OR** you can use third party companies aka **""Bitcoin banks""** which will hold the bitcoin for you.
+
+* If you prefer to **""Be your own bank""** and have direct control over your coins without having to use a trusted third party, then you will need to create your own wallet and keep it secure. If you want easy and secure storage without having to learn computer security best practices, then a hardware wallet such as the [Trezor](https://www.trezor.io/), [Ledger](https://www.ledgerwallet.com/) or [ColdCard](https://coldcardwallet.com/) is recommended.
+
+* If you cannot afford a hardware wallet there are many [software wallet](https://bitcoin.org/en/choose-your-wallet) options to choose from depending on your use case.  Mobile wallets like [BlueWallet](https://bluewallet.io/) are generally more secure than desktop wallets.  Beware of fake mobile wallets and check reviews from reputable Bitcoin websites.  Avoid paper wallets or brain wallets.
+
+* If you prefer to let third party **""Bitcoin banks""** manage your coins, try [Gemini](https://gemini.com/) or [Unchained Capital](https://unchained-capital.com/) but be aware you may not be in control of your private keys in which case you would have to ask permission to access your funds and be exposed to third party risk.  There is a saying in the community, **""Not your keys, not your coins""** meaning if you don't store your coins in a wallet that you control the keys to then you do not really own your bitcoin as you have to ask permission from the third party in order to move them.  
+
+**Note: For increased security, use Two Factor Authentication (2FA) everywhere it is offered, including email!** 
+
+2FA requires a second confirmation code or a physical security key to access your account making it much harder for thieves to gain access.  Google Authenticator and Authy are the two most popular 2FA services, download links are below.  Make sure you create backups of your 2FA codes.
+
+**Avoid using your cell number for 2FA.**  Hackers have been using a technique called ""SIM swapping"" to impersonate users and steal bitcoin off exchanges.
+
+Google Auth | Authy | OTP Auth | andOTP
+--------------|--------|------------|--------
+[Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) | [Android](https://play.google.com/store/apps/details?id=com.authy.authy&hl=en) | N/A | [Android](https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp)
+[iOS](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8) | [iOS](https://itunes.apple.com/us/app/authy/id494168017) | [iOS](https://apps.apple.com/us/app/otp-auth/id659877384) | N/A
+
+Physical security keys (FIDO U2F) offer stronger security than Google Auth / Authy and other TOTP-based apps, because the secret code never leaves the device and it uses bi-directional authentication so it prevents phishing. If you lose the device though, you could lose access to your account, so always use 2 or more security keys with a given account so you have backups. See [Yubikey](https://yubikey.com/) or [Titan](https://cloud.google.com/titan-security-key) to purchase security keys.
+
+Both Coinbase and Gemini support physical security keys. 
+
+
+## Watch out for scams
+
+As mentioned above, Bitcoin is decentralized, which by definition means there is no official website or Twitter handle or spokesperson or CEO. However, all money attracts thieves. This combination unfortunately results in scammers running official sounding names or pretending to be an authority on YouTube or social media. Many scammers throughout the years have claimed to be the inventor of Bitcoin. Websites like bitcoin(dot)com and the r / btc subreddit are active scams.  Almost all altcoins (shitcoins) are marketed heavily with big promises but are really just designed to separate you from your bitcoin.  So be careful: any resource, including all linked in this document, may in the future turn evil.  As they say in our community, **""Don't trust, verify""**. 
+
+* Avoid using ad-based search engines like Google or Yahoo: ads are shown based on how much the advertiser bids, and scammers can easily outbid legitimate providers for ad space, since immoral ways of earning money are far more lucrative than moral ways.  Use [DuckDuckGo](https://duckduckgo.com/) instead, which has no ads, and never tracks you as well.
+* Ignore private messages offering services.
+* **Never enter your seed words in a website of any kind.** Hardware wallets will recover by displaying possible seed words on their own interface, never on a website.
+* **Always check addresses on your hardware wallet before sending or receiving.**  Some malware has been known to replace addresses in your web browser or that you copy-and-paste.
+* Avoid clicking on links like that look like links, such as [https://www.google.com/](https://www.youtube.com/watch?v=8ybW48rKBME), without first hovering over it and actually checking where they go to.  Just because a link is labelled with an HTTPS address does not mean it actually sends you to that address.  It is trivial for someone to comment a link on Reddit that looks like it will send you to one website when it actually sends you to another, and you might not notice the difference until a scammer has gotten all your money, or you have downloaded and installed software that steals your money.
+
+## Common Bitcoin Myths
+Often the same concerns arise about Bitcoin from newcomers.  Questions such as:
+
+* Is Bitcoin a Ponzi scheme?
+* Will governments ban Bitcoin?
+* Will quantum computers break Bitcoin?
+
+All of these questions have been answered many times by a variety of people.  Here are some resources where you can see if your concern has been answered:
+
+* [Common Bitcoin Myths](https://en.bitcoin.it/wiki/Myths)
+* [Gradually, Then Suddenly](https://nakamotoinstitute.org/mempool/series/gradually-then-suddenly/)
+* [Every Reason Bitcoin Will Not Fail](https://safehodl.github.io/failure/)
+
+## Where can I spend bitcoin?
+
+Check out [spendabit](https://spendabit.co/) or [bitcoin directory](http://bitcoin.directory/shop) for millions of merchant options.  Also you can spend bitcoin anywhere visa is accepted with bitcoin debit cards such as the [CashApp card](https://cash.app/help/us/en-us/3080-cash-card-get-started) or [Fold card](https://foldapp.com/).  Some other useful site are listed below.
+
+Store | Product
+---|---
+[Bitrefill](https://bitrefill.com), [Gyft](http://www.gyft.com/)  | Gift cards for thousands of retailers worldwide including Amazon, Target, Walmart, Starbucks, Whole Foods, CVS, Lowes, Home Depot, iTunes, Best Buy, Sears, Kohls, eBay, GameStop, etc.
+[Spendabit](https://spendabit.co/), [Overstock](http://www.overstock.com/) and [The Bitcoin Directory](http://bitcoin.directory/) | Retail shopping with millions of results
+[NewEgg](http://www.newegg.com/) and [Dell](http://www.dell.com/) | For all your electronics needs
+[Piixpay](https://piixpay.com), [Bitbill.eu](https://bitbill.eu), [Bylls](https://bylls.com), [Coins.ph](https://coins.ph), [LivingRoomofSatoshi](https://www.livingroomofsatoshi.com), [Coinsfer](https://coinsfer.com/), and [more](https://plusbitcoin.net/bitcoin-debit-card/) | Bill payment
+[Menufy](https://www.menufy.com/) and [Takeaway](http://corporate.takeaway.com/) | Takeout delivered to your door
+[Expedia](http://www.expedia.com/), [Cheapair](http://www.cheapair.com/), [Destinia](http://destinia.us/), [Abitsky](http://www.abitsky.com/), [SkyTours](http://www.sky-tours.com/), the [Travel](https://www.gyft.com/buy-gift-cards/category/travel/) category on Gyft and [9flats](http://www.9flats.com/) | For when you need to get away
+[Cryptostorm](https://cryptostorm.is), [Mullvad](https://mullvad.net), and [PIA](https://www.privateinternetaccess.com/) | VPN services
+[Namecheap](https://www.namecheap.com/), [Porkbun](https://porkbun.com/) | Domain name registration
+[Stampnik](https://stampnik.com) | Discounted USPS Priority, Express, First-Class mail postage
+[Coinmap](http://coinmap.org/) and [AirBitz](https://airbitz.co/search?term=&location=Current+Location) are helpful to find local businesses accepting bitcoin. A good resource for UK residents is at [wheretospendbitcoins.co.uk](http://www.wheretospendbitcoins.co.uk).
+
+There are also [lots of charities](https://www.reddit.com/r/changetip/wiki/suggestions) which accept bitcoin donations.
+
+## Merchant Resources
+
+There are several benefits to accepting bitcoin as a payment option if you are a merchant;
+
+* 1-3% savings over credit cards or PayPal.
+* No chargebacks (final settlement in 10 minutes as opposed to 3+ months).
+* Accept business from a global customer base.
+* Increased privacy.
+* Convert 100% of the sale to the currency of your choice for deposit to your account, or choose to keep a percentage of the sale in bitcoin if you wish to begin accumulating it.  
+
+If you are interested in accepting bitcoin as a payment method, there are several options available;
+
+* [BTCPay](https://btcpayserver.org/)
+* [Square cash](https://cash.me/)
+* [Stripe](https://stripe.com/bitcoin)
+* [Wyre](https://www.sendwyre.com/business/)
+* [Blockonomics](https://www.blockonomics.co/merchants#) (direct to your wallet)
+
+## Can I mine bitcoin?
+
+Mining bitcoin can be a fun learning experience, but be aware that you will most likely operate at a loss.  Newcomers are often advised to stay away from mining unless they are only interested in it as a hobby similar to [folding at home](http://folding.stanford.edu/).  If you want to learn more about mining you can read the [mining FAQ](https://en.bitcoin.it/wiki/Faq#Mining). Still have mining questions?  The crew at /r/BitcoinMining would be happy to help you out. 
+
+If you want to contribute to the bitcoin network by hosting the blockchain and propagating transactions you can [run a full node](https://getumbrel.com/).  You can view the [global node distribution](https://getaddr.bitnodes.io/) for a visual representation of the node network.
+
+## Earning bitcoin
+
+Just like any other form of money, you can also earn bitcoin by being paid to do a job.
+
+Site | Description
+---|---
+[WorkingForBitcoins](https://workingforbitcoins.com), [Bitwage](https://www.bitwage.com/for-individuals/), [Cryptogrind](http://www.cryptogrind.com/#!/), [Coinality](https://coinality.com/), [Bitgigs](http://bitgigs.com/), [/r/Jobs4Bitcoins](http://www.reddit.com/r/Jobs4Bitcoins), [BitforTip](http://www.bitfortip.com/), [Rein Project](http://reinproject.org/) | Freelancing
+[Lolli](https://www.lolli.com/) | Earn bitcoin when you shop online!
+[OpenBazaar](https://openbazaar.org/), [Purse.io](https://purse.io/shop), [Bitify](https://bitify.com/), [/r/Bitmarket](http://www.reddit.com/r/BitMarket) | Marketplaces
+[/r/GirlsGoneBitcoin](http://www.reddit.com/r/GirlsGoneBitcoin) NSFW | Adult services
+[A-ads](https://a-ads.com/), [Coinzilla.io](https://coinzilla.io/) | Advertising
+
+You can also earn bitcoin by participating as a market maker on [JoinMarket](https://github.com/chris-belcher/joinmarket) by allowing users to perform CoinJoin transactions with your bitcoin for a small fee (requires you to already have some bitcoin).
+
+## Bitcoin-Related Projects
+
+The following is a **short** list of ongoing projects that might be worth taking a look at if you are interested in current development in the bitcoin space.  
+
+Project | Description
+---|---
+[Lightning Network](https://lightning.engineering/index.html)| Second layer scaling
+[Liquid](https://blockstream.com/liquid/), [Rootstock](https://www.rsk.co/) and [Drivechain](http://www.truthcoin.info/blog/drivechain/) | Sidechains
+[Hivemind](http://bitcoinhivemind.com) | Prediction markets
+[Tierion](https://tierion.com) and [Factom](http://factom.org/) | Records & Titles on the blockchain
+[BitMarkets](https://voluntary.net/bitmarkets/), [DropZone](https://github.com/17Q4MX2hmktmpuUKHFuoRmS5MfB5XPbhod/dropzone), [Beaver](https://eprint.iacr.org/2016/464.pdf) and [Open Bazaar](https://openbazaar.org/) | Decentralized markets
+[JoinMarket](https://github.com/chris-belcher/joinmarket) and [Wasabi Wallet](https://github.com/zkSNACKs/WalletWasabi) | CoinJoin implementation
+[Decentralized exhanges](https://github.com/cointastical/P2P-Trading-Exchanges/) | Decentralized bitcoin exchanges
+[Keybase](https://keybase.io/) | Identity & Reputation management
+[Abra](https://www.goabra.com/) | Global P2P money transmitter network
+[Bitcore](http://bitcore.io/) | Open source Bitcoin javascript library
+
+## Bitcoin Units
+
+One Bitcoin is quite large (hundreds of £/$/€) so people often deal in smaller units. The most common subunits are listed below:
+
+Unit | Symbol | Value | Info
+---|:---:|---|---
+bitcoin | BTC | 1 bitcoin | one bitcoin is equal to 100 million satoshis
+millibitcoin | mBTC | 1,000 per bitcoin | used as default unit in recent Electrum wallet releases
+bit | bit | 1,000,000 per bitcoin | colloquial ""slang"" term for microbitcoin (μBTC)
+satoshi | sat | 100,000,000 per bitcoin | smallest unit in bitcoin, named after the inventor
+
+For example, assuming an arbitrary exchange rate of $10000 for one Bitcoin, a $10 meal would equal:
+
+* 0.001 BTC
+* 1 mBTC
+* 1,000 bits
+* 100k sats
+
+For more information check out the [Bitcoin units wiki](https://www.reddit.com/r/BitcoinWiki/wiki/bitcoin_units).
+
+---
+
+**Still have questions?**  Feel free to ask in the comments below or stick around for our weekly [Mentor Monday](https://www.reddit.com/r/Bitcoin/search/?q=title%3A%22mentor+monday%22&sort=new&restrict_sr=on&t=all) thread.  If you decide to post a question in /r/Bitcoin, please use the search bar to see if it has been answered before, and remember to follow the community rules outlined on the sidebar to receive a better response.  The mods are busy helping manage our community so please do not message them unless you notice problems with the functionality of the subreddit.
+
+**Note:** This is a community created FAQ. If you notice anything missing from the FAQ or that requires clarification you can [edit it here](https://www.reddit.com/r/BitcoinWiki/wiki/rbitcoin_sticky) and it will be included in the next revision pending approval.  
+
+**Welcome to the Bitcoin community and the new decentralized economy!**",2021-01-07
+1,"Daily Discussion, February 21, 2021",91,lord9h,https://www.reddit.com/r/Bitcoin/comments/lord9h/daily_discussion_february_21_2021/,1711,2021-02-21 15:00:17,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/lo1l2j/daily_discussion_february_20_2021/) for unanswered questions.",2021-02-21
+2,"Andreas Antonopoulos explaining Bitcoin in 2013 (May 18th) at The Bitcoin Conference in San Jose, to an empty room. Can you imagine giving this talk to an empty auditorium with a straight face like this? So humiliating but he believed so strongly. He did this for years and deserve our gratitude.",7376,lp2q5u,https://v.redd.it/sdgbwp95dvi61,232,2021-02-22 02:04:36,,2021-02-22
+3,Is it just me or is one of the best things to come out of Bitcoin the fact that the mainstream media now must use the term Fiat whenever they are talking about old currency.,3743,loxq1l,https://www.reddit.com/r/Bitcoin/comments/loxq1l/is_it_just_me_or_is_one_of_the_best_things_to/,310,2021-02-21 22:05:40,,2021-02-21
+4,"7 years ago, I gave a pizza guy a $5 tip in BTC (.05 BTC at the time). That $5 tip is now worth over $2850. Today, I received this.",580,lp3ihn,https://i.redd.it/v52dqnxhlvi61.jpg,67,2021-02-22 02:41:07,,2021-02-22
+5,Bitcoin just broke $58000! 🚀🚀🚀,436,lp3vfh,https://v.redd.it/6zv5ft5iovi61,124,2021-02-22 02:58:07,,2021-02-22
+6,I'm quitting smoking and buying Bitcoin every week with what I would've spent on cigarettes.,5709,lolbr0,https://www.reddit.com/r/Bitcoin/comments/lolbr0/im_quitting_smoking_and_buying_bitcoin_every_week/,481,2021-02-21 08:59:53,"I tried this a while ago, though I was throwing the money at options on robinhood, just to give myself something to do. Needless to say, it didn't work out. I blew a bunch of money and started smoking again just a few months later.
+
+Now, though, I feel like it's different. I'm honestly looking for a way to give myself a comfortable future. I'm a felon bartender with a useless degree, and the pittance of a contribution to my 401k my paychecks provide is just mathematically insignificant. What's clear to me is that I'm perfectly happy literally burning my money, so I shouldn't have any trouble spending the same amount on something with real appreciating value -- *my future well-being*. And Bitcoin, of course.
+
+Wish me luck.
+
+Edit: Y'all are giving me way more inspiration and encouragement than I was expecting. Thank you sooooo much. Monday is my official quit date and I'll keep you posted.",2021-02-21
+7,"13,204 BTC (over $ 750m) moved from coinbase to cold storage today. The bull run isn't coming to an end anytime soon.",157,lp47oj,https://twitter.com/BTC_Archive/status/1363534638136844290?s=19,34,2021-02-22 03:13:35,,2021-02-22
+8,"MicroStrategy is planning to buy $2,000 bitcoin per second from their $1.03 billion gained after their debt offering sales.",206,lp2ab7,https://coinquora.com/microstrategy-is-planning-to-buy-2000-bitcoin-per-second/,43,2021-02-22 01:44:41,,2021-02-22
+9,"The revolution has just started. Welcome to Bitcoin. Seen today in front of Bank of Spain, in Madrid.",294,lozfqg,https://i.redd.it/ca54ovn5oui61.jpg,11,2021-02-21 23:34:34,,2021-02-21
+10,HODL ME BITCOIN,505,lovkqk,https://www.youtube.com/watch?v=YsjsmvOJndg,60,2021-02-21 19:52:11,,2021-02-21
+11,"$58,000 and counting. This train can’t be stopped. “Something is happening I can feel it”. Sky is the limit here people. PUMP IT UP!",95,lp4u0h,https://v.redd.it/cv1ba33bwvi61,23,2021-02-22 03:43:05,,2021-02-22
+12,Why a $1 trillion market cap is nothing.,156,lp0dms,https://www.reddit.com/r/Bitcoin/comments/lp0dms/why_a_1_trillion_market_cap_is_nothing/,35,2021-02-22 00:18:19,"*(Note to mods, this isn't a post about price, this is really a post about fiat inflation.)*
+
+As you know, the market cap of BTC recently surpassed $1T USD.  This milestone was noted by multiple news organizations.  Some have opined that this is a sign that BTC has become overvalued.
+
+I can't predict what BTC price will do in the short term.  Whether it will advance or retreat is beyond my ability to forecast. But I can say that while a market cap of $1T USD is impressive I don't believe it is any indicator of being overvalued.
+
+A trillion is a big number.  It is beyond most of our comprehension. It is a million millions.  It is a thousand billions.  It sounds very impressive.
+
+But a trillion pieces of something vanishingly small isn't impressive at all.  A trillion grains of sand would be nothing more than a large pile.  You'd probably want to climb up it for fun.
+
+Measuring BTC market cap in dollars means measuring it by a shrinking yardstick.  While dollars aren't ""vanishingly small"" yet, consider the following.  In 1930 the average price for lunch in a big city was [38 cents](https://restaurant-ingthroughhistory.com/restaurant-prices/).  Today a McDonald's meal in New York City can cost [over $10](https://www.menuwithprice.com/menu/mcdonalds/new-york/new-york/88485/).  Personally I'm blown away at how much food costs today versus only a few years ago.
+
+Let's put $1T USD into perspective.  The US government is in the verge of ""borrowing"" (i.e. printing) [$1.9T for the 2021 stimulus act](https://thehill.com/homenews/house/539685-house-panel-unveils-19-trillion-relief-package).  That's almost $2T on top of the $3T the government would ""borrow"" (i.e. print) just to fund normal operations.
+
+A $1T market cap for BTC means the market is currently valuing all the BTC in the world at only about 20% of what the US government is going to print in 2021 alone.  This ignores all the past US money printing, all the future US money printing, leave alone the European and Asian money printing.
+
+To me that isn't a number to worry about at all.  As dollars shrink and investors seek protection, BTC will only grow.",2021-02-22
+13,If bitcoin does change the top 1% of wealth just wanted to share a few thoughts,399,louruo,https://www.reddit.com/r/Bitcoin/comments/louruo/if_bitcoin_does_change_the_top_1_of_wealth_just/,207,2021-02-21 18:55:40,"Those that mined and invested in the early days (dont id yourself please) you are potentially going to be in the 1 percent if btc still goes up. 
+
+You have most likely experienced not being im the top echelon and if you do i wish you the best.
+
+The only thing i ask is that you dont forget how things were and try to help the community and those around you. Right now wealth is causing fights, poverty, and just a lot of trauma. A lot of these people can’t even begin to understand that they are privileged but i hope that if you attain that spot you can.
+
+In addition, please educate your kids on what this privilege is so that we dont get rich people who do the absolute minimum and charge the poor till they are evicted. 
+
+I’m sorry if this isn’t my place to talk, i just see this change in power as an opportunity to really change the world for the better, to really end world hunger, to bring back privacy, and to put all people first, not just the 1%. By all means get your yachts and huge houses, but just asking if there could be more to give back :)
+
+Again not sure if this is rude, not my intention at all, you are all so kind, so smart, and so knowledgable and i just hope that this will “make the world great again”... but for real this time :)",2021-02-21
+14,Bitcoin is 11% of Gold's Market Cap - what year does the flippening happen?,61,lp6e3c,https://assetdash.com/btc-flip,24,2021-02-22 04:54:45,,2021-02-22
+15,This is why I like bitcoin (and have HODLed since 2011),249,lovx1d,https://www.reddit.com/r/Bitcoin/comments/lovx1d/this_is_why_i_like_bitcoin_and_have_hodled_since/,120,2021-02-21 20:14:43,"There's a lot of new-blood coming to this subreddit in light of recent events and so I wanted to write a quick post explaining a bit about how bitcoin works, in hopes that more of you might understand why we're so excited about Bitcoin! 
+
+Most of the mainstream media just talks about the price and investing. Bitcoin is a great opportunity to invest, of course! We're still quite early in the adoption of this fantastic technology and it's bound to grow a great deal over the coming years, in my opinion at least. But even beyond that, bitcoin is designed to appreciate over time. It is deflationary by design and so holding onto your bitcoins will always be a smart investment. 
+
+However, bitcoin is so much more than an investment tool! Bitcoin was the culmination of decades of research into cryptography and economics. The [white paper](https://bitcoin.org/bitcoin.pdf) is a beautifully succinct solution to a problem that had existed in all previous attempts at an electronic cash system. The double-spend problem. 
+
+## Double-Spend Problem
+
+How do we prevent someone from spending the same coins twice? If there is no physical coins or tangible object, then how do we ensure it cannot be duplicated? After all, computers are just bits and bytes and copying that information is trivial. Well, by combining the wonderful concept of a blockchain with an algorithm like proof-of-work to create consensus, that's how! There can only be one single agreed upon chain of events, a shared ledger that accurately depicts who owns what and that cannot be brought into question or maliciously altered.
+
+## Blockchain
+
+Blockchain is just a type of database. One that is structured in sequential blocks of data, added one after another. Each block makes reference to the previous block, providing confirmation that all previous blocks are the agreed upon chain of events. With each new block that is added to the chain, the previous blocks are cemented deeper into the Blockchain and we can be increasingly certain that they are correct. 
+
+These blocks simply contain information about transactions. Whenever a user wants to send bitcoins from one place to another, they put together a little record that describes how much they're sending and to where. They ""sign"" the transaction with their private key and then broadcast this to the other nodes on the network, asking for it to be included in the next block by the miners. 
+
+## Proof-of-Work Algorithm
+
+Proof-of-work is very clever little maths puzzle for computers that we call mining. It's basically a random number generation game where each computer has to generate a random number, run it through a computationally difficult algorithm designed to take a long time, and hopefully get the ""right"" answer. How difficult the game is can be tweaked by changing the definition what a ""right"" answer is (there are many potentially right answers, but only one needs to be found). We call this the ""difficulty"". The difficulty changes depending on how many computers are competing, or more accurately how much computational power they collectively have. The more computational power on the network, the harder the game gets. The winner of this game is rewarded with bitcoins!
+
+When a miner wins the game, that means they have ""found"" a new block. We say found because they found the right random number to solve the puzzle. This random number, along with all the transactions that the miner chose to include, is then broadcast to the rest of the network as the next block to be added to the chain. Assuming the maths checks out and puzzle was correctly solved, then the other nodes on the network will agree and add that new block onto their Blockchain. 
+
+## Consensus
+
+This creates a self-balancing network of nodes, all being kept honest by each other. If one node disagrees with the others, they will be out-voted by the rest of the network, because everyone is financially incentivised to stay honest. The only way this could be beaten is if a single person were in control of a majority of the network (called the 51% attack). As the network grows in size and has more miners participating, the possibility of carrying out a 51% attack becomes more and more infeasible. This is why it's good to incentivise mining and get as many people doing it as possible! These days, there is very little risk of a 51% attack ever occurring. 
+
+So now we have a single, unchangeable, and verifiably correct ledger that contains a record of every single bitcoin transaction that has ever taken place. The double-spend problem has been solved!
+
+&nbsp;
+
+**TL;DR** - Bitcoin isn't just an investment tool, it's a very clever technology that combines Blockchain with the proof-of-work algorithm to create consensus, thus solving the double-spend problem that had previously been the main hurdle in developing an electronic cash system.
+
+&nbsp;
+
+Edit: thank you so much for all the awards and amazing feedback! I'm so glad so many of you found this helpful. Keep the questions coming and I'll do my best to answer them wherever possible :)",2021-02-21
+16,"Largest Bitcoin investment 100,000 bitcoins at $4.8 billion",103,lp0m9s,https://gulfnews.com/amp/business/company-releases/dubais-ibc-group-pledges-100000-bitcoins-the-largest-bitcoin-investment-in-history-to-support-setup-of-miami-20-blockchain-strategy-foundation-1.1613649280442,24,2021-02-22 00:29:38,,2021-02-22
+17,Google Pay and Samsung Pay will allow Bitcoin payments,228,lovlhx,https://www.reddit.com/r/CryptoMarkets/comments/lo8v31/google_pay_and_samsung_pay_will_allow_bitcoin/?utm_source=share&utm_medium=ios_app&utm_name=iossmf,41,2021-02-21 19:53:56,,2021-02-21
+18,"Remember when Nextech sold all their bitcoins a month ago because of the doublespend FUD? Lets laugh at their $3,000,000 mistake.",77,lp1yj6,https://www.reddit.com/r/Bitcoin/comments/lp1yj6/remember_when_nextech_sold_all_their_bitcoins_a/,15,2021-02-22 01:29:34,"One month ago the CEO of NexTech issued a statement saying they were [selling all $4 Million worth of their bitcoins](https://decrypt.co/55078/nextech-bitcoin-double-spend) because media FUD said there had been a doublespend on the network.  
+
+While most smart people would've looked into the issue and figured out that this was all BS and that nothing bad had actually happened, they instead made the genius decision to just straight up panic and sell all their bitcoins.  The CEO issued a press release that said:
+
+> “This sale reflects our awareness that something potentially has changed with Bitcoin… If the system is built on scarcity and faith in the system, then a ‘double spend’ would eliminate both—essentially destroying the store of value it was meant to be. In light of this potential outcome, I have decided to move to cash as this story is still unfolding.”
+
+Well, its only been a month and I want to have a short moment of silence for the money they put to death because those $4 million worth of bitcoin would be worth about $7 million today.  Selling was a $3,000,000 kneejerk mistake which is especially stupid considering that their total revenue for the *entire last 12 months* was about $3.5 million and their gross profit was only $1.2 million.",2021-02-22
+19,Good vibes,236,louvy3,https://v.redd.it/hicndfojbti61,24,2021-02-21 19:03:10,,2021-02-21
+20,Tesla Gains More Profits From Bitcoin Than Its Electric Cars,137,lox7st,https://coinquora.com/tesla-gains-more-profits-from-bitcoin-than-its-electric-cars/,20,2021-02-21 21:36:17,,2021-02-21
+21,I am a HODLer who understands the principle and potential of BTC (and own quite a bit of it) but some days I also just have to laugh because I can't help thinking how much it reminds me of this old episode of Beavis & Butthead. 😂,46,lp4br8,https://www.youtube.com/watch?v=L6GKVe7uXWQ,12,2021-02-22 03:19:03,,2021-02-22
+22,I became a father in January and I am buying bitcoin for my daughter!,81,lozhiy,https://www.reddit.com/r/Bitcoin/comments/lozhiy/i_became_a_father_in_january_and_i_am_buying/,28,2021-02-21 23:36:36,Just a little bit each week should grow into a mountain by the time she turns 21. Don't you think?,2021-02-21
+23,People used to mock me and my company as scammer because accepting and advocating bitcoin. I never gived up.,79,loz163,https://www.reddit.com/r/Bitcoin/comments/loz163/people_used_to_mock_me_and_my_company_as_scammer/,19,2021-02-21 23:14:45,"Hi friends, I feel to share my story only to inspire others to DON'T JUST GIVE UP when you truly belive in yourself and what you like.
+
+Im a 27y raised by a lovely family un a tiny Italian city, as a teenager I spent all my time exploring internet when 56K was my only solution to explore the world, learn new thing, meet new friends using netlog, MySpace and MSN messenger and one day came across bitcoin around 2010. 
+
+I wasn't financially independent so I kept my attention on it while collecting spare change for the future. 
+Well I raised with my pession in IT, computers, coding, collecting some tips fixing friends and family stuff was a good challenge for me to develop skills and keep my pession on that. 
+
+Around 2013 I moved to UK on my own living a dream so I applied to hospitality to pay my rent and later moved to computer and smartphone repairs shop to basically living, it was a very fun time I don't regret. 
+I knew in UK I could find some btc atm and I had a list of it and sometimes I stopped by and bought some satoshi. It was my emergency fund. 
+
+Sad to say I had to use some of satoshi collected, but I don't regret that, it was for good cause and I was in need to do so but i kept collecting. 
+
+In late 2016 I back home, I had that dream in my head never left me: I want to found my own IT company working for myself, in my country, doing what I really love to do. 
+Folks, in early 2017 I made it. Thanks to my family who never stop to support me and all sacrifices that we/they made. 
+
+So I started to accept bitcoin for IT consulting services, coding basic websites, repairs, and sometimes sharing w/ people what Bitcoin is just to make aware it exist. Never pushing a single one to buy, never pushing to invest into, just talking about it. 
+
+Many couldn't get it so for them I was a scammer, a lier or a ponzi-scheme advocate. That was hurting, but I did nothing wrong, so keep doing my work and doing my stuff.
+
+Today, a few of them told me: ""man, you was right.""
+Priceless.
+
+TL;DR: accepting bitcoin at my company was a red flag for people like I was promoting a ponzi-scheme, today a few of them texted me I was right about talking/investing in Bitcoin!
+
+Edit: Thanks for the award!",2021-02-21
+24,"When the price hits 75,000 usd, Bitcoin will have more market capital than Alphabet.",141,low5c9,https://www.reddit.com/r/Bitcoin/comments/low5c9/when_the_price_hits_75000_usd_bitcoin_will_have/,35,2021-02-21 20:29:37,How long till it happens?,2021-02-21
+25,Someone bought a coffee for 130 BTC in 2011,20,lp8dhz,https://i.redd.it/f06f04vcqwi61.jpg,8,2021-02-22 06:30:02,,2021-02-22
+26,Target achieved. See ya in a few years,23,lp7nj7,https://v.redd.it/t7bfoj22kwi61,14,2021-02-22 05:55:56,,2021-02-22
+27,Is it possible to ban “is it a good time to buy?” posts? I am typically not one for heavy handed moderation but every other post seems to be some version of this and all of the answers are the same,43,lp1zhr,https://www.reddit.com/r/Bitcoin/comments/lp1zhr/is_it_possible_to_ban_is_it_a_good_time_to_buy/,17,2021-02-22 01:30:49,,2021-02-22
+28,I think COVID really accelerated the growth of Bitcoin and future technologies,32,lp4pv8,https://www.reddit.com/r/Bitcoin/comments/lp4pv8/i_think_covid_really_accelerated_the_growth_of/,2,2021-02-22 03:37:46,"The pandemic on the surface made government had to print more money and lower interest rate to 0.
+And the corporation have no choice now but to look for alternatives to store their money, instead of bonds.
+
+But really it just unmasked all the issues in our society, and magnified it.
+
+Future thinking companies all grow exponentially as well (like Tesla, trying to solve world energy issue and creating AI driving)
+
+And still a lot of people are still thinking this is the top.
+But what they don’t realize that this is only the tip of the iceberg. 
+
+The technological revolution have just started.
+
+A lot of old ways of thinking are going to be left in the dust.
+
+And people who try to fight against it are going to lose a lot of money (Bill Gates, Michael Burry, etc)",2021-02-22
+29,1BTC = 1kg of Gold,6156,loa56l,https://i.redd.it/syy5llwponi61.jpg,274,2021-02-21 00:04:50,,2021-02-21
+30,"Only 108 BTC were traded last week in Venezuela using LocalBitcoin (lowest since 2016). That amount was 8,158,000,000,000 Bs. (Venezuelan currency). Right now one BTC reached 100,000,000,000 Bs. Monthly minimim wage at 1.25 USD.",37,lp2rhq,https://www.reddit.com/r/Bitcoin/comments/lp2rhq/only_108_btc_were_traded_last_week_in_venezuela/,7,2021-02-22 02:06:23," Hi, hope you are doing ok.
+
+As I always explain, I'm a Venezuelan ""living"" here.
+
+Lower volume in BTC but still around 5-6 million USD weekly, that is way, it is constant in USD not BTC.
+
+People  that usually trade are mostly miners, people sending remittances and  store owners getting rid of their bolivares and even the  goverment/military as well.
+
+If you want to know something ask me anything. Here the economy is a mess, so many poor people and a lot of people surviving!
+
+Sources:
+
+[https://www.usefultulips.org/combined\_VES\_Page.html](https://www.usefultulips.org/combined_VES_Page.html)
+
+[https://www.caracaschronicles.com/](https://www.caracaschronicles.com/)
+
+[https://coin.dance/volume/localbitcoins/VES/BTC](https://coin.dance/volume/localbitcoins/VES/BTC)
+
+[https://localbitcoins.com/buy-bitcoins-online/ves/](https://localbitcoins.com/buy-bitcoins-online/ves/)",2021-02-22
+31,does anyone else get this guy in recommendation 10 years too late?,73,loxi08,https://v.redd.it/iy7g1e136ui61,18,2021-02-21 21:52:54,,2021-02-21
+32,Canadian Bitcoin ETF attracts over $400mln in investments in 48 hours,150,lotzdo,https://thedailychain.com/canadian-bitcoin-etf-attracts-over-400mln-in-investments-in-48-hours/,47,2021-02-21 18:00:12,,2021-02-21
+33,"Supply inflation (production rate) annually: fiat 12.8%, gold 1.8%, bitcoin 0.1%. Guess where ALL the global wealth will flow to",16,lp7ii3,https://www.reddit.com/r/Bitcoin/comments/lp7ii3/supply_inflation_production_rate_annually_fiat/,5,2021-02-22 05:48:48,Who wants to lose 13% of their money every year. A no-brainer for all rocket scientists.,2021-02-22
+34,Repurposing some old life magazines,22,lp4msm,https://www.reddit.com/gallery/lp4msm,2,2021-02-22 03:33:34,,2021-02-22
+35,"Lol, remember when bitcoin ‘crashed’ from 40k to 30k three weeks ago?",784,lola70,https://www.reddit.com/r/Bitcoin/comments/lola70/lol_remember_when_bitcoin_crashed_from_40k_to_30k/,179,2021-02-21 08:57:32,Seems like just yesterday.,2021-02-21
+36,Bitcoin could make such a difference for coffee farmers,30,lp2sla,https://www.reddit.com/r/Bitcoin/comments/lp2sla/bitcoin_could_make_such_a_difference_for_coffee/,11,2021-02-22 02:07:50,"As a coffee amateur, I find it concerning that those on whom the whole coffee chain relies on, the farmers, are the ones who receive the least.
+
+Most, if not all of the coffee, is produced in ""third-world countries"". Some coffee farmers prioritize quantity over quality, like robusta variety versus arabica, to make sure they are able to sell their crop and get a somewhat stable income.
+
+As you know, there are risks that farmers have to face : bad weather destroying the plants, bugs, diseases. Who here would gamble their family's food over all these variables by producing less but better quality coffee, over varieties that resist to harder conditions?
+
+On top of that, take into account the fact that their currency has no to low weight compared to the US dollar, which is used to buy and sell green coffee.
+
+Now imagine if these farmers had access to the bitcoin. They would not have to worry about exchange rate fluctuations or exchange fees. Anyone in the world could send a donation to them as a token of appreciation, and it should be no surprise that $10 could make a way bigger change for them than it would for us. People donate to streamers, youtubers, bloggers, influencers. So why wouldn't that be a thing for farmers? They would be able to focus on quality over quantity, knowing they would get paid with an asset that is bound to gain value over time.
+
+Being new to the bitcoin, I am sure I miss a lot of points, but the only downsides I could see is 1/ bitcoin volatility and 2/ they would have to be able to convert their bitcoins to their local currency whenever they would need to use it.",2021-02-22
+37,Just a reminder for new-comers...,25,lp3y7t,https://www.reddit.com/r/Bitcoin/comments/lp3y7t/just_a_reminder_for_newcomers/,4,2021-02-22 03:01:33,"Recently I’ve been getting a lot of questions from friends, family, and old co-workers who know I’ve been into crypto since the before-times (ie longer than 2 years). I’ve refused to give advice to anyone for about 2 months now but I’ve finally thought about it enough to give them an answer and I wanted to share it here since I’ve been a long-time lurker. This post might be too long for some so skip to the bottom for the Tl;Dr, for those of you pooping, I’ll fill you in on my history with Bitcoin:
+
+My first foray into cryptocurrency was through 4Chan in 2012 when I was gifted 42 Bitcoins...back then, it was not a trivial task to even create a wallet, much less wrap your head around the need to secure seemingly trivial things such as keys to what essentially amounted to pennies. I traded those 42 Bitcoins for a Left4Dead 2 download code. 
+
+In early 2013, Bitcoin was just making news and was about $20. I almost took my financial-aid refund check and bought $500 worth (~25BTC) but ultimately couldn’t be bothered. 
+
+In early 2017, I officially entered crypto as a hobby due to the Millionaires that were appearing because XRP hit .02 (two cents, seriously). Since jumping on, I’ve played with day-trading, margin, mining, staking, purchasing with crypto, purchasing gift cards with crypto, yield-farming, loans...essentially every development over the past 4 years. 
+
+Do I get sick to my stomach thinking about the times I’ve narrowly missing being a retired 20-something? Not anymore. Hindsight is 20/20 and looking back doesn’t change anything. The point is that, even today, we are early to the game. Yesterday’s prices will always seem cheap compared to next year’s. 
+
+The worst mistakes I’ve ever made, in order, were not investing anything, investing too much, and not being patient. If I wouldn’t have traded anything, I’d be better off. If I wouldn’t have over-extended myself and not had to sell to make rent, I’d be better off. If I would have just pretending the money I did invest had disappeared, I’d be better off. 
+
+Researching finance, cryptocurrency, blockchain, PoS, PoW, DeFi, Technical Analysis, candlesticks, etc, etc, etc...these are all really good things to know. A new investor to the market could know all of these things and still get it wrong. Buying trade calls is just a capitalized diet-version of pump-and-dump...the calls will work until they don’t. 
+
+The point of all this, and the Tl;Dr is that there’s lots of growth left in this market. The opportunity is everywhere, given a long enough timeline. If you enter a trade and it turns into a loss, leave it; pretend that money is gone, eventually it will turn profitable (sometimes in major ways) and you will look back and think how you lost $500 when you could have been up $7,000 now. Will Bitcoin make you rich? Not in the near future. The melt-your face ROI that births overnight riches is gone, there’s still insane ROI though. As the market cap increases, huge fluctuations become harder and less likely to occur. Just put what you can towards future-you and don’t worry about the day-to-day fluctuations.",2021-02-22
+38,Paid In Bitcoin Makes Russell Okung Highest Paid NFL Star,87,lovse7,https://bitcoinmaximalist.net/paid-in-bitcoin-makes-russell-okung-highest-paid-nfl-star/,15,2021-02-21 20:06:11,,2021-02-21
+39,Any satoshi millionaires?,64,loxm59,https://www.reddit.com/r/Bitcoin/comments/loxm59/any_satoshi_millionaires/,48,2021-02-21 21:59:51,"I was listening to a bitcoin podcast last night (tales from the crypt) and the guest had a great idea. His goal was to get everyone he could to become a satoshi millionaire. What is a satoshi? For anyone who is new and may not know, you can own a fraction of a bitcoin called a satoshi. Every bitcoin is made up of 100,000,000 satoshis, or sats for short, and right now one sat is about $0.00057343 which is less than a penny. I encourage everyone who doesn't already to set a goal to own 1,000,000 satoshis and join the satoshi millionaire club. At the current price this would be about $575 but you do not need to make the jump all at once. The easiest way for most peoe to get to a million is small consistant buys. How many satoshi millionaires do we already have here and how many can we get to join the club? Lets start stacking those sats!",2021-02-21
+40,Visa CEO bullish on Bitcoin and Cryptocurrencies and is looking for VISA to support them where they can.,143,lotc0w,https://youtu.be/_G3F6bCixs0,32,2021-02-21 17:13:28,,2021-02-21
+41,I turn 30 today - 210221,180,los1xd,https://i.redd.it/q0r11t7ucsi61.jpg,20,2021-02-21 15:47:11,,2021-02-21
+42,"Do you believe it? BTC price predicted to reach $115,212 in August",27,lp1ia1,https://www.reddit.com/r/Bitcoin/comments/lp1ia1/do_you_believe_it_btc_price_predicted_to_reach/,19,2021-02-22 01:09:31,"Someone recently used the STOCK-TO-FLOW model to analyze the price of Bitcoin, and the results were surprised, because according to the model prediction, Bitcoin will reach a peak price of $115,212 in August 2021.
+
+&#x200B;
+
+T8DfxlH4D4bpnjpoYl3fFPCrqKrJMarft9nI643x.jpeg
+
+&#x200B;
+
+As we all know, according to the Bitcoin protocol, the supply of Bitcoin and the distribution of tokens are not quantitative easing, but based entirely on mathematical principles, and the design principles are very transparent and predictable. Its total supply is 21 million. When the block is generated, Bitcoin will be distributed to network nodes, and the Bitcoin block reward will be reduced by half every four years. 10,500,000 coins in the first four years; 5,250,000 coins in the second four years; 2,625,000 coins in the third four years; 1,312,500 coins in the fourth four years...and so on, until 2140, 21 million bitcoins All dug up.
+
+&#x200B;
+
+Now, for Bitcoin, one thing will not change, that is about 6.5 Bitcoins are produced every 10 minutes. On Bitcoin, the ""Greenspan put"" does not exist, because this economic strategy may be more suitable for industries such as stocks or real estate that are more affected by traditional policies.
+
+&#x200B;
+
+So what kind of effect will the Bitcoin “halving” bring? The first to bear the brunt must be the impact on prices. Every time the Bitcoin block reward is halved, the price will always rise, because if the supply is reduced by half (especially in the case of a surge in market demand), there will be a shortage of supply and the price will inevitably rise sharply. ""Stimulate"" those who hold bitcoins to sell their bitcoins.
+
+&#x200B;
+
+According to statistics, before the ""halving"", the average time for the Bitcoin price to bottom was 459 days, and then the price would gradually climb until the ""halving"" approached, and then soaring. The average time of the bull market cycle after the ""halving"" is about 446 days. In this cycle, the time the market is at a trough before the ""halving"" will actually reach 514 days.
+
+&#x200B;
+
+At present, in order to research and analyze the Bitcoin block reward halving framework, a STOCK-TO-FLOW model has appeared on the market. It turns out that the first Bitcoin block reward halving reduced the total supply by 15%, which had a huge impact on both supply and price. The subsequent Bitcoin block reward halving may have a gradually reduced impact on the price, because the ratio of the supply after the ""last block reward halving"" to the supply after the ""next block reward halving"" will continue cut back. After the second Bitcoin block reward halving, the supply was only one-third of the first ""halving"". This phenomenon is very interesting, because the impact of this ""halving"" on the price is also three. One part.
+
+&#x200B;
+
+If this trend of change is projected to the Bitcoin block reward halving event in 2020, then the reduction in Bitcoin supply this time is only 40% of 2016. If this relationship is established, it means that Bitcoin The price of the currency should also rise by 40%. Based on this calculation, Bitcoin will reach a peak price of $115,212 in August 2021. After a few months of growth, Bitcoin is currently progressing smoothly, but whether it will reach $115,212 before August 1, 2021 is unclear.
+
+&#x200B;
+
+It is worth mentioning that the ""halving"" actually usually has a huge impact, but it often takes several years to see what impact it has on the entire market. After analyzing the supply and flow reduction trend of Bitcoin relative to circulation (compared every time the block reward halving occurs), it is found that Bitcoin block reward is a major event, and the effect of ""halving"" may require Wait for several years to play out. Generally speaking, in the 1.3 years before the block reward is halved, the market may experience a trough. On average, the peak time of the market may be about 1.2 years after the block reward halving occurs, and the entire cycle may take about two and a half years.
+
+&#x200B;
+
+The CEO of the cryptocurrency exchange Kraken, Jesse Powell, said in an investor conference call in May 2020: At least for now, Bitcoin does not seem to have solved the problem of supply and demand imbalances, and it is still in a 10-year index compounding at this stage. The return trend line is below, and the current Bitcoin price is also lower than the previous forecast. The Fed was printing money ""crazy"" and Morgan Stanley bought a 10% stake in the business intelligence software giant MicroStrategy. Perhaps investors still feel that Bitcoin has not yet reached the highest price.
+
+&#x200B;
+
+Some people may think that the price forecast of $115,212 is ridiculous, but when the price of Bitcoin is only tens of dollars, how many people would dare to believe that Bitcoin will surpass $50,000 in 2021?",2021-02-22
+43,Just bought $600 worth of Bitcoin,841,loj817,https://www.reddit.com/r/Bitcoin/comments/loj817/just_bought_600_worth_of_bitcoin/,255,2021-02-21 07:10:03,"I am going in long, I am poor and this is all I can afford to lose (at the moment). 
+
+Hope it goes up 5-10 years' time! :)",2021-02-21
+44,"Lightning Network Visualized. View on your phone Zoom in/out (pinch out/in), rotate, play.",14,lp63ww,https://bl.ocks.org/tyzbit/raw/e41587d241b0ab0f38273dc4b8dd571e/,9,2021-02-22 04:41:03,,2021-02-22
+45,"I firmly believe that Bitcoin value is not going down anymore, and there are 2 simple reasons for it this time.",13,lp6ka4,https://www.reddit.com/r/Bitcoin/comments/lp6ka4/i_firmly_believe_that_bitcoin_value_is_not_going/,23,2021-02-22 05:02:55,"* 1 - Institutions buying large amounts for **long-term** investment are not going to sell out any time soon, since they now understand that Bitcoin is a legit store of value asset to just keep for years and years.
+
+&#x200B;
+
+* 2 - Regular people like us that are holding are not going to sell it easily anymore: we are (hopefully) buying only what we can afford to lose, so it makes sense to HODL in the hope of huge gains in years to come. Additionally, seeing how the 2018 crash was followed 3 years later (this month) by amazing new records and mass adoption, I think that everyone is more understanding that HODLing is the way, even if it means to chill through a bear market for some months/years, because new ATH are just bound to happen.
+
+&#x200B;
+
+I think that a lot of regular people will sell part or all of their Bitcoins when the price is in the range of $1mil-10mil (probably 3-10 years away), because most people hold less than 1 bitcoin, and when the value goes to over $1mil a lot of people would be able to sell for life-changing money, which often times refers to buying a house and settling. Until then, the price should just keep going up relatively steadily.
+
+&#x200B;
+
+This is just my opinion and speculation on what I think will happen. What do you all think?
+
+&#x200B;
+
+**Edit:** By **price going down** I mean a huge drop to less than $30K or something like that. There are going to be daily, weekly and monthly corrections in the value, likely to swing it to +/- $5k with no problems, but I think the price will always bounce back and to new records in a matter of days.",2021-02-22
+46,Powerful Speech by Andrea Antonopoulos,18,lp40gt,https://www.reddit.com/r/Bitcoin/comments/lp40gt/powerful_speech_by_andrea_antonopoulos/,2,2021-02-22 03:04:26,"To me, the speech today is Andrea’s most powerful speech he’s given...and that is saying something.
+
+Please take the time to listen:
+
+https://m.youtube.com/watch?v=stN03wk_Wzs",2021-02-22
+47,Bitcoin Price simplified,79,lovad5,https://www.reddit.com/r/Bitcoin/comments/lovad5/bitcoin_price_simplified/,37,2021-02-21 19:30:46,"&#x200B;
+
+[btc regression](https://preview.redd.it/g0hkx1stgti61.png?width=934&format=png&auto=webp&s=c5ada7220356c3bbdbea9621cad5e901c05bf5c3)
+
+Let's keep things simple, no rocket since, just a very simple regression. Score 0.87. Nothing special, but good for a simple overview. Don't get lost in the daily noise. lean back and enjoy the big picture.",2021-02-21
+48,"Just remember that if enough people agree that something is money, then it can be used as money. Don’t overthink it. Buy Bitcoin.",598,loktoj,https://www.reddit.com/r/Bitcoin/comments/loktoj/just_remember_that_if_enough_people_agree_that/,74,2021-02-21 08:32:29,,2021-02-21
+49,Bitcoin: the gold of the future? (Austrian newspaper),18,lp3wdr,https://i.redd.it/wss05eipovi61.jpg,4,2021-02-22 02:59:26,,2021-02-22

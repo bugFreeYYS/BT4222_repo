@@ -1,0 +1,224 @@
+,title,score,id,url,comms_num,created,body,date
+0,"Daily Discussion, March 09, 2021",101,m0zd7j,https://www.reddit.com/r/Bitcoin/comments/m0zd7j/daily_discussion_march_09_2021/,1151,2021-03-09 13:07:04,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m09czb/mentor_monday_march_08_2021_ask_all_your_bitcoin/) for unanswered questions.",2021-03-09
+1,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,56,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,21,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+2,Got paid 0.3029 BTC for a copy of a viral video back in 2016,1950,m1a9z3,https://www.reddit.com/gallery/m1a9z3,115,2021-03-10 00:36:02,,2021-03-10
+3,Beware the new FUD campaign led by Gates and Others is obviously energy usage. Like having sound money isn't more important than 95% of shit the world wastes energy on. GTFO.,736,m16yrm,https://www.reddit.com/r/Bitcoin/comments/m16yrm/beware_the_new_fud_campaign_led_by_gates_and/,198,2021-03-09 22:00:36,"The principal of sound money is *THE* most important element missing in our modern society + a founding principal of bitcoin, and those that profit from the theft of printing easy money for the use of a few will continue their smear campaign against bitcoin on social media.  
+  
+Ask yourself what is more important than sound money?  The list shouldn't be more than 3 things long.",2021-03-09
+4,Bitcoin when people say 58k was the peak,537,m18ci4,https://youtu.be/gdWAhP8rYKA,39,2021-03-09 23:09:01,,2021-03-09
+5,1 Bitcoin just helped me put 50k down on my first home.,6258,m0v2pe,https://www.reddit.com/r/Bitcoin/comments/m0v2pe/1_bitcoin_just_helped_me_put_50k_down_on_my_first/,886,2021-03-09 09:06:10,"Been a HODLer for a few years.  I threw essentially 6.3k into getting 1 coin.  Treated it just like a savings account.  Wouldn't touch the damn thing until absolutely necessary.  That time is now.  I'm only sad....I couldn't HODL you longer, little buddy  😥   
+
+
+BUT....I still have remnants.  And they shall remain HODLed.  
+
+Just remember.  If anyone ever asks you when you plan on selling.  The answer is:  
+
+
+>!More.!<",2021-03-09
+6,Anyone who owns 21 bitcoins is a millionaire today.,633,m14sir,https://www.reddit.com/r/Bitcoin/comments/m14sir/anyone_who_owns_21_bitcoins_is_a_millionaire_today/,194,2021-03-09 19:47:58,"*An important event has happened in the history of bitcoin. Now the one-millionth part of the Bitcoin supply is worth $ 1 million.*
+
+**Anyone who owns 21 bitcoins, or one millionth of the total supply, is a millionaire today.**
+
+https://preview.redd.it/lwe5w4haqzl61.jpg?width=2300&format=pjpg&auto=webp&s=c8f6eb374315493f477bb1014cbaf59107116364
+
+Back in 2017, financial publications announced the emergence of a group of crypto enthusiasts “hunting” for exclusive membership in the “[*21 Million Club*](https://www.businessinsider.com/bitcoin-21-million-club-more-exclusive-by-the-day-2017-12)”. Also over the past years, there have been many forum posts about people who have finally ended up in the exclusive club of owners who own one bitcoin (BTC). The r / Bitcoin subreddit has [a whole topic](https://www.reddit.com/r/Bitcoin/comments/1q8uv3/owning_1_btc_is_slowly_getting_out_of_reach_for/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) dedicated to those wishing to accumulate 1 bitcoin.
+
+*Each member of the 21 million club who owns one BTC now owns exactly 0.0000047619% of the total BTC supply*.
+
+Members of another club of crypto millionaires, who managed to collect 21 BTC or 0.0000999999% of the total limited supply of bitcoins, join [the 21-BTC CLUB](https://21-btc.club/). Membership in the club is informal and symbolic. Club members are recommended the best crypto wallets, among which Trezor is in the first place, the best exchanges, they teach how to pay taxes correctly and share the best information resources on the topic.
+
+*Many people ask why Satoshi Nakamoto chose the 21 million Bitcoin emission limit?* There are many versions.
+
+For example, Ph.D. Christian Seberino explained in 2018 that Satoshi most likely chose 21 million in order to “use floating point arithmetic.” You can read more about this [here](https://medium.com/@cseberino/why-21-million-bitcoins-was-a-great-idea-bd2533af0f63).
+
+However, according to e-mail correspondence between Mike Hearn and Nakamoto, the inventor of bitcoin has chosen a limit of 21 million to match the M1 money supply of fiat currencies such as the euro and the US dollar. Back in 2008, when Nakamoto published the White Paper, the M1 money supply was roughly $ 21 trillion. By simple calculations, we get the predicted Bitcoin price of $ 1 million by Satoshi Nakamoto.
+
+“*I wanted to choose something that would make prices similar to existing currencies, but not knowing the future, it is very difficult. I ended up choosing something in between”,* Nakamoto said in an email to Hearn.
+
+Summarizing all this information, we can assume that even **owning 0.1 BTC will make any person a dollar millionaire during his lifetime**. Not to mention the fact that having collected 21 bitcoins, a person will automatically enter the 1% of the richest people on the planet.",2021-03-09
+7,"We need to stop gatekeeping Bitcoin from the poor. Even if you don't think it's worth it for someone to save as little as 5 dollars at a time in Bitcoin, it's still better for them to learn to save there than to be discouraged into continuing to only save in the dollar. Bitcoin is for everyone.",114,m1fi9g,https://np.reddit.com/r/poor/comments/m0yo9l/buy_even_10_dollars_in_bitcoin_at_a_time_if_thats/,41,2021-03-10 04:29:49,,2021-03-10
+8,"It’s happening, 7 days chart: Apple -7% - Amazon -5% - Tesla -18% - Bitcoin +11%",369,m1525h,https://8marketcap.com,95,2021-03-09 20:06:15,,2021-03-09
+9,Looks like a lot of people are taking their Bitcoins off of CoinBase....,191,m18zi1,https://i.redd.it/yfb7pw5fv0m61.jpg,89,2021-03-09 23:38:27,,2021-03-09
+10,"Institutions Grab 11,554 Bitcoins on Coinbase at $50,806 Right Before Recent BTC Surge",357,m1493u,https://u.today/institutions-grab-11554-bitcoins-on-coinbase-at-50806-right-before-recent-btc-surge,20,2021-03-09 19:08:32,,2021-03-09
+11,Stop using blockchain (.) com,150,m18l4e,https://www.reddit.com/r/Bitcoin/comments/m18l4e/stop_using_blockchain_com/,60,2021-03-09 23:19:55,"blockchain (.) com are still making up 30% of transactions!? ([https://twitter.com/lopp/status/1369284238667882496?s=20](https://twitter.com/lopp/status/1369284238667882496?s=20)) They are deliberatly dragging their feet in using segregated witness, they make the entire blockchain slower and more expensive for everyone on purpose because they are butthurt that bitcoin cash didnt take off and Roger Ver invested a substantial amount in the company. There are a bunch of other great options out there! please tell your friends and family to stop using their anti-bitcoin service!",2021-03-09
+12,JUST A QUICKLY REMINDER MY FOLKS 🤡,770,m10sao,https://v.redd.it/14wd3rvf7yl61,93,2021-03-09 14:41:48,,2021-03-09
+13,Goldman Sachs says high BTC returns in 2021 will destroy everything on Wall Street,351,m13ptx,https://www.reddit.com/r/Bitcoin/comments/m13ptx/goldman_sachs_says_high_btc_returns_in_2021_will/,84,2021-03-09 18:26:22,"It was not until the end of January that Goldman Sachs compared BTC with global assets. Nevertheless, since 2021, the rate of return of BTC has been twice that of the energy industry.
+
+&#x200B;
+
+In January, Goldman Sachs, a well-known Wall Street investment company, began to include Bitcoin in its weekly global asset class return rankings. That month, BTC quietly climbed to the top of the rankings.
+
+&#x200B;
+
+But since then, BTC's advantages have expanded relative to assets such as stocks, bonds, oil, gold, bank stocks, technology stocks, and the euro.
+
+&#x200B;
+
+In its latest U.S. Weekly Kickstart report, Goldman Sachs Group showed that as of March 4, the return rate of BTC was about 70%, followed by the energy industry with a return rate of 35%.
+
+&#x200B;
+
+The U.S. stock market has recently sold off, and the return of the S&P 500 index is currently close to zero. In contrast, the advantage of BTC is even more obvious.
+
+&#x200B;
+
+1. For cyclical industries such as energy and finance, the rebound in oil prices and the increase in real interest rates have pushed up the current rate of return, but the performance is still inferior to BTC.
+
+&#x200B;
+
+2. At present, the risk-adjusted capital return rate of crude oil and energy is higher than that of BTC.
+
+&#x200B;
+
+3. Gold is the worst-performing asset class so far this year, because traditional defensive industries such as consumer daily necessities and public utilities have been affected due to rising real interest rates.
+
+&#x200B;
+
+4. According to previous CoinDesk reports, in cryptocurrency and traditional markets, many investors believe that BTC is a potential inflation hedging tool, especially now that central banks around the world have issued a large number of additional issuances to boost the economy affected by the new crown virus. Even so, from the beginning of the year to now, the price of gold has fallen by about 10%, so some market observers believe that BTC is eating away at the gold market share.
+
+&#x200B;
+
+5. According to a survey, approximately 40% of Goldman Sachs customers have invested in cryptocurrencies.
+
+&#x200B;
+
+6. Even so, in May 2020, Goldman Sachs' asset management department stated in a statement that for customers, cryptocurrency is not a suitable investment, driven by speculation behind it, and is more famous than the notorious Dutch tulip in the 17th century. The bubble is even crazier.",2021-03-09
+14,"Swiss supermarkets, kiosks, gas stations will sell bitcoins, starting next week. (Link in German) Might this be the next step?",178,m16196,https://www.blick.ch/wirtschaft/ist-das-der-durchbruch-fuers-digitalgeld-schweizer-detailhaendler-starten-grosse-bitcoin-offensive-id16389435.html,25,2021-03-09 21:09:20,,2021-03-09
+15,"Sometimes when I’m having a hard day at work, I look at my portfolio and everything is ok 😌",41,m1g1vv,https://www.reddit.com/r/Bitcoin/comments/m1g1vv/sometimes_when_im_having_a_hard_day_at_work_i/,14,2021-03-10 04:54:37,See you on the moon🚀,2021-03-10
+16,Trader Buys $36 Million of Copper and Gets Painted Rocks Instead,111,m18doo,https://www.bloomberg.com/news/articles/2021-03-09/trader-buys-36-million-of-copper-and-gets-painted-rocks-instead?srnd=premium-europe,32,2021-03-09 23:10:28,,2021-03-09
+17,Why did Elon Musk finally invest in Bitcoin?,149,m15zs3,http://investinbitcoin.space/,71,2021-03-09 21:06:49,,2021-03-09
+18,Oil billionaire company buys $59 million in bitcoin,30,m1ga2r,https://digesttime.com/2021/03/09/oil-billionaire-company-buys-59-million-in-bitcoin/,5,2021-03-10 05:04:33,,2021-03-10
+19,Moon Enables Bitcoin Lightning Payments at Visa-Accepting Merchants,93,m17lqo,https://www.coindesk.com/bitcoin-moon-lightning-network-visa-e-commerce-merchants,13,2021-03-09 22:33:16,,2021-03-09
+20,"Devote ONE single year to acquire Bitcoin out of your 30-40 career... it may harvest monumental results of life changing, unimaginable wealth.",32,m1djyi,https://www.reddit.com/r/Bitcoin/comments/m1djyi/devote_one_single_year_to_acquire_bitcoin_out_of/,10,2021-03-10 03:02:47,"Here’s the way I see it, and I may be wrong, so feel free to tell me to take a hike 😊 
+
+I would venture to say that the average person is in the workforce for 30-40 years. 
+
+This is a special moment in time for Bitcoin (and cryptocurrency in general) before it goes mainstream. As such, prices are up, but when it actually reaches mass adoption, the price will hockey stick up and to the right from here. 
+
+Why not devote *this* year... just *one year* to acquiring Bitcoin? What does that hurt?
+
+If you end up being wrong, you still have 29-39 more years to invest in 401k, blah blah blah. 
+
+*But* if you happen to be right and Bitcoin does explode, the single year that you devoted to investing in it could be monumental, life changing money. 
+
+Anyway, that is my approach to this. What are your thoughts?",2021-03-10
+21,"For the first time since COVID started, I have finally found something that actually feels normal to obsess about.",20,m1hasi,https://www.reddit.com/r/Bitcoin/comments/m1hasi/for_the_first_time_since_covid_started_i_have/,9,2021-03-10 05:49:26,"For the last year, I have been so sick of COVID, Trump vs Biden, who’s lives matter, cancel culture, Karens. A little over a month ago I decided to take my yearly visit to /r/Bitcoin to see how much money I missed out on since I first heard about it. Yup it was still a lot. But this time was different, I’m not the same poor college student working at a movie theatre. Now, I’m an adult with an adult sized income. I started reading as much as I could about Bitcoin. I was watching the charts, I was watching videos explaining the charts. I started learning different patterns and what they could mean for bitcoin.  I finally decided to bite the bullet and coin up. I have to say, I really needed this right now. I haven’t been this excited about something since I was a little kid. I mean I feel like a kid now. Every time I talk about Bitcoin my face lights up. It’s exciting, and its not negative news about what group offended what group this week. I don’t know it just all feels really good and I guess I wanted to share and thank everyone here. See you all on the moon.",2021-03-10
+22,The evolution of money,2087,m0pspg,https://i.redd.it/uoptap3qavl61.jpg,160,2021-03-09 04:53:03,,2021-03-09
+23,"BREAKING: J.P Morgan to Launch ""Cryptocurrency Exposure Basket""",21,m1g38k,https://coinfomania.com/j-p-morgan-cryptocurrency-exposure-basket/,9,2021-03-10 04:56:21,,2021-03-10
+24,Bitcoin Recovery,12,m1j5k6,https://v.redd.it/h2odblqt43m61,0,2021-03-10 07:14:28,,2021-03-10
+25,When bitcoin hits 100k I will be a millionaire.,848,m0twi5,https://www.reddit.com/r/Bitcoin/comments/m0twi5/when_bitcoin_hits_100k_i_will_be_a_millionaire/,92,2021-03-09 08:04:42,"My 0.0072 BTC will be worth 1 million Iraqi Dinar. Thanks to 20 percent devaluation that was applied to Iraqi Dinar by central bank overnight this year (so far). If that was not done I would have to wait much longer to become a millionaire.
+
+It is not the first time that this happens, and it is going to happen again and again. One has to be really stupid to not take shelter in bitcoin in such shithole countries.
+
+back in the day 1 iraqi dinar used to be worth more than $3, now $1 is worth 1460 iraqi dinar.",2021-03-09
+26,Irony: My bitcoin holdings soar while I fail my finance exam,16,m1h28q,https://www.reddit.com/r/Bitcoin/comments/m1h28q/irony_my_bitcoin_holdings_soar_while_i_fail_my/,4,2021-03-10 05:38:34,"Last nights bull run happened as I was in the middle of my exam. It was a rough time, but when i checked my hodlings i felt a lot better.",2021-03-10
+27,Creed Bratton printing 1.9 Trillion Schrute Bucks,3128,m0kf95,https://v.redd.it/1phw2gzr6ul61,95,2021-03-09 01:09:24,,2021-03-09
+28,Grayscale Bitcoin Trust premium is currently negative. Why?,39,m195tb,https://www.reddit.com/r/Bitcoin/comments/m195tb/grayscale_bitcoin_trust_premium_is_currently/,60,2021-03-09 23:46:24,"I know most of us are anti-GBTC (Grayscale Bitcoin Trust) because ""not your keys, not your Bitcoin,"" but the other argument was that GBTC almost always costs *more than Bitcoin.* Just as recently as December, you would pay 40% more for GBTC than had you just purchased Bitcoin outright. Today, however, Bitcoin is 10% more expensive than GBTC.
+
+*Before we continue, here is my disclaimer: I hodl mostly real Bitcoin. I'm no GBTC shill, and I don't condone a full ""bitcoin portfolio"" in GBTC only. But it is of course near impossible to keep actual Bitcoin in my Roth IRA, so I use GBTC for that purpose. I also like to swing trade GBTC in my taxable account. I will attempt to sell the top with GBTC during this bull run (I don't believe we are there yet), but I will hodl my actual Bitcoin.*
+
+For those who are unaware, GBTC is the stock ticker for Grayscale Bitcoin Trust. It is not a true Bitcoin ETF, as this is privately run and has to be traded over the counter in your stock account. But it is an easy way to get Bitcoin exposure if you have an existing brokerage account. The way GBTC works is Grayscale holds actual Bitcoin, and you purchase shares of their trust, effectively taking ownership in a share of their Bitcoin holdings. For each Bitcoin Grayscale owns, they have issued roughly 1000 shares of their trust. Now this isn't the actual number, but its close to it. It allows you to do the math in your head. If Bitcoin is worth $55,000, GBTC should be worth roughly $55 per share. On to the real numbers:
+
+Currently, [on their website](https://grayscale.co/bitcoin-trust/), Grayscale quotes their ""Bitcoin per Share"" at 0.00094664. To get the ""fair value"" for a share of GBTC, you simply multiply this number by the spot price of Bitcoin. At this moment, Bitcoin is $54,420, which means a share of GBTC should be worth at least $51.52. It's not however. The current spot price of GBTC is $48.72, giving GBTC a negative 10% premium. That means it's literally 10% cheaper at this moment to purchase some of Grayscale's bitcoin than it is to purchase some on your own.
+
+Now you might be thinking, ""maybe it's always like this,"" but I assure you it's not. If you look at a chart of [GBTC premium](https://ycharts.com/companies/GBTC/discount_or_premium_to_nav) you'll notice it's almost always positive. I remember back in 2017, that at one point, GBTC premium was over 100%!
+
+So what's happening? I have a few theories. Actual Bitcoin is becoming easier to buy, which is a long term attack on GBTC premium, but if you look at the chart, you'll see this is a recent anomaly. Premium went negative at the end of February. I believe this is because GBTC has gotten wrapped into the greater stock market tech sell off and has been way oversold.
+
+So what do we do about it? Well, purchasing GBTC today is looking a lot like a leveraged buy into Bitcoin to me. If the rocket takes off past $60k, retail stock investors are going to pile back into GBTC driving the premium positive again, meaning you will see larger percentage gains in GBTC than you will in Bitcoin.  
+
+
+*TL;DR: Buy GBTC. Today.*",2021-03-09
+29,"Given the amount of FUD out there about Bitcoin mining's energy consumption, I wrote this thread explaining why Bitcoin is a fundamental innovation in how we interact with energy, NOT a waste of energy.",17,m1f0v7,https://twitter.com/joinryze/status/1369328215546814464?s=20,7,2021-03-10 04:08:10,,2021-03-10
+30,"Bitcoin is now at 10% of Gold's market cap, 51% of Apple's, and 66% of Silver's - FLIP SOON!",475,m0vmnf,https://assetdash.com/btc-flip,26,2021-03-09 09:35:21,,2021-03-09
+31,Governments will say Bitcoin is bad for the environment as an excuse to ban it.,11,m1i6gn,https://www.reddit.com/r/Bitcoin/comments/m1i6gn/governments_will_say_bitcoin_is_bad_for_the/,10,2021-03-10 06:29:40,"Bitcoin itself does use a lot of electricity, but that wouldn’t be a problem if it came from renewable sources such as wind and solar. Governments are shitting themselves at the possibility that FIAT will be worthless.",2021-03-10
+32,"The Telegraph mentions Bitcoin again: Bitcoin hits two-week high as it surges past $54,000",29,m18xum,https://www.telegraph.co.uk/technology/2021/03/09/biden-sets-emergency-taskforce-tackle-microsoft-hack-live/,2,2021-03-09 23:36:21,,2021-03-09
+33,So I have finally setup my FIRST hardware wallet and sent funds to it successfully! I officially own my BTC!,8,m1gzw5,https://www.reddit.com/r/Bitcoin/comments/m1gzw5/so_i_have_finally_setup_my_first_hardware_wallet/,11,2021-03-10 05:35:44,"(I’m using a new account because I don’t want anything linked back to me from my post history or comments) So I really didn’t understand all the language used for transactions and it seemed really intimidating but I know the most important thing is if you don’t have private keys or the seed words to the hot wallet you are using then you essentially don’t own your Bitcoin. So I was dedicated into looking at other wallets... through here, YouTube, and cold/hot wallet websites and that led me to want nothing but a cold wallet with fully offline signing (which I now know what that means fully by doing it myself so I’m learning slowly but surely). 
+
+The cold card drew me in the most because of it only using BTC, all of the features and the style it had to offer. Ledger just recently had security issues and I didn’t like the features or style of the two different versions from Trezor. Even though many said the ledger and trezor are more beginner friendly, I did so much research to familiarize myself with how the cold card works and I felt confident enough to transfer it to the hot wallet and then to my cold card after also learning about the hot wallet of my choice. IIRC the more expensive trezor still had you use it with a computer which in my eyes defeats the purpose of a cold wallet so the micro sd feature of the cold card sold me even though it seemed like a lot to do but I’d go out of my way to keep myself and my asset secure! I’ve learned so much after setting up my wallets and successfully transferring them into my actual possession! I am very good with tech so maybe that’s why it helped me understand the cold card as a beginner but I wouldn’t say it’s that very hard to understand after learning with a lot of research! 
+
+I feel secure now, I can finally sleep in peace and won’t have to check my hot wallet every second to see if it’s still there because I literally was that scared I’d lose it somehow. Seeing my first transaction on the blockchain was exciting and that also helped me understand why so many addresses I would look at had only one transaction! But thanks to this sub I learned to ease the nerve wrecking anxiety of sending or receiving funds you just need to verify the address is correct manually where the phrase/slogan comes to mind “DONT TRUST, VERIFY.” ! And I did that many times just to learn and ofc verify! I even learned how to use kleopatra to verify I wasn’t downloading any malware. 
+
+For anyone wondering how long shipping took, well it didn’t really take that long tbh like with covid restrictions and going through customs it was surprisingly fast but my anxiety was through the roof because I didn’t want to lose my funds so it felt like it took forever. I ordered it the last week of February and received it yesterday which I would’ve got it Saturday but it was weekday delivery only. 
+
+P.S. hey bot Ik there’s scammers and I’ll just report them, not reply and not click on anything random because that’s probably one of the first things I learned about bitcoin is that scams are aplenty sadly. 
+
+TL;DR I have learned how to secure my BTC offline and now everything is coming together slowly but surely!",2021-03-10
+34,Really reddit?,422,m0umw5,https://i.redd.it/an7hvdtlfwl61.jpg,52,2021-03-09 08:42:34,,2021-03-09
+35,"Believed the hype years ago and jumped the $BTC ship. Ooof level over 9,000",12,m1ec6r,https://www.reddit.com/r/Bitcoin/comments/m1ec6r/believed_the_hype_years_ago_and_jumped_the_btc/,8,2021-03-10 03:37:37,"In 2016 I bought $300 of BTC...then got cold feet because I was ignorant and believed the Buffets of the world scoffing at me. Hard “oof.”
+
+Now I’m back. Bought the last “correction” and I’m here to stay. Going to pump more in next real dip. Hard lessons are only lessons if you learn from them, no?",2021-03-10
+36,Cathie Wood on Bitcoin and It's Correlation With Real Estate & 60/40 = 60/20/20,18,m1b7pz,https://www.youtube.com/watch?v=uiXEQhoAwMs&list=RDCMUC61jC9ggxeGu8HJ9Q_TxOGg&start_radio=1,2,2021-03-10 01:16:44,,2021-03-10
+37,Aker move could signal unprecedented enthusiasm for institutional Bitcoin investment,31,m167kv,https://www.cityam.com/aker-move-could-signal-unprecedented-enthusiasm-for-institutional-bitcoin-investment/,3,2021-03-09 21:19:16,,2021-03-09
+38,Personal gambling story...,25,m16g42,https://www.reddit.com/r/Bitcoin/comments/m16g42/personal_gambling_story/,8,2021-03-09 21:32:20,"Prior to crypto I would go to a casino three or four times a year where I loved to shoot craps. I was a bad gambler because I walked up to the table each day with a set amount of money knowing that I wouldn’t walk away with a dime. I saw it as entertainment no different than buying a concert ticket. I could get several hours of play out of $200 and when it was done I’d walk away and a good time was had by all. 
+
+Crypto has given me a paradigm shift that “scratches” my gambling “itch” AND I’m building wealth instead of throwing money at a casino and walking away with empty pockets. 
+
+My crypto strategy has evolved to be similar to my craps strategy. Have to keep the bulk of my money in conservative bets (BTC) so I can play longer. Then I set a small chunk aside for high risk/high reward bets (the three altcoins I have). 
+
+Thus far my craps to crypto journey has been one of the best things to happen to me as I approach 40 years on this earth. My life as a farmer is based upon a little physical labor and a lot of speculation. Crypto is no different...a little research and a lot of speculation. 
+
+Every cent I have in crypto I see just like the money I wasted shooting craps...every cent I’ve put into crypto I’m just fine if I never get it back which makes the profits even sweeter! If crypto disappears toMorrow I won’t miss a meal but at the rate we are going I don’t see that happening!!! 
+
+One last anecdotal comment...I’ve always thought Roulette was a stupid game. For some reason I have no remembrance of why but I started a “tradition” with roulette. When I walk into a casino I go straight to the roulette table and put down the table minimum bet , most of the time $5 or $10, on red 15. After losing my $5 or $10 I would start picking a craps table. Now, when I enter my new casino, Coinbase Pro or Crypto.com , I “bet” $5 on a low market cap coin I’ve done minimal research on or saw on Reddit. Then I get on with business setting my weekly order for BTC  and putting my smaller amounts into the three altcoins. BTC and my three altcoins are my portfolio and then the $5 I put into random “moonshot” coins I affectionately refer to as my shitfolio. Between my shitfolio and my portfolio maybe one day I’ll hit it big!",2021-03-09
+39,"Daily Bitcoin News March 8th,2021",9,m1dyg1,https://youtu.be/bCBsGRLxrfI,1,2021-03-10 03:20:21,,2021-03-10
+40,Will Bitcoin ETF’s take off in 2021?,7,m1gt4r,https://www.reddit.com/r/Bitcoin/comments/m1gt4r/will_bitcoin_etfs_take_off_in_2021/,3,2021-03-10 05:27:39,"It’s already happening in Canada!
+
+What do you think?
+
+[https://www.cryptovantage.com/news/will-bitcoin-etfs-takeoff-in-2021-its-already-happening-in-canada/](https://www.cryptovantage.com/news/will-bitcoin-etfs-takeoff-in-2021-its-already-happening-in-canada/)",2021-03-10
+41,Bitcoin Tops $1 Trillion in Value again as the Price of Cryptocurrency Jumps,10,m1dm64,https://www.technologyelevation.com/2021/03/bitcoin-tops-1-trillion-in-value-again.html,1,2021-03-10 03:05:23,,2021-03-10
+42,BTC marketcap is back above 1 Trillion USD,151,m0xw4u,https://cryptocurrencyalerting.com/alert/lComp5Um6-c,11,2021-03-09 11:40:03,,2021-03-09
+43,Jp Morgan Is Launching A “J. P Morgan Cryptocurrency Exposure Basket” of Bitcoin Proxy Stocks,4,m1j4tq,https://focusinvesting.biz/jp-morgan-is-launching-a-j-p-morgan-cryptocurrency-exposure-basket-of-bitcoin-proxy-stocks/,1,2021-03-10 07:13:30,,2021-03-10
+44,Bitcoin tops $1 trillion in value again as the cryptocurrency's price jumps,109,m0ze8l,https://www.cnbc.com/2021/03/09/bitcoin-btc-value-exceeds-1-trillion-for-second-time.html,3,2021-03-09 13:09:01,,2021-03-09
+45,"The wedding can wait, bitcoin cannot",499,m0q6w2,https://www.reddit.com/r/Bitcoin/comments/m0q6w2/the_wedding_can_wait_bitcoin_cannot/,117,2021-03-09 05:10:20,My fiancé and I just invested our entire wedding fund into Bitcoin. Our families think we’re out of our minds but we’ll see who’s laughing after $1.9 trillion gets printed.,2021-03-09
+46,Ray Dalio starts to get bitcoin's main feature. Store of value through good and bad times.,10,m1d34m,https://www.youtube.com/watch?v=e6k3ffRoFJU,5,2021-03-10 02:41:01,,2021-03-10
+47,Bitcoin computer in space?,4,m1hcfl,https://www.reddit.com/r/Bitcoin/comments/m1hcfl/bitcoin_computer_in_space/,13,2021-03-10 05:51:34,"Computer and technical novice here. Bitcoin has a huge carbon footprint. Would it be possible to send a (solar powered) satellite computer into space and beam Bitcoin info to Earth? Bonus points challenge: respond with carbon-neutral solutions, not just why this can’t happen.",2021-03-10
+48,Just got my Trezor! Need some advice,6,m1h273,https://www.reddit.com/r/Bitcoin/comments/m1h273/just_got_my_trezor_need_some_advice/,16,2021-03-10 05:38:30,"Hey. So finally got a Trezor! Now, I have my BTC on Coinbase and plan to store it on my trezor, obviously. I heard that, to have the less amount of fees, I need to transfer from Coinbase to Coinbase Pro and then to my Trezor. Is that correct?
+
+Also, do you buy BTC from your Trezor wallet? What would be the more efficient way of buying, or, simply put, how do you usually do it?
+
+Many thanks, folks!
+
+Not your keys, not your coins.",2021-03-10
+49,What´s the record satoshis donated through reddit?,7,m1ehpb,https://www.reddit.com/r/Bitcoin/comments/m1ehpb/whats_the_record_satoshis_donated_through_reddit/,8,2021-03-10 03:44:46,"I´ve been fascinated by the !ntip feature for quite a while, and now I´m wondering what was the maximum amount donated on a post. Is there even a limit? How much would it take for us to break that record?",2021-03-10

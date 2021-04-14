@@ -1,0 +1,307 @@
+,title,score,id,url,comms_num,created,body,date
+0,Another CoinSwap milestone: Multi-hop CoinSwaps. Undetectable bitcoin privacy is being built,330,lm6nmk,https://www.reddit.com/r/Bitcoin/comments/lm6nmk/another_coinswap_milestone_multihop_coinswaps/,123,2021-02-18 06:34:13,"Suppose Alice has bitcoins and wants to send them with maximal privacy, so she creates a special kind of transaction. For anyone looking at the blockchain her transaction appears completely normal with her coins seemingly going from bitcoin address A to address B. But in reality her coins end up in address Z which is entirely unconnected to either A or B.
+
+Now imagine another user, Carol, who isn't too bothered by privacy and sends her bitcoin using a regular wallet. But because Carol's transaction looks exactly the same as Alice's, anybody analyzing the blockchain must now deal with the possibility that Carol's transaction actually sent her coins to a totally unconnected address. So Carol's privacy is improved even though she didn't change her behaviour, and perhaps had never even heard of this software.
+
+In a world where advertisers, social media and other companies want to collect all of Alice's and Carol's data, such privacy improvement would be incredibly valuable. And also the doubt added to every transaction would greatly boost the fungibility of bitcoin and so make it a better form of money.
+
+This undetectable privacy can be developed today by implementing CoinSwap. The software could be standalone as a kind of bitcoin mixing app, but it could also be a library that existing wallets can implement allowing their users to send Bitcoin transactions with much greater privacy.
+
+
+For the last few months I've been working on implementing this project, and recently reached another milestone: Multi-hop CoinSwaps.
+
+In the original CoinSwap design there would be only two peers involved, that meant if your wallet did a CoinSwap the other party knew exactly where your coins went. They were a single point of failure in privacy. Multi-hop CoinSwap is where the user routes their coins of multiple CoinSwap peers, and all of them need to collude in order to figure out the final source and destination of the coins.
+
+
+Just for fun I created a 5-hop CoinSwap on testnet. Each hop has 3 individual transactions:
+
+Taker's outgoing transactions:
+
+https://blockstream.info/testnet/tx/f45349bd279bea20b8b218300f8e2416abf28f3858470ad8c5eb2f6cd5ec10a9
+
+https://blockstream.info/testnet/tx/40ea5c9e478b66fa3f615c2b8d3accfd69308443d90a5353de669767cb02c51f
+
+https://blockstream.info/testnet/tx/8fe245e9c433127af4df8ff8853650808e3281fed7de6bfda62066a3fd3ad36e
+
+First maker funding transactions:
+
+https://blockstream.info/testnet/tx/3d9b879866ad136f9fe6e80599e1b97d610b6330be3ab4aa7df4161fce1e41d4,
+
+https://blockstream.info/testnet/tx/fa11e778d135be28b4e35498fc668c5aba7c70dcc43334b39e7488bd1259e8be,
+
+https://blockstream.info/testnet/tx/a7713452bab711c09be83a8c630fb91127771ed99cf15b528eacd28b00ba6b20,
+
+Second maker funding transactions:
+
+https://blockstream.info/testnet/tx/245e1e87d83a4bef06ceb8933c758137ee2f7ba7aa66800ebb7103707d5de5f7,
+
+https://blockstream.info/testnet/tx/15727b91e09a80634587f6210bdcba8808b93e4a780c55dd113ee85314db45c4,
+
+https://blockstream.info/testnet/tx/94e4e4e9e8fc2012158ed068145c8b883c295b37f5b3b6cba7a21c229d4da103,
+
+Third maker funding transactions:
+
+https://blockstream.info/testnet/tx/1384d58e534543e22e4f23a367728bff12177ee9af01b036c397cfca9bbe2eb8,
+
+https://blockstream.info/testnet/tx/eff3b1367f403c13927ddcb01c6d3c5c0d46076f7cb4419f8a18d6b62d884540,
+
+https://blockstream.info/testnet/tx/617c52caec2f7f17f3ebd1cab80233cdc1b414591f1cc49affbd828ffec10278,
+
+Fourth maker funding transactions (also taker's incoming transactions):
+https://blockstream.info/testnet/tx/8fde61974a4e0801ae5b76b620e2effd6c837310c1bd76d738216451ae1226e3,
+
+https://blockstream.info/testnet/tx/6491b85ef73a8f88e276a9b0f951c09e0367851a83aa49ffee8f8ad095f50de2,
+
+https://blockstream.info/testnet/tx/363b6803b7e3ed45472277448ce9938e3e73167a67762d6a9ac621243b8db019,
+
+These transactions don't look particularly special (which is the point), but they are CoinSwaps. Following the CoinSwap protocol, those coins are transferred off-chain to the next market maker. Even though the coin are unspent at the time of writing, they are unilaterally controlled by the other party.
+
+The user created a CoinSwap for 0.05 tBTC in this case (but it could have been any amount), and out the other side they got the same amount of coins (minus a fee) entirely disconnected to their initial coins. The fee goes to the makers which provides them an incentive to cooperate to improve privacy, and also gets spent on miner fees.
+
+From the point of view of someone just passively observing the blockchain, a single-hop CoinSwap is as private as a multi-hop CoinSwap, so I suspect in practice most users will just create 1-hop or 2-hop CoinSwaps.
+
+
+These example CoinSwaps have a visible 2-of-2 multisig address. But the plan is to later use a protocol called ECDSA-2P which allows us to create 2-of-2 multisig addresses that look the same as regular single-signature addresses. This allows CoinSwaps to blend in with the rest of the bitcoin transactions out there. Even the legacy p2pkh addresses starting with 1 can be CoinSwap addresses.
+
+CoinSwap is the next generation of bitcoin on-chain privacy tech. It improves on CoinJoin because it breaks the transaction graph, and even improves the privacy of people who don't use it. CoinSwap also uses less block space for the same privacy and therefore is cheaper in miner fees.
+
+
+Links: 
+
+* The code: https://github.com/bitcoin-teleport/teleport-transactions/
+
+* Discussion: `##coinswap` IRC channel on the freenode network
+
+* Design document: https://gist.github.com/chris-belcher/9144bd57a91c194e332fb5ca371d0964
+
+* Previous reddit thread: https://www.reddit.com/r/Bitcoin/comments/k95iu4/the_first_coinswap_on_testnet_massive/
+
+* Podcast: https://anchor.fm/tales-from-the-crypt/episodes/170-Chris-Belcher-ef8blj
+
+* Donations: https://bitcoinprivacy.me/coinswap-donations",2021-02-18
+1,"Daily Discussion, February 27, 2021",78,ltokur,https://www.reddit.com/r/Bitcoin/comments/ltokur/daily_discussion_february_27_2021/,1494,2021-02-27 21:53:44,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/ls0w9e/daily_discussion_february_25_2021/) for unanswered questions.",2021-02-27
+2,Found an old USB key...,3023,lto0rt,https://www.reddit.com/gallery/lto0rt,296,2021-02-27 21:22:19,,2021-02-27
+3,I just love that the price has stabilized around 48k for this long.,549,ltwoqv,https://www.reddit.com/r/Bitcoin/comments/ltwoqv/i_just_love_that_the_price_has_stabilized_around/,92,2021-02-28 04:32:44,"Behind a bull run...few things make me happier than when this baby stabilizes. Just had to say it, no one around me even cares.",2021-02-28
+4,To the man at the grocery store...,319,ltzbn5,https://www.reddit.com/r/Bitcoin/comments/ltzbn5/to_the_man_at_the_grocery_store/,60,2021-02-28 06:50:23,"Saw an elderly man (maybe 65-75) today at the grocery store in a Bitcoin shirt. Didn’t say anything the first time I saw him but told my wife and was like “adoption, that man gets it”. 
+
+Later seeing him at the checkout, I told him I love the shirt and he replied “keep stacking”. That’s why I’m a believer in Bitcoin bc if the older generation is starting to get on board and adapting then we have even more growth in our future, so from the guy at the store,
+Keep stacking.",2021-02-28
+5,"1.9 Trillion Stimulus Bill has been approve, $1400 Checks going to US Citizens 💵 The US Fed printing press will be going 24/7 Brrrrrrrrrr!!!!",3969,ltk9rl,https://www.reddit.com/r/Bitcoin/comments/ltk9rl/19_trillion_stimulus_bill_has_been_approve_1400/,760,2021-02-27 17:09:54,"
+https://www.forbes.com/sites/sarahhansen/2021/02/27/house-passes-bidens-19-trillion-stimulus-bill/amp/?utm_campaign=forbes&utm_source=twitter&utm_medium=social&utm_term=Gordie&__twitter_impression=true&s=09",2021-02-27
+6,Bought my first Bitcoin today.,908,ltr5mf,https://www.reddit.com/r/Bitcoin/comments/ltr5mf/bought_my_first_bitcoin_today/,213,2021-02-28 00:04:58,I have been a lurker for the longest time. Finally bought my first Bitcoin today! 😄,2021-02-28
+7,"Bitcoin Pizza tribute; Two pizzas for 10,000 BTC. It’s almost a legendary story by now. For many bitcoiners, it represents an important milestone in the history of Bitcoin.",1934,ltm0bi,https://i.redd.it/0z8zr7k970k61.jpg,177,2021-02-27 19:14:17,,2021-02-27
+8,I think Elon musk should start a bitcoin mining farm with Tesla. He has all the infrastructure to build the most energy efficient bitcoin mining farm the world has ever seen.,295,ltwc8g,https://www.reddit.com/r/Bitcoin/comments/ltwc8g/i_think_elon_musk_should_start_a_bitcoin_mining/,99,2021-02-28 04:15:17,,2021-02-28
+9,"Miners Begin Accumulating Bitcoin Instead of Dumping, First Time Since Dec 27",1045,ltnf8o,https://cryptonews.net/477566/?utm_source=CryptoNews&utm_medium=app&utm_campaign=shared,138,2021-02-27 20:47:07,,2021-02-27
+10,When did bitcoin become about simping for billionaires?,131,ltyxsq,https://www.reddit.com/r/Bitcoin/comments/ltyxsq/when_did_bitcoin_become_about_simping_for/,47,2021-02-28 06:30:07,"Andreas Antonopoulos brought this up in a recent podcast. Bitcoin's narrative has shifted a lot from banking the un-banked, and replacing old corrupt institutions. 
+
+Now, the community is simping for these same corrupt institutions, as soon as they started pumping the price. I can guarantee, these institutions do not care about Bitcoin's censorship resistance, decentralization, or about banking the un-banked. They've just bought Bitcoin, then created hype so that their own investments can go up.
+
+These institutions will not support changes that improve privacy, as that makes it harder for regulators. They will try to ""normalize"" Bitcoin into traditional systems. For example, Michael Saylor has said that Bitcoin isn't meant to be used as a currency, he said its just a store of value and a gold replacement.
+
+He's trying to make it fit into traditional systems. So called ""normalization of Bitcoin"" is bad. People are trying to make it fit into the same institutions it was meant to replace.
+
+This institutional investment into Bitcoin is only good, if the only you care about is the price of Bitcoin.
+
+This community overall has also degraded to where all anyone talks about is these institutions, and the price.
+
+This hype cycle will eventually die out, and the people who care about price will leave. The people who care about price will sell, and then the big institutions will also panic and sell, and 2017 will be repeated.
+
+To anyone who is newly into to Bitcoin and bought hoping the price will go up, I don't want to attack you. Instead, I highly encourage you to learn more about what Bitcoin, and cryptocurrency in general is. Learn about how it works, and what problems it actually solves.",2021-02-28
+11,"After Craig Wright claims to be the hacker who robbed MtGox, MtGox victim threatens to sue Wright over stolen funds",332,ltrz4v,https://www.coindesk.com/mt-gox-victim-legal-notice-craig-wright-stolen-funds-1feex-address/,62,2021-02-28 00:45:28,,2021-02-28
+12,STOP DEFENDING BILL GATES,116,ltytyj,https://www.reddit.com/r/Bitcoin/comments/ltytyj/stop_defending_bill_gates/,88,2021-02-28 06:24:13,"I am tired of people defending Bill Gates and saying things like, ""Microsoft uses open source development and accepts crypto"" or ""He is looking out for small investors by warning them against volatility"". Microsoft is adopting these things because their attacks against them failed. Where was Bill when small investors were getting wrecked in the stock market or losing their pensions? Where was his love for open source when Microsoft attacked open source licenses? Let's take a look at the history of Bill Gates and Microsoft regarding open source and crypto:
+
+
+* 1998 United States v. Microsoft was a set of civil actions filed against Microsoft Corporation by the United States Department of Justice and 20 U.S. states. The plaintiffs alleged that Microsoft abused monopoly power in its handling of operating system sales and web browser sales. Microsoft won their right to continue breaking the law.
+* 1998 leaked internal Microsoft documents state the following ""OSS [Open Source Software] poses a direct, short-term revenue and platform threat to Microsoft, particularly in server space. Additionally, the intrinsic parallelism and free idea exchange in OSS has benefits that are not replicable with our current licensing model and therefore present a long term developer mindshare threat.""
+* 2001 Microsoft's Steve Ballmer is quoted as saying ""Linux is a cancer that attaches itself in an intellectual property sense to everything it touches""
+* 2002, Microsoft applied for 1,411 patents.
+* 2003, Microsoft began licensing its patents to other companies in exchange for either royalties or access to their patents (a ""cross-licensing"" deal). Microsoft's lawyers began calculating how many of its patents were being infringed by free and open-source software.
+* 2004 Microsoft had more than doubled the number of patents, totaling 3,780.
+* 2004 Microsoft recruits Bill Hilf to build an open source lab where he and his cohorts would build Linux systems and test them in tandem machines running Windows software.
+* 2007 Licensing chief Horacio Gutierrez claimed the total number of patents allegedly violated by open source software was 235. Gutierrez is quoted as saying ""This is not a case of some accidental, unknowing infringement. There is an overwhelming number of patents being infringed.""
+* 2007 Microsoft threatened to sue Linux based companies like Red Hat over patent violations.
+* 2008 Bill Gates said open source creates a license ""so that nobody can ever improve the software""
+* 2008 Bill Gates outlined how open source development could work for Microsoft in a meeting with Sam Ramji (open source lead) and Ray Ozzie (lead developer).
+* 2008 Microsoft realized they couldn’t destroy or ""embrace and extend"" Linux. Microsoft adopts Linux benefits in fear of being left behind.
+* 2008 Microsoft purchases Powerset, one of the first companies to run a web service atop the open source project Hadoop.
+* 2009 Microsoft prototyped an Amazon-like cloud service under Sam Ramji using nothing but open source software such as Zend, OpenNebula, Eucalyptus, OpenScale and Hadoop.
+* 2009 Sam Ramji left Microsoft.
+* 2009 Microsoft sued GPS navigation device maker TomTom, arguing that the company’s Linux-based products violated a patent related to how operating systems handle file storage.
+* 2010 Microsoft releases open source project Azure
+* 2011 or earlier, Microsoft began threatening lawsuits against Android device manufacturers until they signed licensing agreements. Microsoft has never defended these patents in court. Rather than risk an expensive court battle, Android manufacturers pay Microsoft for a license.
+* 2011 Microsoft Windows announces ports for Node.js and Hadoop, both open source.
+* 2011 Microsoft contributes code to the open source project Samba.
+* 2012 Microsoft signed a patent deal with Amdocs covering its Linux use despite there never being any proof that Linux violates Microsoft's patents.
+* 2014 Microsoft CEO Satya Nadella is quoted as saying ""Microsoft loves Linux.""
+* 2014 Microsoft adds Bitcoin to payment methods on Microsoft Accounts.
+* 2016 Microsoft releases open source .NET Core
+* 2017 In competition with Bitcoin, The Bill & Melinda Gates Foundation released open-source software for creating payment platforms that will help unbanked people around the world access digital financial services.
+* 2018 Bill Gates on Bitcoin “As an asset class, you’re not producing anything and so you shouldn’t expect it to go up. It’s kind of a pure ‘greater fool theory’ type of investment. I agree I would short it if there was an easy way to do it”
+* 2020 Bill & Melinda Gates Foundation asks Oxford to renege on their promise to open source a COVID-19 vaccine to drug makers.
+* 2021 Bill Gates on Bitcoin “The way cryptocurrency works today allows for certain criminal activities. It’d be good to get rid of that”
+* 2021 Bill Gates on Bitcoin “I don’t own bitcoin, I’m not short bitcoin, so I’ve taken a neutral view”
+* 2021 Bill Gates on Bitcoin ""Elon has tons of money and he’s very sophisticated, so I don’t worry that his bitcoin will sort of randomly go up or down. I do think people get bought into these manias who may not have as much money to spare. My general thought would be that if you have less money than Elon, you should probably watch out.""
+
+
+If I missed anything let me know and I'll add it to the list maybe. 
+
+TL;DR
+Bill Gates does not have your best interests in mind.
+
+EDIT: For everyone pointing to Bill Gates and his philanthropy, I could do another full post about how corrupt his foundations are. He is taking resource rights away from local businesses in third-world countries and disenfranchising family owned farms. This is all paving the way for large corps to control and sell the resources of a country instead of the local population (all under the guise of feeding the world). If it was appropriate for me to post a timeline of this as well, I would. But this ain't the sub for it.",2021-02-28
+13,The months and years ahead will be so interesting,237,ltu2kq,https://www.reddit.com/r/Bitcoin/comments/ltu2kq/the_months_and_years_ahead_will_be_so_interesting/,47,2021-02-28 02:22:20,"The economic landscape in the United States and around the World is currently in a fascinating place, and it seems as if a perfect storm is brewing:
+
+* Massive economic growth potential driven by tech acceleration
+* Record government money printing and stimulus
+* Loose monetary policy 
+* High unemployment concentrated in the underserved 
+* Record high asset prices 
+* Anticipated inflation 
+* Accelerated information sharing 
+* A widening gap in innovation between government and private industry
+* Regulation that simply can't keep up or doesn't make sense 
+
+I have no idea what will happen next. I have no idea where Bitcoin fits into all of this. We are living in one of the most interesting times in human history, and the story still has many chapters to go.",2021-02-28
+14,Any other Canadians buying bitcoin because there is no alternatives?,54,lu08fg,https://www.reddit.com/r/Bitcoin/comments/lu08fg/any_other_canadians_buying_bitcoin_because_there/,19,2021-02-28 07:39:10,"Canadian home prices have 3x since 2006.  In markets with jobs for young people houses have more than 5x in that time.  Anytime asset prices in Canada are going to fall the Bank of Canada is ready to step in and lower the short term interest rate and purchase long term bonds to suppress the long term yield.  Despite low unemployment, low inflation and a booming economy they wouldn't even raise rates past 1.75% in 2018/2019.
+
+This has been great for people born before 1990 as they can use their assets to get loans to purchase more assets while the debt is inflated away by the Bank of Canada.  But unfortunately for people born after they have not had the same opportunity to enter the asset market because wages haven't kept up with asset inflation let alone CPI.
+
+The Bank of Canada has cheated an entire generation.  They expect us to now spend 45% of our income on housing to give boomers a golden parachute to retirement. Even as rates rise they will just implement yield curve control to keep rates low.  
+
+I am done with this system, I refuse to play their game anymore.  I'm all in on Bitcoin, they can feel free to devalue their currency to keep bailing out asset holders but I won't be on the wrong side of that anymore.",2021-02-28
+15,Coverstory on Bitcoin in German „Focus“ magazine.,485,ltm07s,https://i.redd.it/j1jdkdt770k61.jpg,80,2021-02-27 19:14:05,,2021-02-27
+16,I finally did it!!,55,ltz1r5,https://www.reddit.com/r/Bitcoin/comments/ltz1r5/i_finally_did_it/,16,2021-02-28 06:35:52,"I have been watching the 'falling' and rising of Bitcoin for years now. Kicking myself for not getting some earlier, but I'm finally in. I don't have much, but I'm finally in!",2021-02-28
+17,"Bitcoin Will Hit $100,000 by End of Year: Novogratz",186,ltq2tp,https://www.youtube.com/watch?v=cEI1SPL9ZiE,53,2021-02-27 23:11:33,,2021-02-27
+18,These 2 graphs visualize how selling BTC for USD = buying a dying asset,172,ltpu0z,https://www.reddit.com/gallery/ltpu0z,73,2021-02-27 22:59:58,,2021-02-27
+19,Is it just me that finds it odd that Bill Gates is taking it upon himself to publicly hate on bitcoin?,317,ltmf4v,https://www.reddit.com/r/Bitcoin/comments/ltmf4v/is_it_just_me_that_finds_it_odd_that_bill_gates/,233,2021-02-27 19:42:33,"Why does he feel the need to take time out of his day to tarnish bitcoin? Is it just a celebrity/important person thing to take it upon themselves to vocalise their opinion, or does he have some kind of incentive for doing this?",2021-02-27
+20,I think bitcoin can be even more attractive when stock market enters bear market.,78,ltu81b,https://www.reddit.com/r/Bitcoin/comments/ltu81b/i_think_bitcoin_can_be_even_more_attractive_when/,47,2021-02-28 02:29:24,"All those idle money can be invested, or stored, in bitcoin where it does not depend/follow any underlying business/economy. What do you guys think?",2021-02-28
+21,Finally got up to 1% of a coin!,18,lu2k7q,https://www.reddit.com/r/Bitcoin/comments/lu2k7q/finally_got_up_to_1_of_a_coin/,5,2021-02-28 09:47:53,"Guys I'm so broke, but 50 bucks here and there from paychecks and I've got my .01",2021-02-28
+22,"Dorsey, Saylor, Winklevoss Twins Join MIT Campaign to Protect Bitcoin",21,lu068v,https://decrypt.co/59651/dorsey-saylor-winklevoss-mit-campaign-bitcoin,3,2021-02-28 07:35:52,,2021-02-28
+23,The FUD campaign continues -- Electricity needed to mine bitcoin is more than used by 'entire countries',75,lts27x,https://www.theguardian.com/technology/2021/feb/27/bitcoin-mining-electricity-use-environmental-impact?CMP=Share_iOSApp_Other,35,2021-02-28 00:49:36,,2021-02-28
+24,Bitcoin Energy Use Myths Debunked,83,ltr14x,https://www.reddit.com/r/Bitcoin/comments/ltr14x/bitcoin_energy_use_myths_debunked/,44,2021-02-27 23:59:18,"Bitcoin mining is only profitable when using cheap electricity. Electricity with a carbon footprint is rarely profitable in bitcoin mining.
+
+Bitcoin mining operations are typically located in remote areas that have an abundance of cheap energy, typically hydro, but are too remote for that electricity to be transmitted to cities. In other words, the electricity would be wasted otherwise which is why it’s so cheap.
+
+Blockchain technologies are trying to replace centralized finance which is a massively inefficient industry that dwarfs crypto in terms of energy usage and most of that energy is not clean energy. This is energy being consumed in areas where electricity is high demand, like cities.
+
+Ask yourself who has the most to lose from blockchain decentralized finance replacing our current archaic centralized finance system? Then ask yourself who is paying for this smear campaign against bitcoin? They are brainwashing and exploiting environments to take up this cause on their behalf. Don’t fall for it.",2021-02-27
+25,revolution is here,31,ltx0s1,https://www.reddit.com/r/Bitcoin/comments/ltx0s1/revolution_is_here/,5,2021-02-28 04:50:20,"&#x200B;
+
+https://preview.redd.it/pai28muy13k61.jpg?width=1944&format=pjpg&auto=webp&s=4f6a666ac9220aea072954a1a0bebb910c55f068",2021-02-28
+26,"The first Bitcoin reference in television history aired on The Good Wife in 2012, when it was only worth $3.41",9488,lszkpw,https://v.redd.it/vjoefus18uj61,466,2021-02-26 23:08:08,,2021-02-26
+27,Weekly bullish Bitcoin news!,20,ltz2tf,https://www.reddit.com/r/Bitcoin/comments/ltz2tf/weekly_bullish_bitcoin_news/,1,2021-02-28 06:37:22,"MicroStrategy and Square single handedly bought ~25 days of supply.
+
+If institutions continue with this purchasing spree, we might see Bitcoin trading in real high values..
+Find out more of this week! 👇🏼👇🏼
+
+[WTFBitcoin](https://wtfbitcoin.substack.com/p/2021w8-wtf-has-happened-in-bitcoin)",2021-02-28
+28,Temi Osinbajo (Nigeria VP) - Cryptocurrencies must be regulated and not prohibited,21,ltyeqr,https://www.youtube.com/watch?v=lIAmxeBy0eY,1,2021-02-28 06:02:35,,2021-02-28
+29,$1.9 Trillion Covid Relief Package Passed in USA House of Reps,238,ltj1al,https://www.reddit.com/r/Bitcoin/comments/ltj1al/19_trillion_covid_relief_package_passed_in_usa/,90,2021-02-27 15:35:14,This is good for Bitcoin,2021-02-27
+30,What is money,33,ltttdl,https://www.reddit.com/r/Bitcoin/comments/ltttdl/what_is_money/,7,2021-02-28 02:10:39,"Hello Bitcoiners,
+
+with the recent news of the House approving $1.9 Trillion stimulus package we thought it was a good time to publish here a [d.center](https://d.center) article called **What is money**, hope you find it insightful.
+
+&#x200B;
+
+***Can we be sure that our money keeps its value and is always accessible, while it is controlled by the banks?***  
+Initially money has three main functions: a store of value, a unit of account and a medium of exchange. In order for a currency to last, its holders must trust its capacity to maintain its value and stay available as a means of exchange. History shows us that this trust can be lost quite fast though and **the only currency that could ever stand the test of time was gold**, mostly because of its inalterability and scarcity. 
+
+Money is a particularly poignant case of trusted third party flaws and dangers, and also the very reason the blockchain was created.
+
+## Printing money
+
+Paper money first appeared during Tang dynasty in China (circa 800). At first it was intended as a practical alternative to carrying around heavy coins, and was fully backed by gold. Over time, however, the authorities did not resist the temptation of printing more paper money than their gold collateral, which resulted in massive inflation, complete collapse of the currency and an eventual return to hard money. 
+
+Since then every country using paper money has repeated this experience. Over-printing can have numerous reasons, most often a war, and recently - economic crisis. What is sure is that **every paper money eventually succumbs to over-printing, which leads to its collapse**.
+
+Speaking of modern times, since 1971’s Nixon shock (unilateral decision to stop dollar convertibility to gold, thus effectively ending Bretton Woods treaty) and the end of the Gold Standard most world currencies are completely detached from gold. In the absence of a physical backup, these **currencies derive their value from the notoriety of institutions that issued them**. That’s why such money is called **fiat money** (in Latin *fiat* is a binding decree issued by authorities, also translated as “let it be done”). 
+
+Most recently paper money has taken a digital form called “scriptural money”, and is massively issued by Central Banks, making short-term economic improvements and decreasing the value of money in a medium and long term. This massive overprinting, casually referred to as “Quantitative Easing” or **“deblocking funds to support the economy”, effectively dilutes the existing holdings**, making the prices of real and finite assets (stocks, real estate, art, and of course gold) skyrocket.
+
+## Controlling money
+
+With scriptural money it became much easier to control their circulation, since all money movements are carried out by a trusted third party - a bank. Depending on the government policies, the bank can decide whether its clients can withdraw, send, or exchange their money. Hence the **money on a bank account does not really belong to its owner**, as they cannot fully dispose of it. 
+
+In the name of saving a bank from collapsing a deposit can be erased or cut (Cyprus 2013), in the name of saving the national currency all exchanges against foreign currencies can be banned (Argentina 2019), in the name of keeping the country from default cash withdrawals can be limited or stopped (Lebanon 2020), in the name of anti-money laundering a wire can be denied (everywhere in the world)... the list of possible dangers is long, and all of them steam from the fact that the money is being controlled by trusted third party - the banks (which themselves are being controlled by the government and the Central Bank).
+
+## Bitcoin as digital gold
+
+The blockchain solves the problem of a trusted third party by replacing it with a decentralized system. **Bitcoin** **is governed by its protocol and without any central authority**. Its holders will always be able to send and receive bitcoins, the bitcoin emission will always be limited to 21 millions, and this won’t change unless the majority of Bitcoin users and ecosystem decides so*.*
+
+Bitcoin is often referred to as **digital gold**, and for a reason: these values have much in common, notably their scarcity and a relative independence from the Central Banks. They have some differences though.
+
+In case of gold, an increase in price motivates more companies to start its extraction (or allocating more resources to it), and the resulting increased supply progressively could lead to a decrease in price. An increase of Bitcoin price also leads to more miners wishing to extract new bitcoins, thus increasing the mining difficulty (mining becomes more expensive), however the supply of new bitcoins does not change (it is fixed by the protocole).The only thing that increases though is Bitcoin security, creating a virtuous circle, which does not exist for any other type of money: the bigger its price, the more secure it becomes.
+
+The article was originally published here [https://d.center/explore/what-is-money](https://d.center/explore/what-is-money)",2021-02-28
+31,Gbtc discount = mooning soon,29,lttqx5,https://www.reddit.com/r/Bitcoin/comments/lttqx5/gbtc_discount_mooning_soon/,19,2021-02-28 02:07:32,"Biggest Bitcoin Fund, Grayscale $GBTC, is trading at a discount for only the 3rd time ever, and its largest.
+
+Such a discount, after a long time with a premium, is a contrarian buy signal.  The last two discounts saw a 2x and 4X rally over the next few months.
+
+History to repeat?
+
+https://mobile.twitter.com/biancoresearch/status/1365714740157284357",2021-02-28
+32,Bitcoins ruins some lives #bitcoin,582,ltcvlj,https://v.redd.it/3ey844ka9xj61,87,2021-02-27 09:21:00,,2021-02-27
+33,Anyone got anything from BTC-E?,13,lty2ef,https://www.reddit.com/r/Bitcoin/comments/lty2ef/anyone_got_anything_from_btce/,4,2021-02-28 05:44:30,Just wondering whether any of you guys managed to get anything back after they shut down btc-e?,2021-02-28
+34,Blockchain Made Simple for Newbies,15,ltxi3o,https://www.reddit.com/r/Bitcoin/comments/ltxi3o/blockchain_made_simple_for_newbies/,1,2021-02-28 05:15:10,Blockchain Made Simple for Newbies: [https://www.youtube.com/watch?v=umYiQ--MxFo](https://www.youtube.com/watch?v=umYiQ--MxFo),2021-02-28
+35,Exec Pay: Coinbase CEO Earned $60M In 2020,32,ltrnv1,https://www.thetechee.com/2021/02/exec-pay-coinbase-ceo-earned-60m-in-2020.html,6,2021-02-28 00:31:07,,2021-02-28
+36,Spouses and Bitcoin,521,ltd2zc,https://www.reddit.com/r/Bitcoin/comments/ltd2zc/spouses_and_bitcoin/,249,2021-02-27 09:32:47,"I see a number of posts on here about people hiding bitcoin purchases from their spouse (married significant other). Or how people are upsetting their spouses with their bitcoin purchases. 
+
+This is not a bitcoin issue. This a marriage issue. 
+
+Take the time to work an intentional plan with your spouse. Set goals. Make a monthly budget. And decide what to do with your money together. 
+
+Your financial life is much more than just bitcoin. And you and your spouse should be working as a team. 
+
+If you disagree on allocation into bitcoin, talk about it. Set a plan where you achieve your financial goals together, and teach your spouse how bitcoin might be part of that. And be open minded enough to understand that your spouse has goals that are more than just stacking sats.",2021-02-27
+37,The BBC is really pushing the anti-bitcoin agenda,170,ltipvd,https://www.reddit.com/r/Bitcoin/comments/ltipvd/the_bbc_is_really_pushing_the_antibitcoin_agenda/,111,2021-02-27 15:12:17,"BBC News - How Bitcoin's vast energy use could burst its bubble
+https://www.bbc.co.uk/news/science-environment-56215787
+
+TL;DR: Don't worry you didn't buy bitcoin. It's really bad for the environment anyway and will soon crash!",2021-02-27
+38,We still have a long way to go. r/technology appears to be full of BTC naysayers.,19,ltuhqe,https://www.reddit.com/r/Bitcoin/comments/ltuhqe/we_still_have_a_long_way_to_go_rtechnology/,11,2021-02-28 02:42:17,"There's a r/technology post about how much energy is needed to mine BTC, and almost every comment is about how bad bitcoin is, repeating the tired old arguments about how ""gold has uses, btc does not,"" reducing it to the black market, and repeating all sorts of misconceptions about it. Anyone who points out how much energy is wasted mining gold is downvoted. We're still very early.
+
+EDIT: The mods of r/technology have deleted the post I was referring to, probably because of repeated similar posts.",2021-02-28
+39,The identity of Satoshi Nakamoto might be the biggest mystery in economic history in the future,13,ltwxa3,https://www.reddit.com/r/Bitcoin/comments/ltwxa3/the_identity_of_satoshi_nakamoto_might_be_the/,19,2021-02-28 04:44:59,Imagine if nobody knows who was the person or group that created the asset that everyone all over the world use,2021-02-28
+40,"Close call today - Backup your fucking seeds, and TEST them",6,lu0oq9,https://www.reddit.com/r/Bitcoin/comments/lu0oq9/close_call_today_backup_your_fucking_seeds_and/,4,2021-02-28 08:04:09,"So I woke up this morning to a broken phone. It was super bizarre. When I went to sleep last night my Pixel 2 was working just fine, and when I woke up it was unresponsive, completely busted. Luckily, being a true hodler, if I had any Bitcoin it would be backed up offline.
+
+I went and bought a new phone and got it set up.
+
+Hypothetically, if I were to be an owner of Bitcoin, I would have entered my seed, restored my wallet, and been greeted with a dreadful *0 balance.* After freaking out for a minute, I would have realized that if I were to own Bitcoin, to which I plead the 5th, I might have a BIP39 password associated with my wallet. If this were a real story I would have guessed a few times at the password and eventually regained access to the wallet.
+
+## tl;dr
+
+Keep backups of your coins, and test the backups to make sure all is well before sleeping at night.",2021-02-28
+41,Bloomberg Senior ETF Analyst: SEC Bitcoin ETF Approval Is Just Around the Corner,227,ltgs5o,https://bitcoinmaximalist.net/bloomberg-senior-etf-analyst-sec-bitcoin-etf-approval-is-just-around-the-corner/,29,2021-02-27 13:02:36,,2021-02-27
+42,Why recent events will continue to fuel BTC and other crypto to Roaring 20s,28,ltrlgl,https://www.reddit.com/r/Bitcoin/comments/ltrlgl/why_recent_events_will_continue_to_fuel_btc_and/,24,2021-02-28 00:27:35,"Governments around the world continues to pump unsustainable amounts of fiat cash into the systems to ""stimulate the economy"" due to unprecedented times in COVID-19. One thing that has not been covered much by the media is why there has been muted inflation, despite M2 money supply in the US going up by approximately $4 trillion since beginning of 2020. 
+
+Think about it. $4 trillion dollars is tremendous amount of more money in circulation, taking it from approximately $15 trillion dollars to $19 trillion dollars as of today. 
+
+So hasn't been there inflation? A few very important points to consider -
+
+1) How is inflation measured? We can talk hours about this but goods like energy is considered in terms of how prices are tracked. Well, energy prices went down in 2020. I just wonder how this is at all reflective of the overall economy and every day people given that food prices actually went up. If you have NO income, but food prices go up, it is so detrimental to one's finances. However, inflation does not track this very well.
+
+2) Disparity of wealth, and the impact of cash injection when it is simply replacing a part of lost income - I really feel it for those in the services sector. Restaurants, hotels, etc were shut down around the world and all those hard workers lost income for considerable period of time. So what if they get a few thousand dollars? It is not as if they already had thousands of dollars and continued to get additional funding. 
+
+\-Meanwhile, the ultra-wealthy also had access to programs like PPP in the US, and were able to put money into their retirement plan and that money was FORGIVEN by the government. So, we ask ourselves again, how can there be inflation when the money given to the ultra-wealthy was not spent into stimulating the economy?
+
+So now let's tie this back to BTC. Some people may be highly critical of BTC, but why? The supply is capped, it's completely transparent, and no one has complete control of how its moved. Sure it is energy inefficient but we all know there are much more inefficient things happening around the world every day and lack of efficiency around energy of BTC should be the least of their worries. 
+
+Ultimately, the lack of accountability and continued money printing by the central governments will show the value of BTC. I expect with more education and discussions around the merits of BTC and other cryptocurrencies, we will see a steady rise of the coin this decade. Do not worry about short term dips, and HODL if you are a long term believer. And again, remember to discuss and educate people whenever you can. 
+
+Thanks for the read! Have a great weekend.",2021-02-28
+43,Should I buy now Bitcoin?,16,ltw7ao,https://www.reddit.com/r/Bitcoin/comments/ltw7ao/should_i_buy_now_bitcoin/,27,2021-02-28 04:08:16,So Bitcoin rn is in a dip/pullback atm I am curious if it will go up or it just plumet down. I need advice if it is good to buy or is the bitcoin run over and wait on the next opportunity.,2021-02-28
+44,Turn on your audio and enjoy xD,113,ltjxaw,https://v.redd.it/jdw91hw7gzj61,21,2021-02-27 16:42:51,,2021-02-27
+45,Lightning? :(,5,lu1z2c,https://www.reddit.com/r/Bitcoin/comments/lu1z2c/lightning/,3,2021-02-28 09:15:39,"Lightning is awesome, we know that. But i cant find an easy desktop workaround. Opening a channel in electrum does not work, and i couldnt find any good tutorial. At the moment im using bluewallet, but a would prefer a desktopclient. I also dont want to use another pi.
+
+Do i just have to wait for the development or is there an easy desktop solution for lightning?",2021-02-28
+46,Nevada Gov. Steve Sisolak would like to develop crypto-operate non-public desert cities,12,ltwexp,https://larenota.com/nevada-gov-steve-sisolak-would-like-to-develop-crypto-operate-non-public-desert-cities/,3,2021-02-28 04:19:06,,2021-02-28
+47,"Hodl Bitcoin - Cathie Wood Warns of “A Doozy Market Correction""",26,ltrf4j,https://www.youtube.com/watch?v=OEpdc9FIRqQ&t=0s&ab_channel=InternetTycoon,36,2021-02-28 00:17:52,,2021-02-28
+48,We kind of have the perfect storm brewing right now.,17,ltut62,https://www.coindesk.com/coinbase-going-public,10,2021-02-28 02:58:20,,2021-02-28
+49,Thinking about converting all of my non-retirement investments to BTC,4,lu2o3p,https://www.reddit.com/r/Bitcoin/comments/lu2o3p/thinking_about_converting_all_of_my_nonretirement/,2,2021-02-28 09:54:06,"Currently about 30% in crypto, and 70% stocks/funds. I simply don’t believe in any of my stocks or funds as much as I believe in Bitcoin. The classic advice is to diversify but I’m sick of the stock market.
+
+Curious- how many people on here ONLY invest in crypto?",2021-02-28

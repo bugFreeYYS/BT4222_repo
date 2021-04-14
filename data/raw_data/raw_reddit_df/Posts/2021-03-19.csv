@@ -1,0 +1,149 @@
+,title,score,id,url,comms_num,created,body,date
+0,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,379,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,143,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+1,"Daily Discussion, March 19, 2021",83,m89qlp,https://www.reddit.com/r/Bitcoin/comments/m89qlp/daily_discussion_march_19_2021/,1142,2021-03-19 13:01:13,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m7kl54/lightning_thursday_march_18_2021_explore_the/) for unanswered questions.",2021-03-19
+2,Miami Responds Positively to Paying Salaries with Bitcoin,2440,m8i5a7,https://www.1olay.com/2021/03/miami-responds-positively-to-paying.html,173,2021-03-19 22:13:39,,2021-03-19
+3,According to Anthony Scaramucci Elon Musk owns +5 billion $ worth of bitcoin,1117,m8klqc,https://v.redd.it/v60ptmxkd0o61,128,2021-03-20 00:08:10,,2021-03-20
+4,#Bitcoin Blinding Lights #LaserRayUntil100K 🔊,359,m8pxv1,https://v.redd.it/k782yxtyk1o61,35,2021-03-20 04:13:07,,2021-03-20
+5,"Bitcoin on its way to the moon fall 3 times, get up 4 times",166,m8lupw,https://v.redd.it/o5uft0g0o0o61,62,2021-03-20 01:05:01,,2021-03-20
+6,Visa to enable Bitcoin purchases across its global payments network,452,m8f13v,https://smallcaps.com.au/visa-enable-bitcoin-purchases-across-global-payments-network/,71,2021-03-19 19:19:02,,2021-03-19
+7,Blockchain.com is a scam ****BEWARE,145,m8l2ee,https://www.reddit.com/r/Bitcoin/comments/m8l2ee/blockchaincom_is_a_scam_beware/,48,2021-03-20 00:29:12,"Just letting you all to know to avoid it.  I wired money into my wallet and it never showed up.  They claim they are in the process of returning the money to me and have every day for the last 45.  They don't respond to my bank.  There's a chat window for support which is the only way to contact them.  But they are always ""busy"" and the queue is 30 people long.  When you become 8th in line it times out and kicks you out.  Total scam.",2021-03-20
+8,Lehman Brothers CEO on Making $480 Million While Bankrupting the Company (10/6/08),94,m8nmrs,https://youtu.be/hWmO8tQ3wWM,27,2021-03-20 02:25:34,,2021-03-20
+9,I finally earned my first bitcoin!!!!!,35,m8u2jq,https://www.reddit.com/r/Bitcoin/comments/m8u2jq/i_finally_earned_my_first_bitcoin/,8,2021-03-20 07:24:46,It took me 4 years and a lot of agony. I never had my timing right and was kicking my ass when it was 3.5k ish... I was broke as fuuuuck at the time... now I have the potential to a better life. Thank you for reading.,2021-03-20
+10,Bitcoin's most attractive trait: Nobody can take away my money,80,m8mb8e,https://www.reddit.com/r/Bitcoin/comments/m8mb8e/bitcoins_most_attractive_trait_nobody_can_take/,47,2021-03-20 01:25:51,"This is by far the #1 reason I'm investing in Bitcoin right now.
+
+With banks I'm always afraid that they will somehow lock my account or start asking me for things such as where is my money coming from, what do I do for a living, etc.
+
+I don't do anything ilegal, but I hate governments and banks sticking their noses into my business. 
+
+With Bitcoin I feel that my money is as safe as it can get. My only concern is the possibility of a huge crash, but the benefits far outweigh the risk.",2021-03-20
+11,"Fiat Currency Reaction, When Come Bitcoin",627,m8aitj,https://v.redd.it/zwdhxou3bxn61,69,2021-03-19 13:51:26,,2021-03-19
+12,First Bitcoin ETF Approved In Latin America,49,m8oj98,https://bitcoinmagazine.com/markets/first-bitcoin-etf-approved-in-latin-america,4,2021-03-20 03:07:17,,2021-03-20
+13,Anyone else seeing rumors that SpaceX also has bought bitcoin?,84,m8k516,https://i.redd.it/w4lb5zk7a0o61.jpg,25,2021-03-19 23:47:30,,2021-03-19
+14,Swedish banks denying customers to buy crypto...,259,m8drym,https://www.reddit.com/r/Bitcoin/comments/m8drym/swedish_banks_denying_customers_to_buy_crypto/,156,2021-03-19 17:50:37,"So now I’ve tried the Swedish banks Swedbank and Lansforsakringar. Neather of the banks wants to open international paymemts for the use of traiding crypto. They say it’s because they can’t see where were transaction came from if I’m buying/selling cryptocurrency. So it basically means I’m getting denied to use my money. Also it seems to be a problem about 
+”how easy it is for me as a customer to loose my money”. In other words they are trying to say that they are doning me a favor because it’s too much of a risk to trade crypto.",2021-03-19
+15,A nation needs to spend ONLY 58 Billion $ to become a world reserve.,188,m8ee7r,https://www.reddit.com/r/Bitcoin/comments/m8ee7r/a_nation_needs_to_spend_only_58_billion_to_become/,75,2021-03-19 18:35:22,"It just boggles my mind that any nation can just buy 58 Billion $ worth of BTC and gain game changing monetary power. 
+
+That's equivalent to 1 million coins.
+
+I cannot fathom how cheap Bitcoin really is right now. 
+
+I can't even begin to wrap my head around this.
+
+That's all I gotta say.
+
+My head is about to explode.",2021-03-19
+16,The case for self-custody.,77,m8j26b,https://www.reddit.com/r/Bitcoin/comments/m8j26b/the_case_for_selfcustody/,27,2021-03-19 22:57:42,"&#x200B;
+
+https://preview.redd.it/d5oh16p810o61.jpg?width=800&format=pjpg&auto=webp&s=eb719464a362f3e934a870ced26dcbb0b649c740",2021-03-19
+17,Inside Iceland's Massive Bitcoin Mine,143,m8f9y0,https://youtu.be/f0HC1Udk6-E,30,2021-03-19 19:35:29,,2021-03-19
+18,Bitcoin Is Now 3rd Largest World Currency by Market Cap,53,m8l3e3,https://decrypt.co/39425/bitcoin-is-3rd-largest-world-currency?utm_source=reddit&utm_medium=social&utm_campaign=sm,6,2021-03-20 00:30:31,,2021-03-20
+19,"First JP Morgan talks shit about BTC, and then hoards and sells them to clients. Next up, its BoA. These dinosaurs are running scared.",4538,m7ucg3,https://www.cnbc.com/2021/03/17/bitcoin-bofa-says-theres-no-reason-to-own-it-other-than-speculation.html?utm_content=Main&utm_medium=Social&utm_source=Facebook#Echobox=1616002212,264,2021-03-19 00:15:10,,2021-03-19
+20,Bank of America: It Takes $93 Million To Move Bitcoin By 1% In Price,14,m8soxu,https://insidebitcoins.com/news/it-takes-93-million-to-move-bitcoin-by-1-in-price-says-bank-of-america,5,2021-03-20 06:18:31,,2021-03-20
+21,I thought you may like it 🙂 P.S. i hope you managed to get in ARK,92,m8funu,https://v.redd.it/148crgsb7zn61,11,2021-03-19 20:10:50,,2021-03-19
+22,I'd like to start a discussion about owning Bitcoin and why everyone who owns Bitcoin should run a full node.,29,m8m5mz,https://www.reddit.com/r/Bitcoin/comments/m8m5mz/id_like_to_start_a_discussion_about_owning/,19,2021-03-20 01:18:58,"- Better Network Connectivity
+- Validate your own transactions 
+- ??",2021-03-20
+23,"If Bitcoin didn’t exist, we’d have to invent it right now",24,m8o9lx,https://bombthrower.com/articles/if-bitcoin-didnt-exist-wed-have-to-invent-it-right-now/,3,2021-03-20 02:55:11,,2021-03-20
+24,"‌Deutsche Bank: ""Bitcoin is too important to ignore""",40,m8kseh,https://cryptoreportage.com/bitcoin-news/‌deutsche-bank-bitcoin-is-too-important-to-ignore/,6,2021-03-20 00:16:29,,2021-03-20
+25,Stand up comedian Tim Dillion announced as a speaker for Bitcoin 2021! He HODLs bitcoin!,14,m8qjmq,https://twitter.com/TheBitcoinConf/status/1373011046911315973?s=20,1,2021-03-20 04:40:43,,2021-03-20
+26,The first bitcoin ETF crosses $1 billion in assets under management just one month after launch,27,m8lnu2,https://www.businessinsider.com/purpose-bitcoin-etf-first-of-kind-crosses-1-billion-aum-2021-3,2,2021-03-20 00:56:56,,2021-03-20
+27,"I think I miss the train, I only have 70,000,000 Satoshis",24,m8mevq,https://www.reddit.com/r/Bitcoin/comments/m8mevq/i_think_i_miss_the_train_i_only_have_70000000/,25,2021-03-20 01:30:30,posts like this will be popular in 10 years,2021-03-20
+28,Stealth OPENDIME is out!,20,m8ni1f,https://twitter.com/OPENDIME/status/1372975694804844548?s=20,7,2021-03-20 02:19:19,,2021-03-20
+29,Micahel Saylor's BTC Strategy,6,m8u6xb,https://www.reddit.com/r/Bitcoin/comments/m8u6xb/micahel_saylors_btc_strategy/,0,2021-03-20 07:31:14,"[Michael Saylor on Economics, Bitcoin and Decision Making](https://youtu.be/XgqC5_eugJI?t=4491)",2021-03-20
+30,How are new Bitcoin wallets created (technical explanation)?,8,m8rvo5,https://www.reddit.com/r/Bitcoin/comments/m8rvo5/how_are_new_bitcoin_wallets_created_technical/,20,2021-03-20 05:42:37,"I'm not finding a good outline on how a new Bitcoin wallet is created from scratch, I'm just seeing use XX service or download XX client and create a new wallet etc.",2021-03-20
+31,"Just invested in some bitcoin at 16 years old, already want to put more into it.",16,m8njwe,https://www.reddit.com/r/Bitcoin/comments/m8njwe/just_invested_in_some_bitcoin_at_16_years_old/,26,2021-03-20 02:21:51,"I put some money in bitcoin a few days ago, and since i have done some research and i’m realizing how important it is. I’m realizing how even though it’s so expensive right now, i’m still early. I can be rich by 20 if i put a little bit of money away every week into bitcoin.",2021-03-20
+32,The 'Bitcoin Market Cycle Index' - Where are we in the current market cycle?,16,m8n0wh,https://www.reddit.com/r/Bitcoin/comments/m8n0wh/the_bitcoin_market_cycle_index_where_are_we_in/,2,2021-03-20 01:58:10,"Hey,
+
+I have developed an indicator for estimating where Bitcoin is in its current market cycle.   
+
+The **Bitcoin Market Cycle Index (BMCI**) is calculated by averaging (arithmetic mean) the normalized daily values of the following metrics:
+
+[NUPL (Net Unrealized Profit/Loss)](https://academy.glassnode.com/indicators/profit-loss-unrealized/net-unrealized-profit-loss)  
+[MVRV-Z Score](https://academy.glassnode.com/market/mvrv/mvrv-z-score)  
+[Puell Multiple](https://academy.glassnode.com/indicators/coin-issuance/puell-multiple)  
+[Reserve Risk](https://academy.glassnode.com/indicators/coin-days-destroyed/reserve-risk)  
+[Stock to Flow Deflection](https://academy.glassnode.com/indicators/stock-to-flow/stock-to-flow-deflection)  
+[RHODL Ratio](https://docs.glassnode.com/api/indicators#rhodl-ratio)  
+[Percent Supply in Profit](https://academy.glassnode.com/supply/profit-loss-supply/percent-supply-in-profit)  
+[Market Cap to Thermocap Ratio](https://docs.glassnode.com/api/mining#market-cap-to-thermocap-ratio) 
+
+I hope someone gets any value from this indicator, which you can find at [https://www.bitcoinmarketcycle.com/](https://www.bitcoinmarketcycle.com/)
+
+Best wishes!",2021-03-20
+33,Ohio dry cleaning company accepting cryptocurrency,23,m8jerh,https://www.reddit.com/r/Bitcoin/comments/m8jerh/ohio_dry_cleaning_company_accepting_cryptocurrency/,2,2021-03-19 23:13:26,"What can you buy with cryptocurrency? It depends on where you live, is the short answer. NBA tickets, plane tickets or even a Tesla car, but now you can add dry cleaning to the list.
+
+Dublin Cleaners and New Albany Cleaners has announced it is accepting cryptocurrencies.
+
+“We are investing in it personally. Why shouldn’t the business participate in what’s going on,” said Brian Butler, the president of Dublin and New Albany Cleaners. “I started to pay attention to it after Thanksgiving because it started to make a move. My wife and I invested ourselves in early January.”
+
+[https://www.10tv.com/article/news/local/local-dry-cleaning-company-accepting-cryptocurrency/530-cb48907b-17dd-4e1b-a1ec-01cc1ce282db](https://www.10tv.com/article/news/local/local-dry-cleaning-company-accepting-cryptocurrency/530-cb48907b-17dd-4e1b-a1ec-01cc1ce282db)",2021-03-19
+34,Brazilian stock exchange to have Latin America's first bitcoin ETF - QBTC11,40,m8fhx7,https://www.reddit.com/r/Bitcoin/comments/m8fhx7/brazilian_stock_exchange_to_have_latin_americas/,0,2021-03-19 19:49:43,"Note that this is NOT the same as [Hasdex's ETF](https://cryptoreportage.com/bitcoin-news/brazil-launches-latin-americas-first-bitcoin-etf/) posted before. This one is 100% BTC only. 
+
+&#x200B;
+
+>*""Primary offer of QBTC11, from QR Asset Management, asset manager of holding company QR Capital, is expected to raise* ***R$ 500 million*** *\[this is \~USD 94 million\] and the ETF will reach the homebrokers of Brazilian investors* ***this semester****"".*
+
+&#x200B;
+
+PT-BR: [https://valorinveste.globo.com/mercados/cripto/noticia/2021/03/19/bolsa-brasileira-tera-primeiro-etf-de-bitcoin-da-america-latina.ghtml](https://valorinveste.globo.com/mercados/cripto/noticia/2021/03/19/bolsa-brasileira-tera-primeiro-etf-de-bitcoin-da-america-latina.ghtml)
+
+Google Translate: [https://translate.google.com/translate?hl=&sl=pt&tl=en&u=https%3A%2F%2Fvalorinveste.globo.com%2Fmercados%2Fcripto%2Fnoticia%2F2021%2F03%2F19%2Fbolsa-brasileira-tera-primeiro-etf-de-bitcoin-da-america-latina.ghtml](https://translate.google.com/translate?hl=&sl=pt&tl=en&u=https%3A%2F%2Fvalorinveste.globo.com%2Fmercados%2Fcripto%2Fnoticia%2F2021%2F03%2F19%2Fbolsa-brasileira-tera-primeiro-etf-de-bitcoin-da-america-latina.ghtml)
+
+&#x200B;
+
+Fasten your seatbelts :)",2021-03-19
+35,"The US dollar has lost 23% of its purchasing power over the past decade1. During the same time frame, almost every major asset class has gone up, including stocks (up 256%), gold (up 25%) and Bitcoin (up 4986412%). We all know where that stimmy check belongs #BTC",1538,m7ucdw,https://coinmama.medium.com/how-to-invest-a-stimulus-check-in-bitcoin-412a2843a595,150,2021-03-19 00:15:06,,2021-03-19
+36,Bitcoin wizard says “Stack Sats!”,247,m861nv,https://www.reddit.com/gallery/m861nv,35,2021-03-19 09:26:27,,2021-03-19
+37,Willy Woo: $ 1.1 Billion Bitcoin (BTC) Movement Triggers Crypto Sale,14,m8kjps,https://www.1olay.com/2021/03/willy-woo-11-billion-bitcoin-btc.html,14,2021-03-20 00:05:31,,2021-03-20
+38,Person vs Idea Who is...,4,m8u0c5,https://youtu.be/5WwHQ2kEjDA,0,2021-03-20 07:21:40,,2021-03-20
+39,What Percentage Of Wealth Stored In Stocks Will Move Into Bitcoin?,5,m8sbkr,https://bitcoinmagazine.com/markets/what-percentage-of-wealth-stored-in-stocks-will-move-into-bitcoin,6,2021-03-20 06:02:56,,2021-03-20
+40,How can Bitcoin not replace Gold? It's more salable,19,m8jj8b,https://economictimes.indiatimes.com/markets/expert-view/bitcoin-will-remain-useful-but-may-not-replace-gold/articleshow/81136132.cms,6,2021-03-19 23:19:19,,2021-03-19
+41,Coldcard Version 4.0.0 Released For Improved Bitcoin Security,10,m8mzjt,https://bitcoinmagazine.com/technical/coldcard-version-4-0-0-released-for-improved-bitcoin-security,0,2021-03-20 01:56:24,,2021-03-20
+42,Why Did Satoshi Nakamoto Limit Bitcoin’s Supply to 21 Million?,35,m8e7rp,https://www.inbitcoinwetrust.net/why-did-satoshi-nakamoto-limit-bitcoins-supply-to-21-million-1d0395cef25b?sk=a2f5d4c8c96a6effbf1e61dc9eea3d2c,54,2021-03-19 18:22:25,,2021-03-19
+43,20 years from now...,4,m8so1l,https://www.reddit.com/r/Bitcoin/comments/m8so1l/20_years_from_now/,10,2021-03-20 06:17:25,"I'm new to crypto and to reddit. I'm finding out you can't mention certain things, such as other shit coins. I'm sold on btc.  I converted all my shit to btc.  I understand that at the end of the day, security is king.  It's money, so obviously, security is the most important aspect.  But where will we be in 20 years. Not with price, but with usage. I get that btc can be a success as just a store of value, but it would be great if it were more usable for day to day.  Do you think there will come a point where we will all be paying for our daily coffee via a crypto wallet?  Or, will fiat hang around and bitcoin stays like gold?  Is it possible that someday btc could be that way, or is the protocol such that it can't really happen?  Or, the questionable question...does a shit coin take up that space.  Sorry if I broke the rules and thanks for your sharing your thoughts.",2021-03-20
+44,Can Bitcoin be Good for the Environment?,5,m8qykv,https://www.reddit.com/r/Bitcoin/comments/m8qykv/can_bitcoin_be_good_for_the_environment/,4,2021-03-20 05:00:32,"A growing trend is green energy projects that also mine bitcoin.  The hash rate for the bitcoin mining increases when energy demand is low but energy supply is high.   For example, for a wind farm, when winds are high overnight when energy demand is at its lowest, bitcoin mining would be at 100%.   When the opposite is true, bitcoin mining could be shutoff completely.  This increase in revenue by profiting from energy that would otherwise be wasted, increases the feasibility of a green energy project such that if not for that extra revenue the project may have been operating at a loss and therefore likely wouldn't have been built in the first place.",2021-03-20
+45,Explaining Segregated Witness (SegWit) - The Van Wirdum Sjorsnado - Bitcoin Magazine,10,m8mfgn,https://youtu.be/DsyMUzhfG34,0,2021-03-20 01:31:13,,2021-03-20
+46,"Home Prices Post 17% Annual Gain, Largest in at Least 5 Years. Inflation is popping up all over. Dollar 📉bitcoin 📈",3,m8s24l,https://www.nbcrightnow.com/news/state/home-prices-post-17-annual-gain-largest-in-at-least-5-years/article_70a63356-c1cf-56be-bedf-e350fc34ce41.html,16,2021-03-20 05:50:39,,2021-03-20
+47,BTC’s Global ATMs Doubles Amid the Crypto’s Recent Rally,20,m8gi1x,https://thedailychain.com/btcs-global-atms-doubles-amid-the-cryptos-recent-rally/,0,2021-03-19 20:48:31,,2021-03-19
+48,India Bitcoin Ban Would Be a Terrible Idea,31,m8do5v,https://www.bloomberg.com/opinion/articles/2021-03-19/bitcoin-ban-proposed-in-india-is-a-bad-idea?utm_content=crypto&utm_campaign=socialflow-organic&utm_source=twitter&utm_medium=social,14,2021-03-19 17:42:31,,2021-03-19
+49,Bitcoin ATMs coming to a corner near you,5,m8pwxk,https://www.cbsnews.com/video/bitcoin-atms-coming-to-a-corner-near-you/,5,2021-03-20 04:11:53,,2021-03-20

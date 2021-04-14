@@ -1,0 +1,389 @@
+,title,score,id,url,comms_num,created,body,date
+0,Bitcoin Newcomers FAQ - Please read!,974,krqrmf,https://www.reddit.com/r/Bitcoin/comments/krqrmf/bitcoin_newcomers_faq_please_read/,872,2021-01-07 00:06:25,"# Welcome to the /r/Bitcoin Sticky FAQ
+
+You've probably been hearing a lot about Bitcoin recently and are wondering what's the big deal?  Most of your questions should be answered by the resources below but if you have additional questions feel free to ask them in the comments.  
+
+It all started with the release of **[Satoshi Nakamoto's whitepaper](https://bitcoin.org/bitcoin.pdf)** however that will probably go over the head of most readers so we recommend the following articles/books/videos as a good starting point for understanding how bitcoin works and a little about its long term potential:
+
+* [Article: The Bullish Case for Bitcoin](https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1)
+* [Book: The Bitcoin Standard](https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861)
+* [Video 1: The Stories We Tell About Money - Andreas Antonopoulos](https://youtu.be/ONvg9SbauMg?t=1)
+* [Video 2: The Bitcoin Standard - Saifdean Ammous](https://www.youtube.com/watch?v=Zbm772vF-5M&t=272s)
+* [Video 3: Bitcoin 101 - Balaji Srinivasan](https://youtu.be/JIxwTx7o_B4?t=1)
+* [Video 4: Bitcoin Macro Strategy - Michael Saylor & Ross Stevens](https://www.microstrategy.com/en/resources/events/world-2021/bitcoin-summit/sessions/bitcoin-macro-strategy?CID=7014W0000014yhJQAQ)
+* [Video 5: The Saylor Series - Michael Saylor & Robert Breedlove](https://youtu.be/4rvTppy1qLI?t=1)
+* [Video 6: Bitcoin S2FX, S2F and Evolution From Collectible to Financial Asset - Stephan Livera, PlanB & Saifdean Ammous](https://www.youtube.com/watch?v=j2cP8k_QUaw)
+
+
+Some other great resources include Michael Saylor's [""Bitcoin for Everybody""'](https://learn.saylor.org/course/view.php?id=468) course, Jameson Lopp's [resource page](http://lopp.net/bitcoin.html), Gigi's [resource page](https://bitcoin-resources.com/#bitcoin-non-technical), and James D'Angelo's [Bitcoin 101 Blackboard series](https://www.youtube.com/watch?v=Bhe61JaNFLU&list=PLzctEq7iZD-7-DgJM604zsndMapn9ff6q&index=7&t=0s).  Some excellent writing on Bitcoin's value proposition and future can be found at the [Satoshi Nakamoto Institute](http://nakamotoinstitute.org/mempool/).  
+
+If you are technically or academically inclined check out [developer resources](https://developer.bitcoin.org/) and peer-reviewed [research papers](https://docs.google.com/spreadsheets/d/1VaWhbAj7hWNdiE73P-W-wrl5a0WNgzjofmZXe0Rh5sg), course lectures from both [MIT](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/video-lectures/) and [Princeton](https://www.reddit.com/r/Bitcoin/comments/7qynvj/dont_panic_just_learn_sixty_free_lectures_from/) as well as future [protocol improvements](http://diyhpl.us/wiki/transcripts/2018-01-24-rusty-russell-future-bitcoin-tech-directions/) and [scaling resources](https://www.reddit.com/r/Bitcoin/comments/56nnd8/the_scaling_bitcoin_website_is_awesome_videos/).  Some Bitcoin statistics can be found [here](https://data.bitcoinity.org/bitcoin/hashrate/6m?c=m&g=15&r=week&t=a), [here](https://bitcoinvisuals.com/) and [here](https://bitcoin.clarkmoody.com/dashboard/).  MicroStrategy's [Bitcoin for Corporations](https://www.microstrategy.com/en/resources/events/world-2021/bitcoin-summit?CID=7014W0000014yhJQAQ) is an excellent open source series on corporate legal and financial bitcoin integration.
+
+You can also see the number of times Bitcoin was [declared dead by the media](https://99bitcoins.com/obituary-stats) (LOL) and [what you could have earned](https://dontbuybitcointheysaid.com/) if you didn't listen to them!  XD
+
+## Key properties of Bitcoin
+
+* **Limited Supply** - There will only ever be 21,000,000 bitcoin created and they are issued in a predictable fashion per the [inflation schedule](https://bashco.github.io/Bitcoin_Monetary_Inflation/).  Once they are all issued Bitcoin will be truly deflationary.  The [halving countdown](http://bitcoinblockhalf.com/) tells you how much time until the next drop in block rewards.
+* **Open source** - Bitcoin code is fully auditable.  You can read and contribute to the [source code](https://github.com/bitcoin/bitcoin) yourself.
+* **Accountable** - The public ledger is transparent, all transactions are [seen by everyone](https://blockstream.info/).
+* **Decentralized** - Bitcoin is globally distributed across thousands of nodes with no single point of failure and as such can't be shut down similar to how [Bittorrent](https://en.wikipedia.org/wiki/BitTorrent) works.  You can even [run a node on a Raspberry Pi](https://getumbrel.com/).  
+* **Censorship resistant** - No one can prevent you from interacting with the bitcoin network and no one can censor, alter or block transactions that they disagree with, see [Operation Chokepoint](https://en.wikipedia.org/wiki/Operation_Choke_Point).
+* **Push system** - There are [no chargebacks](https://gendal.me/2013/10/21/lessons-from-bitcoin-push-versus-pull/) in bitcoin because only the person who owns the address where the bitcoin resides has the authority to move them.
+* **Low fee scaling** - Most wallets calculate on chain fees automatically but you can view [fee estimates](https://bitcoinfees.earn.com/) and [mempool activity](https://jochen-hoenicke.de/queue/#0,2w) if you want to set your fee manually.  On chain fees may rise occasionally due to network demand, however instant micropayments that do not require confirmations are happening via the [Lightning Network](https://www.reddit.com/r/Bitcoin/comments/7pwna9/lightning_network_megathread/), a second layer scaling solution currently rolling out on the Bitcoin mainnet.  
+* **Borderless** - No country can stop it from going in/out, even in areas currently unserved by traditional banking as the ledger is [globally distributed](https://bitnodes.earn.com/).
+* **Trustless** - Bitcoin solved the [Byzantine's Generals Problem](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance) which means nobody needs to trust anybody for it to work.
+* **Pseudonymous** - No need to [expose personal information](http://bitcoinsimplified.org/learn-more/anonymity/) when purchasing with cash or transacting. 
+* **Secure** - Blocks and transactions are cryptographically secured (using hashes and signatures) and can’t be [brute forced](http://i.imgur.com/fYFBsqp.jpg) or confiscated with proper key management such as hardware wallets.
+* **Programmable** - Individual units of bitcoin can be [programmed to transfer](https://en.bitcoin.it/wiki/Script) based on certain criteria being met
+* **Nearly instant** - From a few seconds on the lightning network to a [few minutes](https://www.blockchain.com/charts/median-confirmation-time) on-chain depending on need for confirmations.  Transactions are irreversible by normal users after one confirmation and irreversible by anyone (including miners) after 6 confirmations. 
+* **Peer-to-peer** - No intermediaries taking a cut, no need for [trusted third parties](https://nakamotoinstitute.org/trusted-third-parties/).
+* **Portable** - Bitcoin are digital so they are easier to move than cash or gold.  They can be transported by simply carrying a seed (a string of 12 to 24 words) on a device or by [memorizing it for wallet recovery](https://en.bitcoin.it/wiki/Brainwallet) (while cool, memorizing is generally not recommended due to potential for forgetting the seed and the potential for insecure key generation by inexperienced users.  Hardware wallets are the preferred method for most users for their ease of use and additional security).
+* **Scalable** - While the protocol is still being optimized for [increased transaction capacity](https://en.bitcoin.it/wiki/Scalability), blockchains do not scale very well, so most transaction volume is expected to occur on Layer 2 networks built on top of Bitcoin.
+* **Divisible** - Each bitcoin can be [divided down to 8 decimals](https://en.bitcoin.it/wiki/Satoshi_(unit\)), which means you don't have to worry about buying an entire bitcoin.
+* **Designed Money** - Bitcoin was created to fit all the [fundamental properties of money](http://i.imgur.com/wkTyyaV.png) better than gold or fiat
+
+## Where can I buy bitcoin?
+
+[Bitcoin.org](https://bitcoin.org/en/buy) and [BuyBitcoinWorldwide.com](https://www.buybitcoinworldwide.com/) are helpful sites for beginners.  You can buy or sell any amount of bitcoin (even just a few dollars worth) and there are several easy methods to purchase bitcoin with cash, credit card or bank transfer.  Some of the more popular resources are below, also check out the [bitcoinity exchange resources](https://data.bitcoinity.org/markets/exchanges/USD/30d) for a larger list of options for purchases.  
+
+* [Cash app](https://cash.app/)
+* [Gemini](https://gemini.com/)
+* [Swan](https://www.swanbitcoin.com/)
+* [River Financial](https://river.com/)
+* [Bitstamp](https://www.bitstamp.net/)
+* [BitFinex](https://www.bitfinex.com/)
+* [Xapo](https://xapo.com/)
+* [Kraken](https://www.kraken.com/)
+* [Cex](https://cex.io/)
+* [LocalBitcoins](https://localbitcoins.com/)
+* [LibertyX](https://libertyx.com/)
+* [P2P exchange list](https://github.com/cointastical/P2P-Trading-Exchanges/) (decentralized) 
+
+You can also purchase in cash with [local ATMs](http://coinatmradar.com/).  If you would like your paycheck automatically converted to bitcoin use [Bitwage](https://www.bitwage.com/).  
+
+**Note:** Bitcoin are valued at whatever [market price](https://cryptowat.ch/bitstamp/btcusd) people are willing to pay for them in balancing act of supply vs demand. Unlike traditional markets, bitcoin markets operate 24 hours per day, 365 days per year. 
+
+## Securing your bitcoin
+
+With bitcoin you can **""Be your own bank""** and personally secure your bitcoin **OR** you can use third party companies aka **""Bitcoin banks""** which will hold the bitcoin for you.
+
+* If you prefer to **""Be your own bank""** and have direct control over your coins without having to use a trusted third party, then you will need to create your own wallet and keep it secure. If you want easy and secure storage without having to learn computer security best practices, then a hardware wallet such as the [Trezor](https://www.trezor.io/), [Ledger](https://www.ledgerwallet.com/) or [ColdCard](https://coldcardwallet.com/) is recommended.
+
+* If you cannot afford a hardware wallet there are many [software wallet](https://bitcoin.org/en/choose-your-wallet) options to choose from depending on your use case.  Mobile wallets like [BlueWallet](https://bluewallet.io/) are generally more secure than desktop wallets.  Beware of fake mobile wallets and check reviews from reputable Bitcoin websites.  Avoid paper wallets or brain wallets.
+
+* If you prefer to let third party **""Bitcoin banks""** manage your coins, try [Gemini](https://gemini.com/) or [Unchained Capital](https://unchained-capital.com/) but be aware you may not be in control of your private keys in which case you would have to ask permission to access your funds and be exposed to third party risk.  There is a saying in the community, **""Not your keys, not your coins""** meaning if you don't store your coins in a wallet that you control the keys to then you do not really own your bitcoin as you have to ask permission from the third party in order to move them.  
+
+**Note: For increased security, use Two Factor Authentication (2FA) everywhere it is offered, including email!** 
+
+2FA requires a second confirmation code or a physical security key to access your account making it much harder for thieves to gain access.  Google Authenticator and Authy are the two most popular 2FA services, download links are below.  Make sure you create backups of your 2FA codes.
+
+**Avoid using your cell number for 2FA.**  Hackers have been using a technique called ""SIM swapping"" to impersonate users and steal bitcoin off exchanges.
+
+Google Auth | Authy | OTP Auth | andOTP
+--------------|--------|------------|--------
+[Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) | [Android](https://play.google.com/store/apps/details?id=com.authy.authy&hl=en) | N/A | [Android](https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp)
+[iOS](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8) | [iOS](https://itunes.apple.com/us/app/authy/id494168017) | [iOS](https://apps.apple.com/us/app/otp-auth/id659877384) | N/A
+
+Physical security keys (FIDO U2F) offer stronger security than Google Auth / Authy and other TOTP-based apps, because the secret code never leaves the device and it uses bi-directional authentication so it prevents phishing. If you lose the device though, you could lose access to your account, so always use 2 or more security keys with a given account so you have backups. See [Yubikey](https://yubikey.com/) or [Titan](https://cloud.google.com/titan-security-key) to purchase security keys.
+
+Both Coinbase and Gemini support physical security keys. 
+
+
+## Watch out for scams
+
+As mentioned above, Bitcoin is decentralized, which by definition means there is no official website or Twitter handle or spokesperson or CEO. However, all money attracts thieves. This combination unfortunately results in scammers running official sounding names or pretending to be an authority on YouTube or social media. Many scammers throughout the years have claimed to be the inventor of Bitcoin. Websites like bitcoin(dot)com and the r / btc subreddit are active scams.  Almost all altcoins (shitcoins) are marketed heavily with big promises but are really just designed to separate you from your bitcoin.  So be careful: any resource, including all linked in this document, may in the future turn evil.  As they say in our community, **""Don't trust, verify""**. 
+
+* Avoid using ad-based search engines like Google or Yahoo: ads are shown based on how much the advertiser bids, and scammers can easily outbid legitimate providers for ad space, since immoral ways of earning money are far more lucrative than moral ways.  Use [DuckDuckGo](https://duckduckgo.com/) instead, which has no ads, and never tracks you as well.
+* Ignore private messages offering services.
+* **Never enter your seed words in a website of any kind.** Hardware wallets will recover by displaying possible seed words on their own interface, never on a website.
+* **Always check addresses on your hardware wallet before sending or receiving.**  Some malware has been known to replace addresses in your web browser or that you copy-and-paste.
+* Avoid clicking on links like that look like links, such as [https://www.google.com/](https://www.youtube.com/watch?v=8ybW48rKBME), without first hovering over it and actually checking where they go to.  Just because a link is labelled with an HTTPS address does not mean it actually sends you to that address.  It is trivial for someone to comment a link on Reddit that looks like it will send you to one website when it actually sends you to another, and you might not notice the difference until a scammer has gotten all your money, or you have downloaded and installed software that steals your money.
+
+## Common Bitcoin Myths
+Often the same concerns arise about Bitcoin from newcomers.  Questions such as:
+
+* Is Bitcoin a Ponzi scheme?
+* Will governments ban Bitcoin?
+* Will quantum computers break Bitcoin?
+
+All of these questions have been answered many times by a variety of people.  Here are some resources where you can see if your concern has been answered:
+
+* [Common Bitcoin Myths](https://en.bitcoin.it/wiki/Myths)
+* [Gradually, Then Suddenly](https://nakamotoinstitute.org/mempool/series/gradually-then-suddenly/)
+* [Every Reason Bitcoin Will Not Fail](https://safehodl.github.io/failure/)
+
+## Where can I spend bitcoin?
+
+Check out [spendabit](https://spendabit.co/) or [bitcoin directory](http://bitcoin.directory/shop) for millions of merchant options.  Also you can spend bitcoin anywhere visa is accepted with bitcoin debit cards such as the [CashApp card](https://cash.app/help/us/en-us/3080-cash-card-get-started) or [Fold card](https://foldapp.com/).  Some other useful site are listed below.
+
+Store | Product
+---|---
+[Bitrefill](https://bitrefill.com), [Gyft](http://www.gyft.com/)  | Gift cards for thousands of retailers worldwide including Amazon, Target, Walmart, Starbucks, Whole Foods, CVS, Lowes, Home Depot, iTunes, Best Buy, Sears, Kohls, eBay, GameStop, etc.
+[Spendabit](https://spendabit.co/), [Overstock](http://www.overstock.com/) and [The Bitcoin Directory](http://bitcoin.directory/) | Retail shopping with millions of results
+[NewEgg](http://www.newegg.com/) and [Dell](http://www.dell.com/) | For all your electronics needs
+[Piixpay](https://piixpay.com), [Bitbill.eu](https://bitbill.eu), [Bylls](https://bylls.com), [Coins.ph](https://coins.ph), [LivingRoomofSatoshi](https://www.livingroomofsatoshi.com), [Coinsfer](https://coinsfer.com/), and [more](https://plusbitcoin.net/bitcoin-debit-card/) | Bill payment
+[Menufy](https://www.menufy.com/) and [Takeaway](http://corporate.takeaway.com/) | Takeout delivered to your door
+[Expedia](http://www.expedia.com/), [Cheapair](http://www.cheapair.com/), [Destinia](http://destinia.us/), [Abitsky](http://www.abitsky.com/), [SkyTours](http://www.sky-tours.com/), the [Travel](https://www.gyft.com/buy-gift-cards/category/travel/) category on Gyft and [9flats](http://www.9flats.com/) | For when you need to get away
+[Cryptostorm](https://cryptostorm.is), [Mullvad](https://mullvad.net), and [PIA](https://www.privateinternetaccess.com/) | VPN services
+[Namecheap](https://www.namecheap.com/), [Porkbun](https://porkbun.com/) | Domain name registration
+[Stampnik](https://stampnik.com) | Discounted USPS Priority, Express, First-Class mail postage
+[Coinmap](http://coinmap.org/) and [AirBitz](https://airbitz.co/search?term=&location=Current+Location) are helpful to find local businesses accepting bitcoin. A good resource for UK residents is at [wheretospendbitcoins.co.uk](http://www.wheretospendbitcoins.co.uk).
+
+There are also [lots of charities](https://www.reddit.com/r/changetip/wiki/suggestions) which accept bitcoin donations.
+
+## Merchant Resources
+
+There are several benefits to accepting bitcoin as a payment option if you are a merchant;
+
+* 1-3% savings over credit cards or PayPal.
+* No chargebacks (final settlement in 10 minutes as opposed to 3+ months).
+* Accept business from a global customer base.
+* Increased privacy.
+* Convert 100% of the sale to the currency of your choice for deposit to your account, or choose to keep a percentage of the sale in bitcoin if you wish to begin accumulating it.  
+
+If you are interested in accepting bitcoin as a payment method, there are several options available;
+
+* [BTCPay](https://btcpayserver.org/)
+* [Square cash](https://cash.me/)
+* [Stripe](https://stripe.com/bitcoin)
+* [Wyre](https://www.sendwyre.com/business/)
+* [Blockonomics](https://www.blockonomics.co/merchants#) (direct to your wallet)
+
+## Can I mine bitcoin?
+
+Mining bitcoin can be a fun learning experience, but be aware that you will most likely operate at a loss.  Newcomers are often advised to stay away from mining unless they are only interested in it as a hobby similar to [folding at home](http://folding.stanford.edu/).  If you want to learn more about mining you can read the [mining FAQ](https://en.bitcoin.it/wiki/Faq#Mining). Still have mining questions?  The crew at /r/BitcoinMining would be happy to help you out. 
+
+If you want to contribute to the bitcoin network by hosting the blockchain and propagating transactions you can [run a full node](https://getumbrel.com/).  You can view the [global node distribution](https://getaddr.bitnodes.io/) for a visual representation of the node network.
+
+## Earning bitcoin
+
+Just like any other form of money, you can also earn bitcoin by being paid to do a job.
+
+Site | Description
+---|---
+[WorkingForBitcoins](https://workingforbitcoins.com), [Bitwage](https://www.bitwage.com/for-individuals/), [Cryptogrind](http://www.cryptogrind.com/#!/), [Coinality](https://coinality.com/), [Bitgigs](http://bitgigs.com/), [/r/Jobs4Bitcoins](http://www.reddit.com/r/Jobs4Bitcoins), [BitforTip](http://www.bitfortip.com/), [Rein Project](http://reinproject.org/) | Freelancing
+[Lolli](https://www.lolli.com/) | Earn bitcoin when you shop online!
+[OpenBazaar](https://openbazaar.org/), [Purse.io](https://purse.io/shop), [Bitify](https://bitify.com/), [/r/Bitmarket](http://www.reddit.com/r/BitMarket) | Marketplaces
+[/r/GirlsGoneBitcoin](http://www.reddit.com/r/GirlsGoneBitcoin) NSFW | Adult services
+[A-ads](https://a-ads.com/), [Coinzilla.io](https://coinzilla.io/) | Advertising
+
+You can also earn bitcoin by participating as a market maker on [JoinMarket](https://github.com/chris-belcher/joinmarket) by allowing users to perform CoinJoin transactions with your bitcoin for a small fee (requires you to already have some bitcoin).
+
+## Bitcoin-Related Projects
+
+The following is a **short** list of ongoing projects that might be worth taking a look at if you are interested in current development in the bitcoin space.  
+
+Project | Description
+---|---
+[Lightning Network](https://lightning.engineering/index.html)| Second layer scaling
+[Liquid](https://blockstream.com/liquid/), [Rootstock](https://www.rsk.co/) and [Drivechain](http://www.truthcoin.info/blog/drivechain/) | Sidechains
+[Hivemind](http://bitcoinhivemind.com) | Prediction markets
+[Tierion](https://tierion.com) and [Factom](http://factom.org/) | Records & Titles on the blockchain
+[BitMarkets](https://voluntary.net/bitmarkets/), [DropZone](https://github.com/17Q4MX2hmktmpuUKHFuoRmS5MfB5XPbhod/dropzone), [Beaver](https://eprint.iacr.org/2016/464.pdf) and [Open Bazaar](https://openbazaar.org/) | Decentralized markets
+[JoinMarket](https://github.com/chris-belcher/joinmarket) and [Wasabi Wallet](https://github.com/zkSNACKs/WalletWasabi) | CoinJoin implementation
+[Decentralized exhanges](https://github.com/cointastical/P2P-Trading-Exchanges/) | Decentralized bitcoin exchanges
+[Keybase](https://keybase.io/) | Identity & Reputation management
+[Abra](https://www.goabra.com/) | Global P2P money transmitter network
+[Bitcore](http://bitcore.io/) | Open source Bitcoin javascript library
+
+## Bitcoin Units
+
+One Bitcoin is quite large (hundreds of £/$/€) so people often deal in smaller units. The most common subunits are listed below:
+
+Unit | Symbol | Value | Info
+---|:---:|---|---
+bitcoin | BTC | 1 bitcoin | one bitcoin is equal to 100 million satoshis
+millibitcoin | mBTC | 1,000 per bitcoin | used as default unit in recent Electrum wallet releases
+bit | bit | 1,000,000 per bitcoin | colloquial ""slang"" term for microbitcoin (μBTC)
+satoshi | sat | 100,000,000 per bitcoin | smallest unit in bitcoin, named after the inventor
+
+For example, assuming an arbitrary exchange rate of $10000 for one Bitcoin, a $10 meal would equal:
+
+* 0.001 BTC
+* 1 mBTC
+* 1,000 bits
+* 100k sats
+
+For more information check out the [Bitcoin units wiki](https://www.reddit.com/r/BitcoinWiki/wiki/bitcoin_units).
+
+---
+
+**Still have questions?**  Feel free to ask in the comments below or stick around for our weekly [Mentor Monday](https://www.reddit.com/r/Bitcoin/search/?q=title%3A%22mentor+monday%22&sort=new&restrict_sr=on&t=all) thread.  If you decide to post a question in /r/Bitcoin, please use the search bar to see if it has been answered before, and remember to follow the community rules outlined on the sidebar to receive a better response.  The mods are busy helping manage our community so please do not message them unless you notice problems with the functionality of the subreddit.
+
+**Note:** This is a community created FAQ. If you notice anything missing from the FAQ or that requires clarification you can [edit it here](https://www.reddit.com/r/BitcoinWiki/wiki/rbitcoin_sticky) and it will be included in the next revision pending approval.  
+
+**Welcome to the Bitcoin community and the new decentralized economy!**",2021-01-07
+1,"Daily Discussion, April 07, 2021",3,mluuaz,https://www.reddit.com/r/Bitcoin/comments/mluuaz/daily_discussion_april_07_2021/,13,2021-04-07 13:10:18,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/ml41oy/daily_discussion_april_06_2021/) for unanswered questions.",2021-04-07
+2,"Today I did a shoot for a company in Copenhagen and they had a meeting room named after Satoshi. Pretty cool that Satoshi is starting to be recognized by general public like this! Other meeting rooms were called after Turing, Lovelace, Metcalfe and etc",2016,mljqex,https://www.reddit.com/gallery/mljqex,89,2021-04-07 03:32:58,,2021-04-07
+3,Right in the center of Moldova’s capital city,1740,mlck8f,https://v.redd.it/2xrrgite9kr61,104,2021-04-06 22:12:04,,2021-04-06
+4,Someone Moved $1.3 Billion Worth Of Bitcoin For Just $10: Try That With Your Bank,254,mli7ws,https://coinfomania.com/1-3-billion-worth-of-bitcoin-processed-for-10-fee/,87,2021-04-07 02:24:57,,2021-04-07
+5,How to Easily Calculate Taxes on Your Bitcoin Earnings,61,mlqgk6,https://zycrypto.com/5-ways-to-easily-calculate-taxes-on-your-crypto-earnings/,36,2021-04-07 08:55:54,,2021-04-07
+6,"Square, Fidelity, Coinbase start cryptocurrency lobbying group",526,mlbk6n,https://seekingalpha.com/news/3679495-square-fidelity-coinbase-start-cryptocurrency-lobbying-group,89,2021-04-06 21:23:29,,2021-04-06
+7,DeFi on Bitcoin?,82,mlolex,https://www.reddit.com/r/Bitcoin/comments/mlolex/defi_on_bitcoin/,36,2021-04-07 07:15:19,"This topic's probably been discussed ad nauseum, but what are your guys’ thoughts on DeFi native on Bitcoin? 
+
+Pomp and Edan Yago (two OGs) have talked about how it’s possible - Yago’s even speaking at an event this week on the Future of DeFi (specifically how it relates to Bitcoin L2 / DeFi - [https://discover.stakerdao.com/defi-webinar-8-april-2021](https://discover.stakerdao.com/defi-webinar-8-april-2021))
+
+The old saying goes... ""whatever tech is better than Bitcoin, will be adopted by Bitcoin”. Would love to hear people's thoughts on L2 and the above",2021-04-07
+8,From a lot in Monoco,62,mlpg0i,https://www.reddit.com/gallery/mlpg0i,10,2021-04-07 08:00:33,,2021-04-07
+9,All of us waiting for $60k,34,mlrzae,https://youtu.be/sXE8LdXzeHM,2,2021-04-07 10:18:35,,2021-04-07
+10,I coded a script to help me understand the daily news sentiment for Bitcoin in order to help me forecast potential pumps or dumps and open sourced it,206,mlfvl4,https://www.reddit.com/r/Bitcoin/comments/mlfvl4/i_coded_a_script_to_help_me_understand_the_daily/,61,2021-04-07 00:40:14," The script searches the web for cryptocurrency news, taking keywords as input and then passes those to a text sentiment API, analysing how many of the headlines are positive, neutral or negative. 
+
+The idea is that the script will check multiple sources and then calculate a % for each of the 3 sentiment categories. That way I'll be able to detect how the media is portraying Bitcoin, or any other crypto that day.
+
+I'm planning to integrate the output of this script into a crypto trading bot in order automatically buy or sell a coin the news are overwhelmingly positive or negative.
+
+Just like with the Elon Musk bot that I shared a while ago, my thinking is that catching a wave before it breaks, you can ride it for a while. 
+
+The only limitation as it stands right now is that you can only sent 100 requests/day through the websearch API, so I might end up replacing it with a different solution.
+
+Would you use this script's signals in your investments? Why/Why not?
+
+Resources available below if you're interested: 
+
+GitHub Repo: [https://github.com/CyberPunkMetalHead/cryptocurrency-news-analysis](https://github.com/CyberPunkMetalHead/cryptocurrency-news-analysis)
+
+Article and Guide: [https://www.cryptomaton.org/2021/04/05/how-to-analyse-daily-news-sentiment-for-cryptocurrency-with-python/](https://www.cryptomaton.org/2021/04/05/how-to-analyse-daily-news-sentiment-for-cryptocurrency-with-python/)",2021-04-07
+11,"A year ago, I found a bug in AT&T and they paid me $50 on HackerOne. I decided to have the bounty paid out in Bitcoin directly to my Coinbase account. A year later, that $50 is now worth over $500.",4268,mkzb16,https://twitter.com/bothersome/status/1379207142834462720,144,2021-04-06 08:40:27,,2021-04-06
+12,"Coinbase Reports $1.8 Billion In Revenue, 6.1 Million Active Users For Q1",51,mlmnc7,https://bitcoinmagazine.com/business/coinbase-reports-1-8-billion-in-revenue-6-1-million-active-users-for-q1,4,2021-04-07 05:45:26,,2021-04-07
+13,Regrets,124,mlg3kj,https://www.reddit.com/r/Bitcoin/comments/mlg3kj/regrets/,121,2021-04-07 00:49:57,"Started investing in Bitcoin in 2017 when the price was around 7k, but I also put a fair amount into shitcoins because I thought at the time a more technologically advanced coin would take over. After more and more research, I’m all in on btc. I guess the lesson learned is that I spent so much time trying to find the next Bitcoin. Iv dca now and plan to for the indefinite future. Happy stacking everyone",2021-04-07
+14,"Coinbase team just announced 1Q21 data including revenue of ~$1.8B, trading volume of $335B & assets on the platform of $223B (11.3% of crypto asset market) with 56M users",25,mlrgsj,https://twitter.com/JohnStCapital/status/1379526362692788227,4,2021-04-07 09:50:37,,2021-04-07
+15,"Lightning Network Reaches 10,000 Nodes",80,mlig0h,https://bitcoinmagazine.com/technical/lightning-network-reaches-10000-nodes,15,2021-04-07 02:35:03,,2021-04-07
+16,RAT (remote access trojan) that is deeply obfuscated and seeks to replace wallet addresses in clipboard with its own bad addresses.,38,mlm58c,https://www.reddit.com/r/Bitcoin/comments/mlm58c/rat_remote_access_trojan_that_is_deeply/,22,2021-04-07 05:25:24,"just found out about this today, tho it seems to have been active since 2019/2020 (known as vipersoftx then, now as backendsoft). 
+you can read more about it here: https://www.fortinet.com/blog/threat-research/vipersoftx-new-javascript-threat
+
+also a good breakdown of the modern iteration of this malware here: https://youtu.be/k-nFdF5FEwA",2021-04-07
+17,Coinbase Q1 revenue jumped from $190M to $1.8B ahead of public market debut,25,mlnta6,https://digesttime.com/2021/04/06/coinbase-q1-revenue-jumped-from-1-6b-to-1-8b-ahead-of-public-market-debut/,0,2021-04-07 06:36:39,,2021-04-07
+18,Sacramento Kings To Offer Bitcoin Salary Option To Players,20,mlodpg,https://www.reddit.com/r/Bitcoin/comments/mlodpg/sacramento_kings_to_offer_bitcoin_salary_option/,1,2021-04-07 07:04:36,"Sacramento Becomes First NBA Team To Offer Bitcoin Salaries
+
+US professional basketball team Sacramento Kings is offering its staff and players the option of earning in Bitcoin. This was disclosed by the team’s Chairman, CEO, and Governor Vivek Ranadivé on popular social networking app, Clubhouse. 
+
+The news first broke out on Twitter after a Clubhouse audience member, Neil Jacobs, tweeted what the Sacramento Kings owner said.
+
+“I’m going to announce in the next few days that I’m going to offer everyone in the Kings organization, they can get paid as much of their salary in bitcoin as they want, including the players,” said Ranadivé, according to Jacobs.
+
+The news has generated many opinions from crypto critics and enthusiasts. Most say that this move would strengthen the California NBA team’s long-standing claim to be one of the most pro-crypto teams in professional sports.
+
+This is not the first time the sports team has innovated using blockchain tech. Sacramento Kings announced back in 2014 that they were open to receiving payments in Bitcoin for their team merchandise in partnership with payment processor BitPay.
+
+It also started mining cryptocurrency in 2018 by setting up a program called MiningForGood that donates the funds to charity. 
+
+In 2019, Sacramento Kings went on to launch rewards tokens for fans. The token was called The Kings Token, and it was done in partnership with blockchain-based event ticketing platform Blockparty.",2021-04-07
+19,"In preparation for its debut on the Nasdaq next week, cryptocurrency exchange Coinbase said on Tuesday that first-quarter revenue climbed about nine-fold from last year, driven by a historic rally in the price of bitcoin.",34,mll6ha,https://www.cnbc.com/2021/04/06/coinbase-reports-estimated-q1-revenue-of-1point8-billion-up-nine-fold.html,14,2021-04-07 04:39:43,,2021-04-07
+20,"Fidelity, Square And Coinbase Launch Cryptocurrency Trade Group",73,mlearf,https://bitcoinmagazine.com/business/fidelity-square-and-coinbase-launch-cryptocurrency-trade-group-,4,2021-04-06 23:31:17,,2021-04-06
+21,Walter Huston explains Proof of Work in The Treasure of the Sierra Madre (1948),10,mlrmlg,https://youtu.be/Qk4GDuzZAM8,1,2021-04-07 09:59:42,,2021-04-07
+22,Grayscale Bitcoin Trust (GBTC) Files To Become an ETF with SEC - April 5th 2021,7,mlu0un,https://www.youtube.com/watch?v=jm_QPQW85ns,0,2021-04-07 12:17:43,,2021-04-07
+23,Nashville boutique hotel to accept cryptocurrency as payment,74,mld8h9,https://www.reddit.com/r/Bitcoin/comments/mld8h9/nashville_boutique_hotel_to_accept_cryptocurrency/,13,2021-04-06 22:43:04,"One of Nashville’s most popular boutique hotels is adding another option to pay for its rooms.
+
+The **Bobby Hotel** announced Monday that it has become the first hotel in Nashville and one of the first independent properties in the country to *accept cryptocurrency* as a form of payment for overnight reservations and event bookings.
+
+Guests of the 144-room hotel will now have the option to use **Bitcoin, Ethereum, Dogecoin** and stable coin for reservations and stays in Nashville as a part of the hotel’s partnership with BitPay, the world’s largest provider in cryptocurrency services, according to a news release.
+
+&#x200B;
+
+[https://www.bizjournals.com/nashville/news/2021/04/05/bobby-hotel-now-accepting-cryptocurrency-payments.html](https://www.bizjournals.com/nashville/news/2021/04/05/bobby-hotel-now-accepting-cryptocurrency-payments.html)",2021-04-06
+24,Bitcoin Hashrate Surpasses All-Time High as Even 2014 ASICs Stay Profitable Bitcoin's hashrate is moving alongside its price as old and new mining machines come online.,10,mlqs0k,https://www.coindesk.com/bitcoin-hashrate-surpasses-all-time-high-new-asics-come-online,2,2021-04-07 09:12:54,,2021-04-07
+25,Cathie Wood on Bitcoin Hitting a Trillion Dollar Marketcap & Creative Destruction - April 5th 2021,76,mlb9im,https://youtu.be/nkNQSMN2l3s,9,2021-04-06 21:08:34,,2021-04-06
+26,China’s Digital Currency Has Nothing to do with Bitcoin,4,mlunre,https://www.aier.org/article/chinas-digital-currency-has-nothing-to-do-with-bitcoin/,0,2021-04-07 12:58:24,,2021-04-07
+27,Sacramento Kings to Offer Bitcoin Salary Option to All Players,544,ml17cq,https://www.coindesk.com/sacramento-kings-to-offer-bitcoin-salary-option-to-all-players,50,2021-04-06 10:19:27,,2021-04-06
+28,"Bitcoin Lightning Network Now Has 10k Nodes, Holds $69M",196,ml6djb,https://www.coindesk.com/bitcoin-lightning-network-10k-active-nodes,82,2021-04-06 15:43:14,,2021-04-06
+29,Bitcoin Analysis With Metcalfe's Law,5,mls4kf,https://www.reddit.com/r/Bitcoin/comments/mls4kf/bitcoin_analysis_with_metcalfes_law/,0,2021-04-07 10:26:40,"Using Metcalfe's Law on the number of daily active users for bitcoin we can see BTC is currently very undervalued and has a lot of future potential! Assuming we see 2.5 million daily active users on BTC near the end of the cycle which is pretty likely, we may see a BTC price above $300K!
+
+Price = ( (active addresses) \^2 ) / total supply
+
+[Metcalfe's Law Table On BTC](https://preview.redd.it/wpp3ysa6wnr61.png?width=1402&format=png&auto=webp&s=d635ed5b3b8240062f3858150388f38d4026c49d)",2021-04-07
+30,I made some bitcoin art to spruce up the living room,2163,mks921,https://v.redd.it/cbpo04vrker61,118,2021-04-06 03:07:04,,2021-04-06
+31,I custom made these holographic stickers to put on things I buy with bitcoin.,1078,mkwvpm,https://i.redd.it/04tx37ixmfr61.jpg,154,2021-04-06 06:37:45,,2021-04-06
+32,The SEC stated in a legal conference call today that they have not officially decided yet if BTC is a security.,12,mlo61i,https://www.reddit.com/r/Bitcoin/comments/mlo61i/the_sec_stated_in_a_legal_conference_call_today/,6,2021-04-07 06:54:06,Are you surprised?,2021-04-07
+33,LIVE NOW: Coinbase Q1 Earnings Call and IPO Discussion (Clubhouse Stream),18,mlkxyw,https://youtu.be/3Gar-hMGqR8,2,2021-04-07 04:28:32,,2021-04-07
+34,How Bitcoin saved my life.,4,mltyin,https://www.reddit.com/r/Bitcoin/comments/mltyin/how_bitcoin_saved_my_life/,6,2021-04-07 12:13:41,"I responded to a thread on /AskReddit explaining my story and felt I would share it with you guys as well.
+
+The context was how you've almost come close to death, then some sort of gut feeling saved your life, and my views on if money buys happiness or not.
+
+
+I wouldn't say it was 100% the fact that money buys happiness. But it gave me a feeling of a ""reset button"" on life. It made me realize, I felt a sense of I'm no longer financially stressed at the moment. My entire goal in life switched from ""Month to month"" into ""If I have anything less than this in 5 years I will have wasted this second chance"" and now all I do is help people when I can through advice on Bitcoin and how it can potentially help their future selves as well.
+
+
+I won a scratch off lottery ticket in early 2019, started with 350k after taxes. I gave myself 100k for paying any debts and entertainment money. Going forward i bought myself and my best friend new cars(Mazdas, nothing crazy) and put the rest locked away in crypto that I refuse to sell till bitcoin hits my target. I'm sitting in the six figures now and have a goal along with everything planned out from here if it continues at this rate. It makes a huge difference in my mindset knowing I'm not financially stressed.
+
+I'm not religious by any means, and still am not to this day. But that night felt like too much of a coincidence to stay in the same mindset that I had been dealing with. 
+The night it happened I essentially bought two tickets on a whim, and as I was walking back to my apartment on the 14th floor I remember doing that whole ""Look here, I'm not sure if you're real but you've given me a shitty hand my whole life and if something doesn't change tonight I'm going to ect"" 
+
+Fast forward 10 minutes then I ended up winning $20 on one of them and $100 on the other. I cashed them in, bought another $100 worth of tickets and won $100 again. At that point I kinda just shrugged at the effort of the night and bought an extra $10 ticket with my small bills left in my wallet and won the ""Jackpot"". The cashier was much more excited than I was at this point because my only feeling was that of annoyance.
+
+I was willing to do what most would call stupid buying Bitcoin in 2019 with essentially 100% of my net worth. But when you've fought suicidal thoughts for 10 years and are given easy money, you just sometimes have to take that risk if it means never going back. 
+
+As for r/Bitcoin I'll always be one of you guys and when Bitcoin hits 1 million in 2030 you're all invited to the best Dave and Buster's night of your lives!",2021-04-07
+35,Coinbase scam text warning,20,mljxrp,https://www.reddit.com/r/Bitcoin/comments/mljxrp/coinbase_scam_text_warning/,15,2021-04-07 03:42:19,"Just got a text on my phone with
+
+Coinbase: We have detected some suspicious withdrawal attempts from your account. If this was not you, please verify at: coinbase-REDACTED.com
+
+I removed the second bit so no one visits the site, it came from a mobile phone same number as my country code
+
+Worried how someone got my mobile phone number but no real attempts at accessing my account as far as I can see.
+
+Not like I got anything of value but still worrying
+
+I mean I hope it's a fake site but I am trying to find out
+
+
+
+Just visited the link without signing into anything.. It goes to a very obiously fake site",2021-04-07
+36,Show this to the Energy Fudsters.,10,mlp4x6,https://pbs.twimg.com/media/Ew2tbuQXIAkH4CV?format=jpg&name=4096x4096,4,2021-04-07 07:43:37,,2021-04-07
+37,"With the merge of Bitcoin Core #20685, Bitcoin supports the I2P network!",104,ml78h9,https://en.wikipedia.org/wiki/I2P,28,2021-04-06 16:49:34,,2021-04-06
+38,Bitcoin iPhone wallpaper live price chart,6,mlpn7x,https://www.reddit.com/r/Bitcoin/comments/mlpn7x/bitcoin_iphone_wallpaper_live_price_chart/,9,2021-04-07 08:11:09,Does anyone know if it’s possible to have a Bitcoin live price chart be the background for IOS iPhone?,2021-04-07
+39,It took a while but now own 1/2 Bitcoin through the power of dollar cost averaging. (It’s not much but this started during the last bull run),92,ml7jl7,https://www.reddit.com/r/Bitcoin/comments/ml7jl7/it_took_a_while_but_now_own_12_bitcoin_through/,42,2021-04-06 17:13:54,,2021-04-06
+40,Best block indexer for developers,4,mlrwhh,https://www.reddit.com/r/Bitcoin/comments/mlrwhh/best_block_indexer_for_developers/,1,2021-04-07 10:14:15,"I am working on this little project, and I need some blockchain data. Currently I am querying bitcoin core.
+
+However it would be easier and faster to use an index, since I am messing with block numbers, etc, and those arent available natively in the blockchain.
+
+What is a good indexer to use? I know of electrum personal server, electrs, and a rust indexer.
+
+Is this what I should use, or is there something better to use for a very simple project.
+
+Bonus points for being written in Python.",2021-04-07
+41,Cex scammed me,12,mlk52d,https://www.reddit.com/r/Bitcoin/comments/mlk52d/cex_scammed_me/,6,2021-04-07 03:51:35,"This company is just a scam.
+They took more than 6200$ and refused to allow me to withdraw. And keep asking for more deposit in their bot .
+Stay away from this company.",2021-04-07
+42,Hope you guys will like it my art here (Lenticular technology),576,mkxmyn,https://v.redd.it/h9yotn36tfr61,48,2021-04-06 07:15:15,,2021-04-06
+43,Michael Saylor: There is No Way for Bitcoin to Fail,7,mloz2l,https://youtube.com/watch?v=75fkp64MXyc&feature=share,10,2021-04-07 07:34:59,,2021-04-07
+44,Hire independent contractors using Bitcoin with escrows!,9,mlnn75,https://grindez.com,0,2021-04-07 06:28:10,,2021-04-07
+45,BitMEX’s Arthur Hayes Surrenders To Authorities,6,mloefb,https://bitcoinmagazine.com/culture/bitmexs-arthur-hayes-surrenders-to-authorities,1,2021-04-07 07:05:38,,2021-04-07
+46,"After its recent integration of a native podcasting network, the Breez Lightning client has announced that it is partnering with Lightning Network node hosting platform Voltage to give podcasters more seamless connectivity to the Layer 2 network.",31,mlcbhp,https://bitcoinmagazine.com/business/breez-voltage-partner-to-offer-lightning-nodes-to-podcasters,2,2021-04-06 22:00:49,,2021-04-06
+47,Noticed there was a 34 minutes space between blocks.,11,mlhqgu,https://www.reddit.com/r/Bitcoin/comments/mlhqgu/noticed_there_was_a_34_minutes_space_between/,16,2021-04-07 02:03:36,"I was under the impression, it took about 10 mins per block. I know it's the average, but why would this block take that long?
+
+&#x200B;
+
+Just curios.",2021-04-07
+48,Bitcoin: Revolutionary Money In A Time Of Universal Deceit,19,mlfa2d,https://bitcoinmagazine.com/culture/bitcoin-revolutionary-money-in-a-time-of-universal-deceit,2,2021-04-07 00:14:28,,2021-04-07
+49,"The transaction fee market is maturing - ""stuck"" transactions, understanding the mempool, & impact on mining explained",11,mlh6jn,https://www.reddit.com/r/Bitcoin/comments/mlh6jn/the_transaction_fee_market_is_maturing_stuck/,0,2021-04-07 01:38:41,"To be your own bank, it will pay to understand the mempool & how to read it. We've got you covered. 
+
+**Summary**
+
+* Block space is scarce & a fee must be paid to incentivize miners to mine your transaction
+* Wallets have several features to increase fees & speed up ""stuck"" transactions
+* Your funds are NEVER at risk of permanent loss 
+* It's best to be able to analyze the mempool and set your fee based on how urgent your transaction is, but high enough to ensure it won't be stuck pending for too long 
+
+[braiins.com\/blog](https://preview.redd.it/rimcjg0i1lr61.png?width=1300&format=png&auto=webp&s=a5b6b9d3b45ddf97c786fed3408f2e88ceb5eb49)
+
+**Full article** \- how to determine a good tx fee, how to ""redo"" a tx, RBF/CPFP explained & more: [https://braiins.com/blog/btc-transaction-stuck](https://braiins.com/blog/btc-transaction-stuck) 
+
+**This is an important trend for miners:** a consistently full mempool means more consistent revenue from transaction fees.  In the future, the value of hashrate might fluctuate even more than it does today due to variance in transaction volumes.
+
+Much like mining pools emerged to help miners reduce short-term variance in finding blocks, **hashrate markets** will help miners reduce long-term variance by enabling speculators to bet on BTC price, difficulty, and tx fee changes. 
+
+Meanwhile, it will be critical to run well-connected nodes to construct the highest value blocks possible. And *trusting mining pools to maximize block value will not be advisable*.  **Enter Stratum V2:**
+
+>Stratum V2: Migration and Decentralization [https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/)
+
+PS: if you want to buy a coffee, just use lightning. 
+
+https://preview.redd.it/chs7oby52lr61.png?width=850&format=png&auto=webp&s=3f9171846f7f6e0141af398bebdbddb3523f1eee
+
+Meme credits: [https://twitter.com/RD\_btc/status/1378236714389504000](https://twitter.com/RD_btc/status/1378236714389504000)",2021-04-07

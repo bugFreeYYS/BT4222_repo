@@ -1,0 +1,167 @@
+,title,score,id,url,comms_num,created,body,date
+0,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,315,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,131,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+1,"Daily Discussion, March 17, 2021",40,m6sq50,https://www.reddit.com/r/Bitcoin/comments/m6sq50/daily_discussion_march_17_2021/,684,2021-03-17 13:04:03,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m61lxu/daily_discussion_march_16_2021/) for unanswered questions.",2021-03-17
+2,Satoshi Forest - some rich bitcoiner bought 8 acres of land to house the homeless,2721,m6qd9k,https://youtu.be/uzTVuS51Bo4,159,2021-03-17 10:49:52,,2021-03-17
+3,Bitcoin Planet,576,m6w6dv,https://www.reddit.com/gallery/m6w6dv,52,2021-03-17 17:04:05,,2021-03-17
+4,This isn’t WSB.,6993,m6bm55,https://www.reddit.com/r/Bitcoin/comments/m6bm55/this_isnt_wsb/,713,2021-03-16 23:27:56,"We’re not retards. We’re not apes. Just because somebody is new to Reddit, doesn’t make them uninformed. Just because somebody is new to Reddit, doesn’t mean they’re a teenager or have no holdings. Just because somebody isn’t positing their BTC holdings, doesn’t mean they don’t know what they’re talking about.
+
+If you’re not a bitcoin maximalist then that’s ok, you’re still welcome here but remember what sub you’re on. A sub that preaches anonymity and not telling people things such as how much coin you own. You never know who the person you’re speaking to is and what stake they have or the knowledge and experience they may hold.
+
+So with that said, if you’re new here, let’s try to stay true to what r/bitcoin was made for - to discuss bitcoin. If you need visual confirmation of people’s holdings and want to talk shit, wallstreetbets is only a click away. This isn’t the place though",2021-03-16
+5,"IMPORTANT : For new people in Reddit and Crypto, be careful of those scams. Here's an example I just got this morning. Some are honest, some are not... When you say you're new, some bad sharks may see you. When I say bad I mean a 15Kb file as a Trading-Alert Software... I laughed so hard i'm crying.",113,m6yhqy,https://www.reddit.com/gallery/m6yhqy,33,2021-03-17 19:39:49,,2021-03-17
+6,Retail users have now bought more bitcoin than institutions so far this year! The real occupy Wall Street.,46,m6zwjr,https://i.redd.it/gs7uxyg07ln61.jpg,8,2021-03-17 21:03:05,,2021-03-17
+7,My bank has blocked my card to buy Bitcoin.,49,m6xrpl,https://www.reddit.com/r/Bitcoin/comments/m6xrpl/my_bank_has_blocked_my_card_to_buy_bitcoin/,54,2021-03-17 18:54:12,"As the title says, it’s Länsförsäkringar in Sweden who’s blocked me.
+Is this common in other countries aswell? This is another strong reason why we need Bitcoin lol.",2021-03-17
+8,Cramer says Exxon will start mining for Bitcoin. 🤑🤑🤑,25,m7154d,https://v.redd.it/yeuq0sjyhln61,7,2021-03-17 22:04:40,,2021-03-17
+9,Morgan Stanley becomes the first big U.S. bank to offer its wealthy clients access to bitcoin funds,19,m72hs9,https://www.cnbc.com/2021/03/17/bitcoin-morgan-stanley-is-the-first-big-us-bank-to-offer-wealthy-clients-access-to-bitcoin-funds.html?__source=iosappshare%7Ccom.apple.UIKit.activity.CopyToPasteboard,5,2021-03-17 23:08:14,,2021-03-17
+10,Dad advice towards Bitcoin,123,m6s5m9,https://www.reddit.com/r/Bitcoin/comments/m6s5m9/dad_advice_towards_bitcoin/,82,2021-03-17 12:29:00,"I just told my dad the whole concept regarding bitcoin and crypto, and that I had invested some in it. He immediately told me that it is a fraud and a bubble that's going to break soon. I decided to invest more after I hear that cause every time the thing go the other way of what he said. Thanks dad 😊.",2021-03-17
+11,"Visa CEO Claims Cryptocurrencies Could Become ""Extremely Mainstream""",510,m6hdml,https://u.today/visa-ceo-claims-cryptocurrencies-could-become-extremely-mainstream,120,2021-03-17 03:36:19,,2021-03-17
+12,Time to get back to some of the OG meme roots,14,m71eoe,https://i.redd.it/ztfp0vkckln61.jpg,3,2021-03-17 22:17:25,,2021-03-17
+13,Beware of u/Usual_Concern_6512,17,m705d5,https://www.reddit.com/r/Bitcoin/comments/m705d5/beware_of_uusual_concern_6512/,2,2021-03-17 21:15:43,"Got an message from him where he try’s to promote his Bitcoin scam scheme.
+
+Already filled a report for Reddit.",2021-03-17
+14,"""you guys are gonna have so much fun staying poor""",301,m6j5tx,https://v.redd.it/0k1mo999egn61,17,2021-03-17 04:54:57,,2021-03-17
+15,"Retail traders edged out Wall Street to become the bigger buyers of bitcoin so far this quarter, JPMorgan says",23,m6xayu,https://www.businessinsider.com/retail-traders-surpassed-wall-street-q1-bitcoin-buying-jpmorgan-2021-3,4,2021-03-17 18:22:49,,2021-03-17
+16,"Dozens of German towns lose 700 Million Euros, because they trusted banks and regulators",134,m6nmh9,https://www.wsj.com/articles/greensill-owned-bank-declared-insolvent-causing-losses-for-small-german-towns-11615919420,25,2021-03-17 08:27:35,,2021-03-17
+17,"8 years ago, on Reddit you could exchange Karma for Bitcoin. 1,510,146 karma gave you $855 worth of Bitcoin (worth 15 cents back then)",112,m6ohx4,https://www.reddit.com/r/Bitcoin/comments/zqocl/exchange_your_karma_for_bitcoin_reddit_bitcoin/,14,2021-03-17 09:12:56,,2021-03-17
+18,Buying satoshis is getting expensive,45,m6u2mr,https://www.reddit.com/r/Bitcoin/comments/m6u2mr/buying_satoshis_is_getting_expensive/,16,2021-03-17 14:33:29,"Today and yesterday I spent roughly 6k USD buying satoshis and boy times have changed. I got a little bit under 10mil satoshis. 10mil satoshis! what in the world!!! Satoshis are getting inaccessible too quickly. Why do people want the price to keep shooting up when the avg you and I can barely afford it?
+
+The previous being said. Wow, I was just able to buy 10mil satoshis for under 6k USD. Remember what that was like? lucky bastards we all are.
+
+Bottom line: stash your sats while you can and shut up.
+
+P.S.: the purpose of this post is to normalize the use of ""satoshis"". Few will understand.",2021-03-17
+19,Its my birthday and I’m celebrating it by...,14,m6yvqy,https://www.reddit.com/r/Bitcoin/comments/m6yvqy/its_my_birthday_and_im_celebrating_it_by/,22,2021-03-17 20:04:16,"Like the tittle says, its my birthday and i’m celebrating it by buying $100 of Bitcoin. I know its not a lot trust me, but its what I can afford. I’ll try to buy $5-10 every week. I genuinely think Bitcoin is a good investment and I hope it gets much bigger than it already is. I can’t wait to see it hit $70k and seeing people who doubt it’s face go “hmm maybe this is possible...” and they will keep thinking this until it hits a million and they will be too late.",2021-03-17
+20,"I did it boys, put my whole tax refund in btc",1675,m65yjh,https://www.reddit.com/r/Bitcoin/comments/m65yjh/i_did_it_boys_put_my_whole_tax_refund_in_btc/,314,2021-03-16 18:26:53,"Got tax refund. Bought bitcoin.
+Where's my stimulus so I can do the same?",2021-03-16
+21,Billionaire investor Howard Marks says his initial dismissal of bitcoin was a ‘knee-jerk response’,92,m6ouou,https://www.marketwatch.com/story/billionaire-investor-howard-marks-says-his-initial-dismissal-of-bitcoin-was-a-knee-jerk-response-11615923111?siteid=msnheadlines,16,2021-03-17 09:30:41,,2021-03-17
+22,"Bitcoin Whale Ride Art Print - ""They often say that the journey is more important than the destination. Does this also apply for bitcoin?""",25,m6v7x7,https://i.redd.it/j3ngo9y9ojn61.jpg,0,2021-03-17 15:55:53,,2021-03-17
+23,"Someone tried to sell their 10,000 bitcoins for $50 back in 2010. The highest bid was only $20. Today, those coins are now worth half a billion dollars.",640,m6awsu,https://i.redd.it/qpwu7zqcmen61.jpg,96,2021-03-16 22:56:34,,2021-03-16
+24,Thank you so much to this community!,11,m6ymtn,https://www.reddit.com/r/Bitcoin/comments/m6ymtn/thank_you_so_much_to_this_community/,2,2021-03-17 19:48:55,"Bitcoin newbie here, I just wanted to thank this community for opening my eyes to just how much potential this currency will have in the future. I’ve learned so much in such a short period of time on a process that the oligarchs were making seem unimportant to understand. The propaganda is real about Bitcoin but man oh man I’m here for the long haul. It’s not IF, it’s WHEN....this is the life-saving raft on a sinking ship.
+
+The fall of Rome took 100 years to transpire. It’s so weird to be living in a time of collapse, I wonder if this is how the Romans felt....glad I met this subreddit and absorbed all this info! You guys and gals are the best!",2021-03-17
+25,DOING THE LORD’S WORK 🙏,464,m6c620,https://i.redd.it/bll7dzufwen61.jpg,104,2021-03-16 23:52:49,,2021-03-16
+26,"SLP260 Luke Dashjr How Bitcoin UASF Went Down, Taproot LOT=True, Speedy Trial, Small Blocks",10,m6yxe7,https://stephanlivera.com/episode/260/,1,2021-03-17 20:06:48,,2021-03-17
+27,One of the Political Candidate in Netherlands puts up Billboards written on it - 'Bitcoin Is the Future',6,m71zgh,https://www.reddit.com/r/Bitcoin/comments/m71zgh/one_of_the_political_candidate_in_netherlands/,1,2021-03-17 22:44:54,"The billboards say, “Bitcoin is de toekomst,” which means “Bitcoin is the future.”  
+In one of the interviews, Candidate for the Libertarian Party said that it was a time for a new way of thinking and added that everyone should buy a Bitcoin to defend their freedom. 
+
+More and more people acknowledges the importance of the BTC and financial freedom it brings!
+
+Any Dutch here?",2021-03-17
+28,"In 10 years time, 20.6 million BTC will have been mined.",5,m72rbg,https://www.reddit.com/r/Bitcoin/comments/m72rbg/in_10_years_time_206_million_btc_will_have_been/,1,2021-03-17 23:19:54,10 years! Let that sink in...,2021-03-17
+29,STOP POSTING HOW MUCH BITCOIN YOU HAVE -- I know this has been posted before but listen up.,295,m6e531,https://www.reddit.com/r/Bitcoin/comments/m6e531/stop_posting_how_much_bitcoin_you_have_i_know/,133,2021-03-17 01:16:56,"Mods -- it should be against the rules to post how much btc you have. Let's just start there.
+
+&#x200B;
+
+I get it, you're happy you finally hit that milestone you've been working towards and you feel like you have to tell someone. PLEASE DON'T.
+
+LISTEN. The other day someone posted how much bitcoin they had. It was a decent amount actually. First off, the post gave waaay too many details about their personal life. From stalking their profile I was actually able to find out the following info from a 3 year old account with relatively low reddit activity.
+
+&#x200B;
+
+I found their:
+
+Sex
+
+First Name
+
+Birthday
+
+Country
+
+STREET NAME
+
+Phone Brand
+
+Hair Color
+
+Spouse's name and other info
+
+&#x200B;
+
+From this info alone someone could easily track them down and do God knows what to them to get their bitcoin.
+
+&#x200B;
+
+This isn't even the only person I can track down THIS WEEK. Please mods, make this a rule so no one gets hurt.
+
+
+Edit: some of yall are savages. Lol",2021-03-17
+30,Morgan Stanley Becomes First Big US Bank to Offer Welthy Clients Access to Bitcoin,6,m72jxs,https://www.cnbc.com/2021/03/17/bitcoin-morgan-stanley-is-the-first-big-us-bank-to-offer-wealthy-clients-access-to-bitcoin-funds.html,3,2021-03-17 23:10:45,,2021-03-17
+31,"You Can Still Avoid Bitcoin, but You’ll Pay the Price in the Future. Is it worth the risk?",18,m6vwz2,https://www.inbitcoinwetrust.net/you-can-still-avoid-bitcoin-but-youll-pay-the-price-in-the-future-61db57f9929c?sk=98cb076ac74185ce81054392c8a466b3,0,2021-03-17 16:45:13,,2021-03-17
+32,Might have to be incarcerated for a few years. Safest ways to store my seed phrase?,39,m6roh6,https://www.reddit.com/r/Bitcoin/comments/m6roh6/might_have_to_be_incarcerated_for_a_few_years/,138,2021-03-17 12:00:30,"Terrible life decisions from my past have caught up to me. If I do end up in prison for a few years, what would be my best bet for storing my seed phrases safely? In this prison scenario, I won't have access to anything in the free world. (Obviously) How could I protect these words while not having access to their safe keeping? Any and all ideas welcome!",2021-03-17
+33,Noodling the Numbers to predict the future,6,m71yra,https://i.redd.it/4g4f9obyoln61.png,2,2021-03-17 22:44:03,,2021-03-17
+34,Taproot activation update,154,m6ie3o,https://www.reddit.com/r/Bitcoin/comments/m6ie3o/taproot_activation_update/,35,2021-03-17 04:20:20,"Today the topic of taproot activation was discussed again by Bitcoin developers.  It looks like the proposal put forward has a lot of acknowledgments (ACK)  and might move forward: 
+
+[https://gist.github.com/michaelfolkson/92899f27f1ab30aa2ebee82314f8fe7f](https://gist.github.com/michaelfolkson/92899f27f1ab30aa2ebee82314f8fe7f)
+
+There is a valid point raised by rustyrussell about being more upfront towards the miners. 
+
+Timing considerations need to be resolved as well but overall consensus seems to be closer than ever on working on a PR to be merged.",2021-03-17
+35,"If there's any validity to this, then 100k isn't a long way off.",22,m6tkdx,https://www.theblockcrypto.com/linked/98552/visa-ceo-podcast-bitcoin-stablecoins,14,2021-03-17 13:59:05,,2021-03-17
+36,"South Korean Tax Agency Identifies Over 2,400 Evaders Who Used Bitcoin to Bypass Taxation",7,m6yiqo,https://strawberrylite.com/my/page.php?pageno=93#,2,2021-03-17 19:41:35,,2021-03-17
+37,I made a sticker,205,m6fduz,https://www.reddit.com/gallery/m6fduz,48,2021-03-17 02:10:25,,2021-03-17
+38,Morgan Stanley Big Boys,5,m72hon,https://www.reddit.com/r/Bitcoin/comments/m72hon/morgan_stanley_big_boys/,0,2021-03-17 23:08:07,"Morgan Stanley becomes the first big U.S. bank to offer its wealthy clients access to bitcoin funds
+
+https://www.cnbc.com/2021/03/17/bitcoin-morgan-stanley-is-the-first-big-us-bank-to-offer-wealthy-clients-access-to-bitcoin-funds.html?__source=androidappshare",2021-03-17
+39,Bitcoin bought Me a redneck yacht!!!!!,5,m70i16,https://www.reddit.com/r/Bitcoin/comments/m70i16/bitcoin_bought_me_a_redneck_yacht/,17,2021-03-17 21:33:38,"Any ideas on bitcoin related boat names? Im in New England, its a power boat, I do participate in WSB, began my HODLing in 2018. Would love your thoughts. Will post when its Finished!!",2021-03-17
+40,"CEO of NYDIG, ""In the next week, you'll see gamechanging milestones for bitcoin adoption in the financial landscape""",102,m6jf4h,https://www.reddit.com/r/Bitcoin/comments/m6jf4h/ceo_of_nydig_in_the_next_week_youll_see/,44,2021-03-17 05:06:01,"MAJOR NEWS bullish for [bitcoin](https://twitter.com/hashtag/bitcoin?src=hashtag_click)
+
+NYDIG is the company handling the bitcoin purchases for most of the large corporations who are buying it.  NYDIG's CEO says the large corps who are buying bitcoin will be making major related announcements within days.
+
+Starts at the 50 minute mark.
+
+Link: [https://onthebrink-podcast.com/nydig/](https://onthebrink-podcast.com/nydig/)",2021-03-17
+41,"[OC] Year 2030, fiat is worthless, #bitcoin is world reserve currency",159,m6fxjx,https://v.redd.it/zwgooftxofn61,25,2021-03-17 02:34:29,,2021-03-17
+42,"Bitcoin Wallets For Beginners, Part Three: Installing Blue Wallet",6,m705x0,https://bitcoinmagazine.com/guides/bitcoin-wallets-for-beginners-part-three-installing-blue-wallet,0,2021-03-17 21:16:30,,2021-03-17
+43,The Lambo meme is not a meme anymore.,482,m67zqb,https://i.imgur.com/tW5CZSa.jpg,120,2021-03-16 20:31:32,,2021-03-16
+44,Over the past 4 months I have been buying little bits of btc,17,m6tbru,https://www.reddit.com/r/Bitcoin/comments/m6tbru/over_the_past_4_months_i_have_been_buying_little/,20,2021-03-17 13:42:34,"It’s not much but it made me happy knowing I was trying to better myself. I’m a full time student and work 20 or so hours a week, that pay goes to rent/food and any other bills but the little that’s left over goes straight to btc, good luck to everyone invested! Hopefully in the years to come we will all be in better places! I know this post is pretty time wasting, I just wanted to let anyone else in my position know that it’s worth it and not to give up, every sat counts not to mention this community is amazing! One guy even donated me 500sats about a week ago, that was INSANE!!",2021-03-17
+45,Visa Is Working to 'Enable Bitcoin Purchases': CEO,3,m72vuy,https://decrypt.co/61738/visa-is-working-to-enable-bitcoin-purchases-ceo?utm_source=reddit&utm_medium=social&utm_campaign=sm,0,2021-03-17 23:25:37,,2021-03-17
+46,Stop posting your balance!,268,m6b8gp,https://www.reddit.com/r/Bitcoin/comments/m6b8gp/stop_posting_your_balance/,104,2021-03-16 23:10:39,"I don't care if you own 100 btc or a 100 sats. Imagine walking in your city telling everyone you've got $1000 in your pocket. Not such a smart move anymore is it? I get that you feel proud for finally obtaining desired round number, everyone does. One day, even your million satoshis might be a fortune and you wouldn't want people to be able to track down an information you posted years ago about size of your sack. 
+
+So please. Do not let anyone, anywhere know your balance!",2021-03-16
+47,Russell Okung Becomes One Of NFL's Highest-Paid Players After Requesting His Salary Be Paid In Bitcoin,46,m6n4rw,https://www.reddit.com/r/Bitcoin/comments/m6n4rw/russell_okung_becomes_one_of_nfls_highestpaid/,18,2021-03-17 08:02:15,"I’m going to HR tomorrow to see if this is possible at my job 🤣🤣🤣
+
+https://blavity.com/russell-okung-becomes-one-of-nfls-highest-paid-players-after-requesting-his-salary-be-paid-in-bitcoin?category1=news",2021-03-17
+48,Busting Bitcoin myths: 7 misconceptions about the cryptocurrency,3,m726j4,https://fortune.com/2021/03/17/bitcoin-myths-bubble-miners-energy-waste-stablecoin/,1,2021-03-17 22:53:49,,2021-03-17
+49,Americans are becoming increasingly bullish on cryptocurrency as bitcoin soars to new records,4,m726hr,https://www.reddit.com/r/Bitcoin/comments/m726hr/americans_are_becoming_increasingly_bullish_on/,1,2021-03-17 22:53:46,[https://markets.businessinsider.com/news/stocks/bitcoin-investment-outlook-cryptocurrencies-safe-bullish-coin-survey-btc-trillion-2021-2-1030104724](https://markets.businessinsider.com/news/stocks/bitcoin-investment-outlook-cryptocurrencies-safe-bullish-coin-survey-btc-trillion-2021-2-1030104724),2021-03-17

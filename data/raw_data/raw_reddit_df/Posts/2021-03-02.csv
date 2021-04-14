@@ -1,0 +1,236 @@
+,title,score,id,url,comms_num,created,body,date
+0,Another CoinSwap milestone: Multi-hop CoinSwaps. Undetectable bitcoin privacy is being built,529,lm6nmk,https://www.reddit.com/r/Bitcoin/comments/lm6nmk/another_coinswap_milestone_multihop_coinswaps/,177,2021-02-18 06:34:13,"Suppose Alice has bitcoins and wants to send them with maximal privacy, so she creates a special kind of transaction. For anyone looking at the blockchain her transaction appears completely normal with her coins seemingly going from bitcoin address A to address B. But in reality her coins end up in address Z which is entirely unconnected to either A or B.
+
+Now imagine another user, Carol, who isn't too bothered by privacy and sends her bitcoin using a regular wallet. But because Carol's transaction looks exactly the same as Alice's, anybody analyzing the blockchain must now deal with the possibility that Carol's transaction actually sent her coins to a totally unconnected address. So Carol's privacy is improved even though she didn't change her behaviour, and perhaps had never even heard of this software.
+
+In a world where advertisers, social media and other companies want to collect all of Alice's and Carol's data, such privacy improvement would be incredibly valuable. And also the doubt added to every transaction would greatly boost the fungibility of bitcoin and so make it a better form of money.
+
+This undetectable privacy can be developed today by implementing CoinSwap. The software could be standalone as a kind of bitcoin mixing app, but it could also be a library that existing wallets can implement allowing their users to send Bitcoin transactions with much greater privacy.
+
+
+For the last few months I've been working on implementing this project, and recently reached another milestone: Multi-hop CoinSwaps.
+
+In the original CoinSwap design there would be only two peers involved, that meant if your wallet did a CoinSwap the other party knew exactly where your coins went. They were a single point of failure in privacy. Multi-hop CoinSwap is where the user routes their coins of multiple CoinSwap peers, and all of them need to collude in order to figure out the final source and destination of the coins.
+
+
+Just for fun I created a 5-hop CoinSwap on testnet. Each hop has 3 individual transactions:
+
+Taker's outgoing transactions:
+
+https://blockstream.info/testnet/tx/f45349bd279bea20b8b218300f8e2416abf28f3858470ad8c5eb2f6cd5ec10a9
+
+https://blockstream.info/testnet/tx/40ea5c9e478b66fa3f615c2b8d3accfd69308443d90a5353de669767cb02c51f
+
+https://blockstream.info/testnet/tx/8fe245e9c433127af4df8ff8853650808e3281fed7de6bfda62066a3fd3ad36e
+
+First maker funding transactions:
+
+https://blockstream.info/testnet/tx/3d9b879866ad136f9fe6e80599e1b97d610b6330be3ab4aa7df4161fce1e41d4,
+
+https://blockstream.info/testnet/tx/fa11e778d135be28b4e35498fc668c5aba7c70dcc43334b39e7488bd1259e8be,
+
+https://blockstream.info/testnet/tx/a7713452bab711c09be83a8c630fb91127771ed99cf15b528eacd28b00ba6b20,
+
+Second maker funding transactions:
+
+https://blockstream.info/testnet/tx/245e1e87d83a4bef06ceb8933c758137ee2f7ba7aa66800ebb7103707d5de5f7,
+
+https://blockstream.info/testnet/tx/15727b91e09a80634587f6210bdcba8808b93e4a780c55dd113ee85314db45c4,
+
+https://blockstream.info/testnet/tx/94e4e4e9e8fc2012158ed068145c8b883c295b37f5b3b6cba7a21c229d4da103,
+
+Third maker funding transactions:
+
+https://blockstream.info/testnet/tx/1384d58e534543e22e4f23a367728bff12177ee9af01b036c397cfca9bbe2eb8,
+
+https://blockstream.info/testnet/tx/eff3b1367f403c13927ddcb01c6d3c5c0d46076f7cb4419f8a18d6b62d884540,
+
+https://blockstream.info/testnet/tx/617c52caec2f7f17f3ebd1cab80233cdc1b414591f1cc49affbd828ffec10278,
+
+Fourth maker funding transactions (also taker's incoming transactions):
+https://blockstream.info/testnet/tx/8fde61974a4e0801ae5b76b620e2effd6c837310c1bd76d738216451ae1226e3,
+
+https://blockstream.info/testnet/tx/6491b85ef73a8f88e276a9b0f951c09e0367851a83aa49ffee8f8ad095f50de2,
+
+https://blockstream.info/testnet/tx/363b6803b7e3ed45472277448ce9938e3e73167a67762d6a9ac621243b8db019,
+
+These transactions don't look particularly special (which is the point), but they are CoinSwaps. Following the CoinSwap protocol, those coins are transferred off-chain to the next market maker. Even though the coin are unspent at the time of writing, they are unilaterally controlled by the other party.
+
+The user created a CoinSwap for 0.05 tBTC in this case (but it could have been any amount), and out the other side they got the same amount of coins (minus a fee) entirely disconnected to their initial coins. The fee goes to the makers which provides them an incentive to cooperate to improve privacy, and also gets spent on miner fees.
+
+From the point of view of someone just passively observing the blockchain, a single-hop CoinSwap is as private as a multi-hop CoinSwap, so I suspect in practice most users will just create 1-hop or 2-hop CoinSwaps.
+
+
+These example CoinSwaps have a visible 2-of-2 multisig address. But the plan is to later use a protocol called ECDSA-2P which allows us to create 2-of-2 multisig addresses that look the same as regular single-signature addresses. This allows CoinSwaps to blend in with the rest of the bitcoin transactions out there. Even the legacy p2pkh addresses starting with 1 can be CoinSwap addresses.
+
+CoinSwap is the next generation of bitcoin on-chain privacy tech. It improves on CoinJoin because it breaks the transaction graph, and even improves the privacy of people who don't use it. CoinSwap also uses less block space for the same privacy and therefore is cheaper in miner fees.
+
+
+Links: 
+
+* The code: https://github.com/bitcoin-teleport/teleport-transactions/
+
+* Discussion: `##coinswap` IRC channel on the freenode network
+
+* Design document: https://gist.github.com/chris-belcher/9144bd57a91c194e332fb5ca371d0964
+
+* Previous reddit thread: https://www.reddit.com/r/Bitcoin/comments/k95iu4/the_first_coinswap_on_testnet_massive/
+
+* Podcast: https://anchor.fm/tales-from-the-crypt/episodes/170-Chris-Belcher-ef8blj
+
+* Donations: https://bitcoinprivacy.me/coinswap-donations",2021-02-18
+1,"Daily Discussion, March 02, 2021",81,lw1f8w,https://www.reddit.com/r/Bitcoin/comments/lw1f8w/daily_discussion_march_02_2021/,865,2021-03-02 21:00:48,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/lva8tv/mentor_monday_march_01_2021_ask_all_your_bitcoin/) for unanswered questions.",2021-03-02
+2,I wrote a trading algo that buys BTC every time Peter Schiff Tweets,849,lwb34y,https://www.reddit.com/r/Bitcoin/comments/lwb34y/i_wrote_a_trading_algo_that_buys_btc_every_time/,96,2021-03-03 04:00:47,"[https://twitter.com/macromule/status/1366840685962223616?s=20](https://twitter.com/macromule/status/1366840685962223616?s=20)
+
+Since May, the algorithm would have executed 203 trades, achieving an annualized return of \~1000%. 65% of trades are profitable with a 3% average return.
+
+https://preview.redd.it/oybfmxw08ok61.jpg?width=1001&format=pjpg&auto=webp&s=0bcfd6a90d4f9979a05c3a298aaa1f33075db683
+
+&#x200B;
+
+Edit: The algorithm buys only when Peter tweets about Bitcoin:)",2021-03-03
+3,All aboard!,5244,lvx80u,https://v.redd.it/cvv6ai7sqkk61,276,2021-03-02 16:22:30,,2021-03-02
+4,I have now lost all of my Bitcoin,504,lw55t1,https://www.reddit.com/r/Bitcoin/comments/lw55t1/i_have_now_lost_all_of_my_bitcoin/,241,2021-03-02 23:53:58,"It was a tragic boating accident. I just moved all my bitcoin to a hardware wallet, when it happened to slip my hands and into the ocean.
+
+Any further transfers done on that wallet are because of Poseidon.",2021-03-02
+5,I'm now a millionaire!!,213,lw8d5q,https://www.reddit.com/r/Bitcoin/comments/lw8d5q/im_now_a_millionaire/,92,2021-03-03 02:02:57,"*Satoshi millionaire 
+
+
+
+Really psyched to hit 0.01 after buying those tasty dips over the last month, thanks so much to this community and r/bitcoinbeginners for DYOR prompting and good vibes! You guys are super friendly and are always making Crypto more accessible/understandable for us beginners. Cheers!🚀",2021-03-03
+6,Anyone else feel like we are watching the infrastructure being put in place for the people of the world to take back our planet from the government? 🚀,152,lw8w4r,https://i.redd.it/yz6cqe3vqnk61.jpg,54,2021-03-03 02:25:08,,2021-03-03
+7,"Bitcoin is voluntary money backed by globally distributed consensus and secured by advanced cryptography. The US Dollar is authoritarian money backed by the ""consensus"" of The Federal Reserve, which prints money at no cost to enable moral hazard in our financial system.",281,lw2o3u,https://www.reddit.com/r/Bitcoin/comments/lw2o3u/bitcoin_is_voluntary_money_backed_by_globally/,70,2021-03-02 22:04:57,,2021-03-02
+8,I had a crazy acid trip and I am 100% convinced it was the universe telling me to buy bitcoin,609,lvx4iz,https://www.reddit.com/r/Bitcoin/comments/lvx4iz/i_had_a_crazy_acid_trip_and_i_am_100_convinced_it/,251,2021-03-02 16:15:28,"My friend and I dropped some acid and had literally a 4 hour conversation about why Bitcoin is unstoppable. I will attempt to write as much of it down here (I'm curious to hear your thoughts and whether you agree or think I'm a mad man), but we had so many interesting ideas that I wish I had it on video or some shit. 
+
+Basically, we are big stock guys who dabbled in bitcoin, but have never fully committed. But after this, we are 100% on board. 
+
+So basically, as you know, retail investing has been on the rise. More and more people have begun investing, and they are only beginning to realize the power they have. You don't need go be a billionaire to invest, and honestly the whole system is kind of bullshit. People claim stock prices are built on ""fundamentals"" and they are to some extent. But every stock has INTRINSIC value (the ""fundamentals"", EPS, value for having a successful business, ect) and extrinsic value (hype, speculation on future, ect) This whole GME thing has made people realize that. They banded together and moved a market, sticking it to the guys at the top. However, trading was halted, and with malicious intent or not, Robinhood and its billionaire investors halted trading, ending the retail revolution. 
+
+So, now that people realize that stocks are bullshit with whatever value we collectively place on them, and that they have power in numbers... what is the logical conclusion?
+
+BITCOIN
+
+More and more people will realize that decentralized finance is better in every way. It's sticking it to the government, not allowing them to manipulate and control every aspect of the financial system. If everyone just holds, everyone could be rich, and bitcoin could begin to rival the US dollar, with investors who got in relatively early being rich like all the hedge funds. Unlike in the stock market, no institution could halt trading, meaning there is literally no way bitcoin could be rejected. It's like the snowball effect. It will just keep getting bigger and bigger as it gains more institutional and retail support. 
+
+For part two of our theory, we realized that after our last president showed just how influential social media can be to politics, it is only a matter of time before someone runs for office on the platform of  Bitcoin and decentralized finance. Because decentralized finance would benefit everyone in the country, it could be a wildly popular opinion, and even a way forward into the future. All it takes is for this OBVIOUS idea of someone tying bitcoin to politics to happen. 
+
+Anyways, am I crazy? Or did the universe actually give me reasons that bitcoin cannot fail?",2021-03-02
+9,1100 Bitcoin now in public channels of the Lightning Network,88,lw62qu,https://www.reddit.com/r/Bitcoin/comments/lw62qu/1100_bitcoin_now_in_public_channels_of_the/,35,2021-03-03 00:30:39,"We are seeing a lot of new Bitcoin deposited into the Lightning Network and other stats such as node count [are rapidly increasing as well.](https://1ml.com)
+
+\-> The Lightning Network is doing very well!",2021-03-03
+10,"I've started a cryptocurrency based comic! It's called 'Crypto High'. Here is the first episode, based off this most recent week! Each character is a crypto :3",112,lw40lt,https://www.reddit.com/gallery/lw40lt,133,2021-03-02 23:05:17,,2021-03-02
+11,Bitcoin is the Stanford Marshmallow Test for adults and societies. wikipedia.org/wiki/Stanford_marshmallow_experiment,903,lvsk87,https://i.redd.it/m0ik7uqk8jk61.jpg,177,2021-03-02 11:15:29,,2021-03-02
+12,Silver meets Bitcoin - 1oz Fine Silver ₿itcoin,155,lw10w3,https://www.reddit.com/gallery/lw10w3,56,2021-03-02 20:38:06,,2021-03-02
+13,"If you think bitcoin is only used by criminals, wait until you hear that banks help launder $2 trillion every year.",293,lvxjhm,https://www.reddit.com/r/Bitcoin/comments/lvxjhm/if_you_think_bitcoin_is_only_used_by_criminals/,36,2021-03-02 16:46:13, Bitcoin being used by criminals is still some of the most long-lived FUD out there. It is something that still often comes up today when I hear nocoiners talk about Bitcoin and is often cited as a reason not to invest.,2021-03-02
+14,You already know where [fixed],50,lw8yy1,https://v.redd.it/jciym7h8rnk61,4,2021-03-03 02:28:17,,2021-03-03
+15,"“I don’t believe we shall ever have a good money again before we take the thing out of the hands of government, that is, we can’t take them violently out of the hands of government, all we can do is by some sly roundabout way introduce something they can’t stop.” - Friedrich Hayek 1984",26,lwd9to,https://www.reddit.com/r/Bitcoin/comments/lwd9to/i_dont_believe_we_shall_ever_have_a_good_money/,2,2021-03-03 05:41:19,https://www.youtube.com/watch?t=1160&v=EYhEDxFwFRU,2021-03-03
+16,"Mainstream media: BTC uses more energy than Argentina and Ukraine. Anyone with a brain: so Argentina and Ukraine don't use a lot of energy do they? Better question: How much energy does BTC use compared to the United States, China, and EU? MSM is a joke. Block out the noise. Keep stacking sats.",38,lw9n3x,https://www.reddit.com/r/Bitcoin/comments/lw9n3x/mainstream_media_btc_uses_more_energy_than/,15,2021-03-03 02:56:43,,2021-03-03
+17,"Umm, can I just bring everyone’s attention to how legit this prediction has been 😳",146,lvzqdu,https://www.reddit.com/r/Bitcoin/comments/lvzqdu/umm_can_i_just_bring_everyones_attention_to_how/,139,2021-03-02 19:16:35,https://www.reddit.com/r/Bitcoin/comments/2p6vzc/this_is_probably_the_most_accurate_price/?utm_source=share&utm_medium=ios_app&utm_name=iossmf,2021-03-02
+18,The importance of of getting small businesses into Bitcoin can't be understated.... They need to beat the S&P 500/Fortune 500 businesses to the punch..,27,lwbjk7,https://www.reddit.com/r/Bitcoin/comments/lwbjk7/the_importance_of_of_getting_small_businesses/,4,2021-03-03 04:21:53,,2021-03-03
+19,The ignorance in r/technology is astonishing.,76,lw3e0p,https://www.reddit.com/r/Bitcoin/comments/lw3e0p/the_ignorance_in_rtechnology_is_astonishing/,56,2021-03-02 22:36:52,"[https://www.reddit.com/r/technology/comments/lvz596/bitcoins\_staggering\_energy\_consumption\_raises/gpexqoe?utm\_source=share&utm\_medium=web2x&context=3](https://www.reddit.com/r/technology/comments/lvz596/bitcoins_staggering_energy_consumption_raises/gpexqoe?utm_source=share&utm_medium=web2x&context=3)
+
+I was downvoted insanely quickly when I started explaining what bitcoin and how it fits into our world. The ignorance is shocking. How people follow a technology sub and shun one of humanity's biggest breakthroughs is utterly astounding.",2021-03-02
+20,"Blackstone CEO Stephen Schwarzman took home $610 million last year. That could have bought him 20,333 bitcoin at the end of the year. Today he could only buy 12,200 bitcoin with the same dollars. Dollars are depreciating rapidly against bitcoin.",79,lw2inu,https://www.reddit.com/r/Bitcoin/comments/lw2inu/blackstone_ceo_stephen_schwarzman_took_home_610/,14,2021-03-02 21:57:56,,2021-03-02
+21,Bitcoin Obituaries- a website that keeps track of every time bitcoin has been declared dead,55,lw47ze,https://99bitcoins.com/bitcoin-obituaries/,6,2021-03-02 23:13:48,,2021-03-02
+22,My Bitcoin meme art,10014,lv9fkk,https://i.redd.it/o4dh7jpv6fk61.jpg,378,2021-03-01 21:38:52,,2021-03-01
+23,Bitcoiner Pro Tip: Memorize your 24 word seed phrase,17,lwczd2,https://www.reddit.com/r/Bitcoin/comments/lwczd2/bitcoiner_pro_tip_memorize_your_24_word_seed/,37,2021-03-03 05:27:27,"When you set up your personal wallet, it generates a list of 24 words as a backup (sometimes it's 12 words, depending on the wallet). This is called a Seed Phrase. You must write this down (preferably on a [metal plate](https://shop.cobo.com/products/cobo-tablet-punch)) and keep it in a secure location. Ideally, have two copies in two separate geographic locations.
+
+The 24 word seed phrase is, essentially, your Bitcoin. DO NOT LOSE THIS.
+
+But to be really secure, you should also ***memorize*** the 24 word seed phrase. It doesn't take much time at all; maybe 1 hour or so. Just repeat the words (silently) over and over until they're burned into your brain. I recite them in my mind every time I brush my teeth, so that's twice a day.
+
+This way, if for some reason I'm forced to leave the country immediately and I can't take my wallet or my metal plate with the backup words, I can just leave without hesitation. All my Bitcoin is stored in my mind. Once I reach safety, all I need is a new wallet, I input the 24 word seed phrase, and BAM! I have access to my coins.
+
+Remember to NEVER enter your 24 word seed phrase into any computer, website, or digital device. If you do, YOU WILL LOSE YOUR BITCOIN. You must only enter it into your own personal wallet.
+
+Buy low, buy high. HODL.",2021-03-03
+24,You already know where,1637,lvk615,https://v.redd.it/gavwixzyahk61,71,2021-03-02 04:50:46,,2021-03-02
+25,"""Bitcoin Falls After Gensler Says SEC Must Root Out Crypto Fraud"" Personally, I don't think this means anything. He is testifying during his confirmation hearing, and knows certain things need to be said. I've listened to Gensler lecture at MIT, and he knows crypto, and Bitcoin intimately.",28,lw8h73,https://www.bloomberg.com/news/articles/2021-03-02/bitcoin-falls-after-gensler-says-sec-must-root-out-crypto-fraud?srnd=premium&sref=0ULnsDlp,13,2021-03-03 02:07:40,,2021-03-03
+26,The future is clear,454,lvs6xa,https://i.redd.it/3b75brrv4jk61.jpg,23,2021-03-02 10:54:46,,2021-03-02
+27,10k increments to 100k !!! 🚀 👩‍🚀,26,lw8ik3,https://www.reddit.com/r/Bitcoin/comments/lw8ik3/10k_increments_to_100k/,18,2021-03-03 02:09:15,"So bitcoin has been on a trajectory for a while now. In 10k increments. We buy the dip as it shoots for the next level and falls back. Staying strong until it shoots for the next 10k. It's an amazing sight to see. Gonna start getting Almost predictable as well If it keeps this up. We'll have a bright future ahead of us, who's loving the coin? Even if you've lost money out of fear. You've got to admit it's a lovely thing to watch it grow up. Stay the strongest group in the market. 🙌🏽 HODL and buy.",2021-03-03
+28,SEC Chair Nominee Gary Gensler: Crypto a 'Catalyst for Change' - Decrypt,14,lwdggr,https://decrypt.co/59961/gary-gensler-senate-hearing-crypto,5,2021-03-03 05:49:52,,2021-03-03
+29,Cboe Says It’s Seeking Approval to List Bitcoin ETF in U.S.,16,lwbsk6,https://www.bloomberg.com/news/articles/2021-03-01/cboe-says-it-s-seeking-approval-to-list-bitcoin-etf-in-u-s,1,2021-03-03 04:32:37,,2021-03-03
+30,Every panic sell is a gift to the elite..,19,lwagrx,https://www.reddit.com/r/Bitcoin/comments/lwagrx/every_panic_sell_is_a_gift_to_the_elite/,12,2021-03-03 03:32:47,"At this point it's clear there are some enormous players (declared and otherwise) gobbling up BTC  faster than your Mumma at your Aunt Pattie's funeral buffet. It's highly likely they are pumping and dumping more aggressively than Steamboat Willie and more co-ordinated than N-Sync in Bye Bye Bye.
+
+As time goes on it's more and more likely that every significant dip represents a deliberate squeeze from big money, flushing out retail traders and transferring cheaper BTC to the big boys. There's no way to completely stop this but its clear, particularly since the GME squeeze that together, people are still powerful enough to disrupt the system and scare the big money network into shutting us out. 
+
+Well done to those who bought early and continue to hold. And well done to the newbs who are still getting in early imo. Just hold it - don't be squeezed out.",2021-03-03
+31,Bitcoin Options Traders Are Taking Bullish Bets on $75K and Higher By Summer,38,lw3qpc,https://www.coindesk.com/bitcoin-options-traders-are-taking-bullish-bets-on-75k-and-higher-by-summer,17,2021-03-02 22:52:50,,2021-03-02
+32,Take care of your teeth,327,lvswt3,https://www.reddit.com/r/Bitcoin/comments/lvswt3/take_care_of_your_teeth/,173,2021-03-02 11:35:33,"Back in the fall, my dentist told me that I’d need to get a couple teeth pulled and the best way forward would be a partial denture.  The quote came in about $2000. (Seriously, floss every night). As it happened, I got a bonus around the same time from work that was for a similar amount.  I put the money into Bitcoin (ofc) and now that money has more than doubled so I’m getting my denture for free or rather for…. Bitecoin🦷",2021-03-02
+33,Rangers become latest club to attract crypto sponsorship and fan token,12,lwd6vx,https://www.cityam.com/rangers-become-latest-club-to-attract-crypto-sponsorship-and-fan-token/,0,2021-03-03 05:37:27,,2021-03-03
+34,Any phone can now be a cold storage device,8,lwen24,https://twitter.com/bluewalletio/status/1366755985935773697?s=21,10,2021-03-03 06:44:38,,2021-03-03
+35,New York attorney general warns cryptocurrency industry: ‘Play by the rules or we will shut you down’,26,lw566c,https://www.reddit.com/r/Bitcoin/comments/lw566c/new_york_attorney_general_warns_cryptocurrency/,20,2021-03-02 23:54:23,"[https://www.cnbc.com/2021/03/01/new-york-attorney-general-warns-cryptocurrency-industry-play-by-the-rules-or-we-will-shut-you-down.html](https://www.cnbc.com/2021/03/01/new-york-attorney-general-warns-cryptocurrency-industry-play-by-the-rules-or-we-will-shut-you-down.html)
+
+Are you scared yet?",2021-03-02
+36,Life of a Rookie trader.,39,lw2j2m,https://v.redd.it/qlc2ryh8fmk61,10,2021-03-02 21:58:30,,2021-03-02
+37,Miami mayor Francis Suarez pushes back against those who call bitcoin a bad idea,88,lvxv1v,https://www.axios.com/miami-suarez-bitcoin-axios-hbo-05cd1d8f-b316-4c3c-a057-c05c2c8ac233.html,4,2021-03-02 17:09:56,,2021-03-02
+38,Bitcoin is time,24,lw5e4m,https://dergigi.com/2021/01/14/bitcoin-is-time/,0,2021-03-03 00:03:03,,2021-03-03
+39,Why Bitcoin is the only answer for me,12,lwa5md,https://www.reddit.com/r/Bitcoin/comments/lwa5md/why_bitcoin_is_the_only_answer_for_me/,13,2021-03-03 03:18:40,"1. Bitcoin is the only crypto where I feel confident in HODLing forever. 
+
+2. I don’t like investing in an asset that I will eventually have to sell. (Altcoins)
+
+3. The stress of timing the market outweighs the profit that could be made. 
+
+4. Satoshi Nakamoto > Companies",2021-03-03
+40,I have tried to defeat the New York Bitlicence; I failed and I am running for Public Advocate and on 3/2/2021 I am debating the Current NYC Public Advocate. We are going to debate one on one and the topic of Bitcoin will come over.,108,lvwkay,https://www.reddit.com/r/Bitcoin/comments/lvwkay/i_have_tried_to_defeat_the_new_york_bitlicence_i/,10,2021-03-02 15:33:12,"  
+I have tried to use the Judicial System to destroy the bitlicense. I use to have a small business called Chino Ltd and I failed *(there is a link on my old business to all the details on that failed lawsuit but that is not the point of this post.)*
+
+I have called the current politicians over the corruption and I will bring out the Bitlicense and if that what they plan to do with the Decriminalization of Marijuana.
+
+# The link to the link to the link to Facebook is here:  [https://fb.me/e/3vF0q2t3O](https://l.facebook.com/l.php?u=https%3A%2F%2Ffb.me%2Fe%2F3vF0q2t3O&h=AT2rTIGQBFAUa_sX_IKLPPpy7B9DNcNrRvNccID2hNelWOur-XKLq_qU1DK9n-WTjbZ_qeYqqW99VICLTbrHROz_1pTpOSrDUmGZT6cea_sbsFaTTD2SlC0wGzyk2wwvFKjh-x5hOb2aJkC2_w&__tn__=R]-R&c[0]=AT3IZujmt7yYg2FQ2TiTgJciK_Dd0AgJIBMeNbmVxmS5R3j8xSbZRK0qJuEdTLWNwiRBryQZUXtZ-GUxalQ18eFPcPSaXYtP4nCeTLZKCqmPVQ-TBfToYu3aTjASUgy2yPURR6y3JpGvAi0IrGtwG87rGXnPIaTm2QIF3VOM1haj6U0d11fqK7j_z4Y) 
+
+Would be wonderful if you could get the Facebook viewership up the roof. As a  bitcoiner going against a clueless politician will be interesting.
+
+I run the website, [https://abolishthebitlicense.com](https://abolishthebitlicense.com) **#BitcoinersAreNotCrooks.**
+
+&#x200B;
+
+https://preview.redd.it/ni2gawe1ikk61.png?width=564&format=png&auto=webp&s=09a6136ebf55734dce8dfc180677809deae2b61b
+
+https://preview.redd.it/919rg8xgekk61.png?width=750&format=png&auto=webp&s=564e19f5793925a913a7146dcdfbf7d6f344ad64
+
+[https:\/\/www.facebook.com\/events\/2856249794649199](https://preview.redd.it/jx6ac5fldkk61.png?width=523&format=png&auto=webp&s=4e8d0bd951bcd1e278156f3359c446dd172cc8aa)",2021-03-02
+41,"""Don't forget to pay your taxes"" ""Do you know how the taxes work?"" ""That's going to be a lot in taxes"" They say, not because they care, but because regret missing opportunities. Consider but dismiss it",33,lw21zd,https://www.reddit.com/r/Bitcoin/comments/lw21zd/dont_forget_to_pay_your_taxes_do_you_know_how_the/,55,2021-03-02 21:33:58,"There's a lot of negative energy, jealousy, envy and hate disguised as advice and suggestions, even compliments. It's best if no one knows you have bitcoin, but if people do be sure to read between the lines when they speak about it to you. That information shared with you about taxes is likely not to help you, it's an attempt to derail you. Chances are you are already aware of how the taxes work anyway. Consider their words but dismiss them.",2021-03-02
+42,Bitcoin emoji on WhatsApp,12,lwak73,https://www.reddit.com/r/Bitcoin/comments/lwak73/bitcoin_emoji_on_whatsapp/,13,2021-03-03 03:37:10,"Don't you guys think it's time for a emoji Bitcoin in WhatsApp? 
+
+I was surprised there's none yet",2021-03-03
+43,The world’s largest hedge fund ready to invest in BTC,27,lw2b4o,https://www.reddit.com/r/Bitcoin/comments/lw2b4o/the_worlds_largest_hedge_fund_ready_to_invest_in/,6,2021-03-02 21:47:04,"Bridgewater Associates’ director of investment research explained how bitcoin and other cryptocurrencies can reduce volatility as well as increase liquidity.  
+
+
+https://preview.redd.it/hxgcl8f7dmk61.jpg?width=960&format=pjpg&auto=webp&s=416cc753770fd95c575c809c78ec7472ad63d40a
+
+Bridgewater Associates, the world’s largest hedge fund, is ready to invest in Bitcoin if its volatility declines and liquidity increases. The fund’s director of investment research told Bloomberg TV about this in an interview. According to her, now the value of the main digital coin may fluctuate in the range of 10% because of publications on Twitter. Bitcoin’s volatility is ten times higher than that of the U.S. dollar. She is confident that such a volatility rate is not suitable for most institutional investors.
+
+Another problem of bitcoin is low liquidity, Bridgewater Associates representative said. According to Patterson, it is possible to increase this indicator by creating a regulatory ecosystem to ensure comfortable work with cryptocurrencies for investors.
+
+>*“The more a real regulated ecosystem is developed around bitcoin and other cryptocurrencies, the more other types of investors will start to get comfortable with crypto assets. That will bring liquidity. It will reduce volatility,” the expert explained.*
+
+At the end of January this year, the founder of Bridgewater Associates, Ray Dalio, changed his attitude towards cryptocurrency. He wrote about it in the company’s daily newsletter, which is sent to the fund’s clients. Dalio said that in the future bitcoin could become an asset “similar to gold” and stated his willingness to invest in the main digital coin a sum of money that he wouldn’t be sorry to lose.
+
+Head of MicroStrategy Michael Saylor announced the company’s purchase of 19.4 thousand bitcoins worth $1.02 billion on February 24. Now there are 90.5 thousand bitcoins in MicroStrategy’s portfolio.",2021-03-02
+44,What is Taproot and How Will It Benefit Bitcoin?,20,lw6lnm,https://river.com/learn/what-is-taproot/,4,2021-03-03 00:51:31,,2021-03-03
+45,Gary Gensler clears the air regarding cryptocurrency,5,lweznx,https://www.reddit.com/r/Bitcoin/comments/lweznx/gary_gensler_clears_the_air_regarding/,3,2021-03-03 07:01:18,"[https://qz.com/1979122/what-gary-gensler-thinks-about-bitcoins-future/](https://qz.com/1979122/what-gary-gensler-thinks-about-bitcoins-future/)
+
+&#x200B;
+
+TLDR: Article implies that Gary Gensler said that most cryptos should be classified as an security, but did not include bitcoin, because it was not premined or involved an in ICO.",2021-03-03
+46,User loses 13 btc/$650k to mycryptomixer.com,5,lwerj8,https://www.reddit.com/r/Bitcoin/comments/lwerj8/user_loses_13_btc650k_to_mycryptomixercom/,14,2021-03-03 06:50:40,"A fool and his money? Who sends half a million dollars to an anonymous website/mixer? He seems to have been selectively scammed by them.
+
+ [13 BTC LOST on MyCryptoMixer.com (Detailed update)](https://bitcointalk.org/index.php?topic=5320190.msg56439700#msg56439700) 
+
+ [MYCRYPTOMIXER SCAM! 13 BTC LOST USING HIS MIXER](https://bitcointalk.org/index.php?topic=5319713.msg56424625#msg56424625)",2021-03-03
+47,Remember the max for every row is unlimited except for row 14,162,lvtcw5,https://i.redd.it/54q9t0prgjk61.jpg,20,2021-03-02 12:01:24,,2021-03-02
+48,Back over $50K!,312,lvp8pk,https://www.reddit.com/r/Bitcoin/comments/lvp8pk/back_over_50k/,161,2021-03-02 08:26:02,"📈 Yesterday morning some people on the board were in despair and ready to sell at 43K, if not earlier than that. Hopefully they did not and this is a lesson that BTC can rise as quickly as it falls. 
+
+Setbacks are temporary. 
+
+If if dips again after this post, I know in the long term it will be higher again.
+
+HODL and accumulate.",2021-03-02
+49,The Saylor Series with Robert Breedlove (transcript) | Episode 4 | Bitcoin: The First Digital Monetary Energy Network,6,lwd7pv,https://chowcollection.medium.com/the-saylor-series-episode-4-bitcoin-the-first-digital-monetary-energy-network-ea8f51c914e9,3,2021-03-03 05:38:34,,2021-03-03

@@ -1,0 +1,282 @@
+,title,score,id,url,comms_num,created,body,date
+0,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,123,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,54,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+1,"Daily Discussion, March 10, 2021",101,m1r0ji,https://www.reddit.com/r/Bitcoin/comments/m1r0ji/daily_discussion_march_10_2021/,1507,2021-03-10 14:14:04,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m0zd7j/daily_discussion_march_09_2021/) for unanswered questions.",2021-03-10
+2,She was explaining Bitcoin to us when it was only $20 and we didn't listen!,5897,m1wvok,https://v.redd.it/z1w4tfal77m61,490,2021-03-10 20:57:01,,2021-03-10
+3,I make laser engraved posters and thought you guys might like this!,356,m242ho,https://i.redd.it/1ftx6i6zp8m61.png,80,2021-03-11 02:04:16,,2021-03-11
+4,Bitcoin Recovery,9350,m1j5k6,https://v.redd.it/h2odblqt43m61,269,2021-03-10 07:14:28,,2021-03-10
+5,Officially in Bitcoin! I feel... Good!😎,69,m2aol3,https://i.redd.it/ofgj2qsv0am61.jpg,28,2021-03-11 06:24:41,,2021-03-11
+6,Fake posts being upvoted encouraging people to sell,116,m25wtl,https://www.reddit.com/r/Bitcoin/comments/m25wtl/fake_posts_being_upvoted_encouraging_people_to/,47,2021-03-11 03:18:04,"You cant fool me with these lame bot posts... “I’ve just sold I’ve bought a house” “I’ve just sold I bought my dream “car yadda yadda I call BS on these posts lots of them from very new accounts.... 
+
+Bitcoin is the most value asset in the world. Don’t be fooled, Or convinced to to sell by anyone. 
+Hold tight
+100k isn’t even the beginning 🚀 
+
+I’m all in, might not be much  but you’ll never convince my .34936950 BTC",2021-03-11
+7,Israeli Pension Giant Put $100M Into Grayscale Bitcoin Trust: Report,52,m28bhf,https://www.coindesk.com/israeli-pension-giant-put-100m-into-grayscale-bitcoin-trust-report,4,2021-03-11 04:58:20,,2021-03-11
+8,"""Bitcoin Preferred"" for an ocean front home in Florida",32,m2ako5,https://i.redd.it/my9bl5710am61.jpg,5,2021-03-11 06:20:01,,2021-03-11
+9,"I sold this week, and I am thankful!",113,m1zlks,https://www.reddit.com/r/Bitcoin/comments/m1zlks/i_sold_this_week_and_i_am_thankful/,80,2021-03-10 23:09:46,"I’ve been holding my Bitcoin for a couple years, buying weekly, and saving it all. 
+
+This week, my spouse got in a car accident. We’re fine, car is not. We got through the initial stress of that to get to the even more stressful part of repairs and deductibles. The car will get fixed, but we certainly didn’t have that extra money in the bank this week. 
+
+Thankfully, within minutes, we had it covered. I was able to transfer from my wallet to the exchange, sell, and had the funds in hand. It was fast, secure, and available exactly when I needed it. Literally the only thing that would’ve made it any easier was if the insurance company accepted BTC directly, which is of course the big goal here. 
+
+This is why we need to continue to educate people on the benefits of Bitcoin. Not even as an investment, but as security. Currency values will change, emergencies will happen where banking may not be the best option. BTC will stay secure and, as we continue to push, more widely accepted. 
+
+Next paycheck I’ll surely start building the stack back up. 
+
+Keep up the good fight.",2021-03-10
+10,"As we ignore the Oracle non-news and head towards new ATH, let us revisit this gem that carried us to the current highs.",25,m2bmou,https://v.redd.it/o3trhg608am61,2,2021-03-11 07:06:25,,2021-03-11
+11,BTC Art,26,m2aj2t,https://www.reddit.com/r/Bitcoin/comments/m2aj2t/btc_art/,9,2021-03-11 06:18:04,"Asked a friend of mine who paints old weird decrepit machines to make me one about bitcoin. He had no idea whatsoever about what bitcoin was or meant. After some research he came up with this. What do you think?
+
+https://preview.redd.it/clkvxq3sz9m61.jpg?width=1398&format=pjpg&auto=webp&s=9facd108ae602ad4cf1d502efa8a0640df129819",2021-03-11
+12,"BUY. ""...some experts worry that massive injection of stimulus into the recovering economy might result in inflation""",42,m26a0n,https://www.axios.com/coronavirus-relief-biden-house-vote-dc0a0669-3de7-40a5-8afb-1bbf2aecbefa.html,22,2021-03-11 03:33:37,,2021-03-11
+13,Paypal holding my bitcoin cashout for 21 days,32,m288q2,https://www.reddit.com/r/Bitcoin/comments/m288q2/paypal_holding_my_bitcoin_cashout_for_21_days/,14,2021-03-11 04:55:23,"Excuse by u/paypal is $8000 is ""such a large amount"" they need to hold on to my money for upto 21 days.  Do not buy bitcoin through Paypal.",2021-03-11
+14,The Resident: All The Bitcoin in Iceland,39,m26rbq,https://v.redd.it/jvg18szq99m61,11,2021-03-11 03:53:10,,2021-03-11
+15,My Bitcoin cake for my 31st birthday.,35,m26o1o,https://i.redd.it/cwqfsw7b99m61.jpg,13,2021-03-11 03:50:12,,2021-03-11
+16,"Soros Fund, New York Life and Morgan Stanley invested $ 200 million in the BTC",174,m1v8ls,https://www.reddit.com/r/Bitcoin/comments/m1v8ls/soros_fund_new_york_life_and_morgan_stanley/,38,2021-03-10 19:13:19," *Tell me, why when Bitcoin falls, the media races to print negative news? First Jannette Yellen, the US Treasury Secretary, calls for Bitcoin regulation and tells horror stories about money laundering and terrorism. Then, Warren Buffett and his right-hand man Charles Munger warn of the imminent day of bitcoin.*
+
+But as soon as the trend turns upwards, other top speakers appear on the stage, sometimes very unexpected ones. But every time there are fresh faces.
+
+ 
+
+https://preview.redd.it/ur2qhhl2p6m61.jpg?width=1300&format=pjpg&auto=webp&s=d7219eb9ebff4a72c9bca49d459f38bedf4aab59
+
+This time, Norwegian oil billionaire [Kjell Inge Rokke spoke out in favor of bitcoin](https://news.bitcoin.com/norwegian-oil-billionaire-kjell-inge-rokke-btc-worth-millions-dollars-liquid-assets-bitcoin/). His Aker ASA, which controls oil and oilfield services companies, announced on Monday that it has set up a new business, Seetee AS, to harness the potential of cryptocurrency. In his address to shareholders, Rocque said:
+
+“*We will use Bitcoin as our treasury asset and join the community. In Bitcoin, people like us are considered hodlers. "" He further added: “The direction is clear: finance will be destroyed as inevitably as fossil fuels. The question is not if, but when. Bitcoin could be the core of a new monetary architecture. If so, then one bitcoin could be worth millions of dollars*.""
+
+But the funniest thing is not even that billionaires started talking about the inevitability of a financial collapse, now they are joined by a person who can manually arrange a financial collapse. He had already proven this phenomenal ability by causing the collapse of the British pound in September 1992. Meet the new bitcoin enthusiast and hodler - **George (drum roll) SOROS.**
+
+Fund Soros, New York Life and [Morgan Stanley](https://thebitcoinnews.com/morgan-stanley-analyst-true-price-of-bitcoin-could-be-zero/) invested $ 200 million [in the BTC investment company NYDIG](https://news.bitcoin.com/soros-fund-new-york-life-morgan-stanley-investors-200-million-bitcoin-investment-firm/) (New York digital investment group).
+
+NYDIG is part of Stone Ridge Asset Management, which recently filed with the US Securities and Exchange Commission (SEC) for one of its open-ended mutual funds for investing in bitcoin. The founder of Stone Ridge, who also founded NYDIG, Ross Stevens, said Soon, you'll just see a wall of money entering Bitcoin.
+
+**Summarize**:
+
+**The financial system will collapse.**  
+**Bitcoin will be worth millions of dollars.**  
+**We will soon see the wall of money entering Bitcoin.**
+
+I am waiting for a reversal of the price of bitcoin down, and the next portion of hysterical apocalyptic predictions and the collapse of bitcoin and the bubble with terrorists. Swings - are the the base of the genre.",2021-03-10
+17,Nay Sayers Will Always Say Nay,90,m1yv3n,https://www.reddit.com/r/Bitcoin/comments/m1yv3n/nay_sayers_will_always_say_nay/,40,2021-03-10 22:36:55,"Bitcoin: 20K  
+Me: We going to 100K!  
+Friend: Nah dude, it's the 2017 bubble again.  
+Bitcoin (1 month later): 40k  
+Me: We going to 100K!  
+Friend: Its gonna go down soon, why aren't you selling?  
+Bitcoin: \*goes down to 29K  
+Friend: SEE I TOLD YOU SO!  
+Me: \*Buys more\*  
+Bitcoin: (1 month later): 58K  
+Me: We going to 100K!  
+Friend: Did you not learn your lesson for the last time?  
+Me: You mean when I haven't sold anything since 14k?  
+Friend: You are a dumbass.  
+Me: Yes, but a Rich dumbass.",2021-03-10
+18,my Dream Car,338,m1rv7e,https://www.reddit.com/r/Bitcoin/comments/m1rv7e/my_dream_car/,194,2021-03-10 15:12:06,"I bought Bitcoins in 2013 when it was $124 AUD and held them. When it was $1000 I told many of my friends about it. No one knew Bitcoin and nobody believed me. I have done my duty and I kept quiet after that.
+
+I had a dream of buying a BMW X5. Recently I sold 2 BTC to buy a brand new BWM X5. To show my gratitude to Bitcoin I also bought a personalised number plate starting with BTC.
+
+When I drive this cat I feel like I am on top of the World.
+
+Thanks, Bitcoin and the Bitcoin community.",2021-03-10
+19,Norwegian Oil Billionaire Says BTC Could Be Worth Millions of Dollars Each — Puts Liquid Company Assets in Bitcoin,80,m1z3bj,https://www.reddit.com/r/Bitcoin/comments/m1z3bj/norwegian_oil_billionaire_says_btc_could_be_worth/,4,2021-03-10 22:47:29,"Billionaire Kjell Inge Rokke’s company, Aker, has established a new business dedicated to bitcoin. Rokke believes that bitcoin could “become the core of a new monetary architecture” and each coin could be “worth millions of dollars.” His new company “will keep all its liquid investable assets in bitcoin.”
+
+What’s your idea on this?",2021-03-10
+20,Selling all stocks for Bitcoin,28,m270xp,https://www.reddit.com/r/Bitcoin/comments/m270xp/selling_all_stocks_for_bitcoin/,41,2021-03-11 04:04:32,Currently have about 80% in bitcoin and 20% in stocks. Currently my stocks are down about 30% and thinking if i should cut my losses in the market and move remainding money into bitcoin considering my belief for\` growth. Any one think this is a bad idea?,2021-03-11
+21,Who else is dropping there 1400 dollar stimi into Bitcoin?,29,m26lcz,https://www.reddit.com/r/Bitcoin/comments/m26lcz/who_else_is_dropping_there_1400_dollar_stimi_into/,23,2021-03-11 03:47:04,"Hello I’m a 25 y/o that has a good amount in savings and currently thinking my best bet is to start investing this extra money into Bitcoin... thoughts? I heard people talking about putting there original stimi into Bitcoin and have profited massively. Is there some truth to this? Could the process this time around be just as profitable considering how everything is evolved here in the US? Money is dirty and nobody seems to want to touch it(COVID-19), transferring passively without touch is a clean future. Not to mention doesn’t it cost natural resources to go down like paper(trees), inefficient if you ask me.",2021-03-11
+22,"My dream is to build my own house, and I will.",26,m26p59,https://www.reddit.com/r/Bitcoin/comments/m26p59/my_dream_is_to_build_my_own_house_and_i_will/,18,2021-03-11 03:51:14,"I'm just doing all of this to get some cash when bitcoin hits the million and maybe then I have enough to finally build my own house, far away from the town, but not much. Just a place where I can have some green and relax. That's all",2021-03-11
+23,Leading Israeli Asset Manager Pours $100 Million Into Bitcoin,19,m2a822,https://u.today/leading-israeli-asset-manager-pours-100-million-into-bitcoin,4,2021-03-11 06:06:04,,2021-03-11
+24,Bitcoin doesn’t care...,68,m1yend,https://i.redd.it/alr6d97nl7m61.jpg,23,2021-03-10 22:15:38,,2021-03-10
+25,"Anthony Scaramucci: I’m Only Focused on Bitcoin, the ‘Big Dog’",61,m1zkbu,https://decrypt.co/60869/anthony-scaramucci-focused-on-bitcoin-big-dog?utm_source=reddit&utm_medium=social&utm_campaign=sm,5,2021-03-10 23:08:18,,2021-03-10
+26,Oracle changes name to Pooracle after not buying Bitcoin,14,m2adta,https://www.reddit.com/r/Bitcoin/comments/m2adta/oracle_changes_name_to_pooracle_after_not_buying/,9,2021-03-11 06:12:00,We're still early.,2021-03-11
+27,"This is the future. When companies like this go mainstream, Bitcoin will be on the way to a $100 Trillion dollar Market Cap. ""Announcing STRIKE GLOBAL.""",45,m1zrp8,https://jimmymow.medium.com/announcing-strike-global-2392b908f611,8,2021-03-10 23:17:13,,2021-03-10
+28,Got paid 0.3029 BTC for a copy of a viral video back in 2016,2842,m1a9z3,https://www.reddit.com/gallery/m1a9z3,220,2021-03-10 00:36:02,,2021-03-10
+29,Digital Currency Group to Put up to $250M Into Grayscale’s Bitcoin Trust,40,m1zk1b,https://www.coindesk.com/digital-currency-group-to-put-up-to-250m-into-grayscales-bitcoin-trust,11,2021-03-10 23:07:56,,2021-03-10
+30,"After being a bitter skeptic for years and cheering at crashes, I finally took the plunge. 0.2BTC of total 0.42BTC in crypto assets. Feels good to no longer be watching from the sidelines",63,m1wrxl,https://www.reddit.com/r/Bitcoin/comments/m1wrxl/after_being_a_bitter_skeptic_for_years_and/,55,2021-03-10 20:50:56,"Will be doing DCA from now on (I’ve been waiting to buy since 30k, and finally bought at 55k. Fuck me. Lesson learned. HODL to the moon.
+
+Having known about Bitcoin since its inception (but only as a way to buy drugs on the Silk Road) I never actually knew what the concept was until years later.
+
+I feel foolish for not mining then, but I would have spent it all on drugs anyway. Or sold at $200 (or during the crash from that high), and I definitely wouldn’t have had the mental fortitude to survive the recent bear market, so I don’t feel TOO bad about missed opportunities.
+
+Just glad to have skin in the game. My thanks to the encouraging words from most people in this group 🙏🏻",2021-03-10
+31,I get relaxed in viewing new blocks being added to the blockchain,73,m1vac5,https://www.reddit.com/r/Bitcoin/comments/m1vac5/i_get_relaxed_in_viewing_new_blocks_being_added/,15,2021-03-10 19:16:32,"It’s like clockwork. The project of Satoshi, he thought about everything, and the devs made it better.
+
+Even by being a fully decentralized network worth a trillion dollars, constantly under attack from every corner of the world, both virtually and by speech, it just keeps ticking every ~10 minutes no matter what.
+
+This is true strength.",2021-03-10
+32,Serious Question: What Happens When Bitcoin is Worth $40 Trillion?,10,m2a20f,https://www.reddit.com/r/Bitcoin/comments/m2a20f/serious_question_what_happens_when_bitcoin_is/,18,2021-03-11 05:59:32,"I will start this by saying I am neutral to Bitcoin and am playing Devil's advocate with this post.
+
+There are three major concerns I have with Bitcoin, if it appreciates significantly. I have tried looking through this forum and through many other articles online, but have never found my concerns addressed, so I thought I want to try this community:
+
+&#x200B;
+
+**Bitcoin Could Promote Greater Wealth Extremes**
+
+Many people argue that Bitcoin is fairer than the current financial system by using the following two arguments:
+
+1. A financial system based on Bitcoin would be much more equitable to everyone since it irons out some of the glaring issues with the current financial system (e.g., lending; real inflation not being captured)
+2. Anyone can buy Bitcoin right now and share in the wealth that will be generated as price appreciates
+
+The first statement (that I strongly believe is true) deals with the future, and not the path there. The path there is what I am concerned about since it could lead to significant destruction. 
+
+[https://insights.glassnode.com/bitcoin-supply-distribution/#:\~:text=A%20recent%20report%20by%20Bloomberg,wealth%20in%20the%20Bitcoin%20network](https://insights.glassnode.com/bitcoin-supply-distribution/#:~:text=A%20recent%20report%20by%20Bloomberg,wealth%20in%20the%20Bitcoin%20network).
+
+The glassnode link states ""2% of network entities control 71.5% of all Bitcoin."" Though the 71.5% is admittedly on the high side, it is alarming that there much wealth could be concentrated by such few participants. On the other end, some estimate that the top 1% own 40-50% of all wealth currently:
+
+[https://en.wikipedia.org/wiki/Distribution\_of\_wealth](https://en.wikipedia.org/wiki/Distribution_of_wealth)
+
+It is impossible to tell whether the distribution is much more equitable (that I know of) than what we currently have, but it seems doubtful that low income earners, people on pensions, retirees, etc. are going to be investing at the same proportions as high net worth individuals (who could invest 10% of their entire portfolio in Bitcoin without the same risk to their living). People in Silicon Valley or global tech centers that were first aware of Bitcoin would disproportionately benefit from the rise, whereas those most disconnected from the centers of innovation would be left behind, which is not different/better than the current system. 
+
+As Bitcoin rises, the current distribution will be more and more difficult to smooth out. As large investors start entering, it will become harder and harder for smaller players to have a significant share of the pie. People that do not invest in Bitcoin could be completely out of luck if Bitcoin goes to $10-40 trillion as some project. People that own Bitcoin could outbid those without on real estate, food, water, etc. That scenario is not much different than the current one, where ""using"" the financial system (e.g., trading in the stock market) can yield more wealth than doing productive work (e.g., working in the service industry, building factories, developing technologies). Governments would not be able to offer any kind of social safety net for those left behind because fiat currency would be effectively worthless in this scenario. A complete lack of confidence in any government body, and possibly even riots and looting would ensue by the disgruntled ""left behind.""
+
+One could argue that the risk Bitcoin investors took by investing early warrants the wealth they accumulate. But my concern is that the same argument could be used for kings/dictators, and aligning with royalty early and suppressing others who were slow to pick-up later. That is not a sustainable system, because it would lead to failed states and rioting (e.g., Venezuela). 
+
+Yes, most people could buy bitcoin right now. Yes, the access to bitcoin is somewhat equitable to a person’s current spot on the wealth distribution curve. However, information access is not necessarily equitable, and devaluation of fiat currency-based wage payments disproportionately disenfranchises the poor: shifts to Bitcoin expedite the devaluation.
+
+Bitcoin could also cause easier tax avoidance, especially for the wealthy, expanding wealth gaps further.
+
+&#x200B;
+
+**Bitcoin Could Collapse the World Financial Market**
+
+I think some people desire this outcome, but let me address my concern: 
+
+You would struggle to find a single company with a market cap. above a penny stock that has outperformed Bitcoin this year. People could see that Bitcoin has risen 600-700% this year and decide that it is a better investment than equities, so they remove their wealth from equities and put it into Bitcoin, driving the price up, creating a positive feedback loop where equities drop, bitcoin falls, and the system encourages further redistribution. This would lead to a scenario where everyone wants Bitcoin but no one wants to invest in companies because of the rate of return difference. Companies would suffer without the support of investors, and productivity would greatly diminish, possibly leading to a global depression. This could happen with other assets such as commodities or real estate, but the liquidity of bitcoin and devout following is causing larger appreciation. So, we do not have a good historical comparison, to my knowledge.
+
+I have heard the argument that Bitcoin's price would eventually flatten out as more participants enter and would stop rising after a point (although this is hypothetical), but if this took a year to happen, the damage could already be done. 
+
+&#x200B;
+
+**Governments Could Step in or Become Useless**
+
+If the two situations above look like they are on the verge of being realized, governments would be compelled to act, which brings me to my last point: governments could attempt to regulate or devalue Bitcoin. One scenario would be all the buy-in into Bitcoin causes governments to globally agree to disregard their fiat currencies and exchange all assets in their currencies, on an equal basis, into one decentralized token-based currency (not Bitcoin; a new one optimized to handle the large amount of transactions that would be involved). Therefore, everyone is starting from the same place, but all the improvements of removing fiat currencies will be realized. The counter argument is that countries like the US would never give up control over their currency since it gives them so much power, but I am not saying this scenario is at all likely, unless things changed dramatically, and they were desperate.
+
+I will not even get into the fact that without means of controlling the financial system, it is certainly harder for governments to enforce global guidelines (e.g., with regards to nuclear weapons, terrorism, etc.). There is also nothing that can be done in economic crises to prevent a market collapse, but perhaps natural order implies that things should run their course. 
+
+&#x200B;
+
+**Conclusion**  
+
+I want to be clear I am not attacking Bitcoin, and hope that someone has a good rebuttal (links or opinions) to any of these concerns. Thanks for reading!",2021-03-11
+33,Digital Currency Group To Invest $250 Million In Grayscale Bitcoin Trust,12,m26xki,https://bitcoinmagazine.com/business/digital-currency-group-to-invest-250-million-in-grayscale-bitcoin-trust,1,2021-03-11 04:00:35,,2021-03-11
+34,Everyone on this sub should have some sats in a mobile lightning wallet,11,m298z6,https://www.reddit.com/r/Bitcoin/comments/m298z6/everyone_on_this_sub_should_have_some_sats_in_a/,1,2021-03-11 05:32:58,"Next time the fees go below 10 sats/vB, use the opportunity to set up a non-custodial mobile lightning wallet (Phoenix, Muun, Breez, Eclair Mobile, Zap) and fund it with at least 30-50 USD/EUR/GBP (more if you want!). 
+
+Once there, you've connected yoruself to the lightning network! congrats! And now you have sats that can be used for very small fees, no matter how high the fees are on the base layer. Don't think about it as 'locking up' your coins in 'channels', rather think of it as *liberating* your coins from the burden of onchain fees and slow confirmations: you can now pay stuff *instantly* with almost *no fees*.
+
+And you can keep your wallet and sats within *for years*: no need to be online all the time as some people say, no need to worry about incoming liquidity, all these wallets have various ways to take care of that under the hood or as options given in  the menus.
+
+And then play with it. Buy a gift card, buy bitcoin on an exchange that accept lightning payments, tips developpers, play games, pay your bills, buy food, lots of possibility, and much more to come in the coming years.
+
+Join the LN now, it will be cheaper than doing it later!",2021-03-11
+35,Milestone,8,m2c5dc,https://www.reddit.com/r/Bitcoin/comments/m2c5dc/milestone/,1,2021-03-11 07:28:52,My first Bitcoin purchase just hit 1000% or 10x today! I would never imagine that that little investment back in 2019 could achieve such high returns!,2021-03-11
+36,Bitcoin’s Carbon Footprint - a fair comparison,42,m1y2va,https://www.reddit.com/r/Bitcoin/comments/m1y2va/bitcoins_carbon_footprint_a_fair_comparison/,16,2021-03-10 22:01:12,"Bitcoin is recognised as a store of value making it comparable to gold. In 2020, 3,200 tonnes of gold was mined equating to approximately  90,301,440 million tonnes of CO2 emitted. 
+
+In comparison Bitcoin is estimated to emit around 37 million tonnes of CO2 over the course of 2021, with China powering 65% of the hash rate in March 2021. China pledges to be net zero by 2050 along with most of the world under the Paris agreement. Under the assumption this is achieved this would indicate Bitcoin would be powered by renewable energy by 2050 making it a zero carbon technology. 
+In addition, gold mining is renowned to be one of the most destructive industries responsible for polluting drinking water with cyanide, mercury and other heavy metals, whilst destroying pristine environments and causing damaging health effects. Removing reliance on the need for gold not only has the potential to decarbonise the gold reserve industry but also reduces these negative environmental and health impacts. However, the reliance on countries sticking to the Paris Agreement is needed in order to decarbonise Bitcoin. 
+
+Edit: Information on China’s energy policy 
+
+China uses the most cost effective renewables and could viably generate 60% of its energy with green energy by 2030.  It is estimated the renewable energy implementation could save China around 11% in monetary cost. Feasibly following the laws of economics Bitcoin miners will be more likely to use renewable energy sources if they are cheaper. Therefore, reducing Bitcoin’s carbon footprint. 
+
+
+
+Sources
+
+Bitcoin CO2 footprint: https://digiconomist.net/bitcoin-energy-consumption/
+
+2020 gold produced: https://www.statista.com/statistics/264628/world-mine-production-of-gold/
+
+Gold CO2 estimate: https://www.spglobal.com/marketintelligence/en/news-insights/blog/greenhouse-gas-and-gold-mines-nearly-1-ton-of-co2-emitted-per-ounce-of-gold-produced-in-2019
+
+Bitcoin Index: https://cbeci.org
+
+Paris Agreement: https://en.m.wikipedia.org/wiki/Paris_Agreement
+
+Environmental impact of gold: https://www.earthworks.org/campaigns/no-dirty-gold/impacts/
+
+China’s renewable energy: https://www.nature.com/articles/s41467-020-16184-x",2021-03-10
+37,"Oracle rumored to purchase/purchased 70,000 BTC. The announcement at 5 pm ET today",22,m22y7q,https://www.reddit.com/r/Bitcoin/comments/m22y7q/oracle_rumored_to_purchasepurchased_70000_btc_the/,5,2021-03-11 01:26:35,"Rumors have to be floating that Oracle purchasing BTC. 
+
+They should be announcing it at 5 pm ET.
+
+Fingers crossed  
+
+Chico tipped it last month -
+
+[https://www.youtube.com/watch?v=8n9OaljTU-s](https://www.youtube.com/watch?v=8n9OaljTU-s)",2021-03-11
+38,"China did NOT ban crypto mining, it only did so in one region",59,m1vmfj,https://www.reddit.com/r/Bitcoin/comments/m1vmfj/china_did_not_ban_crypto_mining_it_only_did_so_in/,26,2021-03-10 19:38:34,"I believe many people misunderstood and think that China is banning crypto mining. It actually only did so for the region of Inner Mongolia. Inner Mongolia does not use enough green electricity sources, and China is trying to move the mining companies to other regions. 
+
+[https://www.scmp.com/economy/china-economy/article/3123633/bitcoin-mining-northern-chinese-province-be-halted-amid](https://www.scmp.com/economy/china-economy/article/3123633/bitcoin-mining-northern-chinese-province-be-halted-amid)",2021-03-10
+39,"""Super Cycle"" + Bull Market = ???",20,m24dq3,https://www.reddit.com/r/Bitcoin/comments/m24dq3/super_cycle_bull_market/,6,2021-03-11 02:16:16,"If the legends are true... are we entering into a....
+
+***supermarket???*** 
+Muahahaha feel the pain of puns",2021-03-11
+40,What happens after 21m bitcoin?,8,m2a4iy,https://www.reddit.com/r/Bitcoin/comments/m2a4iy/what_happens_after_21m_bitcoin/,10,2021-03-11 06:02:07,"What is the incentive for bitcoin miners once the 21 millionth bitcoin has been mined?
+
+Do they just purely validate transactions with the expectation of collecting transaction fees?",2021-03-11
+41,What companies are involved in bitcoin?,9,m277si,https://www.reddit.com/r/Bitcoin/comments/m277si/what_companies_are_involved_in_bitcoin/,7,2021-03-11 04:12:16,"So I have invested in bitcoin, tesla, and square. 
+My theory is this
+I buy bitcoin with cashapp which is owned by square. So I'm helping them aquire bitcoin. If bitcoin takes off to mars then square probably will too.
+
+As of for tesla... Them being an early corporate adopter means that If it skyrockets passed 100k then my tesla shares will go up with it. 
+
+While this may be a simplistic view supporting the companies that support my currency of choice will help progress bitcoin to a globally accepted currency. Also, quit saying bitcoins going to the moon. The moons in our sphere of influence and we hit that in 2018. At this point mars is where we're heading. A whole new challenge and milestone.",2021-03-11
+42,Check out Mr. Saylor on Context Live!,23,m21dec,https://www.reddit.com/r/Bitcoin/comments/m21dec/check_out_mr_saylor_on_context_live/,3,2021-03-11 00:25:39,Watch Michael Saylor from MicroStrategy here: [https://www.youtube.com/watch?v=avWV6vF7zr4](https://www.youtube.com/watch?v=avWV6vF7zr4),2021-03-11
+43,Why do people often react with ridicule or aggression to bitcoin?,11,m28btq,https://www.reddit.com/r/Bitcoin/comments/m28btq/why_do_people_often_react_with_ridicule_or/,16,2021-03-11 04:58:46,"When a problem or a conflict is discussed and bitcoin's potential to solve said problems are mentioned, people often react with ridicule or aggression.
+
+Why do you think that is? Are bitcoiners naive? Do no-coiners not understand it? Something in between?",2021-03-11
+44,Help people buy Bitcoin!,12,m26iaq,https://www.reddit.com/r/Bitcoin/comments/m26iaq/help_people_buy_bitcoin/,2,2021-03-11 03:43:13,"Recently, I have noticed that it has become incredibly difficult to convince people that they need Bitcoin. This is due to the fact that, apparently, they already know.
+
+I've onboarded multiple people over the last few weeks, and all it took was mentioning my Bitcoin knowledge in their presence. They already knew it was a good idea to buy, they just didn't really know how, and were a little too lazy to try to figure it out for themselves.
+
+People like Bitcoin now. Even if it's sometimes just for the gains, it's pretty easy to get the ""literally just hodl"" strat across.
+
+So remember: Help people buy Bitcoin! You know the exchanges, you know the wallets, you might even know lightning. It's surprisingly easy to get people to buy! Give them a good exchange and a good wallet to use, and tell them to just hodl, and back up their wallets!
+
+*something something* **TO THE MOON**",2021-03-11
+45,"“Why didn’t I listen to myself?”, Says influencer who promoted Bitcoin for $20 in 2011",7,m2as7r,https://digesttime.com/2021/03/10/why-didnt-i-listen-to-myself-says-influencer-who-promoted-bitcoin-for-20-in-2011/,6,2021-03-11 06:28:55,,2021-03-11
+46,"Ted Mathas, Chairman / CEO of NewYorkLife, has been appointed to NYDIG Board of Directors. Mathas serves as Chairman of the American Council of Life Insurers which represents more than 95% of the life insurance industry in the US, > $7 trillion in assets. There is a wall of money coming...",17,m21jzp,https://twitter.com/NYDIG_BTC/status/1369639614256971776,0,2021-03-11 00:32:56,,2021-03-11
+47,Built my own Bitcoin ticker... I’m easily amused,155,m1pea0,https://v.redd.it/jbx6c4tcp4m61,31,2021-03-10 12:32:41,,2021-03-10
+48,Accepting BTC Payments as a small business,26,m1y0et,https://www.reddit.com/r/Bitcoin/comments/m1y0et/accepting_btc_payments_as_a_small_business/,22,2021-03-10 21:58:03,"Would like the input of some other people as I have been researching accepting bitcoin on my website, Unfortunately I use a wixsite so there is no easy way to integrate it like btcpay. open to any other ideas thanks!",2021-03-10
+49,Bitcoin Technical Updates Newsletter #139,20,m20ox0,https://bitcoinmagazine.com/technical/bitcoin-optech-bitcoin-technical-updates-newsletter-139,1,2021-03-10 23:57:35,,2021-03-10

@@ -1,0 +1,212 @@
+,title,score,id,url,comms_num,created,body,date
+0,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,326,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,132,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+1,"Daily Discussion, March 17, 2021",76,m6sq50,https://www.reddit.com/r/Bitcoin/comments/m6sq50/daily_discussion_march_17_2021/,1865,2021-03-17 13:04:03,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m61lxu/daily_discussion_march_16_2021/) for unanswered questions.",2021-03-17
+2,Morgan Stanley becomes the first big U.S. bank to offer its wealthy clients access to bitcoin funds,3041,m72hs9,https://www.cnbc.com/2021/03/17/bitcoin-morgan-stanley-is-the-first-big-us-bank-to-offer-wealthy-clients-access-to-bitcoin-funds.html?__source=iosappshare%7Ccom.apple.UIKit.activity.CopyToPasteboard,282,2021-03-17 23:08:14,,2021-03-17
+3,Time to get back to some of the OG meme roots,1410,m71eoe,https://i.redd.it/ztfp0vkckln61.jpg,69,2021-03-17 22:17:25,,2021-03-17
+4,Warning: STOP buying Bitcoin on Robinhood. These guys almost went under to a 3b margin call on illegal $GME paper trades. They will rob you and go broke.,228,m7bmr1,https://www.reddit.com/r/Bitcoin/comments/m7bmr1/warning_stop_buying_bitcoin_on_robinhood_these/,44,2021-03-18 05:49:26,"If this applies to you, seriously what are you thinking? We’ve been shouting “don’t buy BTC on RH” from the rooftops. The latest update is finding out that RH has admitted to paper trading $GME and fucking investors when their naked positions caught a 3 billion dollar margin call.
+
+If this has been a Bitcoin related event, there would have been no recovery, RH would have filed for bankruptcy and relied on their elite friends to manage any government intervention that may crop up.
+
+ RH basically shorted every order their client’s made, not only stabbing those clients in the back short term, but setting them up to lose everything if they were right. If $GME had gone to $1,000 all of these folks would have been left with less than their buy-in because RH would have gone under.
+
+Returning to Bitcoin, it’s important to understand that this deceptive practice is even more easily perpetrated against RH’s BTC buyers and that Congress / regulators are even less likely to do anything about it.
+
+For the love of Satoshi, I know at least one of you reading this is still not selling the Bitcoin you have on RH, transferring your fiat to a legitimate exchange, rebuying the Bitcoin, and storing it off exchange. Stupid games, stupid prizes, and you can’t be entirely dumb if you’ve read this far. Make the move right now and sleep better knowing your coins are safe and Sonos the integrity of the Bitcoin ecosystem. 
+
+Other exchanges to consider include: Gemini, Kraken, Binance US, Coinsebase Pro, Swan, and if you’re a real legend BISQ. 
+
+If this is your first time hearing this stuff, search r/Bitcoin for Robinhood and checkout this recent r/wallstreetbets thread detailing RH’s 3 billion dollar margin call https://www.reddit.com/r/GME/comments/m74e3g/this_is_huge_robinhood_never_owned_your_gme/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+TL:DR - RH probably isn’t buying Bitcoin when you buy Bitcoin on RH. If Bitcoin rallies hard enough, or if RH has an internal problem, you’re likely to lose everything. Move your funds off of RH.",2021-03-18
+5,Noodling the Numbers to predict the future,425,m71yra,https://i.redd.it/4g4f9obyoln61.png,130,2021-03-17 22:44:03,,2021-03-17
+6,Satoshi Forest - some rich bitcoiner bought 8 acres of land to house the homeless,3490,m6qd9k,https://youtu.be/uzTVuS51Bo4,218,2021-03-17 10:49:52,,2021-03-17
+7,Bitcoin Planet,1070,m6w6dv,https://www.reddit.com/gallery/m6w6dv,73,2021-03-17 17:04:05,,2021-03-17
+8,Visa Is Working to 'Enable Bitcoin Purchases': CEO,284,m72vuy,https://decrypt.co/61738/visa-is-working-to-enable-bitcoin-purchases-ceo?utm_source=reddit&utm_medium=social&utm_campaign=sm,36,2021-03-17 23:25:37,,2021-03-17
+9,Bitcoin's fair launch cannot ever be replicated by another cryptocurrency,98,m79l3c,https://www.reddit.com/r/Bitcoin/comments/m79l3c/bitcoins_fair_launch_cannot_ever_be_replicated_by/,38,2021-03-18 04:17:58,"I created this thread to point out some distinct and important differences between the launch of bitcoin compared to the launch of every other cryptocurrency. I realize that many of you already know these facts, but some of you don't.
+
+Bitcoin, the most secure and decentralized cryptocurrency (I'm not debating it), was created to solve the problem of trust with governments and to be a store of value that can be sent/received anywhere/anytime without permission or trust of anyone else. Bitcoin’s narrative matches the real world utility. If you want to get technical, bitcoin is really a scarce tokenized derivative of inflation and corruption that's kept honest and secure by it's own decentralized ledger of value that can't be forged or hacked. 
+
+**To ensure that the launch was considered fair, Satoshi took careful steps to make sure that the world would look back and observe that bitcoin was launched fairly:**
+
+- **No premine** (Satoshi didn’t grant himself any coins)
+- **Gave a 2 month heads up before launching the network** (no sudden release and no mining before release)
+- **Coins had no value for 1.5 years so they circulated freely** (this cannot even be replicated)
+- **Satoshi never cashed out** (unlike every other founder in history and I bet it stays that way for eternity)
+
+Putting everything else about bitcoin aside, there will never be another cryptocurrency that is launched as fairly as bitcoin, for all of eternity, because bitcoin's fair launch cannot ever be replicated. Now that the genies out of the bottle and bitcoin is here, it's 100% impossible to ever have a cryptocurrency where the coins are circulating in the wild freely for 18 months before having any value. I also don't think that we'll ever see another cryptocurrency created where the founder never cashes out.",2021-03-18
+10,"You Don’t Need a Bitcoin Exit Strategy, Because Bitcoin Is Your Exit Strategy From the Current System",167,m74umn,https://www.inbitcoinwetrust.net/you-dont-need-a-bitcoin-exit-strategy-because-bitcoin-is-your-exit-strategy-from-the-current-2b740bbc69df?sk=704c4b2beb0b94f2b6f43ba26dc0637e,27,2021-03-18 00:53:09,,2021-03-18
+11,Cramer says Exxon will start mining for Bitcoin. 🤑🤑🤑,212,m7154d,https://v.redd.it/yeuq0sjyhln61,54,2021-03-17 22:04:40,,2021-03-17
+12,"PSA: Noobs, when creating a Bitcoin wallet, PLEASE write down the 12-word backup. WRITE IT DOWN and keep it safe, make back ups. Do not screenshot. Do not put in a notepad app. Do not take a photo of it.",141,m73oxu,https://www.reddit.com/r/Bitcoin/comments/m73oxu/psa_noobs_when_creating_a_bitcoin_wallet_please/,76,2021-03-18 00:02:04,"Too many people lose their coins this way. Keep the backup words OFFLINE.
+
+Another friend just forgot his password and DID NOT write down his 12-word back up. He has about $1000 worth of BTC in the wallet. Has been trying all possible passwords with no success. We'll exhaust all options before trying recovery services.
+
+I want to feel bad for him but goddamn how hard is it to follow instructions when creating a wallet? It literally wont let you create one without practically forcing you to write down the words.
+
+Write it down, make backups, keep it with other valuables. Don't use memory to remember complex passwords, write them down too goddamit.",2021-03-18
+13,Friendly reminder: Please be nice to the new wave of noobs arriving here!,70,m77ekn,https://www.reddit.com/r/Bitcoin/comments/m77ekn/friendly_reminder_please_be_nice_to_the_new_wave/,21,2021-03-18 02:42:06,"I've noticed an insane influx of noobs here very recently, possibly because of the stimmy arriving gradually in people's hands. 
+
+They're asking super basic questions like ""How to buy a satoshi"" not realizing that it's a Bitcoin denomination, others asking whether exchanges can go poof, how to change fees for a transaction, or whether totallynotascam.com is a scam. Others want to start a mining side gig with Bitcoin Core running on their laptop and so on and so on. 
+
+**Just a friendly reminder**: it's easy to think ""Wtf are you talking about? You're about to get REKT!"" (and I've done that so often myself). And it's probably true that they will get REKT one day (hey, that's how you learn!) because being able to handle Bitcoin safely definitely requires some level of crypto literacy. But that's exactly why we are here this week! We are here to help! 
+
+Let's be nice to them, welcome them to our great community, and teach them how to be safe, trustless, and decentralized. How to stack sats, HODL them no matter what, and live a better life... and maybe they'll spread the word some day as well! 
+
+TL;DR: Stimmy noobs incoming! Don't jinx it!",2021-03-18
+14,Swinging for the homer!,39,m7beb7,https://www.reddit.com/r/Bitcoin/comments/m7beb7/swinging_for_the_homer/,31,2021-03-18 05:38:53,I have two children. I bought them each 2k in bitcoin today. I believe that it will pay for college. Who is with me?,2021-03-18
+15,Visa Plans to Enable Bitcoin Payments at 70 Million Merchants,31,m7coi4,https://www.btctimes.com/news/visa-plans-to-enable-bitcoin-purchases,5,2021-03-18 06:38:29,,2021-03-18
+16,Retail users have now bought more bitcoin than institutions so far this year! The real occupy Wall Street.,183,m6zwjr,https://i.redd.it/gs7uxyg07ln61.jpg,24,2021-03-17 21:03:05,,2021-03-17
+17,"IMPORTANT : For new people in Reddit and Crypto, be careful of those scams. Here's an example I just got this morning. Some are honest, some are not... When you say you're new, some bad sharks may see you. When I say bad I mean a 15Kb file as a Trading-Alert Software... I laughed so hard i'm crying.",211,m6yhqy,https://www.reddit.com/gallery/m6yhqy,61,2021-03-17 19:39:49,,2021-03-17
+18,Just FOMO bought in @ 58k and i'm proud of it... From a 4 years Hodler...,38,m78w8m,https://www.reddit.com/r/Bitcoin/comments/m78w8m/just_fomo_bought_in_58k_and_im_proud_of_it_from_a/,22,2021-03-18 03:47:33,"Never give up people keep buying
+
+FOMO on bitcoin is a real thing. it pays off in mid to long term. Trust me. Ive done it before and it has always worked.
+
+""this is not a financial advice tho""  It's for the people with the heart
+
+If you don't have the heart for this, let's do something else",2021-03-18
+19,If Powell keeps talking...,45,m77pqq,https://www.reddit.com/r/Bitcoin/comments/m77pqq/if_powell_keeps_talking/,18,2021-03-18 02:56:01,We may hit 60k before he stops!  Don’t let this man off the mic,2021-03-18
+20,Coinbase is doing a Reddit AMA for 3 days for going public,59,m75bct,https://www.reddit.com/user/CoinbaseListing/comments/m71qrc/hey_reddit_im_brian_armstrong_ceo_and_cofounder/,19,2021-03-18 01:12:50,,2021-03-18
+21,Bitcoin go BRRRRRRR,41,m77b1e,https://www.cnbc.com/2021/03/17/fed-decision-march-2021-fed-sees-stronger-economy-higher-inflation-but-no-rate-hikes.html,19,2021-03-18 02:37:52,,2021-03-18
+22,More international adoption: First Bitcoin ETF approved in Brazil,20,m7ccbt,https://www.reddit.com/r/Bitcoin/comments/m7ccbt/more_international_adoption_first_bitcoin_etf/,1,2021-03-18 06:22:37,"[https://cointelegraph.com.br/news/banco-itau-and-btg-pactual-join-hashdex-and-announce-brazils-first-bitcoin-etf-with-cvm-approval](https://cointelegraph.com.br/news/banco-itau-and-btg-pactual-join-hashdex-and-announce-brazils-first-bitcoin-etf-with-cvm-approval) (in portuguese)
+
+&#x200B;
+
+I personally think these bitcoin derivatives are BS , not your keys not your coins..  
+
+That being said, I think this is yet another sign bitcoin is taking over, banks (and soon, if not already, central banks) cannot deny it anymore.  It seems more and more inevitable for hyperbitcoinization to happen.",2021-03-18
+23,This isn’t WSB.,7047,m6bm55,https://www.reddit.com/r/Bitcoin/comments/m6bm55/this_isnt_wsb/,726,2021-03-16 23:27:56,"We’re not “retards”. We’re not “apes”. Just because somebody is new to Reddit, doesn’t make them uninformed. Just because somebody is new to Reddit, doesn’t mean they’re a teenager or have no holdings. Just because somebody isn’t positing their BTC holdings, doesn’t mean they don’t know what they’re talking about.
+
+If you’re not a bitcoin maximalist then that’s ok, you’re still welcome here but remember what sub you’re on. A sub that preaches anonymity and not telling people things such as how much coin you own. You never know who the person you’re speaking to is and what stake they have or the knowledge and experience they may hold.
+
+So with that said, if you’re new here, let’s try to stay true to what r/bitcoin was made for - to discuss bitcoin. If you need visual confirmation of people’s holdings and want to talk shit, wallstreetbets is only a click away. This isn’t the place though",2021-03-16
+24,the fed is just dumping money in the streets,22,m7b3yw,https://www.reddit.com/r/Bitcoin/comments/m7b3yw/the_fed_is_just_dumping_money_in_the_streets/,26,2021-03-18 05:25:51,"alive? here's a bunch of money, multiple times.
+
+have a spouse? here's a bunch more.
+
+have children? even better, take more.
+
+lost your job? keep grabbing. 
+
+renter? don't pay. grab some for the landlord. 
+
+student loans? forgiven. 
+
+tax time? don't worry about it. 
+
+mortgage? don't need your money. 
+
+piss right? good job, take this money. 
+
+piss left? nicely done, grab this money. 
+
+&#x200B;
+
+**bitcoin makes more sense with** **every.** **passing.** **day****.**",2021-03-18
+25,COLDCARD 4.0.0 Firmware Release 🍄⏫,37,m76ieb,https://twitter.com/COLDCARDwallet/status/1372247111719337991?s=20,6,2021-03-18 02:03:53,,2021-03-18
+26,Seized Bitcoin Sells for Five Times Its Value At Auction,27,m77aao,https://decrypt.co/61796/seized-bitcoin-sells-for-five-times-its-value-at-auction?utm_source=reddit&utm_medium=social&utm_campaign=sm,14,2021-03-18 02:37:00,,2021-03-18
+27,My bank has blocked my card to buy Bitcoin.,104,m6xrpl,https://www.reddit.com/r/Bitcoin/comments/m6xrpl/my_bank_has_blocked_my_card_to_buy_bitcoin/,88,2021-03-17 18:54:12,"As the title says, it’s Länsförsäkringar in Sweden who’s blocked me.
+Is this common in other countries aswell? This is another strong reason why we need Bitcoin lol.",2021-03-17
+28,Morgan Stanley Set To Offer Clients Access To Bitcoin Funds,19,m78i17,https://bitcoinmagazine.com/markets/morgan-stanley-set-to-offer-clients-access-to-bitcoin-funds,3,2021-03-18 03:30:22,,2021-03-18
+29,Nearly 1 in 10 Americans have used stimulus checks to invest in crypto,9,m7dzye,https://theharrispoll.com/stimulus-check-spending/,3,2021-03-18 07:44:51,,2021-03-18
+30,Remember when John Oliver covered Bitcoin at $1 7k,32,m74xb3,https://www.youtube.com/watch?v=g6iDZspbRMg,17,2021-03-18 00:56:38,,2021-03-18
+31,"Guys, chill off. It's not the crypto going up, it's the fiat going down. 🤫",8,m7dsec,https://www.reddit.com/r/Bitcoin/comments/m7dsec/guys_chill_off_its_not_the_crypto_going_up_its/,5,2021-03-18 07:33:44,I just realized 😅,2021-03-18
+32,One of the Political Candidate in Netherlands puts up Billboards written on it - 'Bitcoin Is the Future',45,m71zgh,https://www.reddit.com/r/Bitcoin/comments/m71zgh/one_of_the_political_candidate_in_netherlands/,15,2021-03-17 22:44:54,"The billboards say, “Bitcoin is de toekomst,” which means “Bitcoin is the future.”  
+In one of the interviews, Candidate for the Libertarian Party said that it was a time for a new way of thinking and added that everyone should buy a Bitcoin to defend their freedom. 
+
+More and more people acknowledges the importance of the BTC and financial freedom it brings!
+
+Any Dutch here?",2021-03-17
+33,I threw my whole stimulus into Bitcoin last night would it be smart to buy again right now? Might throw another stimmy,13,m7bbxz,https://www.reddit.com/r/Bitcoin/comments/m7bbxz/i_threw_my_whole_stimulus_into_bitcoin_last_night/,6,2021-03-18 05:35:53,,2021-03-18
+34,"Bitcoin Pill VOL2 - Physical A1 size print on 200g/m2 paper. No NFT'S, Just limited to 210 prints with an Certificate of authenticity on the bitcoin blockchain.",13,m7aufo,https://i.redd.it/zszsciznmnn61.jpg,10,2021-03-18 05:14:00,,2021-03-18
+35,Imagining a $1M Bitcoin World,20,m76c64,https://www.reddit.com/r/Bitcoin/comments/m76c64/imagining_a_1m_bitcoin_world/,31,2021-03-18 01:56:47,"... Would this be a good thing? I'm not entirely sure. Not intended to be FUD, more of a thought exercise down a dystopian rabbit hole...
+
+$1M Bitcoin most likely means the dollar has significantly deteriorated in value. Think about all your friends and family who do not own Bitcoin. Their wages and savings are now worth a fraction of what they were before. At the same time, cost of living and assets have gone up, so not only is their money worth less, it can't buy as much. Some of them know you own, and maybe start asking for help. Some of these people might be the same ones who laughed at you for buying in the first place. It's easy to say, ""You should've listened to me"" but they're hurting. You don't want to see them hurt.
+
+Maybe the non-coiners start blaming the crypto community for this new state of affairs. It would be wrong, but someone needs to take the fall. Central banks might pile on to this blame game, too. That, in turn, motivates politicians to do the same. Maybe they try to push a crypto ban. But at this point there's so much institutional money in the game it makes a ban tough to rationalize -- especially with all their big money campaign contributors. So they demonize it instead. They say that Bitcoin is unpatriotic, anti-society, greedy, selfish... etc. They can't stop Bitcoin but they can certainly try and push it to the margins, into the underground and out of the mainstream economy. Bitcoin now has a negative stigma. Doing business in crypto becomes significantly harder. It's not clear who you can talk to about this anymore. Maybe this pushes the price up? Maybe it pushes it down?
+
+Meanwhile, some countries embrace crypto and become crypto havens with progressive crypto laws. These are great places to live if you own crypto but the cost of living in these places is dramatically higher than non-crypto places because all coiners want to move there. Your Bitcoin is still good but it can't buy as much as you like. And maybe these crypto enclaves have higher rates of crypto-related theft because criminals know it's a target-rich environment. Sure crypto is easier to live off of, but you have to be on high-alert all the time to protect your assets and your physical safety.
+
+... like I said, not intended to be FUD. I just think there are too many positive narratives floating around related to Bitcoin's price skyrocketing and not enough consideration of the larger economic landscape in a world where BTC has mooned. Or how everyday people might be affected in that new world. Would love to hear other perspectives.",2021-03-18
+36,i go all in,16,m77q9e,https://www.reddit.com/r/Bitcoin/comments/m77q9e/i_go_all_in/,26,2021-03-18 02:56:41,"the last 5 years i managed to save 25k.
+
+today i longed everything x3. my liq price is at 35k. im 27 and have nothing else. lets go
+
+lets see how this age's.",2021-03-18
+37,How does cold storage actually work?,30,m73pdf,https://www.reddit.com/r/Bitcoin/comments/m73pdf/how_does_cold_storage_actually_work/,28,2021-03-18 00:02:35,"Sorry guys, I have read far and wide for several hours now and I don't seem to be getting anywhere.
+
+Obviously, my bitcoins live on the blockchain network and can never leave it, so I understand that they aren't in themselves physically 'stored' on my Trezor. But then I started to wonder, what *is* it actually doing then? My reading tells me it stores my private key to send bitcoin from my wallet, but that my wallet actually only exists in cyberspace and not on the device itself... is this true?
+
+Sorry if this is a dumb question. If anyone could point me towards an approachable article or youtube video so that I can educate myself, I'd appreciate it!
+
+Cheers",2021-03-18
+38,"You Don’t Need a Bitcoin Exit Strategy, Because Bitcoin Is Your Exit Strategy From the Current System",8,m7dert,https://www.inbitcoinwetrust.net/you-dont-need-a-bitcoin-exit-strategy-because-bitcoin-is-your-exit-strategy-from-the-current-2b740bbc69df,1,2021-03-18 07:14:06,,2021-03-18
+39,Beware of u/Usual_Concern_6512,43,m705d5,https://www.reddit.com/r/Bitcoin/comments/m705d5/beware_of_uusual_concern_6512/,17,2021-03-17 21:15:43,"Got an message from him where he try’s to promote his Bitcoin scam scheme.
+
+Already filled a report for Reddit.",2021-03-17
+40,"bank of america analysts: ""no good reason to own bitcoin unless you see prices going up.""",6,m7dns6,https://www.reddit.com/r/Bitcoin/comments/m7dns6/bank_of_america_analysts_no_good_reason_to_own/,7,2021-03-18 07:27:07,"all my life i only invested in things that i knew would lose value. now thanks to this fascinating insight backed by years of research, it's time for me to break that habit. this is a game changer.",2021-03-18
+41,Life Can change so quick,12,m78qxn,https://www.reddit.com/r/Bitcoin/comments/m78qxn/life_can_change_so_quick/,4,2021-03-18 03:41:10,"My little brother always said I shouldn't bother him about bitcoin for a year and a few days ago he came to me and said I should show him how to buy bitcoin. And today he comes to me and tells me he made $ 50 plus
+
+WE ARE EARLY 🚀🤝",2021-03-18
+42,cashapp giving away free bitcoin,12,m780c8,https://twitter.com/cashapp/status/1372216492352241667?s=21,38,2021-03-18 03:09:05,,2021-03-18
+43,"Retail traders edged out Wall Street to become the bigger buyers of bitcoin so far this quarter, JPMorgan says",62,m6xayu,https://www.businessinsider.com/retail-traders-surpassed-wall-street-q1-bitcoin-buying-jpmorgan-2021-3,5,2021-03-17 18:22:49,,2021-03-17
+44,Dad advice towards Bitcoin,174,m6s5m9,https://www.reddit.com/r/Bitcoin/comments/m6s5m9/dad_advice_towards_bitcoin/,108,2021-03-17 12:29:00,"I just told my dad the whole concept regarding bitcoin and crypto, and that I had invested some in it. He immediately told me that it is a fraud and a bubble that's going to break soon. I decided to invest more after I hear that cause every time the thing go the other way of what he said. Thanks dad 😊.",2021-03-17
+45,Morgan Stanley Big Boys,23,m72hon,https://www.reddit.com/r/Bitcoin/comments/m72hon/morgan_stanley_big_boys/,2,2021-03-17 23:08:07,"Morgan Stanley becomes the first big U.S. bank to offer its wealthy clients access to bitcoin funds
+
+https://www.cnbc.com/2021/03/17/bitcoin-morgan-stanley-is-the-first-big-us-bank-to-offer-wealthy-clients-access-to-bitcoin-funds.html?__source=androidappshare",2021-03-17
+46,CashApp 1M in BTC giveaway: Here are the rules,12,m76sul,https://cash.app/legal/us/en-us/bitcoingiveawayrules,12,2021-03-18 02:15:49,,2021-03-18
+47,Visa / MasterCard / Large Financial Institution Involvement - Where does that leave us?,9,m7anoh,https://www.reddit.com/r/Bitcoin/comments/m7anoh/visa_mastercard_large_financial_institution/,2,2021-03-18 05:05:37,"Hey all,
+
+I'm starting to see more and more overjoyed responses across the cryptosphere of people sharing articles like Visa and Mastercard, Paypal etc integrating more crypto and bringing it mainstream. While I'm really glad to see crypto finally pushing through the barriers that were placed in front of it, I can't help wonder what potential ramifications could take place.
+
+The *first sentence* of the [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf) says the following:
+
+> A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution 
+
+I'm concerned about financial institution's involvement and their desire to control assets, especially those like bitcoin which they've been fighting tooth and nail over for a decade. With the massive influx of institutional money, where does that leave us? I'm not necessarily against it, but I hate to see bank get involved in the first place. Perhaps I'm an outlier, and realistically I'm not sure I see other ways of pushing adoption. Is this something to worry over or what?
+
+E.g., I'm referring to announcements like [this](https://decrypt.co/61738/visa-is-working-to-enable-bitcoin-purchases-ceo) where Visa openly says they're trying to facilitate those purchases for people, basically being the intermediate we were trying to get rid of.",2021-03-18
+48,Bidders run up Bitcoin price in U.S. government auction,4,m7e57z,https://www.washingtonpost.com/technology/2021/03/17/bidders-running-up-price-bitcoin-government-auction/,0,2021-03-18 07:52:54,,2021-03-18
+49,Is it possible to store fractions of bitcoin offline?,10,m77su5,https://www.reddit.com/r/Bitcoin/comments/m77su5/is_it_possible_to_store_fractions_of_bitcoin/,11,2021-03-18 03:00:01,"I am aware of being able to store bitcoin offline and I know you can own fractions of bitcoin, but can I store fractions offline? I am not able to afford full bitcoin as of right now but I want to store them offline.
+
+&#x200B;
+
+Edit: Wow that was fast, and thank you I understand now.",2021-03-18

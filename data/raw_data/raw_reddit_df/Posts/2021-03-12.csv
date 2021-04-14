@@ -1,0 +1,185 @@
+,title,score,id,url,comms_num,created,body,date
+0,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,195,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,73,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+1,"Daily Discussion, March 12, 2021",76,m3achv,https://www.reddit.com/r/Bitcoin/comments/m3achv/daily_discussion_march_12_2021/,1098,2021-03-12 13:06:33,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m2kf5w/lightning_thursday_march_11_2021_explore_the/) for unanswered questions.",2021-03-12
+2,Bitcoin has now transferred $3.5 Trillion across the world without the help of any banks or governments.,5081,m3hitc,https://i.redd.it/rdc77wermlm61.jpg,331,2021-03-12 21:27:25,,2021-03-12
+3,"Stimulus bill: $1,900,000,000,000. Bitcoin market $1,010,000,000,000. They created more dollars out of thin air than the total value of the bitcoin market. We are still so early.",806,m3n60b,https://www.reddit.com/r/Bitcoin/comments/m3n60b/stimulus_bill_1900000000000_bitcoin_market/,165,2021-03-13 01:59:48,So so early.,2021-03-13
+4,"MicroStrategy has purchased an additional ~262 bitcoins for ~$15.0 million in cash at an average price of ~$57,146 per bitcoin",616,m3h6ce,https://twitter.com/michael_saylor/status/1370360546986430467?s=21,132,2021-03-12 21:07:27,,2021-03-12
+5,The French government is going to sell $34.5M worth of Bitcoin seized in 2019. Isn't it amazing to sell BTC when at the same time the French government says that Bitcoin is only used for criminal activities?,540,m3hj9x,https://www.reddit.com/r/Bitcoin/comments/m3hj9x/the_french_government_is_going_to_sell_345m_worth/,81,2021-03-12 21:28:08,"The French government is going to sell $34.5M worth of Bitcoin seized in 2019
+
+Isn't it amazing to sell BTC when at the same time the French government says that Bitcoin is only used for criminal activities?
+
+Does the French government want to promote criminal activities?
+
+Total hypocrisy of governments as always.
+
+Bitcoin is dangerous if you listen to them, but if there is a way to make money out of it, then you should not hesitate. The most incredible thing is that this does not seem to shock anyone in the general public.",2021-03-12
+6,"If Bitcoin is going to be mainstream, we need to move on from ""not your keys, not your coins.""",231,m3k6wz,https://www.reddit.com/r/Bitcoin/comments/m3k6wz/if_bitcoin_is_going_to_be_mainstream_we_need_to/,293,2021-03-12 23:43:00,"I realize what I'm about to say may be unpopular, but I'd like to start a genuine discussion on this topic. I understand what is being said, when people repeat the not your keys...phrase, but if Bitcoin wants to grow up, we need to get past that for a multitude of reasons. Full disclosure, I hold small amounts of Bitcoin in a hardware wallet and I also have IRA funds invested in GBTC as well as some on Coinbase.
+
+Recently I've been talking to family members about investing in Bitcoin and I realize they have no business ever holding their own keys. I believe they are far better off using something like Paypal, Coinbase, Robinhood or investing through GBTC/OBTC etc. These people are smart and educated but older and not that tech savvy.
+
+Almost daily I see a post here from someone that has managed to lose their coins in any number of ways. Yet, also daily I see comments advising not to use Paypal/CashApp/RobinHood or Coinbase to hold Bitcoin. Having a 3rd party do the custodial duties is actually a valuable service to the majority of people. I know it's popular here to use hardware wallets and protect the seed words, but how will people handle that when they start to get dementia? I'm wondering what I will do in a decade or 3 when I may not be as sharp as I am today. I believe insured custodial services are the future for the vast majority of future Bitcoin users and we shouldn't discourage their use.",2021-03-12
+7,"If you think bitcoin is just thin air, wait until you hear where government got the $1,900,000,000,000 from.",62,m3sa7i,https://www.reddit.com/r/Bitcoin/comments/m3sa7i/if_you_think_bitcoin_is_just_thin_air_wait_until/,27,2021-03-13 06:00:36,,2021-03-13
+8,The first-ever Bitcoin post on Reddit got downvoted.,10355,m2zez2,https://i.redd.it/9jxq7mauggm61.jpg,944,2021-03-12 04:04:59,,2021-03-12
+9,I live as a poor man with a lot of money,255,m3gxzw,https://www.reddit.com/r/Bitcoin/comments/m3gxzw/i_live_as_a_poor_man_with_a_lot_of_money/,176,2021-03-12 20:54:05,You should too.,2021-03-12
+10,Member of French Parliament Signs Petition That Urges Central Bank to Adopt Bitcoin,58,m3qg09,https://u.today/member-of-french-parliament-signs-petition-that-urges-central-bank-to-adopt-bitcoin,3,2021-03-13 04:32:17,,2021-03-13
+11,"The $1,200 stimulus check, given to American's last April, would now be worth $10,200 if used to buy bitcoin",386,m3ed4i,https://www.reddit.com/r/Bitcoin/comments/m3ed4i/the_1200_stimulus_check_given_to_americans_last/,109,2021-03-12 17:49:33,“If you are born **poor** it's not your mistake. But if you die **poor** it's your mistake.” - Bill Gates,2021-03-12
+12,"One Bitcoin is worth 5,047 days of minimum wage work in the Philippines today. Just six years ago, it was only worth about 21 days of the same work. You're investing in TIME when you buy Bitcoin.",124,m3k1ob,https://v.redd.it/3s41lvx68mm61,13,2021-03-12 23:36:06,,2021-03-12
+13,MicroStrategy ignores critics to add a further $15 million of Bitcoin (BTC) to its reserves,74,m3mx6t,https://cryptoslate.com/microstrategy-ignores-critics-to-add-a-further-15-million-of-bitcoin-btc-to-its-reserves/,13,2021-03-13 01:48:29,,2021-03-13
+14,A guy celebrating Bitcoin reaching $195.,40,m3p3q3,https://v.redd.it/vxtx8ltffnm61,10,2021-03-13 03:29:41,,2021-03-13
+15,MicroStrategy Now Holds Over 91K Bitcoins In Total,79,m3kjid,https://crypto-economy.com/microstrategy-now-holds-over-91k-bitcoins-in-total/,15,2021-03-12 23:59:25,,2021-03-12
+16,"Last year on this date, Bitcoin Crashed to $4,000. Today it is up 1,387% from that low price",53,m3nmdi,https://quantifycrypto.com/blog/was-that-the-bitcoin-bottom-,7,2021-03-13 02:20:38,,2021-03-13
+17,Last Minute: MicroStrategy Acquires 262 More Bitcoins!,74,m3j7h2,https://www.1olay.com/2021/03/last-minute-microstrategy-acquires-262.html?m=1,5,2021-03-12 22:56:02,,2021-03-12
+18,Stayed up all night working on the Magic Internet Money website. Home of the Official Bitcoin Wizard merch. Let mavensbot know what you guys would like to see added. Enjoy!,35,m3oly5,https://www.reddit.com/r/Bitcoin/comments/m3oly5/stayed_up_all_night_working_on_the_magic_internet/,10,2021-03-13 03:06:27,"Hi everyone,
+
+[magic internet money bitcoin wizard](https://preview.redd.it/nu5ykccxmnm61.jpg?width=1210&format=pjpg&auto=webp&s=fab50530c5f7d1dfc2114ad44b4f1fd9ccd71e61)
+
+It's been over 8 years since the creation of the iconic [magic internet money bitcoin wizard](https://www.bitcoinwizard.com?lolmoney), and thanks to all of you guys, bitcoin is booming! Finally got around making a website (linked above) with some merch that accepts crypto as payment as well as monopoly money. I've also [minted the wizard as a NFT at foundation.app](https://foundation.app/mavensbot/magic-internet-money-bitcoin-wizard-5252).
+
+I want to thank everyone for supporting, helping and teaching each other. Never have I thought bitcoin would be where it is today so quickly. I've seen so many generous charity donations over the years. Thank you for all the positive messages and love sent my way.
+
+I miss the good old days. bitcoin was a big part of my life for a decade. Not just about the money but I miss running 10 nodes to help bitcoin, paper wallets, all the websites, mining, vanitygen, so many memories flood back. I remember my avalon and KNC miners, Bitinstant, mtgox and I still have the friends I've made along the way.
+
+Each advancement makes Bitcoin more grounded and better at taking care of the issues of the current monetary and money related framework. It's made another age of crypto early adopters, utilizing cryptography to change the world; and now having capital to build our future.
+
+In case you're at any point favored with crypto fortune, consider supporting these projects.
+
+what do you guys want to see more of?
+
+🧙 mavensbot",2021-03-13
+19,I went from a $300 experiment to finally being able to afford a tool I’ve lusted over for the past five years that will take my wood shop to the next level. What a wild time we get to experience.,23,m3r1i3,https://www.reddit.com/gallery/m3r1i3,6,2021-03-13 05:00:42,,2021-03-13
+20,Found ANOTHER wallet...,14,m3spfq,https://www.reddit.com/gallery/m3spfq,15,2021-03-13 06:20:51,,2021-03-13
+21,Bitcoin nears record highs in yet another surge,105,m3fsy7,https://www.yahoo.com/entertainment/bitcoin-cryptocurrency-blockchain-joe-biden-financial-markets-094723087.html,14,2021-03-12 19:39:12,,2021-03-12
+22,Bullish!! MicroStrategy adds another $15 million in bitcoin to its treasury holdings,20,m3qg8d,https://www.theblockcrypto.com/linked/98168/microstrategy-adds-more-bitcoin-march-again?utm_source=cashapp&utm_medium=rss,1,2021-03-13 04:32:35,,2021-03-13
+23,Just Used the Lightning Network,81,m3gpfd,https://www.reddit.com/r/Bitcoin/comments/m3gpfd/just_used_the_lightning_network/,52,2021-03-12 20:39:02,"Used the Lightning network with okcoin, and the process was seemless to get my money there!  0 transaction fees.  Amazing!",2021-03-12
+24,"Elon is growing more at peace with his Bitcoin investment : ""BTC (Bitcoin) is an anagram of TBC(The Boring Company); both do mining & use blocks & chains!""",22,m3ptwc,https://twitter.com/elonmusk/status/1370449655855788044,5,2021-03-13 04:03:24,,2021-03-13
+25,Couldn't buy the dip,34,m3m39h,https://www.reddit.com/r/Bitcoin/comments/m3m39h/couldnt_buy_the_dip/,32,2021-03-13 01:10:05,"Was about to buy today when it was at 55.200 but i had to go take a poop, when i came back, it was almost 56k, i said to myself ""maybe it goes down again"" but now it's 57k 
+
+Don't be like me, buy before taking a poop",2021-03-13
+26,one of the largest asset managers in Israel invest in Bitcoin by purchasing $ 100 million worth of BTC,111,m3el53,http://www.cashtalk.co/2021/03/one-of-largest-asset-managers-in-israel.html,8,2021-03-12 18:06:49,,2021-03-12
+27,"$3,858 one year ago today",324,m38c7j,https://www.reddit.com/r/Bitcoin/comments/m38c7j/3858_one_year_ago_today/,90,2021-03-12 11:17:08,"If you are reading this, more than likely you made it through the crash, Up $53,000 in one year, and nowhere but Up!! HODL ON!!!",2021-03-12
+28,The guy who introduced me to crypto broke up with me 3 days ago. I'm a sobbing mess but I'm 3k richer.,307,m38a8l,https://www.reddit.com/r/Bitcoin/comments/m38a8l/the_guy_who_introduced_me_to_crypto_broke_up_with/,111,2021-03-12 11:14:19,I guess bitcoin is the silver lining.,2021-03-12
+29,Chinese Public Firm to Buy $155M of Bitcoin Mining Hardware,20,m3lx56,https://www.btctimes.com/news/Chinese-public-firm-to-buy-$155M-Bitcoin-mining-hardware,1,2021-03-13 01:02:29,,2021-03-13
+30,I bought in today....,10,m3rfg7,https://www.reddit.com/r/Bitcoin/comments/m3rfg7/i_bought_in_today/,22,2021-03-13 05:18:43,"Bought bitcoin today for the first time.  How long till I get my lambo?   In all seriousness, if the price crashes I accept full responsibility.   That is usually what happens after I buy in ;)",2021-03-13
+31,Stimulus ACH transfers just began - scheduled for 3/17.,7,m3t04f,https://www.reddit.com/r/Bitcoin/comments/m3t04f/stimulus_ach_transfers_just_began_scheduled_for/,1,2021-03-13 06:35:29,5:30 pm ET ACH closes just processed and the pending Stimulus check was processed for me. The transfer is scheduled for 3/17. Asset inflows will most likely be muted until that capital hits markets.,2021-03-13
+32,I bought Bitcoin as an early teen in 2013,11,m3ramj,https://www.reddit.com/r/Bitcoin/comments/m3ramj/i_bought_bitcoin_as_an_early_teen_in_2013/,8,2021-03-13 05:12:33,"So, I bought Bitcoin as a 14 year old in 2013/14 and moved them to a Bitcoin Core wallet. But I know I spent them on random stuff back then, because I didn't understand the whole ""hold and it'll grow"" thing. Now my wallet is syncing and I am waiting in horror to see what kind of BS I spent it on...",2021-03-13
+33,French government to auction $34.5 million in Bitcoin that was seized,27,m3j634,https://cryptoreportage.com/bitcoin-news/french-government-to-auction-34-5-million-in-bitcoin-that-was-seized/,8,2021-03-12 22:54:11,,2021-03-12
+34,"Grayscale is interested in filing for a US bitcoin ETF if regulators give the green light, its chief executive says",23,m3kn20,https://www.businessinsider.com/grayscale-investments-interested-us-bitcoin-etf-gbtc-btc-cryptocurrency-2021-3,4,2021-03-13 00:03:38,,2021-03-13
+35,"Tired of the stupidity behind the ""Bitcoin is inefficient"" argument",24,m3jmjx,https://www.reddit.com/r/Bitcoin/comments/m3jmjx/tired_of_the_stupidity_behind_the_bitcoin_is/,20,2021-03-12 23:16:04,"I am getting really tired of hearing the argument that Bitcoin uses lots of energy and is highly inefficient. Those who use it show a clear lack of understanding of how Bitcoin works, but maybe most importantly, they fail to propose a superior alternative that fixes that problem.
+
+I am writing these 2 arguments for me and anyone else that would want to push back on this stupid inefficiency argument.
+
+&#x200B;
+
+1. Bitcoin is a decentralized ledger with strictly enforced rules built upon battled-tested cryptographic algorithms like ECDSA and SHA256.   
+Participating in this decentralized ledger requires finding a piece of information, nonce, so that the SHA256 of such information is below a certain threshold.  This is the job of the miners.  
+It is up to the participants to decide how to find that piece of information. You can use a pen and paper, a pocket calculator, a fortune teller, or an ASIC powered by your own Uranium-235 plant.   
+The Bitcoin network doesn't say anything on how to find these nonces; that is up to the miners. These miners found that ASICs powered by industrial electricity seem to work nicely. They purchase these ASICs, pay for the electricity they use, and run an open-source code in them. How can the government have a say in the kind of software and the scale at which I run it in my own private property as long as I am paying the bill?
+2. If you are going to criticize Bitcoin, you have to propose an alternative, and ideally, a better alternative.  
+Mrs. Janet Yellet called Bitcoin an ""extremely inefficient way of conducting monetary transactions"" just a few days ago. The immediate question that comes to mind is, what should I use instead then?  
+I guess her answer would be the USD, coincidentally and of course exempt of any conflict of interest; that's the shitcoin she helps to govern.   
+The problem is that I, nor millions of others, want to use the USD. Time and again, governments of the world have lied and manipulated their currencies.   
+The US being no exception. In 1933 the US government forbade the ""hoarding"" of gold - Order 6102 mandated US citizens to sell their gold to the Fed at a price the Fed itself set or face a 10-year prison term. More recently, in 1971, our great government temporarily suspended the convertibility of gold. Temporarily, in this context, means that 50 years later, we still cannot convert our dollars to gold.  
+She fails to recognize that Bitcoin is a far superior alternative to the USD because of the systematic institutional betrayal. Said shitcoin can be printed at will, and ad-infinitum, rendering your hard-earned savings useless. For these reasons, people are moving to Bitcoin, choosing to trust cryptographic algorithms, not the government.
+
+&#x200B;
+
+So until I hear a better alternative, I am HODLing for dear life.",2021-03-12
+36,Replacing Fiat... ya gotta start somewhere....,82,m3dad6,https://www.reddit.com/r/Bitcoin/comments/m3dad6/replacing_fiat_ya_gotta_start_somewhere/,10,2021-03-12 16:24:58,"I operate a market stall every Sunday in Queensland Australia. I sell ridge ridge New York HOT Dogs. Im a Crypto fan. Just for fun about 1 year ago I put up a sign ""BITCOIN ACCEPTED HERE. Long story short I had people paying with bc thru BitPay. Took about $Aud 450. Then I just left it in the wallet. Just checked balance. $450 became $1250.
+Get on board......",2021-03-12
+37,She 3D-Printed all of this as a Birthday Gift to me! (not the candles duh) Thanks u/LiviWithLess !,49,m3f19i,https://i.redd.it/0m2iy67sskm61.jpg,3,2021-03-12 18:42:43,,2021-03-12
+38,"Ex-CFTC Chairman, Christopher Giancarlo on Bitcoin ""Technology Knocks Down Everything in It's Wake""",29,m3hu6e,https://www.youtube.com/watch?v=wzQnNLcWIYw,1,2021-03-12 21:45:11,,2021-03-12
+39,Don't Buy Bitcoin They Said,6,m3sl3o,https://dontbuybitcointheysaid.com/,4,2021-03-13 06:15:00,,2021-03-13
+40,"Fun fact: One year ago (12 march) Bitcoin was at 4,800 USD",33,m3gpxv,https://www.reddit.com/r/Bitcoin/comments/m3gpxv/fun_fact_one_year_ago_12_march_bitcoin_was_at/,11,2021-03-12 20:40:02,"Today the price is around 56 - 58,000 USD !!!
+
+You see how fast sentiment could change and how rapid Bitcoin can move.
+
+Even today.",2021-03-12
+41,I can’t stop buying,23,m3jwgl,https://www.reddit.com/r/Bitcoin/comments/m3jwgl/i_cant_stop_buying/,10,2021-03-12 23:29:21,"I do my weekly dca then without a doubt end up putting more in 1-2x that week. I’ll say I’ll dca $100 in and end up putting in a few hundred. Then every time I think of selling, I have a few moments of weakness then remember what I have. 
+
+It no longer even interests me to hold any fiat unless I know I will be spending it in the near future.
+
+Don’t send help, send sats",2021-03-12
+42,"Do you notice a change in how the people around you treat you, like from BTC=$7k.... to BTC=$57k ??",76,m3cscd,https://www.reddit.com/r/Bitcoin/comments/m3cscd/do_you_notice_a_change_in_how_the_people_around/,95,2021-03-12 15:47:02,"Do you notice a change in how the people around you treat you, like from BTC=$7k.... to BTC=$57k ??
+
+Family, friends, colleagues.....like a few of them have changed....cause I have been harping about Bitcoin for several years while Bitcoin hovered around $7k......and most of the people around me were like ""yea yea whatever"".....
+
+When BTC started climbing in 2020 December I bought some ""more expensive than usual"" Xmas presents, like a Rolex for myself and macbooks for my family, a few good level above what people around me buy for others.....and then BTC climbs to $57k now..... there is a substancial change in people treat me.
+
+Many Girls in the office would try ask me out for drinks after work even on a week day and some of them would tease and try suss out how many BTC I hold. My parents and siblings would be like ""oh my dearest son how is your Bitcoin doing?"". My colleagues at work are like ""hey man you want to go fishing with us this weekend?"" All these never happened before I was nobody before all this.
+
+Like overall it is a good feeling as people around me respect me more and more as BTC price climbs. But I also worry how they may start targeting me for my Bitcoin.....I wish I havent told some of them that I accumulated 7 Bitcoin before, because they kind of now know how much I own.
+
+Does anyone here have similar experience?",2021-03-12
+43,Spanish Gov to Ban Bitcoin Ads Promptly,35,m3fw5c,https://www.reddit.com/r/Bitcoin/comments/m3fw5c/spanish_gov_to_ban_bitcoin_ads_promptly/,21,2021-03-12 19:45:31,"Please, make some noise, I am spanish and this is fucking crazy.
+
+&#x200B;
+
+https://preview.redd.it/caiji24v4lm61.png?width=740&format=png&auto=webp&s=ca21f31a71ca9005adfb5bb841d040f137643ece",2021-03-12
+44,Say no to shitcoins,37,m3f5va,https://www.reddit.com/r/Bitcoin/comments/m3f5va/say_no_to_shitcoins/,126,2021-03-12 18:52:57,"Look, I get it. you love gambling, and want to catch a 10x overnight pop.
+
+in reality, all shitcoins end up losing out in comparison to bitcoin. if you need proof, just look at a chart of eth denominated in btc. it's pathetic. the other thing is that no other network is as credibly decentralized as btc. every other coin has a single person who can exert near total control of the network. it's fake decentralization. fake censorship resistance.
+
+the real issue though is that shitcoins are just a zero sum pump and dump game. that's a game for losers. you're not a loser. don't play that game.
+
+bitcoin however is a game of enabling our entire global civilization to break through to a more productive and egalitarian level, where value accrues to those who create the most value for other humans, rather than just accruing to those who are close to the money printer since 1914, 1934 and 1971. it's a game where the rules are the same for all players, rather than a game where only a small set of players has artificially favorable rules, and everyone else gets f!@#'d to varying degrees.
+
+buy shitcoins if you want to gamble
+
+buy btc if you want to change the world",2021-03-12
+45,American Residential Warranty (ARW) Invests in Bitcoin (BTC),6,m3sw5h,https://btcmanager.com/american-residential-warranty-arw-bitcoin-btc/,2,2021-03-13 06:29:58,,2021-03-13
+46,Coinbase not allowing purchase,5,m3snic,https://www.reddit.com/r/Bitcoin/comments/m3snic/coinbase_not_allowing_purchase/,4,2021-03-13 06:18:06,"I transferred money from my regular bank account to my coinbase account about a week ago. I was able to purchase btc with part of the amount, but there's about $4k in the usd account that is not available for trading. Anyone know why?",2021-03-13
+47,Thinking of putting 10$ in every month,6,m3pnfj,https://www.reddit.com/r/Bitcoin/comments/m3pnfj/thinking_of_putting_10_in_every_month/,30,2021-03-13 03:55:06,"ok, so I am trying to turn my 120$ into something more, so Im thinking of putting $10 each month. i am SUPER SUPER SUPER new to this so could someone please advise? I have heard if you put 10 a month 4 years go you would have 2000-3000 right now. Would this work? I dont want to take huge investments and just test the waters right now. Thanks",2021-03-13
+48,Exercise Your Democratic Rights against the CFTC and SEC,8,m3nh6u,https://www.reddit.com/r/Bitcoin/comments/m3nh6u/exercise_your_democratic_rights_against_the_cftc/,10,2021-03-13 02:13:43,"I wish that everyone in crypto had the hutzpah the moxy to fight back the way the wall street bet's guy have. and honestly, we should get them in on it too. They have the right mentality. The CFTC and SEC are the suits. 
+
+These agencies are hurting development of crypto in the united states and pissing on the wheels of progress. They are bullys, they bully foreign exchanges mercilessly without offering us citizen any domestic alternative, so that coinbase can aboslutely rob us all with monopolistic fees.
+
+I just don't get why people do not actually call congress, and actually write to these agencies and make a fuss.
+
+Channel your inner Karen. If these congressman and agencies had 100,000 gen z/y wallstreet bet bitcoin fiends blowing their phone and fax off demanding domestic products and services, we'd get somewhere. 
+
+SEC and CFTC are bullies that work for suits, you need to bully back.",2021-03-13
+49,Bitcoin Dad Joke,3,m3tz2d,https://www.reddit.com/r/Bitcoin/comments/m3tz2d/bitcoin_dad_joke/,1,2021-03-13 07:25:16,"Q: What's a Bitcoiner's favorite thing to track during the Super Bowl?
+
+A: Sacking stats
+
+I'll be here all week.",2021-03-13

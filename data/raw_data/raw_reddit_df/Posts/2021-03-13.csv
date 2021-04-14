@@ -1,0 +1,165 @@
+,title,score,id,url,comms_num,created,body,date
+0,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,257,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,83,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+1,"Daily Discussion, March 14, 2021",41,m4oihn,https://www.reddit.com/r/Bitcoin/comments/m4oihn/daily_discussion_march_14_2021/,256,2021-03-14 13:07:56,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m3znv3/daily_discussion_march_13_2021/) for unanswered questions.",2021-03-14
+2,It’s my money and I need it now!,2859,m4edbf,https://i.redd.it/3tjs5dclsum61.jpg,193,2021-03-14 04:15:33,,2021-03-14
+3,#Bitcoin $60000,16695,m44f82,https://v.redd.it/95v1gs135sm61,780,2021-03-13 19:20:58,,2021-03-13
+4,BITCOIN is the best investment. EVER !,394,m4mqyt,https://v.redd.it/u3u2i5prwwm61,33,2021-03-14 11:22:51,,2021-03-14
+5,not selling,1012,m4grmz,https://v.redd.it/fxyvb53zcvm61,44,2021-03-14 06:11:06,,2021-03-14
+6,"3 weeks ago, everybody was panicking. Where my long term holders at?",651,m4ihz8,https://www.reddit.com/r/Bitcoin/comments/m4ihz8/3_weeks_ago_everybody_was_panicking_where_my_long/,161,2021-03-14 07:36:29,If you value bitcoin you ain’t got nothing to worry about. I celebrate when the dip happens and I load up and buy more. Today it hit an all time high so here’s a virtual toast to my holders! Anyone else celebrating today? If you got this mindset and vision towards the future your here for the long run. For my new people browsing and thinking about investing. Ask yourself this. You probably wish you got some last year and 10 years before that so what’s stopping you now?,2021-03-14
+7,"I am pretty confident we are the new wealthy elite, gentleman.",1298,m4dsb9,https://i.redd.it/2c1hhnrlnum61.jpg,168,2021-03-14 03:48:00,,2021-03-14
+8,I bought $500 of bitcoin in 2015. That was well over 2 btc. My co-worker made fun of me thinking I was a complete idiot...,281,m4m8l2,https://www.reddit.com/r/Bitcoin/comments/m4m8l2/i_bought_500_of_bitcoin_in_2015_that_was_well/,101,2021-03-14 10:55:25,"I’ve been sending him screenshots for the past 6 years when bitcoin has hit a new milestone. I.e. $1,000. $2,000 $5,000 $7,500, $10,000, $15000, $20,000 and so on. I’m beginning to feel bad now. What should I do? Have I punished him enough? Or should I continue to rub it in his face?",2021-03-14
+9,"$69,420",1473,m4blq8,https://www.reddit.com/r/Bitcoin/comments/m4blq8/69420/,101,2021-03-14 02:02:34,On April 20th. Kinda bearish but I’m calling it anyway.,2021-03-14
+10,"People saying: ""I'm not going to cash out till BTC hits one million"" still don't get it.",183,m4nm0b,https://www.reddit.com/r/Bitcoin/comments/m4nm0b/people_saying_im_not_going_to_cash_out_till_btc/,91,2021-03-14 12:13:03,"By then [you won't have to ""cash out''](https://gyazo.com/e0a60a34cf54c0041e35d11c513803c6).
+
+And the ones saying: ""You should be taking profits"" ...get it even less.
+
+Here's my projection:
+
+> As many smart people like Mr. Saylor and Mr. Musk have pointed out, it's very irresponsible for any individual or business not to own any Bitcoin.
+> 
+> People who don't own any Bitcoin will be laughed out and shamed as fools and ignorants.
+> 
+> People hate that, so they will come in slowly... then all of a sudden. That's when the next FOMO ""bubble"" will come and will take Bitcoin over 300K on this current cycle, to then maybe ""crash"" back down to around 90K (although with all the institutions lining up , and then later governments also buying, I doubt we see over 30% corrections any more).
+> 
+> The next halving/cycle will take ir over 1 million, following the S2F chart as it always has.
+ 
+ So **I will NEVER sell my Bitcoin** for worthless, ever-depreciating, printed-to-infinity government coupons/IOU's... and pay enormous taxes that go to kill children on the other side of the world on top of that.
+> 
+> For the first time ever we have real independent money, that I alone can decide where to spend and how to use. If for whatever reason I need fiat to buy something from somebody who refuses to accept Bitcoin (I wouldn't buy from them in the first place), I would borrow against my BTC as last resort option. We have that option already with many lenders, the one I trust right now due to the people behind it is Blockfi.
+> 
+> Selling Bitcoin it´s like selling prime real estate you owe in Manhattan. You never sell that, neither your children and grand children. It's meant to be kept for ALL generations to come, forever, till the end of times. You can borrow against it, use it as collateral.
+> 
+> You never sell something that will keep appreciating in value forever.
+
+>  ""Not selling to fiat and hodling Bitcoin *IS* taking a profit"".",2021-03-14
+11,Level 60k Cleared,914,m4cq8u,https://v.redd.it/ve73syxkeum61,51,2021-03-14 02:57:30,,2021-03-14
+12,Why No-Coiners Should Buy $100 of Bitcoin,275,m4k6of,https://www.reddit.com/r/Bitcoin/comments/m4k6of/why_nocoiners_should_buy_100_of_bitcoin/,52,2021-03-14 09:03:41,"Because that's what I did.
+
+Ok, there's more to it than that. Yes, I bought .04 Bitcoin for $100 in 2017. Surely I was pissing the $100 away because an imaginary internet coin couldn't possibly be worth that much.
+
+I watched Bitcoin rocket to $20k, crater to $3k, and bounce back. Then, in early 2020 my outlook changed drastically. To my surprise, it was doggedly holding onto a $10k valuation. To rise and fall and years later be back up so high...that is not how a bubble on a weak asset plays out.
+
+That's when I made a much larger purchase, giving Bitcoin a real place among my assets. I've accumulated more value on that purchase than any other investment of mine in the same time span.
+
+But without that $100 purchase in 2017, I wouldn't have gained the education. And without the education, I never would have had the conviction to buy a more meaningful amount in early 2020.
+
+The point of all this is that micro-sized investments are much more meaningful than you might think. What's $100 if it enables you to acquire knowledge or experience that makes you much more money down the line?
+
+So, if you are too unsure about putting thousands of dollars into Bitcoin, try $100...or maybe $50...or $10. Whatever you are comfortable with.
+
+Life is too short to stay on the sidelines.",2021-03-14
+13,Emergency Press Conference - I F**ked Up Bitcoin,448,m4ghbu,https://v.redd.it/s58p4j3mavm61,132,2021-03-14 05:57:07,,2021-03-14
+14,To the mooooon...,507,m4f9x4,https://v.redd.it/vc74j3r60vm61,25,2021-03-14 04:59:00,,2021-03-14
+15,"Think I’ve been talking about Bitcoin too much with my family, this is the birthday cake they got me .",315,m4geh9,https://i.redd.it/6uws9kxz9vm61.jpg,37,2021-03-14 05:53:08,,2021-03-14
+16,You Don't Understand Bitcoin Because You Think Money is Real,46,m4qgj9,https://popula.com/2021/03/13/you-dont-understand-bitcoin-because-you-think-money-is-real/,7,2021-03-14 15:20:18,,2021-03-14
+17,I realised no one ever uses the term ‘Satoshi’ for fractions of Bitcoins on here... just that they hold 1/4 or 10%.... I wanna see more use of the Satoshi!,131,m4kwzu,https://www.reddit.com/r/Bitcoin/comments/m4kwzu/i_realised_no_one_ever_uses_the_term_satoshi_for/,53,2021-03-14 09:42:39,,2021-03-14
+18,have fun being poor #newrektcity,1139,m46rrx,https://v.redd.it/6u2ei5fywsm61,138,2021-03-13 21:57:20,,2021-03-13
+19,"Goldman Sachs called Bitcoin ""not an asset class"" last year. Now, they added it to their weekly asset class report:",905,m47gpu,https://i.redd.it/2z29inly3tm61.jpg,58,2021-03-13 22:35:51,,2021-03-13
+20,Bitcoin running 🚀,30,m4rl4q,https://v.redd.it/syr3pg71jym61,2,2021-03-14 16:49:20,,2021-03-14
+21,Remember when Bitcoin crashed 23% last week and people panic sold,442,m4b6k1,https://youtu.be/2q35PgSXhKg,82,2021-03-14 01:42:14,,2021-03-14
+22,Bank recognised my BTC when getting a mortgage,30,m4r8da,https://www.reddit.com/r/Bitcoin/comments/m4r8da/bank_recognised_my_btc_when_getting_a_mortgage/,10,2021-03-14 16:20:02,I just bought a house and when the bank was looking at my finances they asked what other assets I had. Apart from the regular assets of stocks etc. I mentioned jokingly to the broker that I also have bitcoin. Surprisingly he asked for a screenshot of my Coinbase account which they counted towards my assets. It's a good sign for BTC acceptance and nice for hodlers if we can get a mortgage for around 2% while our BTC keeps growing in value,2021-03-14
+23,Bitcoin hit $60k today but it's never too late to remind your friends and family that Bitcoin is dead because experts said so,229,m4env4,https://www.bitcoinisdead.org/,15,2021-03-14 04:29:14,,2021-03-14
+24,60k!!,497,m49l0g,https://v.redd.it/qutvokq4ntm61,28,2021-03-14 00:24:05,,2021-03-14
+25,"Remember when over $9,000 memes were a thing?",99,m4jsxs,https://www.reddit.com/r/Bitcoin/comments/m4jsxs/remember_when_over_9000_memes_were_a_thing/,27,2021-03-14 08:43:04,"Think about how far Bitcoin has come. Think about the first time you heard about it. What was the price? 1,000? 2,000? Have no fear! When in doubt, zoom out. Let’s Go!!! 100K here we come ❤️",2021-03-14
+26,It's surreal what's happening with bitcoin....,132,m4hxai,https://www.reddit.com/r/Bitcoin/comments/m4hxai/its_surreal_whats_happening_with_bitcoin/,26,2021-03-14 07:07:31,"I just wanted to say to my past self, thanks for believing in this and to my future self to stay humble
+
+I live in a third world country and Bitcoin have changed my life and I'm grateful for it.
+
+We are going to mars not even the moon anymore, to fucking MARS HODL IT!!!!!!",2021-03-14
+27,[Documentary] A person shows how to buy 10 BTC for $3.48 in 2011.,706,m46540,https://v.redd.it/ck3k5vsrnsm61,103,2021-03-13 21:19:25,,2021-03-13
+28,Bitcoin is still only 11% of Gold's market cap...we are early!,261,m4cnjp,https://assetdash.com/btc-flip/,15,2021-03-14 02:53:47,,2021-03-14
+29,Finance gurus are waiting for Bitcoin to drop so they can say ‘I told you so.’ and make you feel bad for not buying their shitty book. Ignore and keep hodling,75,m4k8vo,https://www.reddit.com/r/Bitcoin/comments/m4k8vo/finance_gurus_are_waiting_for_bitcoin_to_drop_so/,9,2021-03-14 09:06:33,"4 years ago, finance gurus were far less accepting of Bitcoin than they are now. These days they are more accepting of it as part of a portfolio but still hate it because it competes with their business model advice of ‘Save 10% and invest in ETFs.’ - there’s nothing wrong with this but I hate when they deny the contributions cryptocurrency has done for society. So when the crash of 2018 happened, a lot of finance authors were writing articles saying ‘I told you so.’ Bitcoin is a cult, bitcoin’s value is made up, Bitcoin users are libertarian blah blah...ignore it like the plague. When the crash happens, hold your position, keep investing like it’s another day and wait patiently for it to grow. Bitcoin is here to stay and there is nothing these finance ‘experts’ can do about it.",2021-03-14
+30,To the moooon!! With Sound!!!,15,m4rerw,https://v.redd.it/xo9wexeagym61,1,2021-03-14 16:34:35,,2021-03-14
+31,Ain’t no party like a 100k party...,44,m4mk4t,https://www.reddit.com/r/Bitcoin/comments/m4mk4t/aint_no_party_like_a_100k_party/,21,2021-03-14 11:13:08,June? October?,2021-03-14
+32,Bitcoin has reached €50.000 for the first time today!,853,m441rv,https://www.reddit.com/r/Bitcoin/comments/m441rv/bitcoin_has_reached_50000_for_the_first_time_today/,120,2021-03-13 18:52:43,"While most crypto holders/traders in the US obviously use USD, I tend to use Euro myself like many others in Europe likely do. The 50k in USD has already been reached a few weeks ago but with last hours spike it has now reached €50k in Euro as well! This is one that will probably hit European news soon, meaning more crypto exposure. Here's to reaching the 100k milestones soon!
+
+EDIT: https://www.coingecko.com/nl/coins/bitcoin/eur
+€50.422,89 at March 13th, 13.39. Litebit and Coingecko reported similar (€50k+) numbers earlier today (around 11.40 CET). Please stop calling me a liar.
+
+EDIT 2: I changed the link from Coindesk to Coingecko since apparently Coindesk releases deceiving articles concerning bitcoin? Not sure but rather be safe than sorry and I try not to inadvertently promote shady platforms. Probably my last edit on this post to avoid further textwalling. Have a good day!",2021-03-13
+33,24 year old youtuber bought over 100 bitcoins during the crash last year. This is his video journal from the crash until now:,61,m4jg64,https://youtu.be/GzDlP3mM-bU,20,2021-03-14 08:24:33,,2021-03-14
+34,"Hyperinflation in Lebanon, things are getting desperate. Using Bitcoin instead of central banks could have solved this.",276,m49umw,https://youtu.be/SqPB8u3Cfqk,137,2021-03-14 00:37:33,,2021-03-14
+35,Anybody spend their stimulus check on BTC today?,47,m4kj58,https://www.reddit.com/r/Bitcoin/comments/m4kj58/anybody_spend_their_stimulus_check_on_btc_today/,15,2021-03-14 09:21:45,Heard that stimulus money started hitting accounts today. Anybody use theirs to buy BTC? May have contributed to sharp rise in value today.,2021-03-14
+36,"I recently tore my Achilles tendon so to bide my time I have been diving deep into improving my understanding of Bitcoin. Naturally, I ended up with my own node.",450,m45tev,https://i.redd.it/xfhq3mhumsm61.jpg,142,2021-03-13 20:59:47,,2021-03-13
+37,"According to sources, VISA requires 149 KWH of energy to perform 100,000 transactions on its global settlement network. The Lightning Network is over 1 million times more energy-efficient than this outdated network. If you are still using VISA I guess that you love wasting energy",13,m4rdkk,https://twitter.com/alexbosworth/status/1370945165142061056,2,2021-03-14 16:31:52,,2021-03-14
+38,$60k Bitcoin! Leaving bears in the dust!,138,m4d9mn,https://v.redd.it/jc69uld6jum61,4,2021-03-14 03:23:16,,2021-03-14
+39,Sam & Greg’s Pizzeria Gelateria in Alabama adds $200k in Bitcoin to their company treasury,38,m4lnnz,https://btcpeers.com/away-from-microstrategy-this-small-business-owner-spent-200k-on-bitcoin/,7,2021-03-14 10:22:40,,2021-03-14
+40,"We are already in the ""you win"" stage. (Not about the price.) There is an issue, though.",51,m4jix4,https://www.reddit.com/r/Bitcoin/comments/m4jix4/we_are_already_in_the_you_win_stage_not_about_the/,61,2021-03-14 08:28:13,"The narratives against ""not your keys, not your coins"" have increased substantially in this sub. The following post of yesterday has been upvoted and awarded like hell.
+
+https://www.reddit.com/r/Bitcoin/comments/m3k6wz/if_bitcoin_is_going_to_be_mainstream_we_need_to/
+
+It's safe to say that banks are here, and they attempt to continue their businesses with Bitcoin.
+
+*First they ignore you, then they laugh at you, then they fight you, then you win.*
+
+Since banks are joining us, we have already entered ""you win"" stage.
+
+The question now is: should we let them continue their money pimping businesses?
+
+The answer should be a firm ""NO"", and the reasons include
+
+1. **Bitcoin is created to make the banking system obsolete, not to be used by it.**
+
+2. **With Bitcoin, there is no need to use any banks.** You can secure and use your money without any banks.
+
+3. Bitcoin is peer-to-peer software. **You are supposed to manage money yourself.**
+
+4. The banking system and debt-based economy are modern slavery and have failed. **You should not support them.**
+
+Let's educate every newcomer until everyone gets it:
+
+#Not your keys, not your coins.
+
+More and more bankers will be here, propagating for their agenda. Let's be vigilant and diligent.",2021-03-14
+41,Pump it up 🤙🏻😍🚀,15,m4pj18,https://v.redd.it/aod5gmb2rxm61,2,2021-03-14 14:12:32,,2021-03-14
+42,Bitcoin is not a stock,86,m4eyxi,https://www.reddit.com/r/Bitcoin/comments/m4eyxi/bitcoin_is_not_a_stock/,37,2021-03-14 04:44:03,"I’m seeing a lot of posts focused on speculating the price movements and whether it will go up or down in short time spans. In essence, treating Bitcoin like a stock. The thing that has clicked in my brain which has changed everything I do, is that Bitcoin is a bank and not a stock. The value is based on the amount of currency stored in the bank, not on cash flow or rate of future returns.",2021-03-14
+43,Will you put $1400 into bitcoin?,40,m4jrt3,https://www.reddit.com/r/Bitcoin/comments/m4jrt3/will_you_put_1400_into_bitcoin/,43,2021-03-14 08:41:16,#bitcoin the future.,2021-03-14
+44,If you're selling your Bitcoin...,23,m4mz5y,https://www.reddit.com/r/Bitcoin/comments/m4mz5y/if_youre_selling_your_bitcoin/,11,2021-03-14 11:36:17,"you are buying dollar for 1650 sats each.
+I mean that's just way too expensive.",2021-03-14
+45,Start thinking about securing your investment for when something happens to you.,10,m4qf0o,https://www.reddit.com/r/Bitcoin/comments/m4qf0o/start_thinking_about_securing_your_investment_for/,11,2021-03-14 15:17:15,"Just in case something might happen to you (I hope not). Write down your assets, keys, how to use a ledger, how to use an exchange and all other important information for your relatives. Store it somewhere safe. 
+
+Playing your own bank is great. But someone who don’t know how to find your keys or how to use them would be pitty if you are no longer around.",2021-03-14
+46,Elon Musk right now checking Bitcoin price..,116,m4bw6h,https://www.reddit.com/gallery/m4bw6h,20,2021-03-14 02:16:24,,2021-03-14
+47,Ppl say BTC needs electricity must forget that for their debit cards to work needs electricity too lmao !,48,m4hspw,https://www.reddit.com/r/Bitcoin/comments/m4hspw/ppl_say_btc_needs_electricity_must_forget_that/,22,2021-03-14 07:00:59,Ha ha ha,2021-03-14
+48,Bitcoin shatters $60K milestone for the first time,8,m4r79t,https://www.tectalk.co/bitcoin-shatters-60k-milestone-for-the-first-time/,1,2021-03-14 16:17:36,,2021-03-14
+49,Warning: The absolute most risk you should take on is a portfolio that is 50% Bitcoin,927,m40xiv,https://www.reddit.com/r/Bitcoin/comments/m40xiv/warning_the_absolute_most_risk_you_should_take_on/,268,2021-03-13 14:41:09,But I would strongly recommend you consider a more conservative allotment of 80 - 100% just to be safe.,2021-03-13

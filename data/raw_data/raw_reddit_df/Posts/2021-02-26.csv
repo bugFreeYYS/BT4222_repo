@@ -1,0 +1,227 @@
+,title,score,id,url,comms_num,created,body,date
+0,"Daily Discussion, February 25, 2021",186,ls0w9e,https://www.reddit.com/r/Bitcoin/comments/ls0w9e/daily_discussion_february_25_2021/,4489,2021-02-25 15:24:44,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/lr7cbr/daily_discussion_february_24_2021/) for unanswered questions.",2021-02-25
+1,Another CoinSwap milestone: Multi-hop CoinSwaps. Undetectable bitcoin privacy is being built,168,lm6nmk,https://www.reddit.com/r/Bitcoin/comments/lm6nmk/another_coinswap_milestone_multihop_coinswaps/,61,2021-02-18 06:34:13,"Suppose Alice has bitcoins and wants to send them with maximal privacy, so she creates a special kind of transaction. For anyone looking at the blockchain her transaction appears completely normal with her coins seemingly going from bitcoin address A to address B. But in reality her coins end up in address Z which is entirely unconnected to either A or B.
+
+Now imagine another user, Carol, who isn't too bothered by privacy and sends her bitcoin using a regular wallet. But because Carol's transaction looks exactly the same as Alice's, anybody analyzing the blockchain must now deal with the possibility that Carol's transaction actually sent her coins to a totally unconnected address. So Carol's privacy is improved even though she didn't change her behaviour, and perhaps had never even heard of this software.
+
+In a world where advertisers, social media and other companies want to collect all of Alice's and Carol's data, such privacy improvement would be incredibly valuable. And also the doubt added to every transaction would greatly boost the fungibility of bitcoin and so make it a better form of money.
+
+This undetectable privacy can be developed today by implementing CoinSwap. The software could be standalone as a kind of bitcoin mixing app, but it could also be a library that existing wallets can implement allowing their users to send Bitcoin transactions with much greater privacy.
+
+
+For the last few months I've been working on implementing this project, and recently reached another milestone: Multi-hop CoinSwaps.
+
+In the original CoinSwap design there would be only two peers involved, that meant if your wallet did a CoinSwap the other party knew exactly where your coins went. They were a single point of failure in privacy. Multi-hop CoinSwap is where the user routes their coins of multiple CoinSwap peers, and all of them need to collude in order to figure out the final source and destination of the coins.
+
+
+Just for fun I created a 5-hop CoinSwap on testnet. Each hop has 3 individual transactions:
+
+Taker's outgoing transactions:
+
+https://blockstream.info/testnet/tx/f45349bd279bea20b8b218300f8e2416abf28f3858470ad8c5eb2f6cd5ec10a9
+
+https://blockstream.info/testnet/tx/40ea5c9e478b66fa3f615c2b8d3accfd69308443d90a5353de669767cb02c51f
+
+https://blockstream.info/testnet/tx/8fe245e9c433127af4df8ff8853650808e3281fed7de6bfda62066a3fd3ad36e
+
+First maker funding transactions:
+
+https://blockstream.info/testnet/tx/3d9b879866ad136f9fe6e80599e1b97d610b6330be3ab4aa7df4161fce1e41d4,
+
+https://blockstream.info/testnet/tx/fa11e778d135be28b4e35498fc668c5aba7c70dcc43334b39e7488bd1259e8be,
+
+https://blockstream.info/testnet/tx/a7713452bab711c09be83a8c630fb91127771ed99cf15b528eacd28b00ba6b20,
+
+Second maker funding transactions:
+
+https://blockstream.info/testnet/tx/245e1e87d83a4bef06ceb8933c758137ee2f7ba7aa66800ebb7103707d5de5f7,
+
+https://blockstream.info/testnet/tx/15727b91e09a80634587f6210bdcba8808b93e4a780c55dd113ee85314db45c4,
+
+https://blockstream.info/testnet/tx/94e4e4e9e8fc2012158ed068145c8b883c295b37f5b3b6cba7a21c229d4da103,
+
+Third maker funding transactions:
+
+https://blockstream.info/testnet/tx/1384d58e534543e22e4f23a367728bff12177ee9af01b036c397cfca9bbe2eb8,
+
+https://blockstream.info/testnet/tx/eff3b1367f403c13927ddcb01c6d3c5c0d46076f7cb4419f8a18d6b62d884540,
+
+https://blockstream.info/testnet/tx/617c52caec2f7f17f3ebd1cab80233cdc1b414591f1cc49affbd828ffec10278,
+
+Fourth maker funding transactions (also taker's incoming transactions):
+https://blockstream.info/testnet/tx/8fde61974a4e0801ae5b76b620e2effd6c837310c1bd76d738216451ae1226e3,
+
+https://blockstream.info/testnet/tx/6491b85ef73a8f88e276a9b0f951c09e0367851a83aa49ffee8f8ad095f50de2,
+
+https://blockstream.info/testnet/tx/363b6803b7e3ed45472277448ce9938e3e73167a67762d6a9ac621243b8db019,
+
+These transactions don't look particularly special (which is the point), but they are CoinSwaps. Following the CoinSwap protocol, those coins are transferred off-chain to the next market maker. Even though the coin are unspent at the time of writing, they are unilaterally controlled by the other party.
+
+The user created a CoinSwap for 0.05 tBTC in this case (but it could have been any amount), and out the other side they got the same amount of coins (minus a fee) entirely disconnected to their initial coins. The fee goes to the makers which provides them an incentive to cooperate to improve privacy, and also gets spent on miner fees.
+
+From the point of view of someone just passively observing the blockchain, a single-hop CoinSwap is as private as a multi-hop CoinSwap, so I suspect in practice most users will just create 1-hop or 2-hop CoinSwaps.
+
+
+These example CoinSwaps have a visible 2-of-2 multisig address. But the plan is to later use a protocol called ECDSA-2P which allows us to create 2-of-2 multisig addresses that look the same as regular single-signature addresses. This allows CoinSwaps to blend in with the rest of the bitcoin transactions out there. Even the legacy p2pkh addresses starting with 1 can be CoinSwap addresses.
+
+CoinSwap is the next generation of bitcoin on-chain privacy tech. It improves on CoinJoin because it breaks the transaction graph, and even improves the privacy of people who don't use it. CoinSwap also uses less block space for the same privacy and therefore is cheaper in miner fees.
+
+
+Links: 
+
+* The code: https://github.com/bitcoin-teleport/teleport-transactions/
+
+* Discussion: `##coinswap` IRC channel on the freenode network
+
+* Design document: https://gist.github.com/chris-belcher/9144bd57a91c194e332fb5ca371d0964
+
+* Previous reddit thread: https://www.reddit.com/r/Bitcoin/comments/k95iu4/the_first_coinswap_on_testnet_massive/
+
+* Podcast: https://anchor.fm/tales-from-the-crypt/episodes/170-Chris-Belcher-ef8blj
+
+* Donations: https://bitcoinprivacy.me/coinswap-donations",2021-02-18
+2,"The first Bitcoin reference in television history aired on The Good Wife in 2012, when it was only worth $3.41",4996,lszkpw,https://v.redd.it/vjoefus18uj61,301,2021-02-26 23:08:08,,2021-02-26
+3,"I’m not a smart man, but if you are never going to sell Bitcoin, why are you worried about today’s price?",932,lsxuj8,https://www.reddit.com/r/Bitcoin/comments/lsxuj8/im_not_a_smart_man_but_if_you_are_never_going_to/,318,2021-02-26 21:38:19,,2021-02-26
+4,The US economy explained,540,lt0bj2,https://v.redd.it/bfx3su0dcuj61,53,2021-02-26 23:43:34,,2021-02-26
+5,"Not a bitcoin whale by any means, but cashed some out at ATH recently to finance our Phuket kombucha brewery. Bitcoin literally changed our lives and let us realise our dream, during one of the shittest financial times in modern Thai history Wee bit emotional right now ngl.",6154,lsolq0,https://www.reddit.com/gallery/lsolq0,349,2021-02-26 11:17:34,,2021-02-26
+6,"A few hours ago /r/bitcoin hit 2.5 million subscribers! 500k new users within the last 48 days. Unbelievably awesome! Welcome, friends!",631,lsxxio,https://www.reddit.com/r/Bitcoin/comments/lsxxio/a_few_hours_ago_rbitcoin_hit_25_million/,41,2021-02-26 21:43:07,,2021-02-26
+7,Made this in my high school animation class thought it would be a good reminder of not to panic sell!,347,lt1mus,https://v.redd.it/abiqejjoouj61,34,2021-02-27 00:42:08,,2021-02-27
+8,I got accepted to a job which pays in BTC!!,197,lt2rg6,https://www.reddit.com/r/Bitcoin/comments/lt2rg6/i_got_accepted_to_a_job_which_pays_in_btc/,64,2021-02-27 01:22:35,"Heyyy dear people I had to share this one for my community 🥴 I got accepted to a job which pays in BTC 😬 it’s a costumer service at a Bitcoin Exchange in Tel Aviv right in the middle of this precious city. It’s my extra job with 5 hours shift & they pay in BTC which I get to chose the percentage for cash or BTC, it’s a life changing to me because I always invested with little money on crypto and never had the opportunity to invest bigger amounts 😕now I have this opportunity to keep 100% of my payment to BTC and start collecting those within time 😀😀😀 I’m obsessed with crypto and Love so much it’s Idea and it’s  potential it has. so just wanted to share with you this one I had in kept in my stomach and wasn’t sure if to publish it or not, but YOLO 😚😚 thanks for reading, hope everyone here will get paid in BTC !!",2021-02-27
+9,"Bitcoin In Tradition Grand Bazaar, Turkey",570,lsvsrb,https://i.redd.it/a4hjgz0l4tj61.jpg,40,2021-02-26 19:26:49,,2021-02-26
+10,MIT announces 4-year project that seeks to strengthen the Bitcoin Network Security,510,lsv2cl,https://thedailychain.com/mit-announces-4-year-project-that-seeks-to-strengthen-the-bitcoin-network-security/,62,2021-02-26 18:37:51,,2021-02-26
+11,MicroStrategy CEO says bitcoin will one day have $100 trillion market value even as price dives. #cryptocurrency,173,lszxrn,https://v.redd.it/ddzsk2gnauj61,35,2021-02-26 23:25:51,,2021-02-26
+12,Next Week (hopefully),5293,lshrfo,https://v.redd.it/t17a09tt1pj61,433,2021-02-26 05:44:53,,2021-02-26
+13,"Time for a narrative shift. Bitcoin is about freedom, personal responsibility, and trying to fully realize the hollow words that are written on the US Constitution and Declaration of Independence. Stop focusing so much on the price, and focus on ending govt money monopolies.",202,lsy7u7,https://www.reddit.com/r/Bitcoin/comments/lsy7u7/time_for_a_narrative_shift_bitcoin_is_about/,70,2021-02-26 21:59:45,,2021-02-26
+14,Which one of you was this?,61,lt5qay,https://i.redd.it/c0uggltzivj61.jpg,23,2021-02-27 03:31:14,,2021-02-27
+15,Me and my Bitcoin which I sold for $45k🥸,100,lt1loq,https://v.redd.it/6744jdjjouj61,15,2021-02-27 00:40:36,,2021-02-27
+16,How to get bitcoin in the Lehigh Valley,35,lt911g,https://www.mcall.com/business/mc-biz-bitcoin-atms-lehigh-valley-lehigh-teaches-blockchain-technology-20210226-zj5zob77nbepnkodn2eyohzqqi-story.html,38,2021-02-27 06:01:59,,2021-02-27
+17,Bitcoin in Allentown,29,lt986a,https://www.lehighvalleylive.com/easton/2021/02/8-lehigh-valley-businesses-now-have-a-bitcoin-atm-where-they-are-and-how-it-works.html,34,2021-02-27 06:11:17,,2021-02-27
+18,I mined about $20 USD in bitcoin years ago and basically forgot about. I just logged into the account today and is is over $450. If that isn't a reason to HODL I don't know what is.,465,lssd5z,https://www.reddit.com/r/Bitcoin/comments/lssd5z/i_mined_about_20_usd_in_bitcoin_years_ago_and/,94,2021-02-26 15:15:42,,2021-02-26
+19,GOT THE FAM A WHOLE COIN,38,lt6lmv,https://www.reddit.com/r/Bitcoin/comments/lt6lmv/got_the_fam_a_whole_coin/,26,2021-02-27 04:09:42,"Man I'm so psyched it's working out so far, I want to shout it from the mountaintops how happy I am to have gotten a whole coin for my family but don't want to talk about it with friends and come off as braggy.....figured this would be a good place to share :D
+
+HODL ON BROTHERS",2021-02-27
+20,"Market manipulation, institutions and corporations will always manipulate the market in their favor. If they feel something is getting too high in price they will give terrible news in order for them to buy back at a cheaper price.",32,lt7ib2,https://www.reddit.com/r/Bitcoin/comments/lt7ib2/market_manipulation_institutions_and_corporations/,5,2021-02-27 04:51:14,"Bitcoin isn’t going anywhere regardless of what some may think. The only reason there’s corrections and dips these days is because MOST of the time, not all but most, is because corporations want to cause a retail panic sell in order to buy it on sale. Follow the smart money, and don’t let the big guys manipulate you into selling, because if there’s one thing we’ve all learned from bitcoin after all these years, it’s that bitcoin continuously blows minds, causes major regret for people who sell, and it always goes back up. Follow the smart money 💎🙌🏼",2021-02-27
+21,Don't even tell your parents you have bitcoin,23,lt9px3,https://www.reddit.com/r/Bitcoin/comments/lt9px3/dont_even_tell_your_parents_you_have_bitcoin/,27,2021-02-27 06:34:45,"I have a very good relationship with my parents, but they're a bit nosy especially when it comes to finances. I told them about a small amount I had in bitcoin many years ago, but now that it's in the five figures they have gone and told other people, and pressure me every single phone call to sell.
+
+It's commonly repeated here to not tell anyone you have bitcoin, but you can trust your parents, right? Maybe you can, but their knowing will possibly change the dynamic of the relationship such that you no longer enjoy talking to them. Just don't risk it. Keep it secret.",2021-02-27
+22,"Bitcoin's fundamental value is backed by ultra secure computer software and human free will. Yes, the USD price is addictive to look at, but the reason Bitcoin was invented is because the world needed honest and sound money again. For better or worse, early adopters have become ""rich"" in USD terms.",92,lsynph,https://www.reddit.com/r/Bitcoin/comments/lsynph/bitcoins_fundamental_value_is_backed_by_ultra/,23,2021-02-26 22:22:39,"But the real Bitcoin OGs understand that Bitcoin's value to humanity extends far beyond the USD price, which is just one metric to focus on.",2021-02-26
+23,Never ever try to time the market,16,lta2il,https://www.reddit.com/r/Bitcoin/comments/lta2il/never_ever_try_to_time_the_market/,17,2021-02-27 06:51:35,"This has been my advice to everyone since I had my first bitcoin. The past week I tried to time the market once. IDIOT. Lost a lot. Im so I tried to recuperate what I lost by trying to act smart again. IDIOT AGAIN. I gave in to the fact that I have two balls and none of them is crystal. Don’t try to time the market. Hold and only sell if it’s very very important.
+
+Edit: seriously??? Six DM’s in 10 minutes??? Fuck off scammers.",2021-02-27
+24,Warning - Bitpanda Withdrawals -,121,lsvbui,https://www.reddit.com/r/Bitcoin/comments/lsvbui/warning_bitpanda_withdrawals/,49,2021-02-26 18:55:17,"Hy. I'm a professional with a job outside the finance industry. I earn around €40,000 a year. I don't have a large collection of assets - just a regular guy who bought some Bitcoin in 2019 with savings.   
+
+
+Bitpanda has frozen my funds and is refusing to allow me to withdraw them on the excuse of new EU anti-money laundering rules. They have asked me to obtain proof of funds which I did, but they also want me to obtain the credit card receipts and notes from my bank of my crypto-currency purchase in 2019. I moved my Bitcoin out and in of the exchange several times, using Blockfi or trading it on Binance, and they are assuming I have cumulatively more than 100% of Bitcoin than I ever held just because I did these transactions. The amount of documentation they are asking is huge. It is unreasonable and is intended to only make sure you never get your funds back. My funds are barely half of my yearly salary so we are not speaking of a big amount.   
+
+
+To cut a long story short I am fully complying with their demands and I am being very cooperative and very polite, however, the anti-money laundering rules which I read do not go this far and Bitpanda is making a lot of theatre with the excuse of holding our funds.   
+
+
+This is the first time ever that a bank or an entity is acting this way with my money - holding it hostage against unreasonable demands. Although the staff is polite - I have no backing and help from them at all and they are simply making assumptions I had more Bitcoin than I did and sticking to their assumptions without helping me go through this. They don't care about our money and this is developing into a real-time nightmare.   
+
+
+I thought I would be safe if I deposited by Bitcoin in a European-based entity. I was wrong.   
+
+
+This is the last time ever I will use Bitpanda. It is unimaginable financial warfare we have to go through to protect and secure our legally-obtained assets and savings. I was wrong thinking that putting my Bitcoin in a European-based entity was safe. It is not. It is very dangerous. I will not be making the same mistake again.",2021-02-26
+25,"Coinbase included their ""Founder"" and his ""address"" in their S-1",24,lt4n8o,https://i.redd.it/zov7nmdgavj61.png,8,2021-02-27 02:43:49,,2021-02-27
+26,"My brother got bit by a dog, sadly cashing out some of my BTC Savings",79,lswf7x,https://www.reddit.com/r/Bitcoin/comments/lswf7x/my_brother_got_bit_by_a_dog_sadly_cashing_out/,44,2021-02-26 20:06:25,"It's just me and my younger brother now and I don't have any insurance (no job because of Covid-19). I tried to keep my tiny tiny stack but sadly I have to let some go to cover the fees. I don't have anyone to share this to, so I wanted to share it here.
+
+Safe to say, I won't be able to buy any during this bargain season. I started buying any amount I could spare last March 2020 and all I can say is I'm thankful for the ability to avoid any additional debt because of emergencies like this.",2021-02-26
+27,Inflation Is here - don’t let Reddit fool ya,25,lt319x,https://www.reddit.com/r/Bitcoin/comments/lt319x/inflation_is_here_dont_let_reddit_fool_ya/,15,2021-02-27 01:33:40,"I’ve seen a couple comments around this.  They always cite the lack of spike in CPI as proof.  Here’s why they are wrong:
+
+-CPI is incredibly flawed, they can (basically) swap a certain good for a good of less worth, to suppress inflation.
+
+-recent inflation has been masked by lower energy prices, which are simply due to a lack of demand in covid times...  take a look at food/Cpg, prices have risen significantly.
+
+-a lot of other inflation has been having stable prices when they should have been declining.  Take computers: has the deflation in that area hurt us?  No.  You can basically have a OLED supercomputer in your pocket for what a apple 2GS cost in the late 80s.   We want lower prices when a currency’s supply is fixed... it means stuff is easier to make and obtain",2021-02-27
+28,Stimulus checks and Bitcoin,32,lt0uos,https://www.reddit.com/r/Bitcoin/comments/lt0uos/stimulus_checks_and_bitcoin/,27,2021-02-27 00:08:30,"As you know the US government at some point soon will be sending 1400$ stimulus checks. Here’s a few ways  it’ll affect Bitcoin. 
+
+1. The obvious, people get checks people spend said check on Bitcoin. More Demand= price goes up (in simplistic terms) this is good timing as we’re currently consolidating and forming a solid floor of around 50-45k give or take which means we should be ready for another nice little bull run. 
+
+2. Right now evidently stock prices are inflated. Even with the pullback the entire market is inflated as result of long standing bailouts and relief packages for big companies. As of right now all this extra money the fed printed and distributed has gone to the big corporations and in turn into their stock price causing it to shoot up. This inflation hasn’t affected any “normal people” yet because the amount of actual stimulus money said normal people have received is a fraction of the amount that the fed has printed and distributed to big corps. When the stimulus starts to hit (many many billions of dollars) this is when inflation actually kicks in as now this money is being properly injected into the economy (albeit likely for rent and groceries which hands much back to larger corporations) but it still will be at least partially used to purchase goods of a limited quantity. More money circulates the economy and eventually actual inflation will occur. This is part of the benefit of Bitcoin as it is a hedge against inflation. People will see the inflation and see the benefit of Bitcoin snd will eventually come join the good side.
+
+If any inaccuracies are present here please let me know. I’m only 17 and am very interested to learn more.",2021-02-27
+29,"Don't forget, we've come a long way since the Halvening. Next stop: 60k!",8,ltabfk,https://v.redd.it/xtxo7xk9kwj61,0,2021-02-27 07:03:49,,2021-02-27
+30,I made a bitcoin shader,15,lt79m7,https://www.reddit.com/r/Bitcoin/comments/lt79m7/i_made_a_bitcoin_shader/,3,2021-02-27 04:39:50,"I started this in 2017 during the last bull run but never finished it, until now. It is completely procedural, meaning no textures or models were used for anything, just math.
+
+If you have a decent computer you can play with it right in your browser here:
+
+[https://www.shadertoy.com/view/WtGBW1](https://www.shadertoy.com/view/WtGBW1)
+
+Otherwise, here is a video:
+
+[https://youtu.be/T6reAe89EYk](https://youtu.be/T6reAe89EYk)
+
+Or a screenshot:
+
+https://preview.redd.it/dcia220yuvj61.jpg?width=1920&format=pjpg&auto=webp&s=9b5d00926350e4d75af89a17b371bf6d025f88fc",2021-02-27
+31,Bitcoin is like the Weather,22,lt2qu3,https://www.reddit.com/r/Bitcoin/comments/lt2qu3/bitcoin_is_like_the_weather/,3,2021-02-27 01:22:04,"In spring when it is 50° it feels warm 
+because we were just coming from winter.
+
+In fall when it is 50° it feels cold
+because we were just coming from summer.
+
+When bitcoin is $47,000 it feels low
+because we were just coming from $60,000.
+
+When bitcoin is $47,000 it feels high
+because we were just coming from $30,000.
+
+Take a step back, breath, and realize that just like the global temperature bitcoin will keep rising exponentially.",2021-02-27
+32,Beware Binance.US,16,lt48ba,https://www.reddit.com/r/Bitcoin/comments/lt48ba/beware_binanceus/,10,2021-02-27 02:25:35,"Just a heads up, I highly highly highly recommend you do not use Binance.US. Their customer support is non-existent.  My money went missing over a month ago. Opened two support tickets so far, and no response. Tried to post on their subreddit, but that sub is empty and you can’t post. Complete scam. Use at your own risk.",2021-02-27
+33,"Hi, I'm here for the rally... I was told it was supposed to start around 11 AM?",11,lt84dl,https://www.reddit.com/r/Bitcoin/comments/lt84dl/hi_im_here_for_the_rally_i_was_told_it_was/,13,2021-02-27 05:19:13,I'm honestly surprised that some folks still haven't learned not to try and predict this completely irrational and unpredictable market.,2021-02-27
+34,Cathie Wood thoughts on Bitcoin | Wall of Money is coming,16,lt4d9t,https://youtu.be/mLM3IDS8r4I,3,2021-02-27 02:31:39,,2021-02-27
+35,"Peter Thiel Cofounder of Paypal & Palantir ""It's Bitcoin, More Than Gold"" - Jan 28th 2021",26,lszz62,https://youtu.be/mX13FcT47_o,0,2021-02-26 23:27:47,,2021-02-26
+36,The latest MyNode release includes Bitcoin Whitepaper hosting on the node. This is huge fu*k you to Craig Wraight and his bullshit as now hundreds of Bitcoin full nodes host the Bitcoin Whitepaper. Love it!,50,lswhqr,https://i.redd.it/dy0h3efpbtj61.png,9,2021-02-26 20:11:18,,2021-02-26
+37,Elon’s Advice,10,lt6sga,https://www.reddit.com/r/Bitcoin/comments/lt6sga/elons_advice/,13,2021-02-27 04:18:06,"When Elon Musk said the price of Bitcoin was a little high, could that have really meant that Tesla had not finished buying their 1.5 billion of Bitcoin and he was hoping to get a lower price?
+
+Let’s face it, there is no real way to know what the value of Bitcoin should be. There is know magical equation to say what the price should be. 
+
+Simply put the price should be what the price is.
+
+Just a thought",2021-02-27
+38,Buying the dip?,7,lt7iop,https://www.reddit.com/r/Bitcoin/comments/lt7iop/buying_the_dip/,23,2021-02-27 04:51:42,Have been watching price of BTC but have been contemplating buying. Should I jump the gun and purchase the dip or wait a bit?,2021-02-27
+39,"Warren Buffet, is this what you meant by investing in socks?",23,lt0gjk,https://v.redd.it/5slgjs3ffuj61,5,2021-02-26 23:50:12,,2021-02-26
+40,Finally convinced my dad to buy his first Bitcoin!!,9,lt6g1b,https://www.reddit.com/r/Bitcoin/comments/lt6g1b/finally_convinced_my_dad_to_buy_his_first_bitcoin/,16,2021-02-27 04:02:56,"I have been trying to convince my dad to invest in crypto since last year in September when Bitcoin was at probably 10k. My dad is very traditional when it comes to financing. I have been talking about Bitcoin so much and he was very skeptical at first. I tried to educate him for a whole year , sending him links, pages, blogs that talked about Bitcoin but seemed that he ignored all of them. I never gave up and brought it up every time we talked together, showed him my investment and how it kept growing. I used my final card and that was my mom. My dad was fully convinced and i just signed him up for a coinbase account.  He’s 50 and about to start this journey and i am very excited for him. Educate people around you no matter of the age or any differences. They will thank you later...",2021-02-27
+41,BTC Dominance Table,6,lt92qo,https://www.reddit.com/r/Bitcoin/comments/lt92qo/btc_dominance_table/,3,2021-02-27 06:04:04,"Hope this helps
+
+https://preview.redd.it/f0wgc9y6awj61.png?width=823&format=png&auto=webp&s=5c827d41d3facff814dc0313b1f1c9ffd0cfa535",2021-02-27
+42,Looking for Anti-Bitcoin reading,13,lt3zlj,https://www.reddit.com/r/Bitcoin/comments/lt3zlj/looking_for_antibitcoin_reading/,16,2021-02-27 02:14:56,"Probably a weird post, but I'm looking for recommendations of websites/blogs/social media accounts etc. that are anti-bitcoin. Preferably resources that enlist actual research and are not just opinion based rants.
+
+I've been a moderate bitcoin enthusiast since 2016, slowly building a modest portfolio of what was essentially play money, or not at all a significant portion of my net worth. More recently I've gotten into actually researching and reading about the technology to better educate myself, and I can only say that 'I saw the light'. I am a hardcore believer now. But I'm becoming a bit nervous of some thoughts my newly found bitcoin zeal has lead me to. I'm seriously considering liquidating some big portions of my equities investments and long term retirement accounts in order to go heavy into bitcoin. Ultimately, i don't want to do anything too rash, and I fear that everything I've been reading lately that is so pro-bitcoin could be causing too much of an echo-chamber effect on me. So I'm looking for some anti-bitcoiners to temper my excitement a bit; I'm sure it won't change my outlook on bitcoin's future, but I need that cold shower effect right now.",2021-02-27
+43,My Trezor finally came in. How do I go about things now?,5,lta6te,https://www.reddit.com/r/Bitcoin/comments/lta6te/my_trezor_finally_came_in_how_do_i_go_about/,16,2021-02-27 06:57:30,I’m planning on putting a good amount into BTC (for a college students standards anyways) and I’m just wondering how I should go about things. Any tips or helpful information is welcome.,2021-02-27
+44,What's your all time favorite bitcoin related podcast interview?,5,lta5nn,https://www.reddit.com/r/Bitcoin/comments/lta5nn/whats_your_all_time_favorite_bitcoin_related/,10,2021-02-27 06:55:46,"My favorite ever is between Raoul Pal (the CEO of Real Vision) and Michael Saylor (the CEO of MicroStrategy) as they spend 2 captivating hours discussing what led them to dump their companies entire liquid net worth into Bitcoin.
+
+Bitcoin Infiltrates Corporate America (w/ Michael Saylor and Raoul Pal)
+
+
+
+https://youtu.be/Cg10yYZjK94",2021-02-27
+45,How can I give my 13y son btc,6,lt8wi8,https://www.reddit.com/r/Bitcoin/comments/lt8wi8/how_can_i_give_my_13y_son_btc/,16,2021-02-27 05:56:16,"I just bought $100 worth and sent it to him via coinbase. He can't accept it because he isn't 18.
+
+Now what?",2021-02-27
+46,I just look at it as moving money from one account to another.,5,lt9lfh,https://www.reddit.com/r/Bitcoin/comments/lt9lfh/i_just_look_at_it_as_moving_money_from_one/,6,2021-02-27 06:28:41,"I’ve taken the position that I’m not “buying” Bitcoin anymore, just moving money into a Bitcoin account. Instead of letting $500 sitting in a checking or bank account earning little to no interest not working for me, I’ll put it where it will. I look at the risk the same as a 401K. I’ve seen my 401K swing thousands up and down in a day. It’s no different, except the returns are better.",2021-02-27
+47,Cognitive Dissonance from Poor Conceptualization,4,lt9fjt,https://www.reddit.com/r/Bitcoin/comments/lt9fjt/cognitive_dissonance_from_poor_conceptualization/,2,2021-02-27 06:20:56,"We often use metaphors to conceptualize things that have no physical existence, like software, networking and digital systems.  A good metaphor allows us to accurately intuit the behavior of the thing it's meant to represent while a poor metaphor will break down as the thing fails to behave as expected, also known as cognitive dissonance.
+
+In the case of Bitcoin and cryptocurrencies in general, we call the applications we use to track our coins 'wallets'. The function of an actual wallet is to hold cash, leading many people to intuit that their 'coins' are like paper bills, but they're not. Coins are stored on the blockchain.
+
+A better metaphor is to imagine the blockchain is a bank full of lock boxes that contain our coins and what we keep are the key's to our lock boxes. This naturally leads us to the more accurate metaphor of a keychain. Our wallet apps are better conceptualized as keychains, I think.",2021-02-27
+48,Why I don't care about the volatility,295,lskztr,https://www.reddit.com/r/Bitcoin/comments/lskztr/why_i_dont_care_about_the_volatility/,152,2021-02-26 08:14:05,"1) I did my homework...I know where this is going, so day to day or even month to month values mean next to nothing to me. I have literally gone months without even looking at the current value. In 2018 I had no clue it had dipped below 4k.
+
+2) This was always a long play for me...buy and hold...for years...not weeks or months. This isn't a get rich quick game for me...that being said I will likely be able to retire a few years early because of it.
+
+3) Bitcoin isn't going to zero at this stage. If you don't know why that's true, then you don't understand network effects and Metcalfe's law. If it's not going to zero its going to go a LOT higher. 
+
+4) It's not going to get banned in the US. It will get regulated. Thats a good thing. That will bring in even more institutional investors. Regulation means ""legitimacy"".
+
+5) Central bank digital currencies are coming. They will have no negative impact on BTC...they will likely drive it even higher by introducing even more people to the concept of digital money.
+
+6) If this goes where I know its going...I'll never need to sell. I'll take collateralized loans against it and earn interest off it. Neither creates a tax event and both allow me to keep all my Sats.",2021-02-26
+49,"Chinese Companies That Don´t Touch Crypto Pivot to Mining - (""China unbanned Bitcoin"" )",15,lt0wnl,https://www.coindesk.com/chinese-companies-that-have-nothing-to-do-with-crypto-are-pivoting-to-mining,6,2021-02-27 00:10:59,,2021-02-27

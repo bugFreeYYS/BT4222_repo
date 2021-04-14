@@ -1,0 +1,313 @@
+,title,score,id,url,comms_num,created,body,date
+0,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,355,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,135,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+1,"Daily Discussion, March 18, 2021",84,m7jnz2,https://www.reddit.com/r/Bitcoin/comments/m7jnz2/daily_discussion_march_18_2021/,1329,2021-03-18 13:08:02,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m6sq50/daily_discussion_march_17_2021/) for unanswered questions.",2021-03-18
+2,"First JP Morgan talks shit about BTC, and then hoards and sells them to clients. Next up, its BoA. These dinosaurs are running scared.",2557,m7ucg3,https://www.cnbc.com/2021/03/17/bitcoin-bofa-says-theres-no-reason-to-own-it-other-than-speculation.html?utm_content=Main&utm_medium=Social&utm_source=Facebook#Echobox=1616002212,145,2021-03-19 00:15:10,,2021-03-19
+3,"The US dollar has lost 23% of its purchasing power over the past decade1. During the same time frame, almost every major asset class has gone up, including stocks (up 256%), gold (up 25%) and Bitcoin (up 4986412%). We all know where that stimmy check belongs #BTC",889,m7ucdw,https://coinmama.medium.com/how-to-invest-a-stimulus-check-in-bitcoin-412a2843a595,69,2021-03-19 00:15:06,,2021-03-19
+4,A warning to others I lost $5000 to a scam utterly embarrassed and ashamed to share this but hopefully it might save another,321,m7vge3,https://www.reddit.com/r/Bitcoin/comments/m7vge3/a_warning_to_others_i_lost_5000_to_a_scam_utterly/,191,2021-03-19 01:03:01,"
+
+I had £5000 GBP that I had saved and I was determined to finally try make something of my money.
+
+I spent weeks learning how to read charts/technical analysis and as I became more confident I wanted to learn further. I have $6900 spread across some reasonably safe coin but no greed got the better of me...
+
+I was following JRNY Crypto since I got into this mid Feb. He was always talking about his memberships and I became really curious and wanted to get involved.
+
+I saw him post a message on Twitter about his membership commenting on what one of his subscribers had said. I was convinced this would be a good decision. 
+
+So later that day I messaged JRNY crypto... or atleast... I thought I did... 
+
+Earlier that day I followed someone called @JRNYcryptto 
+
+
+i didn’t realise the extra T I messaged this guy and expressed my desire to join his membership program we actually had a good conversation he broke down the different types of membership and I was sold he directed me to this trading platform 
+
+Bitcryptotrade.net
+
+Because I messaged him first there were no red flags.. I thought the trading platform looked a bit crappy but still no red flags... I head to the subscription page where I deposited 5 grand... saying it out loud and reading as I type is making me feel utterly sick that I could be so fucking retarded....
+
+The premise was that he would trade with my funds and after he had achieved the certain ROI he’d take 20% and I would take the rest. Like you pay a an investment banker. I had sunk a few whiskies earlier in the evening which I knew clouded my judgement..
+
+It wasn’t until after I had deposited.. that I felt the urge to check something... I remember in a JRNY video he was aiming for 100k Twitter following. I went back on Twitter and noticed this guy had 20k.. dread filled my soul I then noticed the extra T..
+
+I knew at that moment I was never seeing a single penny of that money ever again.... I brought this new discovery to his attention. He claimed he has a second account so that he can message prospects. I knew it was total bullshit but I was worried that he had some of my info and I was nervous this could get worse..
+
+He kept reassuring me this was real and I should relax.. a few days later he aggressively try’s to convince me that I had to pay his 20% commission fee upfront I couldn’t  believe the balls of this guy... I told him that wasn’t gonna happen I had very little left basically $1700 from my original £5000..
+
+He then try’s to befriend me saying not to worry about the fee and continued to try reassure me.. I went along with it due to worries he may be able to hack my wallet to retrieve my last few coins. Lastly he says for me to withdraw my profits at the end of day 5 I’d need to pay a $5000 withdrawal fee. 
+
+Neither the commission fee or withdrawal fee was ever mentioned prior to me depositing funds. He tried to take advantage of the fact I was all in and tried to exploit another 11 grand out of me. Not once was I ever going to pay..
+
+I thought I was a smart guy but I’m a dumb fucking idiot who deserved all of this. To make matters worse I have been bombarded by fund recovery scammers...
+
+I have only a tiny bit left and every day I’m lying to my partner about how my crypto investing is going..
+
+For the love of god don’t be as retarded as me please read this, feel free to laugh and ridicule I deserve it... read this and remember even if you think you’re talking to a legitimate person with good intentions even  if YOU message them first...
+
+Please be careful....",2021-03-19
+5,Warning: STOP buying Bitcoin on Robinhood. These guys almost went under to a 3b margin call on illegal $GME paper trades. They will rob you and go broke.,11011,m7bmr1,https://www.reddit.com/r/Bitcoin/comments/m7bmr1/warning_stop_buying_bitcoin_on_robinhood_these/,953,2021-03-18 05:49:26,"If this applies to you, seriously what are you thinking? We’ve been shouting “don’t buy BTC on RH” from the rooftops. The latest update is finding out that RH has admitted to paper trading $GME and fucking investors when their naked positions caught a 3 billion dollar margin call.
+
+If this had been a Bitcoin related event, there would have been no recovery, RH would have filed for bankruptcy and relied on their elite friends to manage any government intervention that may crop up.
+
+ RH basically shorted every order their client’s made, not only stabbing those clients in the back short term, but setting them up to lose everything if they were right. If $GME had gone to $1,000 some of these folks would have been left with less than their buy-in because RH would have gone under.
+
+Returning to Bitcoin, it’s important to understand that this deceptive practice is even more easily perpetrated against RH’s BTC buyers and that Congress / regulators are even less likely to do anything about it.
+
+For the love of Satoshi, I know at least one of you reading this is still not selling the Bitcoin you have on RH, transferring your fiat to a legitimate exchange, rebuying the Bitcoin, and storing it off exchange. Stupid games, stupid prizes, and you can’t be entirely dumb if you’ve read this far. Make the move right now and sleep better knowing your coins are safe and so is the integrity of the Bitcoin ecosystem. 
+
+Other exchanges to consider include: Gemini, Kraken, Binance US, Coinsebase Pro, Swan, and if you’re a real legend BISQ. 
+
+If this is your first time hearing this stuff, search r/Bitcoin for Robinhood and checkout this recent r/wallstreetbets thread detailing RH’s 3 billion dollar margin call https://www.reddit.com/r/GME/comments/m74e3g/this_is_huge_robinhood_never_owned_your_gme/?utm_source=share&amp;utm_medium=ios_app&amp;utm_name=iossmf
+
+TL:DR - RH probably isn’t buying Bitcoin when you buy Bitcoin on RH. If Bitcoin rallies hard enough, or if RH has an internal problem, you’re likely to lose everything. Move your funds off of RH.",2021-03-18
+6,Chinese firm Meitu buys $21.6M worth of Bitcoin,444,m7pkze,https://news.hodlhodl.com/news/chinese-firm-meitu-buys-21-6m-worth-of-bitcoin-4261,86,2021-03-18 20:20:12,,2021-03-18
+7,Visa Taps Deeper Into Bitcoin Through New Global Partnership With Crypto.com,58,m82eid,https://www.forbes.com/sites/ninabambysheva/2021/03/18/visa-taps-deeper-into-bitcoin-through-new-global-partnership-with-cryptocom/?sh=2ee251b5c57d,7,2021-03-19 06:24:19,,2021-03-19
+8,"I made these for the Energy FUDsters. If you like crypto infographics, data, charts & crypto news please feel free to follow @thatbitcoinpage on Instagram!",78,m7zmue,https://www.reddit.com/gallery/m7zmue,12,2021-03-19 04:16:59,,2021-03-19
+9,Bitcoin; Stimulus is served,96,m7uiwb,https://decentrader.com/market_updates/bitcoin-stimulus-is-served/,19,2021-03-19 00:22:48,,2021-03-19
+10,Deutsche Bank Report: Bitcoin Is Too Important to Ignore,81,m7vwf6,https://www.coindesk.com/bitcoin-is-too-important-to-ignore-deutsche-bank-report,16,2021-03-19 01:22:43,,2021-03-19
+11,SpongeBob #Bitcoin Economics 101,87,m7uxnw,https://v.redd.it/lqu3cl6netn61,4,2021-03-19 00:40:38,,2021-03-19
+12,CashApp just blessed me,82,m7ug19,https://www.reddit.com/gallery/m7ug19,75,2021-03-19 00:19:30,,2021-03-19
+13,Who lit the rocket? 🧨🚀,76,m7tnba,https://www.reddit.com/r/Bitcoin/comments/m7tnba/who_lit_the_rocket/,42,2021-03-18 23:44:42,60k looking good!,2021-03-18
+14,Miami wants to start paying employee in BTC,42,m7y0ag,https://youtu.be/RoqY5eHyUYY,7,2021-03-19 02:55:34,,2021-03-19
+15,Pakistan To Build Two Mining Farms As Government Looks To Participate In Bull Run Directly,37,m7yghw,https://bitcoinmagazine.com/culture/pakistan-to-build-two-mining-farms-as-government-looks-to-participate-in-bull-run-directly,7,2021-03-19 03:15:17,,2021-03-19
+16,there is no inflation.,1377,m7e7nq,https://v.redd.it/upkd7brkfon61,161,2021-03-18 07:56:31,,2021-03-18
+17,When I realized I became a true believer of BTC..,20,m81brs,https://www.reddit.com/r/Bitcoin/comments/m81brs/when_i_realized_i_became_a_true_believer_of_btc/,8,2021-03-19 05:34:15,I get more excited when price goes down than when it goes up because that means I can buy more BTC on sale. Is it just me? LOL,2021-03-19
+18,Beware of the scammers guys,32,m7x1gd,https://www.reddit.com/gallery/m7x1gd,10,2021-03-19 02:12:37,,2021-03-19
+19,Inflation is the silent killer of human purchasing power.,113,m7odic,https://www.reddit.com/r/Bitcoin/comments/m7odic/inflation_is_the_silent_killer_of_human/,44,2021-03-18 19:02:45," ***The main driver of Bitcoin's growth in the coming year will not be the policy of abundant stimulation of the economy conducted by the Fed, but inflation. And although many do not see real inflation in the United States, it is growing rapidly in the rest of the world.***
+
+https://preview.redd.it/qs8axr8iqrn61.jpg?width=1920&format=pjpg&auto=webp&s=70f902a1b416a2472c37d4fb95504a7e45c22044
+
+Alex Gladstein, chief strategic director of the Foundation for Human Rights, [said](https://news.bitcoin.com/1-2-billion-people-live-under-double-digit-inflation-many-have-found-escape-in-bitcoin-says-hrfs-alex-gladstein/) that *1.2 billion of the world's citizens live in inflation that reaches two to three digits.*
+
+**Inflation is the silent killer of human purchasing power.**
+
+Over the past week, a number of analysts and economists have discussed a possible rise in US inflation, mainly due to the huge volumes of stimulus created in 2020 and 2021. This has led economists to believe that inflation will soon come to the US as the Federal Reserve is cornered by plans to keep the easy money schemes for 2021.
+
+The biggest sell-off of US government bonds in recent history is a direct harbinger of inflation. And although the yield on 10-year US Treasury bonds rose from 0.9% to 1.6%, this cannot suit investors watching how the stock market and the bitcoin market grow. It even ""*led to the worst quarter for Treasury investors in more than four years*,"" according to Ice Data Services.
+
+Bob Prince, the hedge fund manager of the Bridgewater Associates, [warned](https://news.bitcoin.com/hedge-fund-manager-says-sell-off-in-us-treasury-bonds-a-threat-to-high-flying-assets-like-btc/) that the recent sell-off in the US government bond market could accelerate and it could “threaten high-yielding assets” such as cryptocurrencies and companies with negative earnings.
+
+However, more than 1.2 billion people living in countries with double-digit inflation do not have access to high-quality assets, but they have easy access to one global asset that does not require special knowledge or licenses. And this asset is bitcoin. People simply have nowhere to go, no one agitates them to buy bitcoin. They are forced to do it.
+
+If the fears of Ice Data Services analysts and large institutional investors come true, and the sale of American Treasuries continues in the current quarter, then it will be very difficult to avoid inflation in the US. In this case, large American investors will simply have nowhere to go. They will be forced to hedge the risks of depreciating Bitcoin assets.
+
+Another important indirect confirmation of the real threat of inflation is the position of the main economic media. In particular, Bloomberg Economics editor Peter Coy wrote an editorial titled ""[Tune Out the Hyperinflation Hype](https://www.bloomberg.com/news/articles/2021-03-04/why-hyperinflation-won-t-happen-in-u-s-like-in-venezuela-or-zimbabwe)"", portraying investor concerns as ""hype"" and manifestation of ""conspiracy theory."" Coy even noted that fear of inflation only helps drive the price of BTC. A number of other media outlets, as if on cue, have released similar articles claiming that the fear of inflation is all fiction and conspiracy theories.
+
+However, according to the latest Bank of America (BoA) poll, which surveyed 220 fund managers with more than $ 630 billion in assets, “inflation” is the largest risk for the markets, outweighing all other risks, including Covid-19.
+
+When doing a fundamental analysis of Bitcoin price movements in the first half of 2021, you should first look at two things: the sale of American Treasuries and the real inflation rate in the United States. *There are the answers to the question about the next peaks in the price of bitcoin.*",2021-03-18
+20,Bitcoin payments now accepted by Spanish real estate firm based in Tenerife,72,m7qckp,https://www.reddit.com/r/Bitcoin/comments/m7qckp/bitcoin_payments_now_accepted_by_spanish_real/,7,2021-03-18 21:04:12,"The Spanish real estate company Piso Barato Inmobiliaria announced that it is now accepting Bitcoin (BTC) as payment from customers, Bitcoin.com reported. The firm owns a chain of properties that is either for sale or for rental in Tenerife, the largest of Spain’s Canary Islands located West of the African continent.
+
+One of the reasons for Piso Barato Inmobiliaria’s decision to accept Bitcoin as a mode of payment is the increasing adoption of the crypto with some experts saying that BTC is slowly becoming the “primary currency” of exchange worldwide. Thus, the firm is now allowing customers to use Bitcoin as payment when they purchase any of its property in Tenerife.
+
+[http://tokenpost.com/Bitcoin-BTC-payments-now-accepted-by-Spanish-real-estate-firm-based-in-Tenerife-7412](http://tokenpost.com/Bitcoin-BTC-payments-now-accepted-by-Spanish-real-estate-firm-based-in-Tenerife-7412)",2021-03-18
+21,Please educate people about Bitcoin's energy use,24,m7ykr9,https://www.reddit.com/r/Bitcoin/comments/m7ykr9/please_educate_people_about_bitcoins_energy_use/,32,2021-03-19 03:21:35,"We need to do better in convincing people Bitcoin is more energy efficient than the systems it replaces.
+
+People constantly attack Bitcoin because they think it is destroying the environment. I'm an environmentalist myself, and I tried to provide helpful information to the r/environment community about bitcoin. Link below. 
+
+[https://www.reddit.com/r/environment/comments/m7xn1k/bitcoin\_is\_misunderstood\_by\_environmentalist/](https://www.reddit.com/r/environment/comments/m7xn1k/bitcoin_is_misunderstood_by_environmentalist/)
+
+I was banned for life from the sub within minutes of posting this. They muted me when I asked why I was banned. The post does not violate any rules. EDIT: They also removed all my comments. Lol.
+
+As I mentioned in the post, bitcoin is a trillion-dollar global monetary network that has never been hacked, and it's running on $1B/year in energy costs (22 terawatt hours at market rates). A TRILLION dollar network running on 1% energy costs.
+
+That's the point we need to drive home to my fellow environmentalist. Eventually, they will understand Bitcoin is orders of magnitude better than its alternatives. ",2021-03-19
+22,Anthony Scaramucci says it's not too late to buy bitcoin — just look at Amazon's run since 2009,44,m7tifv,https://www.cnbc.com/amp/2021/03/18/anthony-scaramucci-compares-bitcoins-trajectory-to-amazons-stock-.html,12,2021-03-18 23:38:30,,2021-03-18
+23,Russell Okung Becomes One of the Highest-Paid Players in the NFL Thanks to Bitcoin,83,m7ppwu,https://afrotech.com/russell-okung-becomes-one-of-the-highest-paid-players-in-the-nfl-thanks-to-bitcoin/,11,2021-03-18 20:28:09,,2021-03-18
+24,Morgan Stanley becomes the first big U.S. bank to offer its wealthy clients access to bitcoin funds,3848,m72hs9,https://www.cnbc.com/2021/03/17/bitcoin-morgan-stanley-is-the-first-big-us-bank-to-offer-wealthy-clients-access-to-bitcoin-funds.html?__source=iosappshare%7Ccom.apple.UIKit.activity.CopyToPasteboard,344,2021-03-17 23:08:14,,2021-03-17
+25,3K drop on CMC???,56,m7qiei,https://www.reddit.com/r/Bitcoin/comments/m7qiei/3k_drop_on_cmc/,49,2021-03-18 21:13:03,"What happen? Not showing on Coinbase, just wondering",2021-03-18
+26,"Since Biden signing this “stimulus”, the national debt is now greater than the value of the entire US economy. How could you not be bullish on Bitcoin?",10,m82u44,https://www.reddit.com/r/Bitcoin/comments/m82u44/since_biden_signing_this_stimulus_the_national/,4,2021-03-19 06:44:49,,2021-03-19
+27,I bought a Bitcoin for $184!,238,m7j4z9,https://www.reddit.com/r/Bitcoin/comments/m7j4z9/i_bought_a_bitcoin_for_184/,136,2021-03-18 12:33:01,"Hello all you sexy little hodl’ers! 
+
+I’m hoping that sharing this will be of value to some in the community. 
+
+I recently decided to scroll back through my coinbase buying history. I bought my first 11 Bitcoins at $184! The date was jan 14th, 2015. Like many others, I sold them a year later at (what i considered, at the time) a considerable gain. Looking back, of course I wish I still had the coins. 
+
+The point being... no one knew! Lots of people sold around this time. You simply cannot beat yourself up for cashing out when it felt right. You can’t dwell on the past. 
+
+In late 2017, I started building my btc holdings back up. I have been buying consistently for the last 4 years and have yet to sell a single satoshi! 
+
+This time around is different! I’m glad to say, I feel good about my portfolio. However, it’s worth mentioning that we are in the early stages of this new world! 
+
+I have many friends who reach out saying “I wish I had bought years ago, now it’s $60,000 a coin”. I try to explain.. when it’s $1,000,000 per coin, I would hate to hear you say.. “I wish I had bought when it was $60,000”.
+
+This truly is early days. We are only now starting to see institutional adoption. Dollar cost average and don’t get left behind. 
+
+Love this community and appreciate y’all!",2021-03-18
+28,BTC helped me pay off student loans BUT....,23,m7vkgy,https://www.reddit.com/r/Bitcoin/comments/m7vkgy/btc_helped_me_pay_off_student_loans_but/,17,2021-03-19 01:07:49,So I withdrew all my crypto once BTC hit 60k and payed off ALL my student loans (a little over 50k). This is a great feeling but I now have FOMO if you will and wonder if I should start buying/holding again....I wouldn't be able to put much into it as I am also paying for a Wedding this June...would it be worth throwing in $50 here and there when I can afford it? Probably a silly question but I'd appreciate guidance,2021-03-19
+29,7 years today! Holding for the longest time.,31,m7sv7h,https://youtu.be/NG1qooBzE2w?t=1,14,2021-03-18 23:08:39,,2021-03-18
+30,I made this Terminator Bitcoin video meme. Enjoy!,550,m7e55e,https://v.redd.it/shapk1hfeon61,71,2021-03-18 07:52:49,,2021-03-18
+31,"What happens when Wall Street learns the real risk free rate is 1,200x higher than they think it is?",7,m835m9,https://twitter.com/IIICapital/status/1372631175378915329,1,2021-03-19 06:59:58,,2021-03-19
+32,"Careful of the ""This time is different"" mentality",55,m7oy8u,https://www.reddit.com/r/Bitcoin/comments/m7oy8u/careful_of_the_this_time_is_different_mentality/,40,2021-03-18 19:41:56,"Bitcoin is in a cycle and the same patterns in its valuation have been occuring for years now. Cheap credit for the masses is leading to speculation with the potential of the price reaching nosebleed territory.
+
+Bitcoin is certainly the future but remember cycles in its price have always been occuring.",2021-03-18
+33,Banks are catching on!,14,m7x3vw,https://www.reddit.com/r/Bitcoin/comments/m7x3vw/banks_are_catching_on/,20,2021-03-19 02:15:40,"A friend was trying to buy bitcoin last week. 
+
+I asked him today if he bought some. 
+
+He laughed and said ohhhh let me tell you. 
+
+He couldn’t set up for direct bank link then tried to use his debit card. 
+
+Debit card worked. He thought he bought $1,000 worth. 
+
+Next day he looked at account and he had $100 and was like wooooo did it drop that much?
+
+Well.... He called bank and explained what was going on. 
+
+Bank said ohhhh we do not allow wire interface with any crypto exchange and only allow $100 a week on debit cards going to crypto exchanges.
+
+So he opened new bank account and 🤣😂🤣 of course... Current bank allows transfers to another bank but.... “it will take 3-5 business days to complete the transfer”",2021-03-19
+34,It’s Time To Rethink The “Intrinsic Value” Of Bitcoin,11,m7zdmu,https://bitcoinmagazine.com/culture/its-time-to-rethink-the-intrinsic-value-of-bitcoin,4,2021-03-19 04:03:25,,2021-03-19
+35,Bitcoin Adoption EXPLODING in El Salvador | Mike Peterson,11,m801tb,https://youtu.be/6qeVasKL3yk,0,2021-03-19 04:35:19,,2021-03-19
+36,"Leading Investor Mike Novogratz acquires Bitcoin at $56,500 - Bitcoin World",72,m7mxft,https://bitcoinworld.co.in/mike-novogratz-buys-more-bitcoin-at-56500/,11,2021-03-18 17:14:32,,2021-03-18
+37,"On This Day Last Year, BTC Was Selling for $5,236 - The Tokenist",84,m7m9nu,https://tokenist.com/on-this-day-last-year-btc-was-selling-for-5236/,12,2021-03-18 16:23:08,,2021-03-18
+38,"They Didn’t Think These Technologies Would Disrupt the World, but They Did, As Bitcoin Will",16,m7vsni,https://www.inbitcoinwetrust.net/they-didnt-think-these-technologies-would-disrupt-the-world-but-they-did-as-bitcoin-will-d22121635221?sk=783feaf8510cb7b6d5ecd8cbe9448d5e,9,2021-03-19 01:17:54,,2021-03-19
+39,Bitcoin To Adopt Miami: Mayor Francis X. Suarez on Fox News Talks Bitcoin - March 18th 2021,52,m7o7i0,https://youtu.be/Rks4hC9mNqg,1,2021-03-18 18:51:05,,2021-03-18
+40,"Morgan Stanley announced that clients can invest in Bitcoin, but they are capping it at 2.5% of each client's total assets. Are they ""protecting their clients from risk"", or are they really protecting their cronies who manage traditional assets from Bitcoin slurping market cap from everything? 🤔",210,m7hhah,http://cnbc.com/2021/03/17/bitcoin-morgan-stanley-is-the-first-big-us-bank-to-offer-wealthy-clients-access-to-bitcoin-funds.html,41,2021-03-18 10:54:53,,2021-03-18
+41,Learn how to easily stop the bitcoin mining energy FUD!,11,m7ydtr,https://www.reddit.com/r/Bitcoin/comments/m7ydtr/learn_how_to_easily_stop_the_bitcoin_mining/,9,2021-03-19 03:11:57,"I know that you're tired of the same energy FUD articles and old information from a bad time in 2020 when Mongolia was mining with coal energy being posted here over and over, and I see your frustration in the comments when the FUD is posted and some of you have commented that you're tired of it. It's time for us to stop this energy fud with facts and credible sources. We can all do our part to educate people about bitcoin mining and energy usage.
+
+I'm now going to teach you how to put a stop to this FUD using these three simple steps.
+
+**Bookmark this page.** Or click save at the bottom of the post so it saves to your saved posts.
+
+Anytime someone posts the same false energy FUD, come back to this post and 
+
+**Copy all of the text that's inside of the box below.**
+
+**Paste that text as a comment reply to the energy FUDster and click save!**
+
+**You're comment will be 100% identical to everything in this post that is below the box of text.**
+
+    .
+
+    Bitcoin mining is voluntary and bitcoin miners only mine bitcoin to make a profit and they turn off their miners when it's no longer profitable for them to mine. Bitcoin mining will use substantially less electricity by summer of 2032 because the block reward will be just 0.78125 BTC and the mining difficulty adjusts every 2016 blocks which is approximately two weeks. This is just a small part of [bitcoin protocol rules](https://en.bitcoin.it/wiki/Protocol_rules) that Satoshi created.
+
+    In 2019, [the bitcoin network was getting 74.1% of its electricity from renewables](https://www.vox.com/2019/6/18/18642645/bitcoin-energy-price-renewable-china), making it “more renewables-driven than almost every other large-scale industry in the world.” In 2021, it will be using even more renewables and that only increases with time.
+
+    [Here's a full report on bitcoin mining that was done in 2019](https://coinshares.com/research/bitcoin-mining-network-december-2019), one year before mining started in Mongolia in 2020 which was banned this year.
+
+    There was a Cambridge study done on bitcoin mining in 2020 but 2020 is exactly when bitcoin miners set up shop in the Mongolian region of China and started using electricity generated from coal but that only lasted less than a year because the [Chinese government has now banned bitcoin mining in that region of China and they also banned mining bitcoin with dirty energy](https://www.coindesk.com/inner-mongolia-to-shut-down-crypto-mining-industry-report) and now bitcoin can be mined with mainly clean renewable energy once again like it previously was.
+
+    Dirty energy just can't compete with clean renewable energy like [hydroelectric power which they get as low as 1 cent a kilowatt hour.](https://news.bitcoin.com/1-cent-per-kilowatt-hour-chinas-sichuan-province-encourages-hydro-powered-bitcoin-mining) 
+
+    Hydroelectric dams even create a large excess of electricity that otherwise goes to waste and [that waste is now used to mine bitcoin.](https://www.coindesk.com/chinese-city-known-for-bitcoin-mining-seeks-blockchain-firms-to-burn-excess-hydropower) 
+
+    Bitcoin is also [mined with energy created from gasses that are otherwise flared off or vented directly into the earth's atmosphere.](https://oilmanmagazine.com/how-and-why-natural-gas-flaring-is-being-used-to-mine-bitcoin/) 
+
+    Here's another article about [bitcoin mining using the electricity that would've been wasted.](https://news.bitcoin.com/how-big-hydro-power-partners-with-bitcoin-miners-to-prevent-energy-waste/)
+
+    Furthermore, [proof of work is efficient](https://www.danheld.com/blog/2019/1/5/pow-is-efficent)
+
+    Perhaps we should worry about video games or youtube because [video games and youtube use more electricity than bitcoin](https://i.redd.it/ncmwuesezrg61.jpg) and we all know that's residential electricity so most of that energy doesn't come from renewable resources. Humans really need to generate more renewable energy and rely less on dirty energy. I'm glad that [large scale bitcoin mining is driving clean energy innovation](https://www.nasdaq.com/articles/how-large-scale-bitcoin-mining-is-driving-clean-energy-innovation-2021-01-06) because the world really needs it at this time, much like we needed scarce tokenized derivative of inflation and corruption that's kept honest and secure by it's own decentralized ledger of value that can't be forged or hacked, that is, before Satoshi created bitcoin for us.
+
+    Bitcoin is currently at the second stage of the evolution of money which is a store of value. Gold is currently the #1 largest asset on earth by market cap because it's used by humans as a store of value and it has been for centuries. Bitcoin is a better store of value than gold and it's much easier send, protect, and hide and it's also more scarce than gold. Gold mining and transporting gold are both far worse for the environment than mining bitcoin and transporting bitcoin. Gold mining emits more than three times the co2 emissions than bitcoin mining. Bitcoin is more scarce than gold and bitcoin can also be used for payments and as currency and the lightning network allows an unlimited amount of people to send and receive bitcoin instantly for extremely low fees, and it can handle hundreds of millions of transactions per second. [Click here to see a list of the top 100 assets by market cap.](https://8marketcap.com/) Gold is #1 with a market cap of $11 trillion and bitcoin is #8 with a market cap of $1 trillion. Almost all of that value sitting in gold being inefficiently stored and guarded in vaults can more easily and efficiently be stored on the bitcoin blockchain and more people will continue to realize this as bitcoin continues to remain at the second stage of the evolution of money which is a store of value.
+
+    [This bar graph](https://i.redd.it/wv4bfba5p4h61.jpg) shows the energy expenditure and yearly cost of gold mining and bitcoin mining.
+
+    This isn't the second millennium anymore and we have better technology now. Gold is just too inefficient and bad for the environment for people to be using as a store of value anymore and if we stopped doing that then the price would come down to it's true value and it would be extremely cheap for the minuscule amount that we do use in electronics, thus lowering the price of electronics. Gold is shiny and makes pretty jewelry and also makes great corrosion resistant semiconductors. It's difficult and expensive to transport and it requires equipment to reliably test it's authenticity. It's also difficult and expensive to adequately guard and protect. All of the value of gold could sit on the blockchain instead of sitting in a vault being guarded and it also wouldn't need to be transported in a jet in order to transfer it to someone.
+
+    Bitcoin's blockchain is layer 1 and is used for large payments/settlements/transactions and the lightning network is bitcoin's layer 2 and is used for smaller instant payments/transactions. People are transferring $500M+ worth of bitcoin, half the time over a $billion worth of bitcoin, [in every single block](https://blockchair.com/bitcoin/blocks), all day, every day. The lightning network can handle an unlimited amount of users and hundreds of millions of transactions per second which is magnitudes more transactions than visa/mastercard can handle. 
+
+    **Money always evolves in the following four stages:**
+
+    **1. Collectible:** In the very first stage of its evolution, money will be demanded solely based on its peculiar properties, usually becoming a whimsy of its possessor. Shells, beads, and gold were all collectibles before later transitioning to the more familiar roles of money.
+
+    **2. Store of value:** Once it is demanded by enough people for its peculiarities, money will be recognized as a means of keeping and storing value over time. As a good becomes more widely recognized as a suitable store of value, its purchasing power will rise as more people demand it for this purpose. The purchasing power of a store of value will eventually plateau when it is widely held and the influx of new people desiring it as a store of value dwindles.
+
+    **3. Medium of exchange:** When money is fully established as a store of value, its purchasing power will stabilize. Having stabilized in purchasing power, the opportunity cost of using money to complete trades will diminish to a level where it is suitable for use as a medium of exchange. In the earliest days of Bitcoin, many people did not appreciate the huge opportunity cost of using bitcoins as a medium of exchange, rather than as an incipient store of value. The famous story of a man trading 10,000 bitcoins for two pizzas illustrates this confusion.
+
+    **4. Unit of account:** When money is widely used as a medium of exchange, goods will be priced in terms of it. That is, the exchange ratio against money will be available for most goods. It is a common misconception that bitcoin prices are available for many goods today. For example, while a cup of coffee might be available for purchase using bitcoins, the price listed is not a true bitcoin price; rather it is the dollar price desired by the merchant translated into bitcoin terms at the current USD/BTC market exchange rate. If the price of bitcoin were to drop in dollar terms, the number of bitcoins requested by the merchant would increase commensurately. Only when merchants are willing to accept bitcoins for payment without regard to the bitcoin exchange rate against fiat currencies can we truly think of Bitcoin as having become a unit of account.
+
+    .
+
+Bitcoin mining is voluntary and bitcoin miners only mine bitcoin to make a profit and they turn off their miners when it's no longer profitable for them to mine. Bitcoin mining will use substantially less electricity by summer of 2032 because the block reward will be just 0.78125 BTC and the mining difficulty adjusts every 2016 blocks which is approximately two weeks. This is just a small part of [bitcoin protocol rules](https://en.bitcoin.it/wiki/Protocol_rules) that Satoshi created.
+
+In 2019, [the bitcoin network was getting 74.1% of its electricity from renewables](https://www.vox.com/2019/6/18/18642645/bitcoin-energy-price-renewable-china), making it “more renewables-driven than almost every other large-scale industry in the world.” In 2021, it will be using even more renewables and that only increases with time.
+
+[Here's a full report on bitcoin mining that was done in 2019](https://coinshares.com/research/bitcoin-mining-network-december-2019), one year before mining started in Mongolia in 2020 which was banned this year.
+
+There was a Cambridge study done on bitcoin mining in 2020 but 2020 is exactly when bitcoin miners set up shop in the Mongolian region of China and started using electricity generated from coal but that only lasted less than a year because the [Chinese government has now banned bitcoin mining in that region of China and they also banned mining bitcoin with dirty energy](https://www.coindesk.com/inner-mongolia-to-shut-down-crypto-mining-industry-report) and now bitcoin can be mined with mainly clean renewable energy once again like it previously was.
+
+Dirty energy just can't compete with clean renewable energy like [hydroelectric power which they get as low as 1 cent a kilowatt hour.](https://news.bitcoin.com/1-cent-per-kilowatt-hour-chinas-sichuan-province-encourages-hydro-powered-bitcoin-mining) 
+
+Hydroelectric dams even create a large excess of electricity that otherwise goes to waste and [that waste is now used to mine bitcoin.](https://www.coindesk.com/chinese-city-known-for-bitcoin-mining-seeks-blockchain-firms-to-burn-excess-hydropower) 
+
+Bitcoin is also [mined with energy created from gasses that are otherwise flared off or vented directly into the earth's atmosphere.](https://oilmanmagazine.com/how-and-why-natural-gas-flaring-is-being-used-to-mine-bitcoin/) 
+
+Here's another article about [bitcoin mining using the electricity that would've been wasted.](https://news.bitcoin.com/how-big-hydro-power-partners-with-bitcoin-miners-to-prevent-energy-waste/)
+
+Furthermore, [proof of work is efficient](https://www.danheld.com/blog/2019/1/5/pow-is-efficent)
+
+Perhaps we should worry about video games or youtube because [video games and youtube use more electricity than bitcoin](https://i.redd.it/ncmwuesezrg61.jpg) and we all know that's residential electricity so most of that energy doesn't come from renewable resources. Humans really need to generate more renewable energy and rely less on dirty energy. I'm glad that [large scale bitcoin mining is driving clean energy innovation](https://www.nasdaq.com/articles/how-large-scale-bitcoin-mining-is-driving-clean-energy-innovation-2021-01-06) because the world really needs it at this time, much like we needed scarce tokenized derivative of inflation and corruption that's kept honest and secure by it's own decentralized ledger of value that can't be forged or hacked, that is, before Satoshi created bitcoin for us.
+
+Bitcoin is currently at the second stage of the evolution of money which is a store of value. Gold is currently the #1 largest asset on earth by market cap because it's used by humans as a store of value and it has been for centuries. Bitcoin is a better store of value than gold and it's much easier send, protect, and hide and it's also more scarce than gold. Gold mining and transporting gold are both far worse for the environment than mining bitcoin and transporting bitcoin. Gold mining emits more than three times the co2 emissions than bitcoin mining. Bitcoin is more scarce than gold and bitcoin can also be used for payments and as currency and the lightning network allows an unlimited amount of people to send and receive bitcoin instantly for extremely low fees, and it can handle hundreds of millions of transactions per second which is magnitudes more transactions than visa/mastercard can handle. [Click here to see a list of the top 100 assets by market cap.](https://8marketcap.com/) Gold is #1 with a market cap of $11 trillion and bitcoin is #8 with a market cap of $1 trillion. Almost all of that value sitting in gold being inefficiently stored and guarded in vaults can more easily and efficiently be stored on the bitcoin blockchain and more people will continue to realize this as bitcoin continues to remain at the second stage of the evolution of money which is a store of value.
+
+[This bar graph](https://i.redd.it/wv4bfba5p4h61.jpg) shows the energy expenditure and yearly cost of gold mining and bitcoin mining.
+
+This isn't the second millennium anymore and we have better technology now. Gold is just too inefficient and bad for the environment for people to be using as a store of value anymore and if we stopped doing that then the price would come down to it's true value and it would be extremely cheap for the minuscule amount that we do use in electronics, thus lowering the price of electronics. Gold is shiny and makes pretty jewelry and also makes great corrosion resistant semiconductors. It's difficult and expensive to transport and it requires equipment to reliably test it's authenticity. It's also difficult and expensive to adequately guard and protect. All of the value of gold could sit on the blockchain instead of sitting in a vault being guarded and it also wouldn't need to be transported in a jet in order to transfer it to someone.
+
+Bitcoin's blockchain is layer 1 and is used for large payments/settlements/transactions and the lightning network is bitcoin's layer 2 and is used for smaller instant payments/transactions. People are transferring $500M+ worth of bitcoin, half the time over a $billion worth of bitcoin, [in every single block](https://blockchair.com/bitcoin/blocks), all day, every day. The lightning network can handle an unlimited amount of users and hundreds of millions of transactions per second which is magnitudes more transactions than visa/mastercard can handle. 
+
+**Money always evolves in the following four stages:**
+
+**1. Collectible:** In the very first stage of its evolution, money will be demanded solely based on its peculiar properties, usually becoming a whimsy of its possessor. Shells, beads, and gold were all collectibles before later transitioning to the more familiar roles of money.
+
+**2. Store of value:** Once it is demanded by enough people for its peculiarities, money will be recognized as a means of keeping and storing value over time. As a good becomes more widely recognized as a suitable store of value, its purchasing power will rise as more people demand it for this purpose. The purchasing power of a store of value will eventually plateau when it is widely held and the influx of new people desiring it as a store of value dwindles.
+
+**3. Medium of exchange:** When money is fully established as a store of value, its purchasing power will stabilize. Having stabilized in purchasing power, the opportunity cost of using money to complete trades will diminish to a level where it is suitable for use as a medium of exchange. In the earliest days of Bitcoin, many people did not appreciate the huge opportunity cost of using bitcoins as a medium of exchange, rather than as an incipient store of value. The famous story of a man trading 10,000 bitcoins for two pizzas illustrates this confusion.
+
+**4. Unit of account:** When money is widely used as a medium of exchange, goods will be priced in terms of it. That is, the exchange ratio against money will be available for most goods. It is a common misconception that bitcoin prices are available for many goods today. For example, while a cup of coffee might be available for purchase using bitcoins, the price listed is not a true bitcoin price; rather it is the dollar price desired by the merchant translated into bitcoin terms at the current USD/BTC market exchange rate. If the price of bitcoin were to drop in dollar terms, the number of bitcoins requested by the merchant would increase commensurately. Only when merchants are willing to accept bitcoins for payment without regard to the bitcoin exchange rate against fiat currencies can we truly think of Bitcoin as having become a unit of account.",2021-03-19
+42,#1 holder of Bitcoin!,15,m7vd7v,https://www.reddit.com/r/Bitcoin/comments/m7vd7v/1_holder_of_bitcoin/,6,2021-03-19 00:59:36,"Remember we the people hold more BTC than any one person, corporation, fund, exchange or bank.
+Never forget the power of sticking together.",2021-03-19
+43,Time to get back to some of the OG meme roots,1835,m71eoe,https://i.redd.it/ztfp0vkckln61.jpg,113,2021-03-17 22:17:25,,2021-03-17
+44,Anthony Pompliano on Andrew Schulz Flagrant 2 Podcast Talking About Bitcoin and Crypto for 2.5 hours,10,m7xdsp,https://youtu.be/GGV7hVjbYR8,4,2021-03-19 02:27:34,,2021-03-19
+45,Morgan Stanley to Offer Rich Clients Access to Bitcoin Funds,5,m803li,https://www.bloomberg.com/news/articles/2021-03-17/morgan-stanley-to-offer-rich-clients-access-to-bitcoin-funds?srnd=cryptocurrencies&utm_medium=email&_hsmi=116534334&utm_content=116534334&utm_source=hs_email,1,2021-03-19 04:37:33,,2021-03-19
+46,"""Talking about inflation is one thing, actually having inflation run above 2% is the real thing,"" says Jerome Powell",42,m7ng41,https://twitter.com/economics/status/1372259372622045186,25,2021-03-18 17:54:26,,2021-03-18
+47,Visa Plans to Enable Bitcoin Payments at 70 Million Merchants,337,m7coi4,https://www.btctimes.com/news/visa-plans-to-enable-bitcoin-purchases,62,2021-03-18 06:38:29,,2021-03-18
+48,i’m proud of you,54,m7mir7,https://www.reddit.com/r/Bitcoin/comments/m7mir7/im_proud_of_you/,15,2021-03-18 16:42:39,"today, i was excitedly explaining stacking a small portion of my paycheck towards bitcoin. 
+
+it made me really happy, even though it was just $50... but my husband grabbed my hand and told me he was proud of me. it made me feel special. 
+
+so, i wanted to tell all of you stacking those satoshi’s, that i am proud you. every bit is important, no matter how small, keep it up!",2021-03-18
+49,I'm confused,4,m82jjb,https://www.reddit.com/r/Bitcoin/comments/m82jjb/im_confused/,25,2021-03-19 06:30:53,"Bitcoin gains value as the fed prints more fiat. As the dollar weakens and eventually causes a financial collapse, my understanding, based on some ideas on this page, is that bitcoin will then lose value.  If the stock market were to crash, say, worse than 08'...a real depression with mass unemployment, what would happen to the bitcoin market? I'm thinking it goes way down because the demand will go way down. Then what?  It slowly goes up, but faster than other assets?  This is a very real scenario to contemplate. I'm obviously no economist, but it seems to me that the world economy is tipping over. 
+
+Thanks.",2021-03-19

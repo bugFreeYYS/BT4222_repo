@@ -1,0 +1,1443 @@
+,comment_id,comment_parent_id,comment_body,comment_link_id,created,date
+44,gpgts77,t3_lm6nmk,I read somewhere on twitter that some exchange rejected the incoming transaction because of using using Coinswap.,t3_lm6nmk,2021-03-03 06:21:59,2021-03-03
+49,gpgtoc6,t3_lm6nmk,This is bearish for bitcoin. FED wont let this happen,t3_lm6nmk,2021-03-03 06:21:09,2021-03-03
+54,gpgtl80,t1_gov3gjd,You mean confirmation bias?,t3_lm6nmk,2021-03-03 06:20:28,2021-03-03
+79,gph0q5a,t1_gp9cpj0,I don't think so. It is improving bitcoin's privacy to hopefully be as private as cash. People have been using cash for hundreds of years.,t3_lm6nmk,2021-03-03 07:18:02,2021-03-03
+80,gpfxg54,t1_gpel4q1,"Good question. I've written about it previously here:
+
+https://gist.github.com/chris-belcher/9144bd57a91c194e332fb5ca371d0964#how-are-coinswap-and-lightning-network-different
+
+The gist is that CoinSwap is fundamentally an on-chain technology while Lightning is off-chain. Bitcoin needs on-chain privacy as well, otherwise the bad privacy can leak into layer-2 solutions. That also means CoinSwap is better for larger amounts while LN is better for smaller amounts. Also CoinSwap is likely to have stronger sybil resistance than LN.",t3_lm6nmk,2021-03-03 02:29:51,2021-03-03
+81,gpgzmk6,t1_gpgts77,"You're thinking of this? https://twitter.com/Marty_P_B/status/1366737347887456260
+
+That was CoinJoin not CoinSwap. And yes I agree it bad, hopefully CoinSwap will be much harder to block because its very un-obvious that a given transaction is or isnt a CoinSwap. CoinJoin's by contrast as much more obvious, and so surveillance companies easily detect them and rate them as ""higher risk"".",t3_lm6nmk,2021-03-03 07:08:54,2021-03-03
+87,gpgz3bz,t1_gpgtoc6,The Fed doesn't control bitcoin.,t3_lm6nmk,2021-03-03 07:04:28,2021-03-03
+110,gph2h1u,t1_gpgz3bz,Bitcoin regulation could smash bitcoin,t3_lm6nmk,2021-03-03 07:32:49,2021-03-03
+124,gph2nen,t1_gph2h1u,"In plenty of places Bitcoin centralized exchanges are already banned or heavily controlled, for example China and Nigeria. You can always use p2p exchanges to trade and I've always advocated that: https://github.com/cointastical/P2P-Trading-Exchanges/ Nigera for example only succeeded in pushing most bitcoin trading to OTC brokers where the government has even less control. Bitcoin has been designed from the ground up to be hard to ban, it will take more than the stroke of a government pen in order to get rid of it. This isn't Napster.",t3_lm6nmk,2021-03-03 07:34:19,2021-03-03
+131,gphhfcg,t1_gph2nen,Comparing US to Nigera is a little bit of a weak argument. I own bitcoin. I come here to listen to both sides but this type of maximalist argument makes me think we're at the top.,t3_lm6nmk,2021-03-03 09:41:02,2021-03-03
+148,gpjfcvx,t3_lwtuhm,"*Yesterday //
+50,000 seemed so far away //
+Now it seems that we are here to stay //
+Yes I believe, in 50k //
+
+Suddenly //
+Bitcoin’s not half as high as it used to be //
+“Are we crashing back to 43?” //
+Yes yesterday, came suddenly.*",t3_lwtuhm,2021-03-03 22:59:17,2021-03-03
+154,gpjdthf,t3_lwtuhm,"My fellow Americans, this dip is on us. Stop selling you buffoons",t3_lwtuhm,2021-03-03 22:47:24,2021-03-03
+159,gpjbzmr,t3_lwtuhm,"Ppl be panicking when bitcoin is dropping, smh, it's still above 50k, chill!!! And HODL",t3_lwtuhm,2021-03-03 22:32:53,2021-03-03
+162,gpj59fx,t3_lwtuhm,Markets fading to red but Bitcoin holding strong. No better place for your money.,t3_lwtuhm,2021-03-03 21:33:52,2021-03-03
+166,gpjf39u,t3_lwtuhm,Remember last year when people speculated on what Bitcoin might be worth in 2021? Some said 35k. Some brave sould said 50k. Some of us bigbrains said 100k.,t3_lwtuhm,2021-03-03 22:57:13,2021-03-03
+175,gpj6qyc,t3_lwtuhm,Get your finger off that sell button America! Grow some fucking balls!,t3_lwtuhm,2021-03-03 21:47:46,2021-03-03
+179,gpj8v6v,t3_lwtuhm,I like bitcoin,t3_lwtuhm,2021-03-03 22:06:43,2021-03-03
+180,gpjdgwp,t3_lwtuhm,Bitcoin keeps crashing..... upwards. Don't tell Peter Schiff.,t3_lwtuhm,2021-03-03 22:44:41,2021-03-03
+181,gpj5ent,t3_lwtuhm,"I minted my first ever cold wallet this morning! No idea where I can hide it though, maybe I should buy a safe and start a gold chain stash for old men like Stan Pines.",t3_lwtuhm,2021-03-03 21:35:15,2021-03-03
+190,gpj7gt0,t3_lwtuhm,americans waking up and dumping? rip 52k,t3_lwtuhm,2021-03-03 21:54:21,2021-03-03
+201,gpj9wcq,t3_lwtuhm,"If it stays above 50 this week, I consider it a win",t3_lwtuhm,2021-03-03 22:15:36,2021-03-03
+202,gpj9aaa,t3_lwtuhm,"waking up to green
+
+that's cannabis and bitcoin",t3_lwtuhm,2021-03-03 22:10:21,2021-03-03
+203,gpj9pba,t3_lwtuhm,Still above 50k and still green on the day so far. Going good.,t3_lwtuhm,2021-03-03 22:13:56,2021-03-03
+209,gpj4y17,t3_lwtuhm,Today looks like a nice day for a ride on the boat.,t3_lwtuhm,2021-03-03 21:30:47,2021-03-03
+210,gpj5ak9,t3_lwtuhm,Always fun to wake up to this.,t3_lwtuhm,2021-03-03 21:34:09,2021-03-03
+218,gpj56ca,t3_lwtuhm,Watch out. Americans  r waking up.,t3_lwtuhm,2021-03-03 21:33:01,2021-03-03
+224,gpjchgz,t3_lwtuhm,"I put in 5k now I’m at 6k, does anything happen if I take out 1k or should I just leave it in?",t3_lwtuhm,2021-03-03 22:36:53,2021-03-03
+227,gpj5t9j,t3_lwtuhm,Petition to start the daily discussion thread earlier in the day... it’s already 5pm where I am by the time this starts,t3_lwtuhm,2021-03-03 21:39:06,2021-03-03
+228,gpj85jd,t3_lwtuhm,65k by the end of the month? I think that’s a reasonable goal,t3_lwtuhm,2021-03-03 22:00:23,2021-03-03
+229,gpj532p,t3_lwtuhm,"Hi guys, I am looking to start buying bitcoin and I have a question with earning interest.
+
+Basically, how do I start earning interest with Btc? I am looking to hold for a very long time...
+
+Thank you",t3_lwtuhm,2021-03-03 21:32:09,2021-03-03
+230,gpj7anh,t3_lwtuhm,Burgers love to sell,t3_lwtuhm,2021-03-03 21:52:47,2021-03-03
+231,gpjd7hc,t3_lwtuhm,Silly americans selling their coins for sats on the bitcoin,t3_lwtuhm,2021-03-03 22:42:38,2021-03-03
+238,gpj8t4s,t3_lwtuhm,"Got to love waking up to some awesomeness, then having it nosedive immediately 😂",t3_lwtuhm,2021-03-03 22:06:12,2021-03-03
+240,gpj6mk4,t3_lwtuhm,"“Bitcoins on its way up again, better sell”. 
+
+(Some people)",t3_lwtuhm,2021-03-03 21:46:41,2021-03-03
+241,gpj86ys,t3_lwtuhm,But the media said mother of all bubbles! The bubble mother marches on,t3_lwtuhm,2021-03-03 22:00:44,2021-03-03
+245,gpj4p0z,t3_lwtuhm,Big day for Bitcoin.,t3_lwtuhm,2021-03-03 21:28:24,2021-03-03
+246,gpjcl2a,t3_lwtuhm,Looks like it’s gonna float at 51k for a bit. Where it goes after no one knows.,t3_lwtuhm,2021-03-03 22:37:42,2021-03-03
+251,gpjecvl,t3_lwtuhm,Why are people panicking about $1000 swings? It's nothing at this point. It's like $100 swings a year ago.,t3_lwtuhm,2021-03-03 22:51:33,2021-03-03
+253,gpj5vbu,t3_lwtuhm,No changes to UK capital gains tax in the budget - other than the current annual allowance being frozen for the next few years.,t3_lwtuhm,2021-03-03 21:39:38,2021-03-03
+257,gpj4me2,t3_lwtuhm,Pole position.,t3_lwtuhm,2021-03-03 21:27:43,2021-03-03
+258,gpj5pch,t3_lwtuhm,Sorry I bought at 52500 that’s why it topped.,t3_lwtuhm,2021-03-03 21:38:05,2021-03-03
+259,gpj8b7z,t3_lwtuhm,"Well, well, well.
+
+Good morning everyone.",t3_lwtuhm,2021-03-03 22:01:47,2021-03-03
+260,gpjan9n,t3_lwtuhm,I think I'm starting to notice a pattern of bitcoin dipping before the stock market opens,t3_lwtuhm,2021-03-03 22:21:54,2021-03-03
+261,gpj83fd,t3_lwtuhm,Remember buy high and sell low. This is the way,t3_lwtuhm,2021-03-03 21:59:53,2021-03-03
+271,gpjceh9,t3_lwtuhm,"Sovryn / SOV making big waves; coindesk.com article: Bitcoin-Based DeFi Protocol Sovryn Raises $10M, Offers $1.2M Bug Bounty.
+
+[https://www.coindesk.com/bitcoin-based-defi-protocol-sovryn-raises-10m-offers-1-2m-bug-bounty](https://www.coindesk.com/bitcoin-based-defi-protocol-sovryn-raises-10m-offers-1-2m-bug-bounty)",t3_lwtuhm,2021-03-03 22:36:13,2021-03-03
+274,gpj4oq6,t3_lwtuhm,2nd,t3_lwtuhm,2021-03-03 21:28:20,2021-03-03
+275,gpj9a0c,t3_lwtuhm,I'm stuck in limbo of when to buy some and idk if that's a good or bad thing.,t3_lwtuhm,2021-03-03 22:10:16,2021-03-03
+276,gpjayap,t3_lwtuhm,Buy the diznip,t3_lwtuhm,2021-03-03 22:24:27,2021-03-03
+284,gpj7ea0,t3_lwtuhm,Sell sell sell so it dips and they i buyyyyyy,t3_lwtuhm,2021-03-03 21:53:43,2021-03-03
+285,gpjbngn,t3_lwtuhm,"Waking up to green
+
+
+Still missed class cause I stayed up too late watching Bitcoin, but it’s whatever.",t3_lwtuhm,2021-03-03 22:30:05,2021-03-03
+286,gpje5dj,t3_lwtuhm,Is anyone else here expecting a similar pattern to happen ? (the slope from jan 14 to feb 1st),t3_lwtuhm,2021-03-03 22:49:58,2021-03-03
+288,gpj9p9v,t3_lwtuhm,paper hands,t3_lwtuhm,2021-03-03 22:13:56,2021-03-03
+292,gpjbtat,t3_lwtuhm,So basically what we have now is a bunch of people who think this thing is going to just keep going straight up forever and ever with no corrections or people taking profit. Follow the trail of tears.,t3_lwtuhm,2021-03-03 22:31:24,2021-03-03
+294,gpj5ab8,t3_lwtuhm,Top 10,t3_lwtuhm,2021-03-03 21:34:05,2021-03-03
+295,gpjahmu,t3_lwtuhm,Wwaaaaaahhhhhh it is crashing down. Wwaaahhhhh. Again!!!!!,t3_lwtuhm,2021-03-03 22:20:34,2021-03-03
+296,gpjd2sy,t3_lwtuhm,Lots of horny people in this thread,t3_lwtuhm,2021-03-03 22:41:36,2021-03-03
+324,gpjfami,t1_gpjdthf,I'm a reddit noob and this award is fucking majestic,t3_lwtuhm,2021-03-03 22:58:47,2021-03-03
+358,gpjboyb,t1_gpj6qyc,There are multiple reasons I'm embarrassed for my country and this is close to the top of the list.,t3_lwtuhm,2021-03-03 22:30:25,2021-03-03
+363,gpjdv25,t1_gpjdgwp,"[This dude on twitter](https://twitter.com/macromule/status/1366840685962223616) wrote a trading algorithm that buys btc every time Peter tweets about bitcoin and sells it 72 hours later and it achieved an annualized return of 1000% lol
+
+Edit: Oh shit! Schiff [just tweeted about bitcoin](https://mobile.twitter.com/PeterSchiff/status/1367106640256892932)! You know what [that means](https://pbs.twimg.com/media/Evf8zqxUcAMM_qo?format=jpg&name=medium) 😃",t3_lwtuhm,2021-03-03 22:47:44,2021-03-03
+364,gpj6d0e,t1_gpj5ent,What'd you go with?,t3_lwtuhm,2021-03-03 21:44:15,2021-03-03
+387,gpj9tlt,t1_gpj9pba,"Lol the day just started 😂 
+
+Here’s to hoping we stay above 50K",t3_lwtuhm,2021-03-03 22:14:57,2021-03-03
+391,gpj54r4,t1_gpj4y17,"Be careful, don't drop your private key.",t3_lwtuhm,2021-03-03 21:32:36,2021-03-03
+414,gpj7dgw,t1_gpj56ca,Probably Hedge Algos trading on technicals. Most people I know in the US just hold - obviously anecdotal,t3_lwtuhm,2021-03-03 21:53:30,2021-03-03
+415,gpj6ex5,t1_gpj56ca,"""Y'all think it's a good tahm to sell mah hard currency to get me more o'dem worthless greenbacks? Don't mind if ah do.""
+
+Seems like atm us Eurasians pump it for those yankee doodles to dump. I blame the influx of noob paper hands from WSB.",t3_lwtuhm,2021-03-03 21:44:44,2021-03-03
+419,gpjdlq7,t1_gpjchgz,Lol hold for ever jesus,t3_lwtuhm,2021-03-03 22:45:44,2021-03-03
+420,gpjcqs2,t1_gpjchgz,You will lose 1/6th of your btc.,t3_lwtuhm,2021-03-03 22:38:58,2021-03-03
+421,gpjd2qc,t1_gpjchgz,You'll lose 1/6th of your BTC *and* (at least in the US) you'll need to pay taxes on your gains.,t3_lwtuhm,2021-03-03 22:41:35,2021-03-03
+422,gpjd7i3,t1_gpjchgz,"Yeah, the bitcoin gremlins come and rip your dick off. Don't worry about it and leave it alone. You understand me?",t3_lwtuhm,2021-03-03 22:42:38,2021-03-03
+423,gpjd074,t1_gpjchgz,"> does anything happen if I take out 1k
+
+A wild pigeon will chase and attack you",t3_lwtuhm,2021-03-03 22:41:02,2021-03-03
+424,gpjctj5,t1_gpjchgz,You can take the profit out wait for a dip and buy in again,t3_lwtuhm,2021-03-03 22:39:35,2021-03-03
+431,gpj5yhh,t1_gpj532p,Just hold it. Staking for interest puts it at risk. Period. That is it. Don't fucking do it,t3_lwtuhm,2021-03-03 21:40:29,2021-03-03
+432,gpj6pjs,t1_gpj532p,Blockfi is great!,t3_lwtuhm,2021-03-03 21:47:25,2021-03-03
+433,gpjdhf9,t1_gpjd7hc,Burger King must be payed.,t3_lwtuhm,2021-03-03 22:44:48,2021-03-03
+445,gpj4ss1,t1_gpj4p0z,"And thus, the world.",t3_lwtuhm,2021-03-03 21:29:26,2021-03-03
+447,gpjcsbs,t1_gpjcl2a,How about you baby? Where you going after?,t3_lwtuhm,2021-03-03 22:39:19,2021-03-03
+452,gpj96gn,t1_gpj5vbu,"Bit harsh calling people scroungers who need financial support and  benefits, no? Especially given current state of the world! I'd rather go after the billionaires and corporations who spend millions on tax evasion accountants to get out of paying billions! Now, they ARE scum bags! :D",t3_lwtuhm,2021-03-03 22:09:26,2021-03-03
+462,gpj6g2f,t1_gpj5pch,Same :) Lets stay strong and hodl bro!,t3_lwtuhm,2021-03-03 21:45:01,2021-03-03
+463,gpj6k3q,t1_gpj5pch,Buy when it’s up - make money. Buy when it’s down - make money.,t3_lwtuhm,2021-03-03 21:46:03,2021-03-03
+464,gpj6rht,t1_gpj5pch,US markets tanking again. Will try to take BTC down with it.,t3_lwtuhm,2021-03-03 21:47:55,2021-03-03
+465,gpj9whg,t1_gpj5pch,I know that feel bro.,t3_lwtuhm,2021-03-03 22:15:38,2021-03-03
+466,gpj972w,t1_gpj8b7z,It was looking good. An hour ago.,t3_lwtuhm,2021-03-03 22:09:35,2021-03-03
+485,gpja16l,t1_gpj9a0c,Buy now and you will go from being stuck in limbo to being stuck in Lambo.,t3_lwtuhm,2021-03-03 22:16:43,2021-03-03
+505,gpj8cjs,t1_gpj7ea0,Am waiting for it to go under €40k again for my next purchase but it’s still annoying.,t3_lwtuhm,2021-03-03 22:02:07,2021-03-03
+506,gpjcvcw,t1_gpjbngn,">Still missed class cause I stayed up too late watching Bitcoin, but it’s whatever.
+
+stupid man",t3_lwtuhm,2021-03-03 22:39:58,2021-03-03
+523,gpjc9i3,t1_gpjbtat,we just came off the back of a correction. are you saying it wasn't deep enough?,t3_lwtuhm,2021-03-03 22:35:07,2021-03-03
+524,gpjc7ch,t1_gpjbtat,"The corn always rises🍿
+
+Honestly though, I'm holding long term and I'm taking some of my unspent transaction outputs to my grave. I don't even have an exchange account yet and I wont have one for at least 5 more years.",t3_lwtuhm,2021-03-03 22:34:39,2021-03-03
+535,gpjap3b,t1_gpjahmu,Hope it crashes to 20k so i can buy some,t3_lwtuhm,2021-03-03 22:22:19,2021-03-03
+537,gpjden5,t1_gpjd2sy,You misspelled hodly.,t3_lwtuhm,2021-03-03 22:44:12,2021-03-03
+577,gpjcyy6,t1_gpjboyb,Really? Doesn't even make the top hundred for me.,t3_lwtuhm,2021-03-03 22:40:45,2021-03-03
+581,gpj9oto,t1_gpj6d0e,Cryptotag!,t3_lwtuhm,2021-03-03 22:13:49,2021-03-03
+589,gpj9ygr,t1_gpj9tlt,3/4 of the day already done. We live in the future my friend.,t3_lwtuhm,2021-03-03 22:16:05,2021-03-03
+591,gpjapn7,t1_gpj9tlt,What do you mean. The day’s just ending here. Ending on a high.,t3_lwtuhm,2021-03-03 22:22:27,2021-03-03
+594,gpj5cut,t1_gpj54r4,"Buy the coin don’t sell the coin baby
+
+Buy the coin don’t FUD yourself over",t3_lwtuhm,2021-03-03 21:34:46,2021-03-03
+602,gpj7oo7,t1_gpj6ex5,I just like how all the Americans selling are Southern gentlemen judging by that accent.,t3_lwtuhm,2021-03-03 21:56:17,2021-03-03
+605,gpjfanc,t1_gpjd074,the shame will never leave you,t3_lwtuhm,2021-03-03 22:58:47,2021-03-03
+613,gpjdey4,t1_gpj6pjs,NYKNYC,t3_lwtuhm,2021-03-03 22:44:15,2021-03-03
+614,gpjf6we,t1_gpjdhf9,"Pfft, real hodlers starve! I havent eaten since 2013",t3_lwtuhm,2021-03-03 22:58:00,2021-03-03
+624,gpj9hnx,t1_gpj6k3q,This is the way,t3_lwtuhm,2021-03-03 22:12:07,2021-03-03
+625,gpjaohk,t1_gpj972w,Still looking a lot better than when I went to bed.,t3_lwtuhm,2021-03-03 22:22:11,2021-03-03
+629,gpja50p,t1_gpja16l,Or in bimbo.,t3_lwtuhm,2021-03-03 22:17:37,2021-03-03
+630,gpjc37b,t1_gpja16l,Ive come to the conclusion that if you're planning to HODL then it doesn't really matter when you buy in..,t3_lwtuhm,2021-03-03 22:33:42,2021-03-03
+633,gpjcrth,t1_gpj8cjs,Are you in bitcoin for the short term or the long term? Because one day you’re gonna be saying I am waiting for it to go under 400 K before buying some more. If your long-term just DCA the shit out of it,t3_lwtuhm,2021-03-03 22:39:12,2021-03-03
+634,gpjczeu,t1_gpjcvcw,"Eh, I’ll be alright",t3_lwtuhm,2021-03-03 22:40:51,2021-03-03
+638,gpjd0pf,t1_gpjc9i3,I bet you're deep enough baby,t3_lwtuhm,2021-03-03 22:41:08,2021-03-03
+644,gpjb4gh,t1_gpjap3b,Lol have fun waiting for eternity,t3_lwtuhm,2021-03-03 22:25:50,2021-03-03
+668,gpjagxt,t1_gpj7oo7,"Damn right it’s them yokels.
+
+My Yankee ass ain’t selling shit.",t3_lwtuhm,2021-03-03 22:20:24,2021-03-03
+670,gpjfef3,t1_gpjf6we,I am talking to the fatties here. I am eating fries but the poor version without potatoes. So i can HODL even longer.,t3_lwtuhm,2021-03-03 22:59:36,2021-03-03
+675,gpjby47,t1_gpjaohk,"It seems to be a trend where the moment I wake up and check $BTC, it starts to drop haha. I should stop looking.",t3_lwtuhm,2021-03-03 22:32:32,2021-03-03
+679,gpjbqlw,t1_gpja50p,I like both of these outcomes,t3_lwtuhm,2021-03-03 22:30:48,2021-03-03
+680,gpjd86q,t1_gpjcrth,"In it for the long term- hodling since Jan ‘18 without spending a sat - but when I only have a limited amount to throw in, like today, I wait for a slump. I knew the green candles were unsustainable and would stop today once the US woke up so held off on my purchase. Why not squeeze a few more sats out of the deal?",t3_lwtuhm,2021-03-03 22:42:46,2021-03-03
+717,gpiwpn4,t3_lws3f0,"Oh so that's why Bitcoin is hitting 50K, then rolls back, then hits 50K again - in your face, again and again, Mr. Schiff.",t3_lws3f0,2021-03-03 19:57:48,2021-03-03
+718,gpizps9,t3_lws3f0,"Why do we care about this guy, again?",t3_lws3f0,2021-03-03 20:35:15,2021-03-03
+719,gpix3un,t3_lws3f0,"Never say never, unless it is to say never to never say never.",t3_lws3f0,2021-03-03 20:03:02,2021-03-03
+720,gpj1uav,t3_lws3f0,bitcoin is goin to ZERO! ZERO!!,t3_lws3f0,2021-03-03 20:59:17,2021-03-03
+721,gpiz322,t3_lws3f0,Stop giving him importance. He's done.,t3_lws3f0,2021-03-03 20:27:46,2021-03-03
+722,gpix5z3,t3_lws3f0,Never is less than two years by definition,t3_lws3f0,2021-03-03 20:03:49,2021-03-03
+723,gpj364t,t3_lws3f0,"Here's the thing. I listen to his podcast sometimes, he's a very intelligent guy, he's just old and stubborn and he's heavily invested in gold. If you have a lot of money in gold of course you don't want to see it replaced or supplemented with crypto. The biggest difference between gold and crypto as a hedge against inflation is that gold has historical precedent and crypto obviously doesn't. It could also be that Peter is publicly speaking against crypto while actually playing both gold and crypto. His firm does accept btc.",t3_lws3f0,2021-03-03 21:13:16,2021-03-03
+724,gpj2bfg,t3_lws3f0,Can someone tell me why this guy hates Bitcoin so much? It looks like it’s personal for him. Like a Bitcoin punched him in the face and kicked his dog.,t3_lws3f0,2021-03-03 21:04:21,2021-03-03
+725,gpj0m5p,t3_lws3f0,"Guys, do yourself a favor and *unfollow* Peter Schiff.   Nobody here gives a flying fuck what Peter Schiff said in the past or said earlier today.  He doesn't matter... Yet he somehow gets way more attention than he deserves.  For the love of all that is holy... please stop!",t3_lws3f0,2021-03-03 20:45:43,2021-03-03
+726,gpizy7x,t3_lws3f0,This guy has the most serious case of confirmation bias and cognitive dissonance that I have ever seen,t3_lws3f0,2021-03-03 20:38:00,2021-03-03
+728,gpj2bj3,t3_lws3f0,"He must feel so insecure. The industry he knows the most about (finance) is becoming something he knows nothing about, that must be scary.",t3_lws3f0,2021-03-03 21:04:23,2021-03-03
+729,gpj6adt,t3_lws3f0,The most interesting thing about this picture of Peter Shiff is the asshole-oriented horse statue,t3_lws3f0,2021-03-03 21:43:35,2021-03-03
+730,gpj574r,t3_lws3f0,"Poor 🍆. Must be hard watching Btc go to 100k as gold heads back down to 1550. He forgot to add that when it reaches 100k,its gold that's gona drop to 500 keeping its utilitarian value only. Why? Cos the gold bugs will be stampeding out from 60k >",t3_lws3f0,2021-03-03 21:33:13,2021-03-03
+731,gpj0drf,t3_lws3f0,Direct link to the tweet. https://twitter.com/PeterSchiff/status/1164150659282690048?s=20,t3_lws3f0,2021-03-03 20:42:59,2021-03-03
+732,gpj26au,t3_lws3f0,"Also, those jumping on the gold rocket last year Oktober see a 10 to 15% drop in value, that still hasn't recovered",t3_lws3f0,2021-03-03 21:02:50,2021-03-03
+733,gpj4pxg,t3_lws3f0,"In other news, a gold merchant shills his own product.",t3_lws3f0,2021-03-03 21:28:39,2021-03-03
+734,gpiy0hd,t3_lws3f0,Peter Schiff is like a fly buzzing in your ear.,t3_lws3f0,2021-03-03 20:14:36,2021-03-03
+735,gpj24j2,t3_lws3f0,This aged like a fine milk,t3_lws3f0,2021-03-03 21:02:19,2021-03-03
+736,gpj3paw,t3_lws3f0,"OMG ... he was wrong about bitcoin all along .... does that also mean he is wrong about everything else too? .... so he is wrong about gold? ...
+
+&#x200B;
+
+&#x200B;
+
+Well gold price seems high lol",t3_lws3f0,2021-03-03 21:18:39,2021-03-03
+737,gpj61yi,t3_lws3f0,A stopped clock is right twice a day. Peter Schill is right only once in 14 years.,t3_lws3f0,2021-03-03 21:41:23,2021-03-03
+738,gpj6lef,t3_lws3f0,Isn’t Peter schiff a character on family guy? Who is this person,t3_lws3f0,2021-03-03 21:46:23,2021-03-03
+739,gpj7jew,t3_lws3f0,Ive learned to ignore him. He knows hes not right. But attention pays him.,t3_lws3f0,2021-03-03 21:54:59,2021-03-03
+740,gpjaquj,t3_lws3f0,Schiffa Brains,t3_lws3f0,2021-03-03 22:22:44,2021-03-03
+742,gpiyhe2,t3_lws3f0,Peter Schiff is a laughing stock. He loves making a fool of himself repeatedly for some reason.,t3_lws3f0,2021-03-03 20:20:27,2021-03-03
+744,gpj0kzm,t3_lws3f0,"It was at this moment he knew, he fucked up",t3_lws3f0,2021-03-03 20:45:20,2021-03-03
+745,gpj8xrr,t3_lws3f0,"That horse is on a steady, slow walk to the glue factory.",t3_lws3f0,2021-03-03 22:07:20,2021-03-03
+746,gpjc3mc,t3_lws3f0,Why is this guy such a douchebag?,t3_lws3f0,2021-03-03 22:33:48,2021-03-03
+751,gpj0u0k,t3_lws3f0,"""ViewSonic"" - that says it all 😂",t3_lws3f0,2021-03-03 20:48:09,2021-03-03
+752,gpjd5zv,t3_lws3f0,"Gold is jewelery, not anything I would EVER CONSIDER AN INVESTMENT 😜 No serious investor will buy something that you need to extract from the ground with childwork, slavery loans, environmental distruction of landscapes, chemical cleaning and energy wasting - just to buy it and put it into a locked box. Gold has  besides jewelery, no economic value. Why the hell would anyone pay more for gold than for a bitcoin? Bitcoin enables global transaction, 247 stresstainment, is the basis of nearly all Altcoins, etc. You will be one bad “investor” to put you money in this no economic value thing called “gold”. Not to mention this King Midras, who can produce endless amounts of gold if he ever comes back. At least Satoshi cant change the code anymore...",t3_lws3f0,2021-03-03 22:42:17,2021-03-03
+753,gpiwo87,t3_lws3f0,"Unless it will, that is.",t3_lws3f0,2021-03-03 19:57:17,2021-03-03
+754,gpj0m59,t3_lws3f0,To be continued....,t3_lws3f0,2021-03-03 20:45:42,2021-03-03
+755,gpj14ob,t3_lws3f0,Too me moon! Sorry if you are 🛌,t3_lws3f0,2021-03-03 20:51:28,2021-03-03
+756,gpj14zd,t3_lws3f0,Never say never.,t3_lws3f0,2021-03-03 20:51:33,2021-03-03
+757,gpj2eaw,t3_lws3f0,Dickhead has been wrong about Bitcoin for so many years and has no shame,t3_lws3f0,2021-03-03 21:05:13,2021-03-03
+758,gpj2hgv,t3_lws3f0,"Wait til it hit 100, Peter. Just you wait.",t3_lws3f0,2021-03-03 21:06:09,2021-03-03
+759,gpj2l33,t3_lws3f0,Is that a horses ass next to his head ?,t3_lws3f0,2021-03-03 21:07:14,2021-03-03
+760,gpj2nya,t3_lws3f0,biggest fucking idiot in crypto.,t3_lws3f0,2021-03-03 21:08:04,2021-03-03
+761,gpj2q9n,t3_lws3f0,"...goodbye.
+
+No answers for the asking.
+
+It's a long time - goodbye.
+
+No mercy for the aching.
+
+The 90s have called and said it doesn't want Schiff back, though he still lives there.",t3_lws3f0,2021-03-03 21:08:45,2021-03-03
+762,gpj2ruz,t3_lws3f0,Cancel Peter Shit,t3_lws3f0,2021-03-03 21:09:13,2021-03-03
+763,gpj374j,t3_lws3f0,Can’t help but notice he has a horse behind him and not a bull.,t3_lws3f0,2021-03-03 21:13:33,2021-03-03
+764,gpj3ax9,t3_lws3f0,I just want to point out the horses ass...,t3_lws3f0,2021-03-03 21:14:35,2021-03-03
+765,gpj3kuz,t3_lws3f0,Peter always be saying some bs. Little too pessimistic.,t3_lws3f0,2021-03-03 21:17:23,2021-03-03
+766,gpj3pnf,t3_lws3f0,🤣,t3_lws3f0,2021-03-03 21:18:45,2021-03-03
+767,gpj3vuu,t3_lws3f0,Bitcoin is highly likely to go past 50k gold would never,t3_lws3f0,2021-03-03 21:20:31,2021-03-03
+768,gpj414a,t3_lws3f0,"You're doing it, Peter!",t3_lws3f0,2021-03-03 21:21:57,2021-03-03
+769,gpj45lq,t3_lws3f0,Schiff a Stooge,t3_lws3f0,2021-03-03 21:23:11,2021-03-03
+770,gpj5rpu,t3_lws3f0,didn't he correct himself already about this?,t3_lws3f0,2021-03-03 21:38:42,2021-03-03
+771,gpj5rwf,t3_lws3f0,Who the fuck is this guy and why does he hate bitcoin so much?,t3_lws3f0,2021-03-03 21:38:45,2021-03-03
+772,gpj5ty5,t3_lws3f0,I love good ole Peter Schiff. I just don’t understand why he’s so insistent on leveraging his entire career to proclaim bitcoin has and will have any real value,t3_lws3f0,2021-03-03 21:39:17,2021-03-03
+773,gpj6h4o,t3_lws3f0,end of 2021 about 100k i think :-) gold will never hit 10k,t3_lws3f0,2021-03-03 21:45:17,2021-03-03
+774,gpj6vie,t3_lws3f0,I doubt Gold will ever hit 5K unless we get hyperinflation. Its manipulated as hell.,t3_lws3f0,2021-03-03 21:48:54,2021-03-03
+775,gpj7v4s,t3_lws3f0,Bitcoin is swinging its Dick @ Peter Shit,t3_lws3f0,2021-03-03 21:57:51,2021-03-03
+776,gpj88fx,t3_lws3f0,Never say never,t3_lws3f0,2021-03-03 22:01:05,2021-03-03
+777,gpj8hr0,t3_lws3f0,"Stop making fun of the guy... Wait, on a second thought nah.",t3_lws3f0,2021-03-03 22:03:24,2021-03-03
+778,gpj96vn,t3_lws3f0,Man bitcoin will hit 100K no doubt,t3_lws3f0,2021-03-03 22:09:32,2021-03-03
+779,gpj993u,t3_lws3f0,Bitcoin is never hitting 50K after march 2021 is my prediction,t3_lws3f0,2021-03-03 22:10:04,2021-03-03
+780,gpj9mcc,t3_lws3f0,Someone get their grandpa off Twitter...,t3_lws3f0,2021-03-03 22:13:14,2021-03-03
+781,gpj9qkb,t3_lws3f0,"Schiff is a pathetic cuck who's getting owned in the market, it won't be long before Gold is back to the value it was a decade ago.",t3_lws3f0,2021-03-03 22:14:14,2021-03-03
+782,gpja6te,t3_lws3f0,Jokes on him. We hit 50k like 10 times.,t3_lws3f0,2021-03-03 22:18:03,2021-03-03
+783,gpja986,t3_lws3f0,Lmao. Douchebag,t3_lws3f0,2021-03-03 22:18:35,2021-03-03
+784,gpja9my,t3_lws3f0,ngl Imma miss the Over 9000 vegeta memes.,t3_lws3f0,2021-03-03 22:18:41,2021-03-03
+785,gpjam4q,t3_lws3f0,This guy's a huge dumass... I'm sorry but there is just no other way to characterize him.,t3_lws3f0,2021-03-03 22:21:38,2021-03-03
+786,gpjb2qx,t3_lws3f0,Love how Peter keeps making a dick out of himself. Doubt he cares at this point,t3_lws3f0,2021-03-03 22:25:27,2021-03-03
+787,gpjbmuc,t3_lws3f0,I had a large Schiff this morning,t3_lws3f0,2021-03-03 22:29:57,2021-03-03
+788,gpjbqud,t3_lws3f0,"I stand with Peter shiff
+
+Bitcoin is a bubble
+
+#silversqueeze",t3_lws3f0,2021-03-03 22:30:52,2021-03-03
+789,gpjbu9b,t3_lws3f0,A kilo of gold is more than enough to buy 1 btc at the moment,t3_lws3f0,2021-03-03 22:31:38,2021-03-03
+790,gpjbv47,t3_lws3f0,Lol that aged well...,t3_lws3f0,2021-03-03 22:31:50,2021-03-03
+791,gpjcl0o,t3_lws3f0,"he was right about ""eventually"" though",t3_lws3f0,2021-03-03 22:37:41,2021-03-03
+792,gpjcrme,t3_lws3f0,Did anyone else think this was a political compass meme at first?,t3_lws3f0,2021-03-03 22:39:10,2021-03-03
+793,gpjd0kz,t3_lws3f0,People are still salty about this?  It's obvious he has no understanding of this resource,t3_lws3f0,2021-03-03 22:41:06,2021-03-03
+794,gpjdpuj,t3_lws3f0,🚀🚀🚀,t3_lws3f0,2021-03-03 22:46:37,2021-03-03
+795,gpjf2sy,t3_lws3f0,"If there weren’t any people saying we can’t break $XX,XXX then we might not have.....",t3_lws3f0,2021-03-03 22:57:07,2021-03-03
+796,gpjf5kw,t3_lws3f0,Why does he care so much? Why not just go play with his gold and let us play with our [magic internet money](https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.substack.com%2Fimage%2Ffetch%2Fh_600%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep%2Fhttps%253A%252F%252Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%252Fpublic%252Fimages%252F24ede891-3c67-487b-9598-0c661fc2d228_1100x576.jpeg&imgrefurl=https%3A%2F%2Frhythmofbitcoin.substack.com%2Fp%2Fbitcoin-is-magic-internet-money&tbnid=x5QaiXrywQ5n4M&vet=12ahUKEwi0rpuAsZTvAhUC0KwKHTX2B7MQMygBegUIARCgAQ..i&docid=7r_APu0Oc8-xQM&w=1100&h=576&q=magic%20internet%20money&client=firefox-b-1-d&ved=2ahUKEwi0rpuAsZTvAhUC0KwKHTX2B7MQMygBegUIARCgAQ)?,t3_lws3f0,2021-03-03 22:57:43,2021-03-03
+797,gpjfabx,t3_lws3f0,Excellent shit post... err I mean Shiff post,t3_lws3f0,2021-03-03 22:58:43,2021-03-03
+906,gpj4lcf,t3_lws3f0,"he is literally the most ignorant, arrogant, blind investor ive ever seen on the net. Like i CANT believe ANYone listens to him anymore. I blocked him on twitter just so i see his face as Less as [possible.lol](https://possible.lol)...I feel so bad for his clients, that he kept on the wrong side of the trade on gold for 5 years, and then gold FINALLY started an uptrend and then he's like ""see i told you i was right""...What an idiot. I want to get him on my channel for a debate, so i can tear his credibility apart, and maybe ""save"" some of his clients from continuing to miss out on the greatest financial opportunity of our lifetimes.     (rant over)",t3_lws3f0,2021-03-03 21:27:26,2021-03-03
+907,gpj276s,t3_lws3f0,"The best ""flip flopper"" was Kevin O'Leary. 
+
+The guy has absolutely no credibility left. As little as two weeks ago he was bashing people on CNBC for owning BTC. 
+
+What a turd.",t3_lws3f0,2021-03-03 21:03:06,2021-03-03
+908,gpj8taw,t3_lws3f0,"My biggest worry is that not enough people go to his Twitter regularly, and tell him what a fucking Idiot he is. Do we have a group in place that does that? Do they take turns?",t3_lws3f0,2021-03-03 22:06:15,2021-03-03
+911,gpj5iws,t3_lws3f0,"That was a stupid ass prediction, but what Schiff says is not that Bitcoin is not going to valuate any further, but that ultimately, as any bubble, it will crash. Stock prices went up a lot during the .com bubble, that didn't mean it wasn't a bubble.",t3_lws3f0,2021-03-03 21:36:22,2021-03-03
+912,gpj9152,t3_lws3f0,"Bitcoin is fake currency, you are all morons",t3_lws3f0,2021-03-03 22:08:09,2021-03-03
+932,gpj0rva,t1_gpiwpn4,Dick slapping,t3_lws3f0,2021-03-03 20:47:31,2021-03-03
+933,gpj5iup,t1_gpiwpn4,lol i'm still waiting for gold to really break 2k. at least i'm diversified.,t3_lws3f0,2021-03-03 21:36:20,2021-03-03
+935,gpj2k48,t1_gpiwpn4,“Mr.”...? You’re awfully respectful to a guy that thinks you’re an idiot and basically constantly talks shit about you.,t3_lws3f0,2021-03-03 21:06:57,2021-03-03
+937,gpj8zq8,t1_gpiwpn4,eat this fat .04 BTC dick schiffy,t3_lws3f0,2021-03-03 22:07:48,2021-03-03
+939,gpj1y63,t1_gpiwpn4,Kinda like a mushroom stamp.,t3_lws3f0,2021-03-03 21:00:26,2021-03-03
+944,gpj5po3,t1_gpizps9,"Someone made an algorithm that buys whenever Petey kindly tweets. It yielded a 65% success rate on 200+ trades with an average return of 3%. 
+
+He's actually proven to be wrong on so many occasions that it is genuinely profitable to bet against him every single time he tweets. Fucking hilarious 😂",t3_lws3f0,2021-03-03 21:38:10,2021-03-03
+945,gpj1pwh,t1_gpizps9,"Basically when he tweets, buy more btc.",t3_lws3f0,2021-03-03 20:57:59,2021-03-03
+951,gpj57ty,t1_gpiz322,"No, he is the enemy we need. He is the best enemy we could wish for. Imagine someone that people would take seriously.",t3_lws3f0,2021-03-03 21:33:25,2021-03-03
+952,gpjabeq,t1_gpiz322,Memes are fun. Stop being a downer.,t3_lws3f0,2021-03-03 22:19:07,2021-03-03
+953,gpj4eln,t1_gpiz322,Exactly,t3_lws3f0,2021-03-03 21:25:37,2021-03-03
+954,gpj29rf,t1_gpiz322,Quickly becoming the Donald Trump of finance..,t3_lws3f0,2021-03-03 21:03:51,2021-03-03
+955,gpjcq9q,t1_gpiz322,"When Schiff tweets BTC goes up  
+When Elon tweets it could go either way",t3_lws3f0,2021-03-03 22:38:51,2021-03-03
+956,gpje5mu,t1_gpiz322,He is important for our entertainment and buy signals.,t3_lws3f0,2021-03-03 22:50:01,2021-03-03
+961,gpj3hpt,t1_gpj2bfg,His wealth is largely built on gold.,t3_lws3f0,2021-03-03 21:16:29,2021-03-03
+962,gpjfg63,t1_gpj2bfg,"A lot of people have this immediate reaction to talk shit about crypto. I am not entirely sure why. Maybe for a lot it's just anger that they didn't get in while it was ""low"" and to feel better about themselves they have to trash it.",t3_lws3f0,2021-03-03 22:59:59,2021-03-03
+964,gpj1goc,t1_gpj0m5p,"His arguments against government and fiat currency are all on point though. His hate of Bitcoin is logical for him because his business is built on gold. I personally like to diversify so I spend a bit on stocks(mid), metals(minimal) and BTC (most).",t3_lws3f0,2021-03-03 20:55:06,2021-03-03
+965,gpja4vc,t1_gpj0m5p,I think it’s just schadenfreude,t3_lws3f0,2021-03-03 22:17:35,2021-03-03
+966,gpjbhgb,t1_gpj0m5p,"Seriously, though.
+
+Dude's fucking cringey af when he tries to 'rebut' the solid nature of Bitcoin. I mean he's sooo fucking salty. Good grief.
+
+That said, make sure you follow his son. He's great. He regularly burns his dad on Twitter re: Bitcoin (he's a huge proponent himself)",t3_lws3f0,2021-03-03 22:28:46,2021-03-03
+969,gpj4qsr,t1_gpj2bj3,poor boomer,t3_lws3f0,2021-03-03 21:28:54,2021-03-03
+970,gpj93v3,t1_gpj6adt,Horse’s ass as my grandma used to say.,t3_lws3f0,2021-03-03 22:08:48,2021-03-03
+973,gpj6p57,t1_gpj0u0k,Prolly running at 720p with 200% DPI scaling after he asked his nephew how to make the fonts bigger,t3_lws3f0,2021-03-03 21:47:19,2021-03-03
+974,gpj6eh5,t1_gpj2l33,Which one is the head? I see two horse’s asses.,t3_lws3f0,2021-03-03 21:44:37,2021-03-03
+975,gpj78c7,t1_gpj6vie,At some point manipulation should just become baked in to the fabric of the market. It is what it is.,t3_lws3f0,2021-03-03 21:52:11,2021-03-03
+976,gpje862,t1_gpj9qkb,"He's just a really good paid shill with no morals but he is not getting owned.
+
+""Peter Schiff Net Worth: Peter Schiff is an American businessman, broker, author, and commentator who has a net worth of $70 million dollars.""",t3_lws3f0,2021-03-03 22:50:33,2021-03-03
+980,gpj36pm,t1_gpj276s,"O'Leary is such a clown. Yes zero credibility but he never really had any. He got lucky with one business deal in the whole education software keg party and then parlayed that into crappy ETFs, and a career as entertainer. Embarrassment to Canada.",t3_lws3f0,2021-03-03 21:13:26,2021-03-03
+981,gpj5avn,t1_gpj276s,And he even disclosed he has owned crypto since 2017 but didn't say anything because he was worried about regulators.,t3_lws3f0,2021-03-03 21:34:14,2021-03-03
+982,gpjansa,t1_gpj276s,dude he's the worst. isn't he notorious for structuring o e of the worst deals in corporate history,t3_lws3f0,2021-03-03 22:22:02,2021-03-03
+983,gpja6uq,t1_gpj5iws,"I will still doing the whole ""Bitcoin is a bubble"" thing?",t3_lws3f0,2021-03-03 22:18:03,2021-03-03
+986,gpj0vs3,t1_gpj0rva,Flop flop flop,t3_lws3f0,2021-03-03 20:48:42,2021-03-03
+988,gpjeq6b,t1_gpj0rva,Pow right in the kisser,t3_lws3f0,2021-03-03 22:54:26,2021-03-03
+993,gpj315d,t1_gpj2k48,"They go low, we go high and gentlemanly.",t3_lws3f0,2021-03-03 21:11:51,2021-03-03
+994,gpj3qcs,t1_gpj2k48,No reason to be a sore winner.,t3_lws3f0,2021-03-03 21:18:57,2021-03-03
+995,gpjdjey,t1_gpj2k48,He accepts crypto for gold. He makes money and gains traction being a bear. His actions actually say he loves crypto.,t3_lws3f0,2021-03-03 22:45:14,2021-03-03
+996,gpj3a5w,t1_gpj2k48,That's how we roll building better society. Give it a try,t3_lws3f0,2021-03-03 21:14:23,2021-03-03
+997,gpjc9om,t1_gpj5po3,When does it sell or is it just HODL? There's no yield if it didn't somehow choose when to sell,t3_lws3f0,2021-03-03 22:35:09,2021-03-03
+1003,gpjdwg7,t1_gpj5po3,"So, when you factor in the short term capital gains tax...",t3_lws3f0,2021-03-03 22:48:02,2021-03-03
+1005,gpj2b8t,t1_gpj1pwh,"someone earlier today posted that they created a bot that buys when schiff tweets about bitcoin, says that the bot performed something like 203 trades with 1000% profits and 65% profitable trades (i assume cause he started tweeting ALLOT when it was over 50k last time and this guy posted these stats when BTC was like 47k)  
+
+
+lmfao, this is funny stuff",t3_lws3f0,2021-03-03 21:04:18,2021-03-03
+1011,gpj8a5x,t1_gpj29rf,Burn 🔥,t3_lws3f0,2021-03-03 22:01:31,2021-03-03
+1012,gpj367f,t1_gpj29rf,Nah Bitcoin isn't rigged.,t3_lws3f0,2021-03-03 21:13:17,2021-03-03
+1015,gpj4io3,t1_gpj3hpt,Okay but Bitcoin doesn’t undermine gold. There’s space for both assets.,t3_lws3f0,2021-03-03 21:26:43,2021-03-03
+1017,gpj1nhr,t1_gpj1goc,That's JUST the point.  *Everybody* here makes those same points against government and fiat.  Peter Schiff isn't special enough to deserve 50+ posts / day dedicated to his dribble.,t3_lws3f0,2021-03-03 20:57:13,2021-03-03
+1020,gpjcc1s,t1_gpjbhgb,"So cringy that you *can't* look away!!  Hahaha...
+
+I was told to DYOR so many times, that I don't have time to follow people.  I'm not sure how you guys can follow people *and* DYOR with all this magic internet money being created, especially during a bull cycle.  ;-)
+
+Seriously, tho... I want substance, and I simply can't find enough of it, for some reason.  Tons of price predictions, TA, memes, & Schiff tweets... but hardly any substance.  :-/",t3_lws3f0,2021-03-03 22:35:41,2021-03-03
+1023,gpjeed2,t1_gpje862,"Ahh, you believe those sites on the Internet that tell you peoples net worths? lol, ok buddy.",t3_lws3f0,2021-03-03 22:51:53,2021-03-03
+1024,gpjaumj,t1_gpjansa,"I dont know about that but i do know he was really, really big into investing in Brazil a few years back...
+
+That was another flop.",t3_lws3f0,2021-03-03 22:23:37,2021-03-03
+1028,gpj2wau,t1_gpj0vs3,Teabagging,t3_lws3f0,2021-03-03 21:10:28,2021-03-03
+1034,gpjcjzb,t1_gpjc9om,It sells 72 hours later.,t3_lws3f0,2021-03-03 22:37:27,2021-03-03
+1035,gpjct08,t1_gpjc9om,"If I remember correctly, it sold 72 hours later.",t3_lws3f0,2021-03-03 22:39:28,2021-03-03
+1036,gpjcpap,t1_gpjc9om,"Don't you understand modern dude-bro economics??? If the number on the screen is green it means you're winning, just ignore the people manipulating you to be the bagholder for their pump and dump",t3_lws3f0,2021-03-03 22:38:38,2021-03-03
+1039,gpjcczt,t1_gpj2b8t,"/doubt 
+
+Bitcoin is barely 300% from the last high, so 1000% profits is very doubtful...although, this assuming the algo started this bull run..",t3_lws3f0,2021-03-03 22:35:54,2021-03-03
+1041,gpjfag8,t1_gpj367f,THE ELECTION DEFINITELY WAS,t3_lws3f0,2021-03-03 22:58:45,2021-03-03
+1043,gpj66kp,t1_gpj4io3,"There’s enough conceptual overlap between Bitcoin and gold (scarcity, store of value, hedge against fiat) to make anyone with a heavy investment in the latter worry about the New Thing. Especially if they’re not tech-savvy.
+
+Maybe far into the future when Bitcoin has long won versus gold, Bitcoinbugs will decry the next similar asset. Dilithium crystals or some shit.",t3_lws3f0,2021-03-03 21:42:35,2021-03-03
+1044,gpj5e78,t1_gpj4io3,"it does almost\* everything gold does, but better, and in many ways much better.
+
+\*obv you can't make things with it, but you can make dapps that use bitcoin so that's actually at least tangentially analogous to using it as a material",t3_lws3f0,2021-03-03 21:35:07,2021-03-03
+1045,gpj6p67,t1_gpj1nhr,"I think you meant ""drivel"". ""Dribble"" is a basketball thing.",t3_lws3f0,2021-03-03 21:47:19,2021-03-03
+1046,gpj37qb,t1_gpj1nhr,"The issue is not that he has been giving chronically bad investment advice (he has been spectacularly wrong about things besides Bitcoin), it’s that he has a huge following and gets invited on the various financial shows. The appeal is that he is loud and bombastic and presumably offers a counterpoise to the growing number of Bitcoin bulls. Without Bitcoin, he would likely slip into obscurity.",t3_lws3f0,2021-03-03 21:13:43,2021-03-03
+1047,gpj4iln,t1_gpj1nhr,Agreed.  He doesn’t look like he got a hesi pull up jimbo.  Probably don’t understand what I just said if you don’t really hoop.,t3_lws3f0,2021-03-03 21:26:42,2021-03-03
+1048,gpj9vqb,t1_gpj1nhr,Exactly. He only says those things to hock his gold bulllshit.,t3_lws3f0,2021-03-03 22:15:27,2021-03-03
+1051,gpjeppw,t1_gpjeed2,"I have been believing in bitcoin for 11 years, I'm alright with my beliefs.  How about you?",t3_lws3f0,2021-03-03 22:54:19,2021-03-03
+1057,gpjco4h,t1_gpjcjzb,Thanks!,t3_lws3f0,2021-03-03 22:38:23,2021-03-03
+1058,gpjd3q6,t1_gpjcpap,I actually was a bit nervous that I would end up getting hate for suggesting the mere idea that you should ever sell,t3_lws3f0,2021-03-03 22:41:49,2021-03-03
+1065,gpj5va7,t1_gpj5e78,"USD does almost everything gold does, but better, and in many ways much better. Some people don’t like the spectre of inflation so endure the illequidity of gold. BTC is neither unequivocally better than gold, nor does it matter. Gold has millennia of proof of its viability. BTC does not.
+
+tl;dr people who buy gold are not the same people who buy BTC. There is a market for both.",t3_lws3f0,2021-03-03 21:39:37,2021-03-03
+1066,gpj6smw,t1_gpj6p67,I think you're right!  TIL.   ;-),t3_lws3f0,2021-03-03 21:48:11,2021-03-03
+1067,gpjahf4,t1_gpj6p67,"Nah, dribble works too. In the UK, it's our word for ""drool"".",t3_lws3f0,2021-03-03 22:20:31,2021-03-03
+1068,gpj3yt1,t1_gpj37qb,"Very, very true.  If I were a gold bug and came across Schiff's Twitter feed, I'd probly think I need to start looking into this ""Bitcoin thing"". I guess competition is good for business... Just wish there was somebody else in the industry to make fun of is all I'm getting at.  :-/",t3_lws3f0,2021-03-03 21:21:19,2021-03-03
+1073,gpjf43p,t1_gpjeppw,"What's that got to do with the price of fish? Of course I believe in Bitcoin, thats why i'm here lol. What I don't believe in are websites which tell me celbrities net worth, only a child would believe one of those. Are you a child?",t3_lws3f0,2021-03-03 22:57:24,2021-03-03
+1301,gpii236,t3_lwnujp,One bitcoin was more than most people could afford a long while ago,t3_lwnujp,2021-03-03 16:08:55,2021-03-03
+1302,gpiqfkb,t3_lwnujp,0.1 btc is more than many people can afford now globally.,t3_lwnujp,2021-03-03 18:23:00,2021-03-03
+1303,gpifhfn,t3_lwnujp,Cool story - thanks for sharing and I’m glad you’re out of the meat-grinder machine of necessary work. I plan to join you one day soon!,t3_lwnujp,2021-03-03 15:30:04,2021-03-03
+1304,gpiem0r,t3_lwnujp,Cheaper electricity in the US? That’s a phrase I don’t hear often.,t3_lwnujp,2021-03-03 15:17:33,2021-03-03
+1305,gpinbjv,t3_lwnujp,I seriously fucked up. I used to have so many and now I'm pretty sure I'll never again be worth even 1BTC.,t3_lwnujp,2021-03-03 17:32:04,2021-03-03
+1306,gpikg70,t3_lwnujp,"If I may ask, how many btc is enough to retire for life in your country, living a decent life, no mansion and Teslas (or Lambos)?",t3_lwnujp,2021-03-03 16:46:12,2021-03-03
+1307,gpioam5,t3_lwnujp,"Man, I just love to read stories like this.",t3_lwnujp,2021-03-03 17:47:52,2021-03-03
+1308,gpj2yey,t3_lwnujp,The day will come that not even millionaires could afford it.,t3_lwnujp,2021-03-03 21:11:05,2021-03-03
+1309,gpj39gk,t3_lwnujp,If you own .28 Bitcoin you will be considered top %1 of BTC holders in the future once mining stops and price surges.,t3_lwnujp,2021-03-03 21:14:11,2021-03-03
+1310,gpifgx3,t3_lwnujp,"That’s a Cinderella story right there!  
+
+Congrats bro you broke the matrix",t3_lwnujp,2021-03-03 15:29:51,2021-03-03
+1312,gpittr6,t3_lwnujp,🚀🚀🚀,t3_lwnujp,2021-03-03 19:17:09,2021-03-03
+1313,gpj256u,t3_lwnujp,"30? Man I’m 25 April 1st (no joke) 
+And this is truly inspiring. I’ve only just started hodling. Hoping to be you by 45.",t3_lwnujp,2021-03-03 21:02:31,2021-03-03
+1314,gpj298w,t3_lwnujp,Malaysia Boleh to a fellow malaysian !!,t3_lwnujp,2021-03-03 21:03:42,2021-03-03
+1315,gpj2lp3,t3_lwnujp,"I was too young to buy my own bitcoin when i first got into it sadly but im still happy to read about peoples stories like yours
+Enjoy your life to the fullest man and be there for your kids now that you have the opportunity to, you earned it 🚀",t3_lwnujp,2021-03-03 21:07:25,2021-03-03
+1316,gpjerpl,t3_lwnujp,Only very rich people can afford to buy one whole Bitcoin today.,t3_lwnujp,2021-03-03 22:54:45,2021-03-03
+1317,gpilqfk,t3_lwnujp,"nice story OP, maybe u could give something back. run a Lightning Node or TOR Node, spread the word, teach, maybe code :)",t3_lwnujp,2021-03-03 17:06:36,2021-03-03
+1318,gpigzxz,t3_lwnujp,Cool. My incentive to hodl and keep stacking stats just jumped a few levels higher. See you soon in citadel-city!,t3_lwnujp,2021-03-03 15:52:39,2021-03-03
+1319,gpigv2q,t3_lwnujp,Employers turned out to be greedy? Could’ve just bought Bitcoin with your fiat salary?,t3_lwnujp,2021-03-03 15:50:34,2021-03-03
+1321,gpil9oj,t3_lwnujp,Outstanding,t3_lwnujp,2021-03-03 16:59:07,2021-03-03
+1322,gpiqh4u,t3_lwnujp,Right on brother!,t3_lwnujp,2021-03-03 18:23:45,2021-03-03
+1323,gpiuph7,t3_lwnujp,One can buy a piece of bitcoin.,t3_lwnujp,2021-03-03 19:30:13,2021-03-03
+1324,gpixev7,t3_lwnujp,"They say: 1 bitcoin is very expensive 
+
+Me: buy satoshis then.",t3_lwnujp,2021-03-03 20:07:01,2021-03-03
+1325,gpj22oc,t3_lwnujp,">Employers turned out to be greedy dicks and changed their minds towards the end - “we are not paying you in precious BTC anymore”.
+
+So you are allowed to hodl BTC but they don't.",t3_lwnujp,2021-03-03 21:01:47,2021-03-03
+1326,gpjd5uu,t3_lwnujp,Are you investing your BTC in ponzi games like cloud mining? You are risking your kids future. Watch out,t3_lwnujp,2021-03-03 22:42:15,2021-03-03
+1328,gpiq8d9,t3_lwnujp,"You are lucky to live in Malaysia.
+
+Soon enough crypto investors will see the benefits of no tax regulation on crypto in Malaysia, low living expenses and high quality of living in the country.",t3_lwnujp,2021-03-03 18:19:32,2021-03-03
+1329,gpirq60,t3_lwnujp,now probably not a month ago for sure  and yes it doesn't worse to mine now,t3_lwnujp,2021-03-03 18:44:42,2021-03-03
+1330,gpiscth,t3_lwnujp,Is it possible to do as much growth as it has In last 7 years? I think it will grow a lot but unfortunately probably not retirement money :(,t3_lwnujp,2021-03-03 18:54:34,2021-03-03
+1331,gpiuct8,t3_lwnujp,Looking to get 2 btcs to live off of the interest on blockfis 6 percent. Will that be enough?,t3_lwnujp,2021-03-03 19:25:05,2021-03-03
+1332,gpiwxzx,t3_lwnujp,">Employers turned out to be greedy dicks and changed their minds towards the end - “we are not paying you in precious BTC anymore”.
+
+What's it to them? BTC and fiat can be exchanged at fair market value. Unless your salary was a fixed amount of BTC, neither you nor your employer should care.",t3_lwnujp,2021-03-03 20:00:51,2021-03-03
+1333,gpj06wq,t3_lwnujp,any advice for getting started in bitcoin mining?,t3_lwnujp,2021-03-03 20:40:47,2021-03-03
+1334,gpj0byu,t3_lwnujp,What's the country?,t3_lwnujp,2021-03-03 20:42:24,2021-03-03
+1335,gpj3dmp,t3_lwnujp,It’s been more than most Americans can afford for years now.,t3_lwnujp,2021-03-03 21:15:21,2021-03-03
+1336,gpj7nzc,t3_lwnujp,"Inspiring, thank for sharing.",t3_lwnujp,2021-03-03 21:56:07,2021-03-03
+1337,gpjbmmh,t3_lwnujp,How many btc do you need to retire in your country at 30?,t3_lwnujp,2021-03-03 22:29:54,2021-03-03
+1338,gpjcs7n,t3_lwnujp,"Congratulations about what you've done. Your story is really inspiring. Amazing that you were able to do such a thing! Congratulations! As other redditor said recently, ""bitcoin is a time machine"". 
+
+Enjoy your time and your family. Happy bitcoin stacking!",t3_lwnujp,2021-03-03 22:39:17,2021-03-03
+1344,gpizb27,t3_lwnujp,">I reinvested mining profits into more machines all around the world with hosting, cloud contracts, and the returns kept compounding. 
+
+So you basically make a living scamming people? I've never seen a mining cloud contract that wasn't outright robbery.
+
+Exploiting people for their ignorance may be easy in Bitcoin land but that doesn't make it any less shit.",t3_lwnujp,2021-03-03 20:30:25,2021-03-03
+1345,gpixgma,t3_lwnujp,This feels like a scam to lure people into a 'mining opportunity'.,t3_lwnujp,2021-03-03 20:07:38,2021-03-03
+1348,gpiveqo,t3_lwnujp,$200/month for family grocery.. so... the USA?,t3_lwnujp,2021-03-03 19:40:06,2021-03-03
+1349,gpizrfn,t3_lwnujp,POW coins will be very interesting if we can find a way to generate cheap/free electricity.,t3_lwnujp,2021-03-03 20:35:47,2021-03-03
+1352,gpilayb,t3_lwnujp,"Without 10 million, I don’t think it makes sense to retire",t3_lwnujp,2021-03-03 16:59:42,2021-03-03
+1357,gpixjcr,t1_gpiqfkb,Only 3.1 million wallets worldwide have 0.1 or more,t3_lwnujp,2021-03-03 20:08:36,2021-03-03
+1359,gpigd3q,t1_gpiem0r,0.1$ per kwh? Cheap as fuck! Come to germany and pay 0.35$ per kwh.,t3_lwnujp,2021-03-03 15:43:03,2021-03-03
+1360,gpipz0u,t1_gpiem0r,And regulatory certainty. I do strongly believe that every power company in the US (probably Europe too) will have a mining department to provide a reliable base load of demand which will help companies optimize their operations to make the grid more reliable and affordable. The profits in Bitcoin will be secondary.,t3_lwnujp,2021-03-03 18:15:14,2021-03-03
+1361,gpizprd,t1_gpiem0r,"Free here, but totally unreliable.",t3_lwnujp,2021-03-03 20:35:15,2021-03-03
+1362,gpj0dh6,t1_gpiem0r,My us rate is .024,t3_lwnujp,2021-03-03 20:42:53,2021-03-03
+1363,gpj38cq,t1_gpiem0r,The average in the US is 0.15 per kilowatt hour which is super cheap.,t3_lwnujp,2021-03-03 21:13:53,2021-03-03
+1364,gpj8yuq,t1_gpiem0r,"5-8 cents in Texas per kwh, and you can chose100% from renewable sources.",t3_lwnujp,2021-03-03 22:07:36,2021-03-03
+1365,gpiqmvm,t1_gpiem0r,Asia my friend,t3_lwnujp,2021-03-03 18:26:38,2021-03-03
+1366,gpj05x2,t1_gpiem0r,Probably subsidized as well,t3_lwnujp,2021-03-03 20:40:28,2021-03-03
+1367,gpj0cfw,t1_gpiem0r,"Yes. 
+
+https://www.statista.com/statistics/263492/electricity-prices-in-selected-countries/",t3_lwnujp,2021-03-03 20:42:34,2021-03-03
+1368,gpj7cmi,t1_gpiem0r,"I get 7.49 cents fixed rate for 100% renewable energy in NYC. I thought the national average was gonna be much lower than what I get, but it's higher. Counting my blessings while scratching my head.",t3_lwnujp,2021-03-03 21:53:17,2021-03-03
+1371,gpizsk5,t1_gpinbjv,"> I seriously fucked up. I used to have so many and now I'm pretty sure I'll never again be worth even 1BTC. 
+
+Yeah, same here. Thing is after years of holding I sold my 5 btc last year (November). Just when the bull run started... Pride did not let jump back in which I regret even more. I did not buy back because it happened before where I panic sold and then bough back higher and lost 1 whole coin on that process so did not want to go through same. Well... 
+
+I am looking how to put the FIAT money i got when I sold back into BTC. I guess I will be DCAing. 
+
+So far, not even a quarter of BTC.",t3_lwnujp,2021-03-03 20:36:10,2021-03-03
+1373,gpip10w,t1_gpinbjv,"thats unfortunate man... damn.. i never had any so im kicking myself in retrospect. im verynew to this, and you never know the future of the markets.. but im riding that ada train long term ;) and many other cryptos stored away. i havent made gains but after this bear market and bad economy, im looking ahead. grab the bullrun by the horns ;) good luck to ya",t3_lwnujp,2021-03-03 17:59:46,2021-03-03
+1374,gpim9bx,t1_gpikg70,"You can live comfortably for a family of three on $20,000 USD a year in Malaysia.
+
+Source:  am plotting my eventual retirement to somewhere warm and currency exchange-friendly.",t3_lwnujp,2021-03-03 17:15:03,2021-03-03
+1377,gpip9ao,t1_gpioam5,"hell yeah. It's so foreign to think about for me, its one of those things i just ""read"" and have for many years of my life. but getting into crypto now and investing.. idk.. but low expectations looking forward as ive had with my life, this could be a game changer. ada has me excited ;) my money has been sitting there for years not earning me anything but 2% interest on some.. OMG 2% interest THANK YOU BANK!!! lol. so to hear and read some of these gains its like oh shit.. its not a dream.. ppl make huge profits all the time. and shit i dont even need huge profits. im literally happy with any profit, but that time you pick the right coin and get in there very very early you never know!! i got like 1 billion of 1 coin and scooped it for like 10$. i lose 10$? not life changing. 100x? legit. you got any investments in stocks or coins? good luck to ya either way",t3_lwnujp,2021-03-03 18:03:30,2021-03-03
+1378,gpjbyvp,t1_gpj2yey,I patiently await the day.,t3_lwnujp,2021-03-03 22:32:43,2021-03-03
+1380,gpj74rw,t1_gpj39gk,"Just curious, what is this assumption based on?",t3_lwnujp,2021-03-03 21:51:16,2021-03-03
+1382,gpj8jb6,t1_gpilqfk,"I set up a second node after seeing that the number of full nodes is currently estimated to only be somewhere in the tens of thousands (everyone's numbers seem different).
+
+Popular light wallets like Electrum should really come with an option to bundle full nodes and personal servers with them. Core's 1MB blocks are such a low barrier of entry, it's almost irresponsible for Bitcoin users not to run their own.",t3_lwnujp,2021-03-03 22:03:47,2021-03-03
+1383,gpiq98v,t1_gpigv2q,"> and so did my salary 
+
+Maybe OP's salary was a fixed amount of Bitcoin? Not greedy to adjust/change that if it suddenly rises 5x. That's not sustainable.",t3_lwnujp,2021-03-03 18:19:56,2021-03-03
+1384,gpjeelm,t1_gpjd5uu,Fallen for some. But didn’t deter me from exploring and found some legit ones.,t3_lwnujp,2021-03-03 22:51:56,2021-03-03
+1385,gpiweha,t1_gpiq8d9,"""lucky"" no. You are never lucky if you live in a backwards EXTREMIST religious country. No racism/ whatever. Its just factual QoL is shit.",t3_lwnujp,2021-03-03 19:53:38,2021-03-03
+1387,gpjb14p,t1_gpiwxzx,"I doubt they were buying BTC every cycle just to pay him, because it's additional hassle for their payroll department for something he could do himself. More likely they bought a fixed lot of BTC when it was low and were paying him a fixed amount off that reserve. Then they saw the price jump and wanted to hodl everything.",t3_lwnujp,2021-03-03 22:25:05,2021-03-03
+1388,gpjc8ks,t1_gpj0byu,Malaysia.,t3_lwnujp,2021-03-03 22:34:56,2021-03-03
+1391,gpj1mrb,t1_gpizb27,You can rent power on nicehash,t3_lwnujp,2021-03-03 20:57:00,2021-03-03
+1392,gpjbwdf,t1_gpizb27,How am I scamming people? I am not the one selling cloud mining. I made some profitable investment renting hashrate on bitdeer and less so on nicehash.,t3_lwnujp,2021-03-03 22:32:08,2021-03-03
+1393,gpjc45b,t1_gpixgma,😂,t3_lwnujp,2021-03-03 22:33:55,2021-03-03
+1394,gpj8hbo,t1_gpiveqo,"Do you feed your family pet food, lol?",t3_lwnujp,2021-03-03 22:03:17,2021-03-03
+1395,gpinkdl,t1_gpilayb,"Depending on where you live, two million is more than enough to live a good live when you are in your thirties.",t3_lwnujp,2021-03-03 17:36:04,2021-03-03
+1396,gpivz2x,t1_gpilayb,10 million is moving into fuck you money. With 2 million in a place such a the US or Europe you can make a modest 100-200k a year just off normal gains in the market.,t3_lwnujp,2021-03-03 19:47:49,2021-03-03
+1397,gpix1nx,t1_gpilayb,10 million satoshis? Can live a year on that but wouldn't retire yet. Must stack more.,t3_lwnujp,2021-03-03 20:02:12,2021-03-03
+1398,gpizzc0,t1_gpilayb,One percenter,t3_lwnujp,2021-03-03 20:38:20,2021-03-03
+1399,gpilp1m,t1_gpilayb,Why not? 10 million what?,t3_lwnujp,2021-03-03 17:05:59,2021-03-03
+1401,gpj2gm4,t1_gpixjcr,Thanks for making me feel special,t3_lwnujp,2021-03-03 21:05:54,2021-03-03
+1404,gpih50i,t1_gpigd3q,Paying that in california right now,t3_lwnujp,2021-03-03 15:54:46,2021-03-03
+1405,gpisrr2,t1_gpigd3q,"Damn, that is expensive.  
+I pay around \~0.1€ per kWh after taxes, fees and everything else has been added for 100% renewable (hydro and wind) in Sweden. Recently renewed my contract for three more years fixed price.
+
+edit: Granted my energy consumption is quite low and I am not running a mining operation.",t3_lwnujp,2021-03-03 19:00:57,2021-03-03
+1406,gpiq5x0,t1_gpigd3q,"0,35€ not $",t3_lwnujp,2021-03-03 18:18:23,2021-03-03
+1407,gpir65a,t1_gpigd3q,0.35€ per kWh ...,t3_lwnujp,2021-03-03 18:35:38,2021-03-03
+1408,gpj2zqa,t1_gpigd3q,.05 $ here in KSA.,t3_lwnujp,2021-03-03 21:11:27,2021-03-03
+1409,gpiu2ty,t1_gpigd3q,you mean €,t3_lwnujp,2021-03-03 19:20:58,2021-03-03
+1411,gpipu2w,t1_gpigd3q,[deleted],t3_lwnujp,2021-03-03 18:12:57,2021-03-03
+1412,gpj2cy2,t1_gpj0dh6,2.4 cents per KWh??,t3_lwnujp,2021-03-03 21:04:48,2021-03-03
+1413,gpj0cn1,t1_gpizsk5,Why did you sell?,t3_lwnujp,2021-03-03 20:42:37,2021-03-03
+1417,gpipbqc,t1_gpim9bx,"A malaysian can maybe live on that. But a foreigner would be tight. And if you have kids, no way…. You would need to send your kids to an international school and they are expensive as fuck.",t3_lwnujp,2021-03-03 18:04:36,2021-03-03
+1418,gpiwa67,t1_gpim9bx,Why would you go to an extremist muslim country? Thats the worst place to go when you make it Lol. + 20k is quite a bit. You can retire off that in spain/italy/france (if you can front a house ofc; like 75-100k and you are more than good).,t3_lwnujp,2021-03-03 19:52:01,2021-03-03
+1419,gpitkqm,t1_gpim9bx,That looks like a great deal.,t3_lwnujp,2021-03-03 19:13:18,2021-03-03
+1420,gpipkkv,t1_gpip9ao,"Put a little spare cash into bitcoin this year, been really hard not to take it out given the current pandemic situation, economy's been hard. But I have low expectations and HODL in the off-chance this thing goes to the moon.",t3_lwnujp,2021-03-03 18:08:36,2021-03-03
+1422,gpj7ul2,t1_gpj74rw,https://decrypt.co/45090/how-much-bitcoin-does-it-take-to-break-into-the-1-club,t3_lwnujp,2021-03-03 21:57:43,2021-03-03
+1424,gpiwofd,t1_gpiweha,The apparent racism there doesn’t affect you if you’re an expat,t3_lwnujp,2021-03-03 19:57:22,2021-03-03
+1426,gpjdunp,t1_gpjbwdf,[deleted],t3_lwnujp,2021-03-03 22:47:39,2021-03-03
+1428,gpixtrd,t1_gpivz2x,">a modest 100-200k a year 
+
+What I would give to make a ""modest"" sum of money",t3_lwnujp,2021-03-03 20:12:13,2021-03-03
+1429,gpiwk02,t1_gpivz2x,Making 10% every year with no clue about the markets? Hah no. You could probably make 70-90k after tax tho. But if you get hit with 2-3 years of red numbers you are basically fucked.,t3_lwnujp,2021-03-03 19:55:42,2021-03-03
+1430,gpiwscs,t1_gpivz2x,Modest,t3_lwnujp,2021-03-03 19:58:47,2021-03-03
+1432,gpjaw3u,t1_gpj2gm4,"your not special, happy?",t3_lwnujp,2021-03-03 22:23:57,2021-03-03
+1433,gpinsk3,t1_gpih50i,Haha California is barely america,t3_lwnujp,2021-03-03 17:39:48,2021-03-03
+1435,gpj0vye,t1_gpir65a,0.25€/kWh  in Italy/North,t3_lwnujp,2021-03-03 20:48:45,2021-03-03
+1436,gpj0f1x,t1_gpipu2w,I live in Texas and I had rolling blackouts for 3 days. My electric bill for February was $90,t3_lwnujp,2021-03-03 20:43:24,2021-03-03
+1437,gpj7va3,t1_gpipu2w,"Actually, if someone kept mining bitcoin in the midst of the Southern blizzard caused electric crisis, they are a total dick.",t3_lwnujp,2021-03-03 21:57:54,2021-03-03
+1438,gpj43c1,t1_gpj2cy2,Yes,t3_lwnujp,2021-03-03 21:22:34,2021-03-03
+1439,gpj2y9f,t1_gpj0cn1,"Fear & Greed are strong forces, but Fear is stronger.",t3_lwnujp,2021-03-03 21:11:02,2021-03-03
+1440,gpis023,t1_gpipbqc,"Why? I don’t understand these people. Just get your kids to learn the language. The first 18 months are tough, but if you’re gonna live there, my opinion is kids need to go to local schools.",t3_lwnujp,2021-03-03 18:49:00,2021-03-03
+1441,gpj0gtc,t1_gpiwa67,"I lived in Malaysia for 2 years as an American with a family. While the politics there are very pro Malay, the people are not and are quite amazing. Like you said I hope that the politics moves away from the Malay only type of thinking, but I felt very welcomed there. 
+
+International schools are insanely expensive there so you are correct. My children are homeschooled. So it didn’t matter to me. 
+
+That being said, value wise Malaysia, KL specifically, is an amazing place to live. So amazing my kids are begging my to go back even given some of the drawbacks.
+
+I’ll take my $400/month rent there over $2000/month I’m paying in America any day of the week.
+
+Edit for spelling",t3_lwnujp,2021-03-03 20:44:00,2021-03-03
+1442,gpixb3u,t1_gpiwa67,Wow that's really cheap. In The Netherlands we're having a housing problem which our politicians aren't so eager to fix. A house in the middle of bumfuck nowhere will set you back about 250k - 300k. Even more if you want to live in a city.,t3_lwnujp,2021-03-03 20:05:40,2021-03-03
+1443,gpiwgrz,t1_gpiwa67,"You should get out of news headlines.
+
+Peel back the onion and inspect further.
+
+I reside in the US. If you believed everything negative on the news about living here, you’d miss out on all the good. And there’s still plenty of good left.
+
+I think that’s the case with most countries. It’s easy to focus on all the bad but it’s harder to find the good and appreciate it for what it is instead of what you want it to be.",t3_lwnujp,2021-03-03 19:54:31,2021-03-03
+1444,gpiudr2,t1_gpitkqm,"Lol I’m scoping out places where I can take advantage of exchange arbitrage as a way to retire early.
+
+Malaysia is on the list. So is Thailand and Belize. If you notice, they’re all warm climates ha!",t3_lwnujp,2021-03-03 19:25:28,2021-03-03
+1445,gpivx13,t1_gpipkkv,"i definitely feel you... im a weird one in my family and hoarded my money lol. I guess they're all pretty strong, and the fear of life throwing something unforseen my way made me store a lot. So i had that to rely on. That and being frugal in general. now i got use a good chunk without too much fear. EVEN if i never got back what i invtested, i'd be ok. id be sad, but ok. 
+
+But ive been consuming content non stop for a week or more and im realizing that how much time i spend learning this could be how much i can profit.. with some luck throw in lol. Just understanding the basics of the bull and bear markets. i got a bunch of coins and im excited. idk well see.. im gonna shut up to everyone im talking to and let the numbers speak for themselves soon ;)  HODL",t3_lwnujp,2021-03-03 19:47:04,2021-03-03
+1447,gpiwv20,t1_gpiwofd,Tell that to your kids who will get bullied relentlessly,t3_lwnujp,2021-03-03 19:59:47,2021-03-03
+1448,gpje5wl,t1_gpjdunp,I don’t get it. Im the one renting hashrate. I’m the one paying for other people’s hashrate. NOT the one renting out MY hashrate.,t3_lwnujp,2021-03-03 22:50:05,2021-03-03
+1449,gpj9w84,t1_gpixtrd,Hodl my friend.,t3_lwnujp,2021-03-03 22:15:34,2021-03-03
+1452,gpiyswr,t1_gpinsk3,"America is extremely diverse, all jokes aside it's pretty seriously wrong to assume otherwise. We're talking alaskan wilderness, rainforests on the olympic coast with 10m+ diameter tree trunks, plains of Kansas, monumental mountains and peaks along the rockies, coastal lobster-hunting balmy waters, humid beaches in Hawaii, and backwater bayous in Mississippi. Did I mention the windy peaks in the northeast, the cattle-ranchers of Wyoming, the rolling farmlands of Washington and Oregon, the arid deserts of Nevada/Arizona, or the glorious hill country in Texas? Maybe I was too busy describing the valley girls in SoCal, the bustling streets of Times Square, the busking violinists in Seattle next to one of the best street markets east of the Pacific (and west of the Atlantic?), or the high-pace thriving policy-driven bureaucrats doing their thing in D.C.
+
+The people produced by these places are so insanely different; one can't be quick to judge America if you want to be both accurate and poignant.
+
+Edit: and succinct",t3_lwnujp,2021-03-03 20:24:25,2021-03-03
+1454,gpj1464,t1_gpinsk3,"Former Kalifornian, can confirm",t3_lwnujp,2021-03-03 20:51:18,2021-03-03
+1455,gpiv7kj,t1_gpinsk3,"iono i work for a const company that has offices in both cali and texas, guess which state didnt look like america recently...",t3_lwnujp,2021-03-03 19:37:22,2021-03-03
+1456,gpjducn,t1_gpinsk3,TRUTH,t3_lwnujp,2021-03-03 22:47:35,2021-03-03
+1457,gpj3mcc,t1_gpinsk3,That’s what a blue state will get ya,t3_lwnujp,2021-03-03 21:17:49,2021-03-03
+1458,gpiowzt,t1_gpinsk3,And that’s a good thing ! :),t3_lwnujp,2021-03-03 17:57:57,2021-03-03
+1459,gpj2gqu,t1_gpj0f1x,"Exactly.  The people with massive electric bills choose to join a goofy electric provider with the cheapest possible rates but tied directly to the wholesale markets.  They saved a few bucks month after month with this risk all along.
+
+And lets not forget that other states around Texas had rolling blackouts, just like Texas because this was a hundred year cold snap.",t3_lwnujp,2021-03-03 21:05:56,2021-03-03
+1460,gpj4bdu,t1_gpj43c1,Dude!! ... I'm envious. I'm mining in Canada right now at 0.14/kwh. Profits are still good no doubt but jeez that's insane.,t3_lwnujp,2021-03-03 21:24:46,2021-03-03
+1461,gpit0oa,t1_gpis023,You don't understand malaysia. The nation actively pursues a policy of blatantly discriminating people who are not malay in ethnicity. Everything is either more expensive or more inaccessible if you're not malay.,t3_lwnujp,2021-03-03 19:04:46,2021-03-03
+1462,gpiubmr,t1_gpis023,"Have you lived in south east Asia before as an expat? 
+
+I’ve spent 10 years in Indonesia, 3 in Thailand and 1 in Cambodia. Public schools there are not like public schools in 1st world countries. It’s not about the language. It’s about giving your kid a good education that matches the quality they would have been given in their home country.",t3_lwnujp,2021-03-03 19:24:37,2021-03-03
+1463,gpj1bbp,t1_gpis023,You are going to drop your kids into a Malay school? They are gonna have a bad time.,t3_lwnujp,2021-03-03 20:53:30,2021-03-03
+1464,gpiz04l,t1_gpixb3u,"Living in the Netherlands aswell. It really depends market has went crazy but its still possible sub 100k if you work from home. Family member bought a 500m2 house for 65k in 2020 (Limburg), very poorly kept sure. Nearest bigger city is a 25min drive.",t3_lwnujp,2021-03-03 20:26:49,2021-03-03
+1466,gpiwt71,t1_gpiwgrz,Eh no. I literally have family in Malaysia. Hell I even have dead family in Malaysia due the extremist government. I live in the Netherlands tho. Comfy expensive life over here. With countries like Malaysia its indeed easy to focus on the bad because except for nature and food the country is terrible to live in ESPECIALLY if you are not a native muslim.,t3_lwnujp,2021-03-03 19:59:05,2021-03-03
+1467,gpj1m4d,t1_gpiudr2,its the way to go!,t3_lwnujp,2021-03-03 20:56:48,2021-03-03
+1469,gpjdk0h,t1_gpiyswr,"Finally, someone celebrating our culture",t3_lwnujp,2021-03-03 22:45:22,2021-03-03
+1470,gpj0i1d,t1_gpiyswr,I like the southwest. I'm a big fan of the southwest,t3_lwnujp,2021-03-03 20:44:23,2021-03-03
+1471,gpj28nt,t1_gpiyswr,You are good,t3_lwnujp,2021-03-03 21:03:31,2021-03-03
+1472,gpj4lps,t1_gpiyswr,You've just reaffirmed all the great things I love about that country and all the reasons why I want to go and explore it some day,t3_lwnujp,2021-03-03 21:27:32,2021-03-03
+1475,gpj1pqu,t1_gpiyswr,"Is it weird i stood up and placed my hand over my heart reading your post?
+Gid bless Merica",t3_lwnujp,2021-03-03 20:57:56,2021-03-03
+1479,gpiyfpw,t1_gpiv7kj,"I'm going to guess you mean the one that a ton of Californians are fleeing to in order to escape the insanity they allowed to take over in California. Please do us a solid and get as many of them to stay in California as possible. We don't want 'em here, when they're so dumb that they want to repeat the same mistakes somewhere new.
+
+That was just a guess though. It's hard to keep up with all the mudslides, wildfires, and earthquakes. So it's possible you actually meant California.",t3_lwnujp,2021-03-03 20:19:52,2021-03-03
+1481,gpiprdr,t1_gpiowzt,🤨 enjoy your lockdown,t3_lwnujp,2021-03-03 18:11:41,2021-03-03
+1482,gpiu27b,t1_gpiowzt,It's really hilarious that you think that.,t3_lwnujp,2021-03-03 19:20:43,2021-03-03
+1483,gpj74lu,t1_gpj2gqu,Yea. I’m in TX and my elec. is like $0.08/kwh,t3_lwnujp,2021-03-03 21:51:14,2021-03-03
+1484,gpix5vg,t1_gpit0oa,"Most countries have some form of discrimination, which is why learning the local language is super important.",t3_lwnujp,2021-03-03 20:03:47,2021-03-03
+1485,gpix4jy,t1_gpiubmr,"Nah, I lived in Eastern Europe. But private (local) non-international schools provide good quality education at a fraction of the price in my experience.",t3_lwnujp,2021-03-03 20:03:18,2021-03-03
+1486,gpj2jdc,t1_gpj1bbp,Exactly. People think south East Asia is all the same. Malaysia is terrible compared to Cambodia if you want to do the whole emigrant thing. Fuck Malaysia. Fuck Singapore.,t3_lwnujp,2021-03-03 21:06:43,2021-03-03
+1487,gpiwxvx,t1_gpiwt71,"Malaysia boleh :)
+
+I think you’ll see a new generation of Malaysia that will surprise you. Just gotta wait for org tua2 to pass to put it bluntly.
+
+It’ll get better.",t3_lwnujp,2021-03-03 20:00:48,2021-03-03
+1490,gpjf4rh,t1_gpj4lps,Can’t wait for 5 ish years when I can just hop in my self-driving car after work & arrive at my next scenic destination. That’s my pipe dream anyway!,t3_lwnujp,2021-03-03 22:57:33,2021-03-03
+1491,gpj8462,t1_gpj1pqu,yes. Pretty creepy.,t3_lwnujp,2021-03-03 22:00:04,2021-03-03
+1493,gpiz4se,t1_gpiyfpw,"no sir, the texas office couldnt even be in a zoom meeting a couple week because of blackouts. all the pipes burst in the texas office and the insurance company is forcing our grading compnay to pay 4% of total cost which is unheard of in california. i told the texas guys in the zoom meeting i felt sorry for them and my conservative cali coworkers said dont feel sorry for them, they dont give a shit about us in cali and your comment proves it.",t3_lwnujp,2021-03-03 20:28:21,2021-03-03
+1494,gpj01ie,t1_gpiyfpw,"Yeah man, no natural disasters in Texas. None whatsoever.",t3_lwnujp,2021-03-03 20:39:02,2021-03-03
+1498,gpiqljm,t1_gpiprdr,I live in Spain now. Nobody in America has no idea what a real lockdown is 😂 and still would prefer living here in lockdown than most places in America without a lockdown 😜,t3_lwnujp,2021-03-03 18:25:59,2021-03-03
+1502,gpj09h2,t1_gpix4jy,"And in Australia it’s the same. My daughter goes to public schools here and they are awesome.
+
+But it would be unwise to put her into a local school in Indonesia. For her safety and her education. I don’t know any expat that has their kid in a public school in Indonesia . And the cheapest good international school in Jakarta starts at about $1500 a month.",t3_lwnujp,2021-03-03 20:41:37,2021-03-03
+1503,gpizi9m,t1_gpix4jy,I don't think you know how Asia works my friend.,t3_lwnujp,2021-03-03 20:32:48,2021-03-03
+1504,gpiz897,t1_gpiwxvx,A new generation gives hope but i wouldnt move there for the next 50 years atleast. It will be worse before it will be better. there are better and cheaper options.,t3_lwnujp,2021-03-03 20:29:30,2021-03-03
+1509,gpiqrfx,t1_gpiqljm,"I live in the Netherlands, I'd much rather be free. What is the point of a decentralised currency if you live under diktat?",t3_lwnujp,2021-03-03 18:28:48,2021-03-03
+1514,gpitelx,t1_gpiqrfx,"This time will pass, and Spain will continue to be a more free and open place than the US. I don’t have any ideological commitments to bitcoin. Decentralization and other factors that make it what is it are very important to me only because it’s a technology that will rebuild the financial system, which in turn will make me very wealthy. Not interested in changing the world. Only in changing my world :) Look, I still haven’t lost my rugged American individualism 😅😜😎",t3_lwnujp,2021-03-03 19:10:43,2021-03-03
+1517,gpiyk5l,t1_gpitelx,Cringe asf,t3_lwnujp,2021-03-03 20:21:24,2021-03-03
+1518,gpj4s7l,t1_gpiyk5l,The bitcoin blockchain model was made to embrace greed. It’s the greed that secures the network.  If you think the price at 50k has anything to do with people wanting to change the world you are dumb AF.,t3_lwnujp,2021-03-03 21:29:17,2021-03-03
+1589,gpgdsdd,t3_lwb34y,A Schifforithm ... most excellent !,t3_lwb34y,2021-03-03 04:26:20,2021-03-03
+1590,gpgb065,t3_lwb34y,"So what youre saying is, the day Peter Schiff capitulates and turns into a BTC bull, we dump?",t3_lwb34y,2021-03-03 04:06:21,2021-03-03
+1591,gpgehq0,t3_lwb34y,"My friends and I had a drinking game where we would take a shot every time Schiff tweeted about bitcoin, it was fun till Jimmy ended up in the hospital with alcohol poisoning.",t3_lwb34y,2021-03-03 04:31:17,2021-03-03
+1592,gpgoxjs,t3_lwb34y,any algo that would have bought BTC the last 10 years would probably be in massive profit tho.,t3_lwb34y,2021-03-03 05:45:22,2021-03-03
+1593,gpgc2jk,t3_lwb34y,"Schiff is a confusing fellow. He is a smart guy as it pertains to fiat. He’s obviously educated. He clearly does not understand BTC. 
+
+If he spent a few hours learning BTC he’d say something different.",t3_lwb34y,2021-03-03 04:14:03,2021-03-03
+1594,gpgsh3b,t3_lwb34y,This algo must be buying all the time lol. Seriously though Shiff seems to slam bitcoin the most during price spikes and then he gloats during dips so it probably averages out. Probably not the best algo but funny.,t3_lwb34y,2021-03-03 06:11:47,2021-03-03
+1595,gpgyx1y,t3_lwb34y,comparison versus a control where it randomly buys every 3 days and sells 72 hours later?,t3_lwb34y,2021-03-03 07:03:02,2021-03-03
+1596,gpge67d,t3_lwb34y,Imagine selling bitcoin thinking you're gaining value.,t3_lwb34y,2021-03-03 04:29:04,2021-03-03
+1597,gpgzfvh,t3_lwb34y,What’s the comparison to buying all upfront and not waiting for tweets.,t3_lwb34y,2021-03-03 07:07:21,2021-03-03
+1598,gpgo65z,t3_lwb34y,Can this be setup as an API for Coinbase Pro,t3_lwb34y,2021-03-03 05:39:49,2021-03-03
+1599,gpgic6v,t3_lwb34y,"Will the algorithm also fill in the taxes forms for you?
+
+Let the algorithm buy, but replace the `do_sell()` with the `do_hodl()`",t3_lwb34y,2021-03-03 04:58:13,2021-03-03
+1600,gph0msl,t3_lwb34y,"This is super cool! How does one go about making an algorithm for buying bitcoin?
+
+Is there a programming interface with an exchange that you need to use?
+
+Just interested.",t3_lwb34y,2021-03-03 07:17:16,2021-03-03
+1601,gphjb0o,t3_lwb34y,Put it on trading view,t3_lwb34y,2021-03-03 09:57:15,2021-03-03
+1602,gphomqe,t3_lwb34y,"😆 no denying, buy both. I was kicking myself in December for buying bitcoin at $18,000. Had 5, sold 3 and bought silver. My head still hurts from banging it against the wall. Up to 2.5 at the dip.",t3_lwb34y,2021-03-03 10:43:04,2021-03-03
+1603,gpi1vgo,t3_lwb34y,"> Since May, the algorithm would have executed 203 trades, achieving an annualized return of ~1000%...
+
+Since May, Bitcoin itself has increased nearly 1000%. 
+
+You should compare this to a control condition of buying at random times.",t3_lwb34y,2021-03-03 12:43:17,2021-03-03
+1604,gpgu1pa,t3_lwb34y,how does it know when to sell?,t3_lwb34y,2021-03-03 06:24:04,2021-03-03
+1605,gpgtxsc,t3_lwb34y,🍆ithm,t3_lwb34y,2021-03-03 06:23:13,2021-03-03
+1606,gpgwh91,t3_lwb34y,Does Peter get a cut?,t3_lwb34y,2021-03-03 06:43:28,2021-03-03
+1607,gpgxdc8,t3_lwb34y,This is clearly the only intelligent way to trade this market,t3_lwb34y,2021-03-03 06:50:35,2021-03-03
+1608,gpgxzd2,t3_lwb34y,Schiffs Law,t3_lwb34y,2021-03-03 06:55:27,2021-03-03
+1609,gph1y04,t3_lwb34y,"You're doings God work. I wouldn't want to pay the taxes for all of those trades, but this is an amazing process you've got set up. And also, fuck Schiff.",t3_lwb34y,2021-03-03 07:28:17,2021-03-03
+1610,gphbfc1,t3_lwb34y,Great signal. Every time he gets an urge to troll BTC it’s usually on the march. Great work!,t3_lwb34y,2021-03-03 08:49:17,2021-03-03
+1611,gphdl9g,t3_lwb34y,truly schiffting reality here. I like it.,t3_lwb34y,2021-03-03 09:08:01,2021-03-03
+1612,gphi8cu,t3_lwb34y,This is funny Schiff,t3_lwb34y,2021-03-03 09:47:52,2021-03-03
+1613,gphilfm,t3_lwb34y,Bullschiff...,t3_lwb34y,2021-03-03 09:51:01,2021-03-03
+1614,gphjnwu,t3_lwb34y,Shiff for brains!,t3_lwb34y,2021-03-03 10:00:23,2021-03-03
+1615,gphnjdj,t3_lwb34y,"Peter's father was Irwin Schiff. He died in prison for selling tax scams. It took the government decades to build a case and arrest him, because... drumroll please... he never actually followed any of the advice he gave and he hid behind freedom of speech while many people went to prison following his tax evasion program.",t3_lwb34y,2021-03-03 10:33:36,2021-03-03
+1616,gphx1xj,t3_lwb34y,What percentage loss does the other 35% get you? Any more than 5 percent and your bot is running at a loss.,t3_lwb34y,2021-03-03 11:56:10,2021-03-03
+1617,gpi3dzr,t3_lwb34y,I want to bang Schiffler’s MILF Mom!,t3_lwb34y,2021-03-03 12:59:00,2021-03-03
+1618,gpi5e18,t3_lwb34y,Brilliant,t3_lwb34y,2021-03-03 13:21:05,2021-03-03
+1619,gpiog30,t3_lwb34y,He’s tweeted about Bitcoin like 3 times in the last 15 hours… so buy?,t3_lwb34y,2021-03-03 17:50:22,2021-03-03
+1620,gpiw98m,t3_lwb34y,wonder if Peter himself was using the algorithm...,t3_lwb34y,2021-03-03 19:51:40,2021-03-03
+1621,gpgola7,t3_lwb34y,Why are you promoting Peter Schiff and his twitter marketing business?,t3_lwb34y,2021-03-03 05:42:53,2021-03-03
+1622,gphae21,t3_lwb34y,"That doesn’t sound like an algorithm, just a triggered API call based on a push notification. Am I bad at terminology?",t3_lwb34y,2021-03-03 08:40:25,2021-03-03
+1623,gpgi4za,t3_lwb34y,Awesome 😂,t3_lwb34y,2021-03-03 04:56:50,2021-03-03
+1624,gpgke2g,t3_lwb34y,"How's it work. Any of his tweets with the ""bitcoin"" keyword and the trading is weighted based on sentiment analysis? Add some of the other bitcoin FUDs in there to for a clearer signal.  Have the code up on github?",t3_lwb34y,2021-03-03 05:12:45,2021-03-03
+1625,gpgq058,t3_lwb34y,Puts a whole new meaning to DCA... 😆,t3_lwb34y,2021-03-03 05:53:10,2021-03-03
+1626,gpgr238,t3_lwb34y,Fantastic! 🙌🚀,t3_lwb34y,2021-03-03 06:00:56,2021-03-03
+1627,gpgr4o8,t3_lwb34y,Selling is dumb,t3_lwb34y,2021-03-03 06:01:29,2021-03-03
+1628,gpgrpnz,t3_lwb34y,This is a good fucking idea!,t3_lwb34y,2021-03-03 06:05:55,2021-03-03
+1629,gpgtsjr,t3_lwb34y,Definitely going to turn on tweet notifications for him and have btc purchase at the ready lmao.,t3_lwb34y,2021-03-03 06:22:04,2021-03-03
+1630,gpgvl7z,t3_lwb34y,Buy on who’s tweets does it sell on?,t3_lwb34y,2021-03-03 06:36:23,2021-03-03
+1631,gph12du,t3_lwb34y,"It is the most excellent thing since I had wrote robots in MT4 for the forex market 
+
+Unfortunately I am just a HODLER of bitcoin and never sell",t3_lwb34y,2021-03-03 07:20:54,2021-03-03
+1632,gph16lw,t3_lwb34y,based,t3_lwb34y,2021-03-03 07:21:54,2021-03-03
+1633,gph3gcj,t3_lwb34y,Schiffonacci wave,t3_lwb34y,2021-03-03 07:41:14,2021-03-03
+1634,gph4buz,t3_lwb34y,how did u deploy it? wealthsimple?,t3_lwb34y,2021-03-03 07:48:44,2021-03-03
+1635,gph4ksm,t3_lwb34y,I'm curious if this would work with warren whenever he goes on CNBC and talks about bitcoin,t3_lwb34y,2021-03-03 07:50:50,2021-03-03
+1636,gph53ac,t3_lwb34y,"Even though you're serious, this was pretty funny..Classic....HE should probably also use your algo, would do him some good without him screwing it all up..ha",t3_lwb34y,2021-03-03 07:55:11,2021-03-03
+1637,gph5g28,t3_lwb34y,So you gonna share or nah?,t3_lwb34y,2021-03-03 07:58:11,2021-03-03
+1638,gph6363,t3_lwb34y,I bet you’re rich as fuck,t3_lwb34y,2021-03-03 08:03:38,2021-03-03
+1639,gph649a,t3_lwb34y,How much to buy it?,t3_lwb34y,2021-03-03 08:03:54,2021-03-03
+1640,gph6jyd,t3_lwb34y,"Peter Schiff is the messenger of the cryptoverse!!!
+
+-ALL HAIL-",t3_lwb34y,2021-03-03 08:07:41,2021-03-03
+1641,gph73dy,t3_lwb34y,"Dude, don't tell him that.",t3_lwb34y,2021-03-03 08:12:16,2021-03-03
+1642,gph7gne,t3_lwb34y,Very cool. I've been looking for an API to try.  My friend tried bitsgap but unfortunately it was a scam and after linking API they stole 90% of the value out of his account by buying some obscure coin (MORE coin) they had pre-bought. A flaw of using someone else's API bot.,t3_lwb34y,2021-03-03 08:15:26,2021-03-03
+1643,gph7tc3,t3_lwb34y,"what is up with schiff? that guy made it his full time job to talk shit about bitcoin, it's quite impressive actually.",t3_lwb34y,2021-03-03 08:18:26,2021-03-03
+1644,gph7tj1,t3_lwb34y,"Compare that strategy to a random sample of 10,000 other strategies each executing 203 trades at random intervals over the same time to get a baseline for comparison",t3_lwb34y,2021-03-03 08:18:29,2021-03-03
+1645,gph7vzn,t3_lwb34y,How about a Elon Doge coin sell signal?,t3_lwb34y,2021-03-03 08:19:03,2021-03-03
+1646,gph81uy,t3_lwb34y,When does it sell?,t3_lwb34y,2021-03-03 08:20:26,2021-03-03
+1647,gph8eu8,t3_lwb34y,"Just looking at 3 of his most recent tweets it’s obvious he really dislikes the idea of crypto, does he have any reasons why or does he just complain without any objective analysis?",t3_lwb34y,2021-03-03 08:23:31,2021-03-03
+1648,gph8m3l,t3_lwb34y,Or is it because Bitcoin can only go in 1 direction regardless of logic or reason?,t3_lwb34y,2021-03-03 08:25:14,2021-03-03
+1649,gph995i,t3_lwb34y,You’d really be on to something here if you did the same for Elon and Doge.,t3_lwb34y,2021-03-03 08:30:42,2021-03-03
+1650,gpha1bi,t3_lwb34y,"Ok I get the buying, but does the algorithm determine when to sell? When Elon Musk tweets that it’s overvalued?",t3_lwb34y,2021-03-03 08:37:27,2021-03-03
+1651,gpha3a8,t3_lwb34y,Wow genius!,t3_lwb34y,2021-03-03 08:37:54,2021-03-03
+1652,gpha3i5,t3_lwb34y,He mentioned buying btc and asking when he'd sell it if ever @58k.... Then it dumped,t3_lwb34y,2021-03-03 08:37:57,2021-03-03
+1653,gphbfj2,t3_lwb34y,but when do we sell,t3_lwb34y,2021-03-03 08:49:20,2021-03-03
+1654,gphbul0,t3_lwb34y,Crazy....,t3_lwb34y,2021-03-03 08:52:58,2021-03-03
+1655,gphc530,t3_lwb34y,Would have?,t3_lwb34y,2021-03-03 08:55:27,2021-03-03
+1656,gphfnhm,t3_lwb34y,LOL,t3_lwb34y,2021-03-03 09:25:48,2021-03-03
+1657,gphh83h,t3_lwb34y,Have fun being rich,t3_lwb34y,2021-03-03 09:39:19,2021-03-03
+1658,gphhl0e,t3_lwb34y,Can I see this code?,t3_lwb34y,2021-03-03 09:42:23,2021-03-03
+1659,gphiagz,t3_lwb34y,Can I get one that shorts doge about 30 min after elon tweets about it?,t3_lwb34y,2021-03-03 09:48:22,2021-03-03
+1660,gphj7zl,t3_lwb34y,What an absolutely beautiful way. To the Moon🚀🚀🚀🚀🚀,t3_lwb34y,2021-03-03 09:56:30,2021-03-03
+1661,gphjq7t,t3_lwb34y,When does it sell?,t3_lwb34y,2021-03-03 10:00:56,2021-03-03
+1662,gphka8r,t3_lwb34y,mad lad,t3_lwb34y,2021-03-03 10:05:45,2021-03-03
+1663,gphltxs,t3_lwb34y,When does the algo sell?,t3_lwb34y,2021-03-03 10:18:58,2021-03-03
+1664,gphlu9b,t3_lwb34y,So PSA (Peter Schiff Averaging) or DCA?,t3_lwb34y,2021-03-03 10:19:03,2021-03-03
+1665,gphms8z,t3_lwb34y,Sooner or later this man will Schifft his perspective and understand the value behind btc,t3_lwb34y,2021-03-03 10:27:09,2021-03-03
+1666,gphnftn,t3_lwb34y,"As much as bitcoin is nothing and Peter Schiff will be right in the end
+
+This algo will work in the near to medium term 😂",t3_lwb34y,2021-03-03 10:32:46,2021-03-03
+1667,gphnvde,t3_lwb34y,Yes!!!! HAHAHAHAHAHAHA!!! This guy thinks outside of the circle 😉💯,t3_lwb34y,2021-03-03 10:36:29,2021-03-03
+1668,gphotui,t3_lwb34y,Please share the algo!,t3_lwb34y,2021-03-03 10:44:49,2021-03-03
+1669,gphpzqd,t3_lwb34y,This is a great idea,t3_lwb34y,2021-03-03 10:54:57,2021-03-03
+1670,gphr6ev,t3_lwb34y,How do you determine which tweet is bout bitcoin?,t3_lwb34y,2021-03-03 11:04:35,2021-03-03
+1671,gphs510,t3_lwb34y,Okay I'm listening,t3_lwb34y,2021-03-03 11:12:07,2021-03-03
+1672,gphs8w4,t3_lwb34y,You guys are soooo weirdly obsessed with Schiff. Like... wtf is that? I get it... y’all disagree. Get the f over it already. Seriously the more you do it the more it seems like your overcompensating for your own insecurity of what you’ve invested in. Its just too weird dude...,t3_lwb34y,2021-03-03 11:12:58,2021-03-03
+1673,gphsgqi,t3_lwb34y,I wish I was smart,t3_lwb34y,2021-03-03 11:14:48,2021-03-03
+1674,gphsjd2,t3_lwb34y,Haha love this nice! I actually like schiff for certain aspects of the economy but he has a huge blind spot about crypto. Or he is just worried it will ruin his business.,t3_lwb34y,2021-03-03 11:15:26,2021-03-03
+1675,gphsohf,t3_lwb34y,Schiff will never buy Bitcoin.  That’s a sure thing.,t3_lwb34y,2021-03-03 11:16:41,2021-03-03
+1676,gphtbok,t3_lwb34y,Sign me up.  Where do i download,t3_lwb34y,2021-03-03 11:22:29,2021-03-03
+1677,gphubzy,t3_lwb34y,trading Algo you say??,t3_lwb34y,2021-03-03 11:31:31,2021-03-03
+1678,gphuhmb,t3_lwb34y,But what is the signal to sell? you can not anticipate where the price peaks.,t3_lwb34y,2021-03-03 11:32:57,2021-03-03
+1679,gphw9ae,t3_lwb34y,How often does he tweet?,t3_lwb34y,2021-03-03 11:48:55,2021-03-03
+1680,gphwne4,t3_lwb34y,Hes fucking stupid,t3_lwb34y,2021-03-03 11:52:30,2021-03-03
+1681,gphxwh8,t3_lwb34y,Trading algo. That’ll get u banned from coinbase and binance quick,t3_lwb34y,2021-03-03 12:04:03,2021-03-03
+1682,gphydio,t3_lwb34y,Is there an IFTTT command for this or nah?,t3_lwb34y,2021-03-03 12:08:32,2021-03-03
+1683,gphyu05,t3_lwb34y,He’s clearly a closet Hodlr there’s no way he believes a word of what he says,t3_lwb34y,2021-03-03 12:12:57,2021-03-03
+1684,gphzd8f,t3_lwb34y,So you only bought it twice. Would have been less headache and time consuming by just following him on Twitter. Just saying,t3_lwb34y,2021-03-03 12:18:06,2021-03-03
+1685,gphzj43,t3_lwb34y,This is pretty cool,t3_lwb34y,2021-03-03 12:19:40,2021-03-03
+1686,gpi2c1l,t3_lwb34y,Great news everyone. It's Schifforama.,t3_lwb34y,2021-03-03 12:47:59,2021-03-03
+1687,gpi2c7p,t3_lwb34y,But you sold? Not da way,t3_lwb34y,2021-03-03 12:48:02,2021-03-03
+1688,gpi2l8d,t3_lwb34y,Sounds a bit Schifty to me.,t3_lwb34y,2021-03-03 12:50:37,2021-03-03
+1689,gpi4jrx,t3_lwb34y,"U/mulebotte did u see my tweet a few days ago?? Literally was this exact thing😂😂 Good shit my man🔥
+
+[tweet](https://twitter.com/satoshijabroni/status/1363896090110681089?s=21)",t3_lwb34y,2021-03-03 13:11:44,2021-03-03
+1690,gpi6apf,t3_lwb34y,Giddy.,t3_lwb34y,2021-03-03 13:31:28,2021-03-03
+1691,gpi89b2,t3_lwb34y,Omg his posts are such a boomer I need to buy when he tweets now lol,t3_lwb34y,2021-03-03 13:54:25,2021-03-03
+1692,gpi9di5,t3_lwb34y,Nice! Not really an algorithm or complicated but definitely creative!,t3_lwb34y,2021-03-03 14:08:06,2021-03-03
+1693,gpi9ww5,t3_lwb34y,lol fucking hilarious,t3_lwb34y,2021-03-03 14:14:48,2021-03-03
+1694,gpia6jg,t3_lwb34y,http://stakes4.me try this for a while,t3_lwb34y,2021-03-03 14:18:08,2021-03-03
+1695,gpia85w,t3_lwb34y,I like bitcoin gambling sites that share the profits automatically via smart contracts - https://stakes4.me,t3_lwb34y,2021-03-03 14:18:43,2021-03-03
+1696,gpiatxv,t3_lwb34y,This is gold,t3_lwb34y,2021-03-03 14:26:24,2021-03-03
+1697,gpid3jn,t3_lwb34y,Did you run the random selection and see if it also didn't do as well? Show us some p-value. :),t3_lwb34y,2021-03-03 14:56:31,2021-03-03
+1698,gpidt4o,t3_lwb34y,Schitty schitty schitty schitt schitt schitt schitt if he tweets again I’ll be rich as schitt,t3_lwb34y,2021-03-03 15:06:16,2021-03-03
+1699,gpigczo,t3_lwb34y,Good idea. Now one where it buys Doge everytime Musk tweets about it :),t3_lwb34y,2021-03-03 15:43:00,2021-03-03
+1700,gpih6px,t3_lwb34y,Damn,t3_lwb34y,2021-03-03 15:55:28,2021-03-03
+1701,gpihbbd,t3_lwb34y,How does the algorithm perform against a random purchase or dollar cost averaging?,t3_lwb34y,2021-03-03 15:57:22,2021-03-03
+1702,gpihchn,t3_lwb34y,haha.. epic exclamation point,t3_lwb34y,2021-03-03 15:57:51,2021-03-03
+1703,gpihjxl,t3_lwb34y,You have cracked the code,t3_lwb34y,2021-03-03 16:01:05,2021-03-03
+1704,gpijkly,t3_lwb34y,Very cool and funny idea. But tracking it agaunst fiat is not very usefull. Can you compare it against buy and hodl and maybe dca from the first time he tweeted?,t3_lwb34y,2021-03-03 16:32:22,2021-03-03
+1705,gpikc4v,t3_lwb34y,You're going to have one heavy bag of Bitcoin my friend,t3_lwb34y,2021-03-03 16:44:25,2021-03-03
+1706,gpilubz,t3_lwb34y,Has he posted the repo?,t3_lwb34y,2021-03-03 17:08:20,2021-03-03
+1707,gpim86b,t3_lwb34y,"Post a git repo, people always need code, not just stories about code.",t3_lwb34y,2021-03-03 17:14:31,2021-03-03
+1708,gpio9x1,t3_lwb34y,"If you just buy and hold, how do you have 3% average return but 1000% annualised?",t3_lwb34y,2021-03-03 17:47:33,2021-03-03
+1709,gpiq4mb,t3_lwb34y,You must be millionaire already!,t3_lwb34y,2021-03-03 18:17:47,2021-03-03
+1710,gpiqjw5,t3_lwb34y,How much better does this perform than buying just at random?,t3_lwb34y,2021-03-03 18:25:08,2021-03-03
+1711,gpir4m3,t3_lwb34y,Have you ran this retroactively - meaning would it have the same outcome if this was ran last year at this date?,t3_lwb34y,2021-03-03 18:34:56,2021-03-03
+1712,gpirr6o,t3_lwb34y,WoW! I wish I could follow my favorite investor like that on auto! What a great idea!,t3_lwb34y,2021-03-03 18:45:10,2021-03-03
+1713,gpirrkm,t3_lwb34y,What decides the sell?,t3_lwb34y,2021-03-03 18:45:20,2021-03-03
+1714,gpirsv0,t3_lwb34y,How do I use this algorithm,t3_lwb34y,2021-03-03 18:45:54,2021-03-03
+1715,gpirvvt,t3_lwb34y,"This is so stupid. You could write a tradebot that that flips a coin every daily since last year and it would have made a return of 1,000%. Everybody is a genius in a bullmarket.
+
+I wonder how your algo compares to just buy and hold.",t3_lwb34y,2021-03-03 18:47:11,2021-03-03
+1716,gpistyx,t3_lwb34y,Hertz shares to the moon 🚀 pls - this is our chance  💎,t3_lwb34y,2021-03-03 19:01:56,2021-03-03
+1717,gpiupkm,t3_lwb34y,Bahahahah,t3_lwb34y,2021-03-03 19:30:15,2021-03-03
+1718,gpiuzvx,t3_lwb34y,He can make use of coinbase or cashapp neither!,t3_lwb34y,2021-03-03 19:34:25,2021-03-03
+1719,gpiv6lb,t3_lwb34y,Hmm,t3_lwb34y,2021-03-03 19:37:00,2021-03-03
+1720,gpiv7gs,t3_lwb34y,Are you an investor?,t3_lwb34y,2021-03-03 19:37:20,2021-03-03
+1721,gpivtrt,t3_lwb34y,"it is like every algo in the trading area: something like that works for a while and then not anymore because everyone does it. Such an algo has to be constantly adjusted. Certainly profitable in the short term, in the long term I'm rather skeptical, especially with [bitcoin](https://www.youtube.com/watch?v=rts4adxXnUg). the liquidity is rather low which could be a real problem because you have to buy too expensive.",t3_lwb34y,2021-03-03 19:45:51,2021-03-03
+1722,gpiwqex,t3_lwb34y,you copied this idea from this youtuber who created an Elon musk trading bot,t3_lwb34y,2021-03-03 19:58:05,2021-03-03
+1723,gpiwzem,t3_lwb34y,"conclusion: people can benefit from anything related to bitcoin, doesn't matter even if it is it's criticism.",t3_lwb34y,2021-03-03 20:01:22,2021-03-03
+1724,gpix464,t3_lwb34y,"Wow, unique",t3_lwb34y,2021-03-03 20:03:09,2021-03-03
+1725,gpixxqe,t3_lwb34y,What would happen if Dogecoin was purchased by Bitcoin?,t3_lwb34y,2021-03-03 20:13:38,2021-03-03
+1726,gpiyc9o,t3_lwb34y,Tell him to keep tweeting!!!,t3_lwb34y,2021-03-03 20:18:41,2021-03-03
+1727,gpiz92l,t3_lwb34y,"I unfollowed that Troll and it makes me happier every day to not see all his negative tweets but then sometimes he still shows up in my feed under another follower, alas",t3_lwb34y,2021-03-03 20:29:46,2021-03-03
+1728,gpizwi1,t3_lwb34y,That's great! Any chance to make it open source?,t3_lwb34y,2021-03-03 20:37:26,2021-03-03
+1729,gpj11ha,t3_lwb34y,I wrote an algorithm that buys bitcoin whenever my dog takes a shit. I'm over 1000% in profit now. Follow my dog on twitter.,t3_lwb34y,2021-03-03 20:50:29,2021-03-03
+1730,gpj18uw,t3_lwb34y,"Can it be called trading if it only buys? That is definitely the way to go, don’t get me wrong, but usually trading involves returning to the original state, at least that is how I see it",t3_lwb34y,2021-03-03 20:52:43,2021-03-03
+1731,gpj2jjs,t3_lwb34y,Hail!,t3_lwb34y,2021-03-03 21:06:46,2021-03-03
+1732,gpj8o52,t3_lwb34y,"But how do you schedule the sell order? You'd only have that kind of profit if you timed the market perfectly every time which is close to impossible. You still would've made bank though, Cool algorithm!
+
+P.S it's always a good time to buy bitcoin.",t3_lwb34y,2021-03-03 22:05:00,2021-03-03
+1747,gpggpmr,t3_lwb34y,If you purchase just $1 of bitcoin every time Schiff talks shit about bitcoin.  You’ll be rich in a few months.,t3_lwb34y,2021-03-03 04:46:58,2021-03-03
+1748,gpgipiu,t3_lwb34y,Nice. What has been the Schiff sell signal for the bot though?,t3_lwb34y,2021-03-03 05:00:47,2021-03-03
+1749,gpgjjkj,t3_lwb34y,Thats fucking awesome and hilarious,t3_lwb34y,2021-03-03 05:06:46,2021-03-03
+1750,gpij7l9,t3_lwb34y,"Poor Schiff. I feel bad for the boomers sometimes, they honestly just expect everything to snap back to their version of normal aaaaany minute now. This guy literally posted a few hours ago how Bitcoin will ""never be money"". Dude, most major IT companies in my area have had BTC budgets for some time now so they can order parts off Newegg on the cheap. A few real estate investors I know are making deals in either partial or full BTC. My buddy just bought a car with BTC a month ago.
+
+Good boi Schifforithm make dat money!",t3_lwb34y,2021-03-03 16:26:45,2021-03-03
+1751,gphlgek,t3_lwb34y,"Cool, but hardly an algorithm. More like a for loop and an if statement",t3_lwb34y,2021-03-03 10:15:45,2021-03-03
+1752,gphlufq,t3_lwb34y,Gross misuse of the term “algorithm”,t3_lwb34y,2021-03-03 10:19:05,2021-03-03
+1753,gphluk5,t3_lwb34y,Gross misuse of the term “algorithm”,t3_lwb34y,2021-03-03 10:19:06,2021-03-03
+1754,gphluog,t3_lwb34y,Gross misuse of the term “algorithm”,t3_lwb34y,2021-03-03 10:19:08,2021-03-03
+1755,gphsqsc,t3_lwb34y,"Checkout cryptodivine
+
+Provides signals to purchase btc",t3_lwb34y,2021-03-03 11:17:16,2021-03-03
+1756,gph3up2,t1_gpgdsdd,">Since May, the algorithm would have executed 203 trades, achieving an annualized return of \~1000%. 65% of trades are profitable with a 3% average return.
+
+A schiff test",t3_lwb34y,2021-03-03 07:44:38,2021-03-03
+1757,gphlbfc,t1_gpgdsdd,Total bullschiff!,t3_lwb34y,2021-03-03 10:14:34,2021-03-03
+1758,gph2omv,t1_gpgdsdd,Schitorithm,t3_lwb34y,2021-03-03 07:34:37,2021-03-03
+1759,gpiz5c7,t1_gpgdsdd,Skepticschiffsm,t3_lwb34y,2021-03-03 20:28:32,2021-03-03
+1760,gpiweeu,t1_gpgdsdd,Perhaps a Schiffbotorithm?,t3_lwb34y,2021-03-03 19:53:36,2021-03-03
+1761,gpi2lgo,t1_gpgdsdd,Schiff Coin ™️,t3_lwb34y,2021-03-03 12:50:40,2021-03-03
+1762,gpgbf6b,t1_gpgb065,That would be the only imaginable sell signal at this point.,t3_lwb34y,2021-03-03 04:09:22,2021-03-03
+1763,gpgn52q,t1_gpgb065,I absolutely love this idea. Literally everyone dumps everything when that piece of shit buys,t3_lwb34y,2021-03-03 05:32:22,2021-03-03
+1764,gph2sgd,t1_gpgb065,He already said now that btc hit 50k he could see it going to 100k... sounds like he bought to me,t3_lwb34y,2021-03-03 07:35:32,2021-03-03
+1765,gpgslr9,t1_gpgb065,He's been in Bitcoin for a lot longer than a lot of people in here.,t3_lwb34y,2021-03-03 06:12:47,2021-03-03
+1766,gphobkq,t1_gpgb065,"Although I hate manipulated pump and dumps, this would be the only acceptable time to do it. Everyone just collectively sells the second Peter buys and causes him to paper hand. Such sweet karma.",t3_lwb34y,2021-03-03 10:40:22,2021-03-03
+1767,gphlejg,t1_gpgb065,Aka total bullschiff day,t3_lwb34y,2021-03-03 10:15:19,2021-03-03
+1768,gpizglo,t1_gpgb065,He's too dangerous to be kept alive :D,t3_lwb34y,2021-03-03 20:32:15,2021-03-03
+1770,gphsc8r,t1_gpgb065,Why do you care what he does? You in love with him or something?,t3_lwb34y,2021-03-03 11:13:45,2021-03-03
+1771,gpheog1,t1_gpgb065,That would suck....but it would also be ironically hilarious.,t3_lwb34y,2021-03-03 09:17:31,2021-03-03
+1772,gph9yhy,t1_gpgehq0,How often does this guy tweet?,t3_lwb34y,2021-03-03 08:36:46,2021-03-03
+1773,gph6gsx,t1_gpgoxjs,Right how does this compare to buy and just hold?,t3_lwb34y,2021-03-03 08:06:56,2021-03-03
+1774,gpj11m9,t1_gpgoxjs,I wrote an algorithm that buys bitcoin whenever my dog takes a shit. I'm over 1000% in profit now. Follow my dog on twitter.,t3_lwb34y,2021-03-03 20:50:32,2021-03-03
+1775,gpih05j,t1_gpgoxjs,"Same could be said for anyone. If you invested in BTC every time Donald trump tweeted over the last 10yrs, you’ve seen gains. Big gains. Some say biggest ever.",t3_lwb34y,2021-03-03 15:52:44,2021-03-03
+1776,gpgda9j,t1_gpgc2jk,"I'm sure he understands it just fine, he probably owns some even, but the guy makes a living off of gold. It's his profession to spread FUD.",t3_lwb34y,2021-03-03 04:22:47,2021-03-03
+1777,gpgorx8,t1_gpgc2jk,He understands it just fine. How else do you think he manages to perfectly troll bitcoiners for exposure every damn week.,t3_lwb34y,2021-03-03 05:44:14,2021-03-03
+1778,gpgzu5y,t1_gpgc2jk,Nah he's a gold industry shill,t3_lwb34y,2021-03-03 07:10:37,2021-03-03
+1779,gphisu7,t1_gpgc2jk,"Nobody in crypto seems to realizes he uses them to spread his name and greatly jncrease his online SEO. Crypto people cant stop talking about him and they are basically doing all his internet marketing for him. His seo profile and ranking, and his gold business have shot through the roof thanks to the gullible crypto crowd that cant stop talking about him.",t3_lwb34y,2021-03-03 09:52:50,2021-03-03
+1780,gpgrk46,t1_gpgc2jk,"Schiff know exactly what he's doing... that's why he bothers to #bitcoin in so many tweets... because they get the most clicks, he becomes a low-level celebrity for his stubborn refusal to think outside of gold.",t3_lwb34y,2021-03-03 06:04:45,2021-03-03
+1781,gpgste1,t1_gpgc2jk,He understands BTC enough to own them. He's just putting on an act.,t3_lwb34y,2021-03-03 06:14:25,2021-03-03
+1782,gpgezof,t1_gpgc2jk,"I agree, he is very smart, I think he does understand it but his ego refuses to allow him to accept it.",t3_lwb34y,2021-03-03 04:34:47,2021-03-03
+1783,gph2jnx,t1_gpgc2jk,He's all-in on the gold/silver hype. Bitcoin ruins his jam.,t3_lwb34y,2021-03-03 07:33:26,2021-03-03
+1784,gph4bau,t1_gpgc2jk,He understands it’s just that he’s got a gold business to run and btc is bad for business. 🤦,t3_lwb34y,2021-03-03 07:48:36,2021-03-03
+1785,gphbz80,t1_gpgc2jk,"And he's obviously not hurting for money. I don't get why he doesn't just put 1% of his portfolio or something into bitcoin already, what is there to lose? At some point you just have to swallow your pride and ""if you can't beat them, join them"". 
+
+Hasn't he ever heard of hedging your bets?",t3_lwb34y,2021-03-03 08:54:03,2021-03-03
+1786,gpgrbe9,t1_gpgc2jk,hes a boomer,t3_lwb34y,2021-03-03 06:02:54,2021-03-03
+1787,gpglwfp,t1_gpgc2jk,IYI,t3_lwb34y,2021-03-03 05:23:17,2021-03-03
+1788,gphj16r,t1_gpgc2jk,"No, no he isn't.  Just read his tweets.  
+
+He is not a smart man.",t3_lwb34y,2021-03-03 09:54:49,2021-03-03
+1789,gpi6wn3,t1_gpgc2jk,I'm almost positive that he owns a huge chunk and is just using reverse psychology,t3_lwb34y,2021-03-03 13:38:30,2021-03-03
+1790,gpifw6s,t1_gpgc2jk,"What’s the saying, don’t trust the opinion of someone who makes a living being ignorant? 
+
+While Schiff is ironically blind to the existential threats to gold, he has some valid concerns about existential threats to Bitcoin, but we rarely get to discuss them because everyone is so dogmatic about things these days.",t3_lwb34y,2021-03-03 15:36:02,2021-03-03
+1791,gpigbk9,t1_gpgc2jk,"Its not really confusing when you think about it. Hes scared, for the first time in history there is a potential threat to Gold, something he both believes in and invests in. Plus governments power is directly correlated by how much gold they have.",t3_lwb34y,2021-03-03 15:42:25,2021-03-03
+1792,gph34aa,t1_gpgc2jk,"He does not understand that ""intrinsic value"" is NOT the driver of what makes good money money.
+And he is stuck there with that thought, on a loop . Even some gold bugs try to point that out, but he just doesn't listen others.",t3_lwb34y,2021-03-03 07:38:21,2021-03-03
+1793,gph76rs,t1_gpgc2jk,What bullet points could you give me about BTC? Earnest question,t3_lwb34y,2021-03-03 08:13:05,2021-03-03
+1794,gphol3n,t1_gpgyx1y,I just ran a comparison. Control model is way less funny.,t3_lwb34y,2021-03-03 10:42:41,2021-03-03
+1795,gpi8ujl,t1_gpgyx1y,I'd like to see that,t3_lwb34y,2021-03-03 14:01:38,2021-03-03
+1796,gpgzctv,t1_gpgyx1y,"This right here, we need a control comparison.",t3_lwb34y,2021-03-03 07:06:39,2021-03-03
+1797,gpiw5oz,t1_gpgyx1y,"The thing is Peter probably tweets more when bitcoin dips, so this algo is still better than random. If you would compare it with a buy after each drop of x% and sell after 72h there’s probably only the advantage of fun factor",t3_lwb34y,2021-03-03 19:50:20,2021-03-03
+1798,gpgs955,t1_gpge67d,Buying and selling can help you accumulate more... I’m not sure what you’re getting at,t3_lwb34y,2021-03-03 06:10:03,2021-03-03
+1799,gpillzb,t1_gpge67d,"This.  
+I have discovered since I began investing in Bitcoin that I do not want to use them.  
+They are just too valuable, and I get edgy when some services can only be paid with Bitcoin and I want to waste my crappy fiat instead - so that I get rid of them before they become completely worthless.  
+
+
+Oh Bitcoin, what have you done to me..",t3_lwb34y,2021-03-03 17:04:35,2021-03-03
+1800,gpgf40e,t1_gpge67d,Lmao I know right?!? Down the road they'll be kicking themselves in the ass for ever selling,t3_lwb34y,2021-03-03 04:35:38,2021-03-03
+1801,gphofb0,t1_gpgzfvh,The comparison is less funny.,t3_lwb34y,2021-03-03 10:41:16,2021-03-03
+1802,gpila0i,t1_gpgzfvh,"The person learned some neat coding in the process.  
+Win-win and double win.",t3_lwb34y,2021-03-03 16:59:17,2021-03-03
+1803,gphe8zo,t1_gpgo65z,"Yes, easily.",t3_lwb34y,2021-03-03 09:13:46,2021-03-03
+1804,gpiuvs7,t1_gpgo65z,"Coinbase provides a simple and powerful REST API to integrate bitcoin, bitcoin cash, litecoin and ethereum payments into your business or application. This API reference provides information on available endpoints and how to interact with it.",t3_lwb34y,2021-03-03 19:32:45,2021-03-03
+1805,gpgy9su,t1_gpgic6v,"If (and that's the biggest if) it's a perfect algorithm, selling at the right times and buying back, even after accounting for all the taxes and more, will result in orders of magnitude more profit than buy and hodl or dca and hodl, it's just math.",t3_lwb34y,2021-03-03 06:57:47,2021-03-03
+1806,gph4c8o,t1_gph0msl,"The easiest way would probably to use Python and look for an exchange with an API or even a Python client for the API.
+
+If you're new to programming, learning Python is really easy, you can find tons of free good classes on that online.",t3_lwb34y,2021-03-03 07:48:49,2021-03-03
+1808,gpgzw36,t1_gpgu1pa,You never sell. That must be a typo on the graph.,t3_lwb34y,2021-03-03 07:11:04,2021-03-03
+1809,gph45sd,t1_gph1y04,"Wouldnt have mattered if you made all those trades short term, you would have paid the same amount in taxes as it was within the same physical year of the purchase though two months would have been in 2021. It would only be on profits. The important thing (I'm being an ugly American assuming this is where you pay taxes) is you hold longer than a year and then all future sales of cryptocurrency based upon FIFO until the purchase is exhausted will be at a capital gains tax rate. This is supposed to be good news if your HODL. :-)",t3_lwb34y,2021-03-03 07:47:17,2021-03-03
+1810,gpiv4ey,t1_gph1y04,👍,t3_lwb34y,2021-03-03 19:36:09,2021-03-03
+1811,gpiygzu,t1_gphae21,No I was thinking the same thing.,t3_lwb34y,2021-03-03 20:20:18,2021-03-03
+1812,gpgknpl,t1_gpgke2g,Here is a starting place for anyone that wants to build such a thing [https://github.com/shirosaidev/stocksight](https://github.com/shirosaidev/stocksight),t3_lwb34y,2021-03-03 05:14:36,2021-03-03
+1813,gpiv2o4,t1_gpgr4o8,I disagree with that,t3_lwb34y,2021-03-03 19:35:28,2021-03-03
+1814,gph0nto,t1_gpgvl7z,Saylor,t3_lwb34y,2021-03-03 07:17:30,2021-03-03
+1815,gphcbdn,t1_gph53ac,We should all use this algorithm lol,t3_lwb34y,2021-03-03 08:56:58,2021-03-03
+1816,gphc982,t1_gph7tc3,He makes the boomers feel smart,t3_lwb34y,2021-03-03 08:56:26,2021-03-03
+1817,gpia0c9,t1_gpi9ww5,u/blockchainprojects is a known SCAMMER,t3_lwb34y,2021-03-03 14:16:01,2021-03-03
+1818,gpin935,t1_gphlgek,"al·go·rithm
+
+/ˈalɡəˌriT͟Həm/
+
+
+noun
+
+a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.",t3_lwb34y,2021-03-03 17:31:00,2021-03-03
+1819,gph6zg8,t1_gph3up2,hahaha sniff test lol,t3_lwb34y,2021-03-03 08:11:21,2021-03-03
+1821,gpi58u2,t1_gph3up2,You may want to test it over a far longer window of time lol,t3_lwb34y,2021-03-03 13:19:25,2021-03-03
+1822,gphoqwg,t1_gphlbfc,Schiffy,t3_lwb34y,2021-03-03 10:44:06,2021-03-03
+1823,gph6lmo,t1_gph2omv,Schifftastic,t3_lwb34y,2021-03-03 08:08:06,2021-03-03
+1824,gpiwrye,t1_gpiweeu,Loving it :D,t3_lwb34y,2021-03-03 19:58:39,2021-03-03
+1825,gphdpna,t1_gpgbf6b,"wait for schiffs ""in retrospect, it was inevitable"" tweet at $300k.",t3_lwb34y,2021-03-03 09:09:04,2021-03-03
+1826,gpgvf9w,t1_gpgn52q,"lmao when schiff puts in 1 million and it turns into 10 dollars worth of bitcoin
+
+just imagine",t3_lwb34y,2021-03-03 06:35:03,2021-03-03
+1827,gph48ni,t1_gpgn52q,Piece of Schiff,t3_lwb34y,2021-03-03 07:47:59,2021-03-03
+1828,gphm2rb,t1_gpgn52q,If he tweets support I'm dumping all my BTC. I'll buy back in after the dump of course. Just want him to pee his pants when he's standing in front of the class.,t3_lwb34y,2021-03-03 10:21:03,2021-03-03
+1829,gphcutf,t1_gpgn52q,I bet he already has.,t3_lwb34y,2021-03-03 09:01:36,2021-03-03
+1830,gphnfm7,t1_gpgn52q,He’s a good dude,t3_lwb34y,2021-03-03 10:32:43,2021-03-03
+1831,gpiqypp,t1_gpgn52q,"He's not a piece of shit if you're into precious metals.
+
+He isn't REALLY anti crypto. He just portrays it so because his investment company thrives on a bull metals market. There is no good business strategy for him to publicly give credit to crypto.
+
+I don't understand how folks here don't see this for what it is.
+
+[His company has accepted crypto payments since 2014! HE OWNS CRYPTO.](https://www.cnbc.com/2014/05/21/bitcoin-hater-schiff-now-selling-gold-for-bitcoins.html)",t3_lwb34y,2021-03-03 18:32:12,2021-03-03
+1832,gpiycj4,t1_gph2sgd,https://schiffgold.com/buy/buying-gold-silver-cryptos/ looks like he always has.,t3_lwb34y,2021-03-03 20:18:47,2021-03-03
+1833,gpgwml9,t1_gpgslr9,Prove it.,t3_lwb34y,2021-03-03 06:44:40,2021-03-03
+1834,gphw21v,t1_gphsc8r,I am,t3_lwb34y,2021-03-03 11:47:04,2021-03-03
+1835,gpha1ww,t1_gph9yhy,He tweets about bitcoin twice as much as he tweets about his precious gold,t3_lwb34y,2021-03-03 08:37:35,2021-03-03
+1836,gph9f03,t1_gph6gsx,It's just more...fun this way,t3_lwb34y,2021-03-03 08:32:06,2021-03-03
+1837,gphbpoo,t1_gph6gsx,"Based on my very rough math, buy and hold would have returned just under 500% since May 1, so he seems to be beating the market at least.",t3_lwb34y,2021-03-03 08:51:47,2021-03-03
+1838,gphitp2,t1_gph6gsx,"I’ve been hodling since 1970 and I’m up 100infinity percent, so hodl wins.",t3_lwb34y,2021-03-03 09:53:02,2021-03-03
+1839,gphbsy4,t1_gpgda9j,"""It is difficult to get a man to understand something when his salary depends on his not understanding it.""
+
+\- Upton Sinclair",t3_lwb34y,2021-03-03 08:52:34,2021-03-03
+1840,gpgfhbi,t1_gpgda9j,"When he was young, his father said only seashells were legitimate money. He went against his father and Peter invested in gold. He said that gold was superior to seashells because they were more limited in supply than seashells. His father laughed, saying that gold would never replace seashells as money. Peter was living in a fantasy for kids and scammers. He proved his father wrong, but it doesn't mean he would be right forever.",t3_lwb34y,2021-03-03 04:38:15,2021-03-03
+1841,gph4onk,t1_gpgda9j,"Yea I wouldn’t be surprised if he owns some. I think this has just become his thing, or his shtick. It brings him attention and a platform. It’s probably more damaging to his brand to admit he’s wrong and lose followers/his shtick than it is to continue being wrong but be popular.",t3_lwb34y,2021-03-03 07:51:45,2021-03-03
+1842,gph01a3,t1_gpgda9j,[deleted],t3_lwb34y,2021-03-03 07:12:16,2021-03-03
+1843,gphdeh5,t1_gpgda9j,"It’s definitely a scam, his sim owns bitcoin, he owns gold, he’s just doing this for attention",t3_lwb34y,2021-03-03 09:06:20,2021-03-03
+1844,gpimo9d,t1_gpgda9j,What does FUD stand for? Fucked Up Diligence?,t3_lwb34y,2021-03-03 17:21:45,2021-03-03
+1845,gpiqvdk,t1_gph4bau,"Bad for business, good for free advertising",t3_lwb34y,2021-03-03 18:30:38,2021-03-03
+1846,gpguyph,t1_gpgrbe9,Nuff said.,t3_lwb34y,2021-03-03 06:31:21,2021-03-03
+1847,gphod1t,t1_gphj16r,"Pretty sure he knows he is wrong and is saying what he knows a certain percentage of common people will say. This is his last chance to cash out on his life's investment in gold, and there are plenty of people who don't understand BTC that will agree with him and buy his gold bags",t3_lwb34y,2021-03-03 10:40:43,2021-03-03
+1848,gpgxqun,t1_gpgs955,you must've discovered the secret to crypto trading. is it buy low sell high?,t3_lwb34y,2021-03-03 06:53:32,2021-03-03
+1849,gphz5sk,t1_gpgs955,Every time I sell.i have less. Help?,t3_lwb34y,2021-03-03 12:16:05,2021-03-03
+1850,gpgtk74,t1_gpgs955,"No it can't- unless you're converting to another currency in order to make the money work in a way that can accrue wealth faster than just letting Bitcoin skyrocket.
+
+Like, if you buy 1 coin for $1, then sell when it's worth $10, you'd need to use that $10 to invest in other things which net you $100 value before that one coin just rises to the value of $100 naturally- otherwise you're just converting currency for no reason.
+
+For most anynoe, the simple algorithm of
+
+*buy at year 0, never sell*
+
+is going to make you much more money than buying every dip and selling every peak.
+
+EDIT: This is true assuming you're buying at the same points in all scenarios; if you bought in a trading scenario, then you'd also buy in the hodling scenario- in which case selling will be, at best, the same as hodling.",t3_lwb34y,2021-03-03 06:20:15,2021-03-03
+1851,gpibmzj,t1_gphe8zo,That was more rhetoric... i’m too stupid to build that out but if it were avail i’d be down to DCA on every schiff mention of btc,t3_lwb34y,2021-03-03 14:36:56,2021-03-03
+1852,gph52du,t1_gph4c8o,"Brilliant! I love python. Been teaching myself for a few years now. If there are ways to do it in Python I might just make one sometime just as a project for the sake of it.
+
+But then wouldn't the code need to be running pretty much 24/7? I'd have to make it run on startup on my pc. Is that how it's usually done?
+
+Oh, and thanks BTW!",t3_lwb34y,2021-03-03 07:54:58,2021-03-03
+1853,gph5n2j,t1_gph45sd,Exactly my point. I would never sell crypto without holding it for over a year because of the taxes. I also don't like to play the market and am more of a long term holder and investor. I would love to use this bot just to stack sats though and not sell. lol,t3_lwb34y,2021-03-03 07:59:50,2021-03-03
+1854,gpiv4k3,t1_gpiv2o4,He would have more money if he hadn't sold,t3_lwb34y,2021-03-03 19:36:12,2021-03-03
+1855,gpi3pwz,t1_gph6zg8,Thatsthejoke.jpg,t3_lwb34y,2021-03-03 13:02:35,2021-03-03
+1856,gphwfi9,t1_gphoqwg,Get Schwiffty.,t3_lwb34y,2021-03-03 11:50:29,2021-03-03
+1857,gphlh4a,t1_gph6lmo,Schiftmeister,t3_lwb34y,2021-03-03 10:15:56,2021-03-03
+1858,gphp6nm,t1_gphdpna,Should call schifftoshis,t3_lwb34y,2021-03-03 10:47:54,2021-03-03
+1859,gphis0s,t1_gphdpna,Schiff is so thick that I wouldn't be surprised to see him FUDing about valuation at $1m and failing to see the irony whatsoever.,t3_lwb34y,2021-03-03 09:52:38,2021-03-03
+1862,gph36ws,t1_gpgvf9w,"I'm rollingggg. ""sEe?! I tOlD yOu AlL! LoOk At hOw bRoKe I aM nOw!"" *while all the hodlers laugh in Teslas*",t3_lwb34y,2021-03-03 07:38:59,2021-03-03
+1863,gphdb78,t1_gpgvf9w,I am in teeaaars lmao,t3_lwb34y,2021-03-03 09:05:33,2021-03-03
+1864,gpibj1i,t1_gpgvf9w,"I imagine ""Damn I lost my pocket change""
+
+while we all suffer because Crypto collapsed on a meme.",t3_lwb34y,2021-03-03 14:35:28,2021-03-03
+1865,gpih8qx,t1_gpgvf9w,Shiff coin 🍆,t3_lwb34y,2021-03-03 15:56:18,2021-03-03
+1867,gph21jn,t1_gpgwml9,"If anyone could do that, they'd win a multi million dollar legal case against him. Just because something remains unproven, doesn't mean it is unlikely or unheard of.",t3_lwb34y,2021-03-03 07:29:09,2021-03-03
+1868,gpiye38,t1_gpgwml9,https://schiffgold.com/buy/buying-gold-silver-cryptos/ you can buy his shiny rocks with btc.,t3_lwb34y,2021-03-03 20:19:19,2021-03-03
+1869,gphc6kl,t1_gphbpoo,But when does he sell. When he feels like it? I feel like that’s the more important piece of info here.,t3_lwb34y,2021-03-03 08:55:48,2021-03-03
+1870,gpgfz9s,t1_gpgfhbi,Well his father was not necessarily incorrect,t3_lwb34y,2021-03-03 04:41:49,2021-03-03
+1871,gphni8l,t1_gpgfhbi,"Peter's father was Irwin Schiff. Irwin died in prison for selling tax scams. It took the government decades to build a case and arrest him, because... drumroll please... he never actually followed any of the advice he gave and he hid behind freedom of speech while many people went to prison following his tax evasion program. 
+
+I was 16 years old taking notes of how to follow Irwin's illegal tax scheme the first time I heard Peter Schiff's name mentioned, when his father advertised his son's gold business.",t3_lwb34y,2021-03-03 10:33:20,2021-03-03
+1872,gphf9gi,t1_gph4onk,"I know it's naive, but I dream of a world where people just do the right thing rather than the most selfish thing.. just because.",t3_lwb34y,2021-03-03 09:22:29,2021-03-03
+1873,gpiuojx,t1_gph01a3,Are you an agent or you are a miner ?,t3_lwb34y,2021-03-03 19:29:50,2021-03-03
+1874,gpgy8hi,t1_gpgxqun,"Yes, the mythical buy low sell high. I have yet to accomplish this.",t3_lwb34y,2021-03-03 06:57:29,2021-03-03
+1875,gphidn1,t1_gpgxqun,Buy the tip,t3_lwb34y,2021-03-03 09:49:07,2021-03-03
+1876,gpgxx50,t1_gpgtk74,"Okay... You buy BTC at 44k USD, sell at 48k USD and convert to USDT. Wait for price to drop to 44k USD and purchase 48K USD worth of BTC at a 44k USD price. Bingo bango you've now got .1 more BTC. It doesn't always work, but some people find that it does work often enough that they come out on top. That is what trading is.",t3_lwb34y,2021-03-03 06:54:57,2021-03-03
+1877,gpi1748,t1_gph52du,"Aws offers a free year of t2.micro instances, with plenty of juice to run a continuous python script. 
+
+Exchange RESTful APIs are extremely easy to interact with in python using the requests package. The only tricky thing can be the authentication.",t3_lwb34y,2021-03-03 12:36:16,2021-03-03
+1878,gphbet6,t1_gph52du,"Buy a mini-pc and just run some low resource Linux distro on it 24/7.
+
+Wouldn't trust non-server windows OS to stay online perpetually",t3_lwb34y,2021-03-03 08:49:10,2021-03-03
+1879,gpi3qxu,t1_gpi3pwz,"[Thatsthejoke.jpg](http://i.imgur.com/tEjeMu8.jpg)  
+
+
+---
+^(*Feedback welcome at /r/image_linker_bot* | )[^(Disable)](https://www.reddit.com/message/compose/?to=image_linker_bot&subject=Ignore%20request&message=ignore%20me)^( with ""ignore me"" via reply or PM)",t3_lwb34y,2021-03-03 13:02:53,2021-03-03
+1880,gphwydu,t1_gphwfi9,"Schwetty balls? Looking at gold/bitcoin? I’d be splainin to my customers why I’m so smart. I’ve got both as a hedge against each other. Last time market blew bitcoin blew, but much better bet than overpriced stonks. At least bitcoin evaluation is going according to plan. Stonks are lost in the black pit of optimism.",t3_lwb34y,2021-03-03 11:55:16,2021-03-03
+1881,gphoc52,t1_gphlh4a,Schiffinator,t3_lwb34y,2021-03-03 10:40:30,2021-03-03
+1882,gpiqlqv,t1_gphis0s,"I find it shocking that you think he's ""so thick"" YOU DO REALIZE HE OWNS AN INVESTMENT COMPANY THAT THRIVES ON PRECIOUS METALS, RIGHT?
+
+He totally owns crypto privately (and his website accepts crypto payments) but why the hell would he EVER admit it's uses publicly when his company is fueled by an alternative market.
+
+Think about it.
+
+He's not dense, he's a businessman.
+
+He's been acquiring since 2014:
+https://www.cnbc.com/2014/05/21/bitcoin-hater-schiff-now-selling-gold-for-bitcoins.html
+
+He thinks bitcoin is a bubble and will not be the global currency, (which it won't).
+
+So anyway, he definitely owns bitcoin. He's got fat stacks of them growing everyday for 7 years. Can we stop posting about him now? It's a tired ass topic.",t3_lwb34y,2021-03-03 18:26:05,2021-03-03
+1883,gph4jwq,t1_gph21jn,"He said in a JRE podcast that he “bought $50 or something,” messing around and checking it out with friends at one time.",t3_lwb34y,2021-03-03 07:50:37,2021-03-03
+1884,gph3f9c,t1_gph21jn,Crumple-Horned Snorkack 😂,t3_lwb34y,2021-03-03 07:40:59,2021-03-03
+1885,gph4anh,t1_gph21jn,Win a case. It's not illegal to be a celebrity asshole or a shitty investor even if it's someone else's money. Just look at the United States Republican Party and God Trump. I would already have a litany of civil cases going. Id even do one for you.,t3_lwb34y,2021-03-03 07:48:27,2021-03-03
+1886,gpheeuw,t1_gphc6kl,72 hours later according to the tweet,t3_lwb34y,2021-03-03 09:15:11,2021-03-03
+1887,gphcf1l,t1_gphc6kl,"Based on the images from his tweet replies, he seems to sell exactly 3 days after purchase.",t3_lwb34y,2021-03-03 08:57:50,2021-03-03
+1888,gpgg2wk,t1_gpgfz9s,It was just a joke,t3_lwb34y,2021-03-03 04:42:32,2021-03-03
+1889,gphnlpc,t1_gphni8l,It was a joke I don't know anything about his real father.,t3_lwb34y,2021-03-03 10:34:09,2021-03-03
+1890,gphny2l,t1_gphf9gi,"Considering that his dad died in prison as a scam artist, it's safe to say that is a fantasy. Peter knows he's wrong, he's just advertising his gold business to people who are inclined to agree",t3_lwb34y,2021-03-03 10:37:08,2021-03-03
+1891,gph1zm2,t1_gpgxx50,"Ah, sorry my comment left out that buying needs to stay the same: As long as you buy at the same points between the two methods (trading vs hodling), there is no benefit to selling.",t3_lwb34y,2021-03-03 07:28:41,2021-03-03
+1892,gpi1jls,t1_gphbet6,Use your free year of aws to run a Linux server.,t3_lwb34y,2021-03-03 12:39:53,2021-03-03
+1893,gpi3try,t1_gpi3qxu,haha McBain lol,t3_lwb34y,2021-03-03 13:03:46,2021-03-03
+1894,gpixym5,t1_gpi3qxu,Good boi,t3_lwb34y,2021-03-03 20:13:57,2021-03-03
+1896,gphbgxf,t1_gph4anh,Good thing the Democratic party is completely different and has our best interest in mind at all times.,t3_lwb34y,2021-03-03 08:49:40,2021-03-03
+1897,gpheqf8,t1_gpheeuw,What a redditor I am. Thanks!,t3_lwb34y,2021-03-03 09:18:00,2021-03-03
+1898,gpgnxs5,t1_gpgg2wk,"I just want to know what the fuck I’m supposed to use, to pay Sally, down by the shore.",t3_lwb34y,2021-03-03 05:38:11,2021-03-03
+1899,gpgg86x,t1_gpgg2wk,"But seashells were a legitimate currency for a long time
+
+They were accepted in Asia, Africa, Oceania and even in certain parts of Europe for a long time",t3_lwb34y,2021-03-03 04:43:34,2021-03-03
+1900,gph32pe,t1_gph1zm2,no shit sherlock,t3_lwb34y,2021-03-03 07:37:58,2021-03-03
+1901,gph7yik,t1_gph1zm2,"Genius point 🤣🤣.  
+
+Swing trading is a thing.",t3_lwb34y,2021-03-03 08:19:40,2021-03-03
+1902,gpihrde,t1_gpi3try,That's the joke...*sorry had to *,t3_lwb34y,2021-03-03 16:04:17,2021-03-03
+1903,gphnoc0,t1_gphbgxf,They're 2 sides of the same shitty coin.,t3_lwb34y,2021-03-03 10:34:47,2021-03-03
+1904,gphszcf,t1_gphbgxf,hahahah are you thick,t3_lwb34y,2021-03-03 11:19:26,2021-03-03
+1905,gpgxy8v,t1_gpgnxs5,"Sally? She who sells sea shells by the sea? Of course you can't pay her back in sea shells, which she sells, you see.",t3_lwb34y,2021-03-03 06:55:11,2021-03-03
+1906,gpiul9d,t1_gpgnxs5,Make use of payoneer or cash app. That is how I pay,t3_lwb34y,2021-03-03 19:28:31,2021-03-03
+1907,gpgh6nn,t1_gpgg86x,Then the analogy between BTC and gold is even more apt.,t3_lwb34y,2021-03-03 04:50:16,2021-03-03
+1908,gphatb1,t1_gph32pe,"Correct. No shit.
+
+So idk why people want so badly to defend something so stupid.",t3_lwb34y,2021-03-03 08:44:00,2021-03-03
+1909,gphd7sp,t1_gph7yik,"I'd love to see the earnings over x time from ""swing traders"" compared to their earnings had they *just bought*. Lol
+
+*\[oh wait we already know bots randomly buying and selling throughout the day have a better return\]*
+
+There are better hobbies to blow money on than clicking 'buy' and 'sell' repeatedly :P",t3_lwb34y,2021-03-03 09:04:44,2021-03-03
+1910,gpikhvz,t1_gpihrde,hahaha joke lol,t3_lwb34y,2021-03-03 16:46:56,2021-03-03
+1911,gpho5tx,t1_gphnoc0,"Yep. Anyone saying ""Republican party this"" or ""Democratic Party that"" are being played for fools.",t3_lwb34y,2021-03-03 10:39:00,2021-03-03
+1912,gph1sgt,t1_gpgxy8v,"It's SHELLEY, you degenerates!",t3_lwb34y,2021-03-03 07:26:59,2021-03-03
+1913,gpghnku,t1_gpgh6nn,"Until you write out the differences
+
+Gold wins in a few areas. 
+
+But one area. I need to order something from another country. It takes me weeks to have a courier get my gold there and costs me a lot. 
+
+To send BTC I click send.",t3_lwb34y,2021-03-03 04:53:28,2021-03-03
+1914,gpjf6a1,t1_gphatb1,[how i imagine you](https://www.youtube.com/watch?v=jZuktUfF0nE) this is not a compliment.,t3_lwb34y,2021-03-03 22:57:52,2021-03-03
+1915,gph2bmv,t1_gph1sgt,Sally SHILLS sea shells...  😅,t3_lwb34y,2021-03-03 07:31:30,2021-03-03
+1916,gpi7ywv,t1_gph1sgt,"Nope, was always Sally",t3_lwb34y,2021-03-03 13:50:56,2021-03-03
+1917,gpgso3n,t1_gpghnku,I’m still using Wells Fargo stagecoaches  to transport my gold.,t3_lwb34y,2021-03-03 06:13:18,2021-03-03
+1918,gpglxey,t1_gpghnku,Not with GoLdMoNeY,t3_lwb34y,2021-03-03 05:23:30,2021-03-03
+1919,gphml4y,t1_gpghnku,"Gold wins only in the fact it is less liquid, which makes it less volatile. BTC is superior in every other way",t3_lwb34y,2021-03-03 10:25:27,2021-03-03
+1920,gpgngfm,t1_gpglxey,😂,t3_lwb34y,2021-03-03 05:34:41,2021-03-03
+1921,gpj1tik,t3_lwrbjr,I needed to pause a minute to remember how hot Jamie Lee Curtis was in True Lies.,t3_lwrbjr,2021-03-03 20:59:03,2021-03-03
+1922,gpiyd71,t3_lwrbjr,"Modern Talking + 50 Cent, didn't expect that haha",t3_lwrbjr,2021-03-03 20:19:00,2021-03-03
+1924,gpj1zi4,t3_lwrbjr,That end.,t3_lwrbjr,2021-03-03 21:00:50,2021-03-03
+1925,gpiz7er,t3_lwrbjr,HAHA 😂👌,t3_lwrbjr,2021-03-03 20:29:13,2021-03-03
+1926,gpj1gqc,t3_lwrbjr,That's what I am here for.,t3_lwrbjr,2021-03-03 20:55:07,2021-03-03
+1927,gpj0npt,t3_lwrbjr,Dieter Bohlen,t3_lwrbjr,2021-03-03 20:46:12,2021-03-03
+1928,gpj2vrv,t3_lwrbjr,stronk!,t3_lwrbjr,2021-03-03 21:10:19,2021-03-03
+1929,gpj5tb3,t3_lwrbjr,So much snow,t3_lwrbjr,2021-03-03 21:39:07,2021-03-03
+1930,gpjbyxg,t3_lwrbjr,Movie at 58 seconds anyone?,t3_lwrbjr,2021-03-03 22:32:43,2021-03-03
+1931,gpjda7n,t3_lwrbjr,Have a life retards! I am happy no matter the price bearish I buy the dip / bullish enjoy the party,t3_lwrbjr,2021-03-03 22:43:14,2021-03-03
+1933,gpiukhp,t3_lwrbjr,🚀🚀🚀,t3_lwrbjr,2021-03-03 19:28:13,2021-03-03
+1934,gpiwuth,t3_lwrbjr,👌,t3_lwrbjr,2021-03-03 19:59:42,2021-03-03
+1935,gpj6ay5,t3_lwrbjr,You made this for BTC to hit 51k after it dropped from 58k? Nice video - strange timing. imo.,t3_lwrbjr,2021-03-03 21:43:43,2021-03-03
+1936,gpj9qaf,t1_gpj1tik,"If you want some hot JLC ""dancing"", [look no further my friend.](https://www.youtube.com/watch?v=qHAxu382YF8)",t3_lwrbjr,2021-03-03 22:14:10,2021-03-03
+1938,gpixd52,t1_gpiukhp,"“Redditor for 1 week”
+/u/ checks out",t3_lwrbjr,2021-03-03 20:06:25,2021-03-03
+1939,gpiwivt,t1_gpiukhp,🚀🚀🚀🚀,t3_lwrbjr,2021-03-03 19:55:17,2021-03-03
+1971,gpib131,t3_lwmbyi,"Hey, that's pretty. What'd you make this in?",t3_lwmbyi,2021-03-03 14:28:57,2021-03-03
+1972,gpi7qor,t3_lwmbyi,How much are the fees?,t3_lwmbyi,2021-03-03 13:48:10,2021-03-03
+1973,gpi7vls,t3_lwmbyi,Ooooh my. 🤩 that’s beautiful,t3_lwmbyi,2021-03-03 13:49:49,2021-03-03
+1974,gpi932q,t3_lwmbyi,"I mean if Bitcoin crashed to the Moon, I’ll take it.",t3_lwmbyi,2021-03-03 14:04:36,2021-03-03
+1975,gpivu4h,t3_lwmbyi,I want to buy it’s NFT,t3_lwmbyi,2021-03-03 19:45:59,2021-03-03
+1976,gpi9tka,t3_lwmbyi,Can we briefly back to 20K before we go to moon. I missed to load. Lol,t3_lwmbyi,2021-03-03 14:13:39,2021-03-03
+1977,gpib2cj,t3_lwmbyi,"Can you render another one, with the camera having micro-vibrations from the person holding it, without the very steady, very smooth swaying? I think it would look so much more realistic.",t3_lwmbyi,2021-03-03 14:29:24,2021-03-03
+1978,gpifr8h,t3_lwmbyi,"This is so cool, would look amazing as a wallpaper!",t3_lwmbyi,2021-03-03 15:34:02,2021-03-03
+1979,gpilx8v,t3_lwmbyi,Thats cool.  Made in blender?,t3_lwmbyi,2021-03-03 17:09:38,2021-03-03
+1980,gpin5v7,t3_lwmbyi,Why is it going up so much today?,t3_lwmbyi,2021-03-03 17:29:34,2021-03-03
+1981,gpinzwv,t3_lwmbyi,"Awesome, I'm probably thinking too far on this but it's pretty deep too. 
+
+Centuries in the future after we've colonized the moon, the civilization on there will have developed so far that it wouldn't be uncommon to see a malfunctioning Bitcoin ATM tossed at the side.",t3_lwmbyi,2021-03-03 17:43:05,2021-03-03
+1982,gpipanb,t3_lwmbyi,Neat! Using this animation as my lockscreen  [wallpaper!](https://i.imgur.com/3RwpSZQ.jpg) (any chance you could upload a taller aspect ratio?),t3_lwmbyi,2021-03-03 18:04:06,2021-03-03
+1983,gpisvhj,t3_lwmbyi,And beyond!,t3_lwmbyi,2021-03-03 19:02:34,2021-03-03
+1984,gpitzc0,t3_lwmbyi,🚀🚀🚀,t3_lwmbyi,2021-03-03 19:19:30,2021-03-03
+1985,gpiw6ke,t3_lwmbyi,I like the „FUCK FIAT“ 😍,t3_lwmbyi,2021-03-03 19:50:39,2021-03-03
+1986,gpixip6,t3_lwmbyi,"oh that's Mars actually, I have gone there!",t3_lwmbyi,2021-03-03 20:08:23,2021-03-03
+1987,gpixmhd,t3_lwmbyi,NFT that shit!,t3_lwmbyi,2021-03-03 20:09:42,2021-03-03
+1988,gpiyg7u,t3_lwmbyi,How fun would it be if Bitcoin purchased Dogecoin?  Would that cause a Shake It Up?,t3_lwmbyi,2021-03-03 20:20:02,2021-03-03
+1989,gpj04qz,t3_lwmbyi,What happened with all the machines you could physically buy Bitcoins that were in malls a few years ago?,t3_lwmbyi,2021-03-03 20:40:05,2021-03-03
+1990,gpjb9gn,t3_lwmbyi,[removed],t3_lwmbyi,2021-03-03 22:26:58,2021-03-03
+1994,gpioc4q,t1_gpib131,A computah,t3_lwmbyi,2021-03-03 17:48:34,2021-03-03
+1995,gpj2mv7,t1_gpib131,C4D + Octane,t3_lwmbyi,2021-03-03 21:07:45,2021-03-03
+1996,gpj96o9,t1_gpi7qor,Hopefully not as high as ETH,t3_lwmbyi,2021-03-03 22:09:29,2021-03-03
+1998,gpifsxh,t1_gpi9tka,"Don’t worry, when we get to the moon we’ll pick you up - because we are going to Mars baby!",t3_lwmbyi,2021-03-03 15:34:43,2021-03-03
+1999,gpikfsc,t1_gpi9tka,"Everybody says that but the truth is if it dropped to 20 you would then be saying you would load up at 10, And so on",t3_lwmbyi,2021-03-03 16:46:01,2021-03-03
+2001,gpj43fk,t1_gpi9tka,"20k never gonna happend, 50k is still low",t3_lwmbyi,2021-03-03 21:22:35,2021-03-03
+2002,gpiujnl,t1_gpib2cj,True that!,t3_lwmbyi,2021-03-03 19:27:53,2021-03-03
+2004,gpj2vmz,t1_gpilx8v,"C4D! People have suggested trying Blender, have yet to try it",t3_lwmbyi,2021-03-03 21:10:17,2021-03-03
+2005,gpisd5c,t1_gpipanb,Was thinking the same thing. Would also be cool if the camera ended in the same place where it started so it's a seamless loop!,t3_lwmbyi,2021-03-03 18:54:43,2021-03-03
+2006,gpj2zq0,t1_gpipanb,"Hey, that’s awesome! Thank you",t3_lwmbyi,2021-03-03 21:11:27,2021-03-03
+2007,gpj30jj,t1_gpiw6ke,🤪,t3_lwmbyi,2021-03-03 21:11:41,2021-03-03
+2008,gpjbbhs,t1_gpjb9gn,I can send you the Wav file if you want the raw audio,t3_lwmbyi,2021-03-03 22:27:26,2021-03-03
+2009,gpj7v3y,t1_gpioc4q,[stop all the downlodin](https://www.youtube.com/watch?v=RH1ekuvSYzE#t=14s),t3_lwmbyi,2021-03-03 21:57:51,2021-03-03
+2010,gpj0wkz,t1_gpioc4q,Take my upvote! I was reading so fast that you got me GOOD ahahahaha,t3_lwmbyi,2021-03-03 20:48:57,2021-03-03
+2011,gpj801e,t1_gpj2mv7,"I had 4D once, not a good weekend :(",t3_lwmbyi,2021-03-03 21:59:04,2021-03-03
+2012,gpizpjt,t1_gpikfsc,[deleted],t3_lwmbyi,2021-03-03 20:35:11,2021-03-03
+2014,gpj3jdo,t1_gpizpjt,This dude quoting warren buffet quotes in a bitcoin subreddit LOL,t3_lwmbyi,2021-03-03 21:16:57,2021-03-03
+2043,gpj5rvj,t3_lwtgxp,Panic?!? I couldn't buy the dip because I was already all in.,t3_lwtgxp,2021-03-03 21:38:45,2021-03-03
+2044,gpj3o46,t3_lwtgxp,"Been holding for years
+
+I didnt flinch in 2017 or in March so this is cake",t3_lwtgxp,2021-03-03 21:18:19,2021-03-03
+2045,gpj7f78,t3_lwtgxp,"I bought at 4, 6, 8, 10, 16, 17, 32, 47, and 52.  Damn I just realized I’m all over the place.  Oh and the 16 and 17 are pre-2017 market crash LOL been holding on those babies for dear life and it now those are up.",t3_lwtgxp,2021-03-03 21:53:56,2021-03-03
+2046,gpj3llu,t3_lwtgxp,Bought at 58k.,t3_lwtgxp,2021-03-03 21:17:36,2021-03-03
+2047,gpj3omz,t3_lwtgxp,"Locked and loaded more at $43,250. Was also buying from the high 40s all the way down",t3_lwtgxp,2021-03-03 21:18:28,2021-03-03
+2048,gpj33me,t3_lwtgxp,Bought at 4k,t3_lwtgxp,2021-03-03 21:12:33,2021-03-03
+2050,gpj919n,t3_lwtgxp,I bought at $70. And its trapped in MtGox. AMA.,t3_lwtgxp,2021-03-03 22:08:11,2021-03-03
+2052,gpj4uth,t3_lwtgxp,You must be new here.  Veterans have been through worse dips.,t3_lwtgxp,2021-03-03 21:29:58,2021-03-03
+2053,gpj463q,t3_lwtgxp,"Mate I don't really know what you're talking about. I I'll only start sweating when we have another 2017. 
+
+We've had some corrections, sure, but this market still seems very bullish to me. 
+
+Also who gives a fuck about the BTC-USD value? All we care about is how cheaply I can buy more!",t3_lwtgxp,2021-03-03 21:23:20,2021-03-03
+2054,gpj6o72,t3_lwtgxp,Been holding sinds '16 so... no,t3_lwtgxp,2021-03-03 21:47:04,2021-03-03
+2057,gpj7a52,t3_lwtgxp,"I got lucky and got in at 38k. The day after, dropped back down to 30k, as a bitcoin beginner I was scared shitless for a good week. Was literally a click away from selling it all and taking my loses. But instead I HODL and convinced myself this would be worth it. Back up to 51k as of today. 60k this month easily right?",t3_lwtgxp,2021-03-03 21:52:39,2021-03-03
+2058,gpj8axr,t3_lwtgxp,"No, but I had a boating accident which gave me panic.  
+Now I have no more Bitcoin to panic over.",t3_lwtgxp,2021-03-03 22:01:43,2021-03-03
+2059,gpj2tur,t3_lwtgxp,bought at 8,t3_lwtgxp,2021-03-03 21:09:46,2021-03-03
+2064,gpj2z9z,t3_lwtgxp,43 kilograms of gold?,t3_lwtgxp,2021-03-03 21:11:20,2021-03-03
+2065,gpj3zx9,t3_lwtgxp,I'm sad cuz haven't bought at 43K =/,t3_lwtgxp,2021-03-03 21:21:38,2021-03-03
+2066,gpj4o18,t3_lwtgxp,I sold a little at 47 and 48 and picked more back up at 44 and 43.,t3_lwtgxp,2021-03-03 21:28:09,2021-03-03
+2067,gpj7g90,t3_lwtgxp,Ummmm who you talking to?,t3_lwtgxp,2021-03-03 21:54:12,2021-03-03
+2068,gpj8c90,t3_lwtgxp,Could kick myself. Put my tax refund in at 50k. Dropped to 43 within two days. Oh well.,t3_lwtgxp,2021-03-03 22:02:03,2021-03-03
+2069,gpj96gm,t3_lwtgxp,"Imagine buying 1000 bitcoin for $1000 and now being retired.
+
+Now come back to reality.
+
+That is all.",t3_lwtgxp,2021-03-03 22:09:26,2021-03-03
+2070,gpjaenb,t3_lwtgxp,I can't buy all the dips. I buy on a schedule,t3_lwtgxp,2021-03-03 22:19:52,2021-03-03
+2071,gpjewj7,t3_lwtgxp,Nope.  I haven't bought since $10k.  My bags are already packed.  I did everything except draw blood to put as much cash into it last year before the run-up to not have to worry about buying dips this year.  I emptied my entire emergency fund into it.  Now I'm dancing to the bitcoin vibe beat.  To the brave goes the glory.,t3_lwtgxp,2021-03-03 22:55:47,2021-03-03
+2072,gpjf71n,t3_lwtgxp,Bought at 4k about a yr ago. Ez ride,t3_lwtgxp,2021-03-03 22:58:01,2021-03-03
+2073,gpjfce8,t3_lwtgxp,I bought more but was hoping for sub. 40k,t3_lwtgxp,2021-03-03 22:59:10,2021-03-03
+2103,gpj3n0o,t3_lwtgxp,Bought at 800,t3_lwtgxp,2021-03-03 21:18:01,2021-03-03
+2104,gpj51tf,t3_lwtgxp,Been buying every $BTC dip since 2017.,t3_lwtgxp,2021-03-03 21:31:49,2021-03-03
+2105,gpjdca5,t3_lwtgxp,Buying all the dips - the only consideration is cash on hand for future dips,t3_lwtgxp,2021-03-03 22:43:41,2021-03-03
+2106,gpjdw3p,t3_lwtgxp,"I won't lie, I *was* freaking out.   
+
+I dropped my DCA in right before we bottomed so i spent the whole week worried we would recover before I got paid again.
+
+Unfortunately we mostly did.  
+
+In the ~4 hours before my check cleared I watched BTC climb from $43k up to $49.5k.  it hurt.",t3_lwtgxp,2021-03-03 22:47:57,2021-03-03
+2107,gpje3uf,t3_lwtgxp,I am sorry,t3_lwtgxp,2021-03-03 22:49:39,2021-03-03
+2111,gpj8je1,t3_lwtgxp,Does anyone else thinks bitcoins is goin a skyrocket in April after China execute their ban on mining Bitcoin ?,t3_lwtgxp,2021-03-03 22:03:48,2021-03-03
+2116,gpj5xc0,t1_gpj5rvj,This is the way,t3_lwtgxp,2021-03-03 21:40:10,2021-03-03
+2118,gpj4hk1,t1_gpj3o46,Yep. It’s just easy to buy and hodl and just buy more when it is down.,t3_lwtgxp,2021-03-03 21:26:24,2021-03-03
+2119,gpj3z0l,t1_gpj3o46,Definitely a cake walk to you. You see a current dip and it doesn't even faze you.,t3_lwtgxp,2021-03-03 21:21:22,2021-03-03
+2120,gpja8ux,t1_gpj7f78,Those look like dam lotto numbers haha. You should try playing those. Maybe it's your luck. You're already lucky with bitcoin. Worth a shot.,t3_lwtgxp,2021-03-03 22:18:31,2021-03-03
+2121,gpj6389,t1_gpj3llu,"Not too far down the road, people will be telling you you were lucky to get in at 58k.",t3_lwtgxp,2021-03-03 21:41:43,2021-03-03
+2122,gpj8df9,t1_gpj3llu,"A week and a half ago, when BTC was near its ATH, I was a little intoxicated and smash bought some. The next morning came the dip and I wasn't very happy with myself haha, but I'm not worried or looking to sell. 58k will be a good price to have bought in at by years end. Just wish I would have waited and gotten more bitcoin.",t3_lwtgxp,2021-03-03 22:02:20,2021-03-03
+2123,gpj3pc7,t1_gpj3llu,HODL fast you're ok.,t3_lwtgxp,2021-03-03 21:18:40,2021-03-03
+2126,gpj36gi,t1_gpj33me,You're a bitcoin hero. 🙏🏽,t3_lwtgxp,2021-03-03 21:13:22,2021-03-03
+2128,gpj9w9o,t1_gpj919n,"Dam sorry to hear that. One of the things I worry about is 20 yrs from now when things change a lot,  I just hope access to my bitcoin isn't locked or lost or something.",t3_lwtgxp,2021-03-03 22:15:35,2021-03-03
+2130,gpj5ntd,t1_gpj4uth,I'm aware. I am wet behind the ears. But a strong believer nonetheless.,t3_lwtgxp,2021-03-03 21:37:41,2021-03-03
+2131,gpj4irk,t1_gpj463q,You bought in at a great time nonetheless. Stay strong out there 🚀 👩‍🚀,t3_lwtgxp,2021-03-03 21:26:44,2021-03-03
+2134,gpja2vw,t1_gpj7a52,You know what with that mindset. I'll say 100k November,t3_lwtgxp,2021-03-03 22:17:07,2021-03-03
+2137,gpjaio0,t1_gpj8axr,Sorry to hear that. Never too late to jump back on. I believe it's still in its early stage.,t3_lwtgxp,2021-03-03 22:20:49,2021-03-03
+2138,gpj2ze7,t1_gpj2tur,Amazing!. We all envy you 😂😂😂 ... ahhh. The victory.,t3_lwtgxp,2021-03-03 21:11:22,2021-03-03
+2142,gpj322h,t1_gpj2z9z,Sure why not lol,t3_lwtgxp,2021-03-03 21:12:07,2021-03-03
+2143,gpj48dc,t1_gpj3zx9,Always more opportunity there will always be dips. Besides. By year end I'm rooting for triple digits.,t3_lwtgxp,2021-03-03 21:23:57,2021-03-03
+2144,gpj5fqv,t1_gpj4o18,All in all. I feel we're still in its infancy. We're all doing great.,t3_lwtgxp,2021-03-03 21:35:31,2021-03-03
+2145,gpjaeuv,t1_gpj7g90,I guess newbies like me lol. I know a lot of people have been hodling for a long time.,t3_lwtgxp,2021-03-03 22:19:55,2021-03-03
+2146,gpjambb,t1_gpj8c90,Still a good time to buy. Consider where it'll be years from now.,t3_lwtgxp,2021-03-03 22:21:41,2021-03-03
+2147,gpjb46q,t1_gpj96gm,Haha.  😂😂 you made my day.,t3_lwtgxp,2021-03-03 22:25:46,2021-03-03
+2148,gpjbevn,t1_gpjaenb,I still kinda kick myself a bit for not buying in more last year and Hodling,t3_lwtgxp,2021-03-03 22:28:11,2021-03-03
+2149,gpjf7e0,t1_gpjewj7,Hell yeah. To the moon 🚀.... if only I'd trusted more last year. But heck I have good feeling bitcoin is still young.,t3_lwtgxp,2021-03-03 22:58:06,2021-03-03
+2150,gpjfbb9,t1_gpjf71n,To the dam moon 🚀 👩‍🚀,t3_lwtgxp,2021-03-03 22:58:56,2021-03-03
+2176,gpj3vcw,t1_gpj3n0o,If only time travel was a current thing. Salute to you.😊,t3_lwtgxp,2021-03-03 21:20:23,2021-03-03
+2177,gpj5unb,t1_gpj51tf,🚀 👩‍🚀  you're killing it out there.,t3_lwtgxp,2021-03-03 21:39:27,2021-03-03
+2178,gpjf0kq,t1_gpje3uf,Still good time to buy. It's gonna keep going up.  Just don't watch it all the time.,t3_lwtgxp,2021-03-03 22:56:38,2021-03-03
+2180,gpjarpa,t1_gpj8je1,I think where there's controversy. It will sky rocket. More people feeling they should invest. Things that are successful always have a negative rally behind it somewhere.,t3_lwtgxp,2021-03-03 22:22:57,2021-03-03
+2184,gpjb18e,t1_gpj6389,Definitely. I still think it's a great era to buy bitcoin in. We'll be telling ppl and they'll think we're lucky to have bought in so early.,t3_lwtgxp,2021-03-03 22:25:06,2021-03-03
+2187,gpj5wu8,t1_gpj5ntd,[https://i.imgur.com/GfJNU68.gif](https://i.imgur.com/GfJNU68.gif),t3_lwtgxp,2021-03-03 21:40:03,2021-03-03
+2188,gpj4q15,t1_gpj4irk,To the fuckin moon dude!,t3_lwtgxp,2021-03-03 21:28:41,2021-03-03
+2192,gpjcadj,t1_gpjambb,For sure. Bought my first sats when it was around 6k. Still up.,t3_lwtgxp,2021-03-03 22:35:23,2021-03-03
+2193,gpjbicn,t1_gpjb46q,Glad I could help. :) stay safe,t3_lwtgxp,2021-03-03 22:28:57,2021-03-03
+2201,gpj4428,t1_gpj3vcw,"Its still cheap, im still buying at these prices whenever i find some extra cash",t3_lwtgxp,2021-03-03 21:22:46,2021-03-03
+2204,gpj6386,t1_gpj5wu8,Hell yeah. To the moon,t3_lwtgxp,2021-03-03 21:41:43,2021-03-03
+2205,gpj5jeg,t1_gpj4q15,To the fuckin moon,t3_lwtgxp,2021-03-03 21:36:30,2021-03-03
+2209,gpjchje,t1_gpjcadj,Haha. Of course you're still up. You lucky astronaut. To the moon 🚀,t3_lwtgxp,2021-03-03 22:36:54,2021-03-03
+2216,gpj4csg,t1_gpj4428,I learned the hard way last year. Never selling again.,t3_lwtgxp,2021-03-03 21:25:08,2021-03-03
+2224,gpj4ljh,t1_gpj4csg,"The real test is when we hit a few hundred thousand per coin and then a million, selling will still be foolish",t3_lwtgxp,2021-03-03 21:27:29,2021-03-03
+2227,gpj5a5m,t1_gpj4ljh,Hopefully by then the confidence level in bitcoin will have increased tremendously. Further solidifying its rise.,t3_lwtgxp,2021-03-03 21:34:03,2021-03-03
+2230,gpig2v7,t3_lwo0dm,I don't regret a single one of my bitcoin funded LSD trips,t3_lwo0dm,2021-03-03 15:38:46,2021-03-03
+2231,gpiviif,t3_lwo0dm,"I'd be a millionaire today if I hadn't spent any, but I am comfortable and free of regret nevertheless.",t3_lwo0dm,2021-03-03 19:41:32,2021-03-03
+2232,gpiz546,t3_lwo0dm,"At some point you *have* to spend your sats.
+
+What else are you gonna use once you're out of fiat?",t3_lwo0dm,2021-03-03 20:28:27,2021-03-03
+2233,gpihnox,t3_lwo0dm,The good old days buying a QP for 2.05 BTC on the darknet back when Bitcoin was $300. Had my one friend drive me to the local BTC ATM at the end of every month so I could order more things.,t3_lwo0dm,2021-03-03 16:02:41,2021-03-03
+2235,gpj0wg0,t3_lwo0dm,I don't care that my sports bet that the Maple Leafs will win the Stanley Cup actually cost me $100 and not $20. I'm doubling down again this year.,t3_lwo0dm,2021-03-03 20:48:54,2021-03-03
+2236,gpizws6,t3_lwo0dm,I bought Gold with Bitcoin in 2016. I will cherish that nugget and see it now as a keepsake.,t3_lwo0dm,2021-03-03 20:37:31,2021-03-03
+2237,gpj2l4c,t3_lwo0dm,Every time I spend it I replace with fiat. The most I’m loosing is my TX fees (albeit not insignificant),t3_lwo0dm,2021-03-03 21:07:15,2021-03-03
+2238,gpizsoj,t3_lwo0dm,pioneers spend crypto today so banks and credit card companies can crash without their exorbitant transaction fees.,t3_lwo0dm,2021-03-03 20:36:12,2021-03-03
+2239,gpj6kdv,t3_lwo0dm,"If you were using bitcoin for real transactions at any time, you've had the knowledge to buy and hodl ever since. It's not like once you spend your bitcoin you can't buy more lol. How stupid are people?",t3_lwo0dm,2021-03-03 21:46:07,2021-03-03
+2240,gpiowv1,t3_lwo0dm,lol true.,t3_lwo0dm,2021-03-03 17:57:53,2021-03-03
+2241,gpiueun,t3_lwo0dm,🚀🚀🚀,t3_lwo0dm,2021-03-03 19:25:54,2021-03-03
+2242,gpiv928,t3_lwo0dm,Definitely,t3_lwo0dm,2021-03-03 19:37:56,2021-03-03
+2249,gpj1l1y,t1_gpig2v7,"And there were many 😏
+
+Honestly having a marketplace with reviews feedback and even lab testing is a godsend to the psychedelic community.",t3_lwo0dm,2021-03-03 20:56:28,2021-03-03
+2250,gpjdy3z,t1_gpig2v7,The only reason I do is because I think of all the additional LSD I could have now,t3_lwo0dm,2021-03-03 22:48:24,2021-03-03
+2251,gpj0arb,t1_gpiviif,[deleted],t3_lwo0dm,2021-03-03 20:42:01,2021-03-03
+2252,gpj28ug,t1_gpiz546,"Exactly. Like any currency or asset, the value isn't in the thing itself, it's in what that thing can buy. It's like that for fiat, gold, silver, whatever and bitcoin is no different.",t3_lwo0dm,2021-03-03 21:03:35,2021-03-03
+2253,gpj5oaw,t1_gpiz546,"A real inveator does not sell for cash. Many people here don't seem to understand that. You invest in a portfolio of assets. If the bitcoin part of your portfolio is exceeding its allocated value based on your risk assessment, you sell to rebalance and you buy more of your other assets. Nobody should sell bitcoin for cash, but you should sell it for income producing assets like stocks, bonds, real estate and donations to me.",t3_lwo0dm,2021-03-03 21:37:49,2021-03-03
+2255,gpj2rc7,t1_gpj0wg0,"Despite being a Habs fan, I respect your cojones.",t3_lwo0dm,2021-03-03 21:09:03,2021-03-03
+2256,gpjc693,t1_gpj6kdv,"Not everyone can afford bitcoin in times of extreme volatility, im guessing you probably dont remember times bitcoin dropped 80 90 percent in 2013. You probably dont remember how sketchy bitcoin was back then, with almost every exchange being some kind of exit scam. It easy to say now when bitcoin is always at the comfortable price and when it crashes it doesnt crash for more than 30%. You probably bought bitcoin at hype and never spent a satoshi.",t3_lwo0dm,2021-03-03 22:34:24,2021-03-03
+2258,gpjeykp,t1_gpj1l1y,"Yup, people dont understand how good those markets are and how incredibly safe they are. Always great and safe product and if it isnt the seller gets banned instantly. Great prices compared to the streets, if your package get lost you always get new shipment or money back. Some of those sites had better customer support than Amazon.",t3_lwo0dm,2021-03-03 22:56:12,2021-03-03
+2259,gpj1mmo,t1_gpj0arb,Bummer,t3_lwo0dm,2021-03-03 20:56:57,2021-03-03
+2260,gpj377y,t1_gpj0arb,It'll keep going upwards so no problemo,t3_lwo0dm,2021-03-03 21:13:35,2021-03-03
+2263,gpj414r,t1_gpj2rc7,Playoffs this season will be fun.,t3_lwo0dm,2021-03-03 21:21:57,2021-03-03
+2268,gphwy4r,t3_lwjn28,"That is Dan Held I think. Director of Growth at Kraken. Probably missing those coins a bit, but I’m sure he’s still got a shitload.",t3_lwjn28,2021-03-03 11:55:12,2021-03-03
+2269,gphtllb,t3_lwjn28,He had sushi dinner in a Chinese decorated restaurant run by a Chinese owner? damn,t3_lwjn28,2021-03-03 11:24:58,2021-03-03
+2270,gpi5sym,t3_lwjn28,"Yes, the price of BTC was much lower years ago...we get it. Even if you spent BTC in the past does not mean that you could not easily buy more for the same price back then if you wanted.
+
+Actually utilizing BTC in real-life situations even if the value may go up in the future is an important part of adoption.",t3_lwjn28,2021-03-03 13:25:52,2021-03-03
+2271,gpi97rq,t3_lwjn28,A $1000 dinner?  Who the hell eats like that?,t3_lwjn28,2021-03-03 14:06:11,2021-03-03
+2272,gpi1pax,t3_lwjn28,Dan Held the OG. He looks so chad back then.,t3_lwjn28,2021-03-03 12:41:31,2021-03-03
+2273,gphyryp,t3_lwjn28,This restaurant is sure happy they have those coins now.,t3_lwjn28,2021-03-03 12:12:23,2021-03-03
+2274,gpii3ua,t3_lwjn28,Original SUSHISWAP,t3_lwjn28,2021-03-03 16:09:40,2021-03-03
+2275,gpic41q,t3_lwjn28,"in 2010-2016, people spent a shit load of BTC on stuff, thats why its still a thing.",t3_lwjn28,2021-03-03 14:43:14,2021-03-03
+2276,gpi30pv,t3_lwjn28,"> ""the currency is not that stable""   
+
+
+Yeah bitch, it just keeps going up.",t3_lwjn28,2021-03-03 12:55:04,2021-03-03
+2277,gpic3x9,t3_lwjn28,"Is anyone else so over seeing ""X spent in X year""
+
+Does anyone care other than the OP of the video?
+
+Sweet you spent bitcoin years ago when its price was lower wow amazing so sad I feel so ba.. Stfu.",t3_lwjn28,2021-03-03 14:43:12,2021-03-03
+2278,gpiqml6,t3_lwjn28,I will never understand the joy in trying to shame early adopters lol it’s like the only way people can cope with  the fact “they missed out.”,t3_lwjn28,2021-03-03 18:26:30,2021-03-03
+2279,gpi8yor,t3_lwjn28,He's an early adopter and likely miles ahead of anybody else in here.,t3_lwjn28,2021-03-03 14:03:04,2021-03-03
+2280,gpikw93,t3_lwjn28,"Without people like her and the pizza guy, Bitcoin may not have been able to grow like it has.",t3_lwjn28,2021-03-03 16:53:14,2021-03-03
+2281,gpjbcjx,t3_lwjn28,She didn't HODL!!!!!!!,t3_lwjn28,2021-03-03 22:27:40,2021-03-03
+2282,gpia99n,t3_lwjn28,"Those who insulted the Chinese, no one knew at the time that Bitcoin would rise to what it is now, and he was willing to pay with Bitcoin",t3_lwjn28,2021-03-03 14:19:06,2021-03-03
+2283,gpihdsa,t3_lwjn28,This is Dan :),t3_lwjn28,2021-03-03 15:58:26,2021-03-03
+2284,gpill5k,t3_lwjn28,Dan knows the power of spend and replace,t3_lwjn28,2021-03-03 17:04:13,2021-03-03
+2285,gpirx2t,t3_lwjn28,"Isn't this why Bitcoin will never become a proper currency? Cos everyone will be petrified of spending it?
+
+(Yes I know you can pay with Bitcoin then immediately top up with fiat - but if you do that why not just cut out the middle man and pay with fiat straight away?)",t3_lwjn28,2021-03-03 18:47:42,2021-03-03
+2286,gpiw76x,t3_lwjn28,Sure was easier back then.,t3_lwjn28,2021-03-03 19:50:54,2021-03-03
+2287,gpixnxo,t3_lwjn28,wondering if they are still holding the sushi...,t3_lwjn28,2021-03-03 20:10:12,2021-03-03
+2288,gpj6pj3,t3_lwjn28,"This is supposed to be a currency and every time someone uses it as such, everyone says they should not have done that...",t3_lwjn28,2021-03-03 21:47:25,2021-03-03
+2289,gpi8ks7,t3_lwjn28,Fleeced,t3_lwjn28,2021-03-03 13:58:21,2021-03-03
+2290,gpifr2r,t3_lwjn28,indeed. txid a99c29b5e2b792a64dfb37f7414f64fd688dfdd22d86e5cc4c81a3d0bae5f413,t3_lwjn28,2021-03-03 15:33:58,2021-03-03
+2291,gpil7if,t3_lwjn28,I spent 5 on a DSLR.,t3_lwjn28,2021-03-03 16:58:08,2021-03-03
+2292,gpiuqbx,t3_lwjn28,The lesson? Don’t use your Bitcoin?,t3_lwjn28,2021-03-03 19:30:33,2021-03-03
+2293,gpiwnjl,t3_lwjn28,"If we want crypto to be adopted as an actually used currency, you will need to look at it as a means of transacting, rather than as an investment that will grow over time. 
+
+People who were spending their BTC eight years ago for food were simply treating it as a currency, the way it’s meant to be used.",t3_lwjn28,2021-03-03 19:57:02,2021-03-03
+2294,gpiwozs,t3_lwjn28,"I don't know why people make stories like this a bad thing.
+
+If people didn't trade Bitcoins it would have never really went up in value or am I missing something.",t3_lwjn28,2021-03-03 19:57:35,2021-03-03
+2295,gpiwxgp,t3_lwjn28,So the currency shouldn't be used as a currency I get your logic,t3_lwjn28,2021-03-03 20:00:39,2021-03-03
+2296,gpixld1,t3_lwjn28,Thats why it was invented for wasn't it,t3_lwjn28,2021-03-03 20:09:18,2021-03-03
+2297,gpiy9mu,t3_lwjn28,"I spent 3 on a VPN. I did buy 4 for $10 each. Later, I bought a shirt with part of the remaining btc and finally sold the rest at 200. Still a win in my book.",t3_lwjn28,2021-03-03 20:17:47,2021-03-03
+2298,gpiz3i1,t3_lwjn28,Cry... Only cry,t3_lwjn28,2021-03-03 20:27:55,2021-03-03
+2299,gpj2kla,t3_lwjn28,We didn't know you asshole!!!! Fuck I hate thinking about this type of shit. Ahhhhhhh,t3_lwjn28,2021-03-03 21:07:05,2021-03-03
+2306,gpifpk8,t3_lwjn28,The worst part is it is on camera lol,t3_lwjn28,2021-03-03 15:33:21,2021-03-03
+2307,gphw4wg,t3_lwjn28,FAIL,t3_lwjn28,2021-03-03 11:47:47,2021-03-03
+2308,gphw95m,t3_lwjn28,"lol kicking himself now FR
+
+#ouch",t3_lwjn28,2021-03-03 11:48:53,2021-03-03
+2309,gpi2wso,t3_lwjn28,Dude must be punching the air EVERY SINGLE DAY! I hope that sushi was the greatest meal you ever ate!,t3_lwjn28,2021-03-03 12:53:56,2021-03-03
+2310,gpihxte,t3_lwjn28,Sushi is really rare these days. #stopoverfishing,t3_lwjn28,2021-03-03 16:07:05,2021-03-03
+2311,gpihmka,t3_lwjn28,I wouldn’t eat sushi if it were free.  🤮,t3_lwjn28,2021-03-03 16:02:13,2021-03-03
+2312,gpie2t1,t1_gphwy4r,"Haha I didn’t spend! Kashmir Hill did. 
+
+My app “ZeroBlock” is the one we used to check the real time price of Bitcoin.",t3_lwjn28,2021-03-03 15:10:00,2021-03-03
+2313,gpijj4z,t1_gphwy4r,"He didn't spend his own coins, it was the reporters wallet that was used. Held held his Bitcoins",t3_lwjn28,2021-03-03 16:31:44,2021-03-03
+2315,gpiid7i,t1_gphtllb,">He had sushi dinner in a Chinese decorated restaurant run by a Chinese owner? damn
+
+It's SF, so it's likely a Chinese owner. If it were SoCal it would definitely be a Korean owner. 
+
+With that said, place looks meh for a sushi spot... there is fucking siracha on the table FFS! 
+
+But lord knows we all dropped coin in places like that back then just to prove it could be done when ever possible and gave some to anons as well just to have a story to tell when they got back home and looked up this place and BTF. 
+
+Out to Chen/Sake Zone for being early adopters, I hope he held it and is now laughing at this as a lurker. If i recall correctly there was a ramen spot in the bay area that did well, too.",t3_lwjn28,2021-03-03 16:13:43,2021-03-03
+2316,gpi32rt,t1_gphtllb,[deleted],t3_lwjn28,2021-03-03 12:55:41,2021-03-03
+2317,gpiioy5,t1_gpi5sym,"Thank you for saying this!  
+
+
+People forget that where we are now is a journey, and all the things that happened before were just steps to get us here.  If nobody ever spent bitcoin, it would probably still be worth mere pennies.",t3_lwjn28,2021-03-03 16:18:44,2021-03-03
+2318,gpiyux1,t1_gpi5sym,"It’s not even if you just spent btc in the past. It applies to any consumption purchase with any currency. That pizza you bought with usd, could’ve easily just have been exchanged for btc. The opportunity cost is still there regardless of what you are using as the medium of exchange.",t3_lwjn28,2021-03-03 20:25:05,2021-03-03
+2319,gpizi09,t1_gpi5sym,"I bought a workbench with Bitcoin a few days ago, I'm not concerned because I still have more Bitcoin and a bear market will be back",t3_lwjn28,2021-03-03 20:32:43,2021-03-03
+2320,gpiirf7,t1_gpi97rq,">A $1000 dinner?  Who the hell eats like that?
+
+Staff night out, that's low ball (budgeted meal, with no paid alcohol/drinks) at an ok spot to be honest.  A high roller 'influencer' dropped 34k one night with only 11 people in their party on my only day off for months in the Summer at the bar above our bistro. They sent the entire downstairs menu twice and they were apparently so coked out they couldn't stop doing stupid shit on their phones and eat like functional human beings.
+
+What's funny is the corpo staff dropped over 50k at a buy out party for someone's 15th year anniversary the day after that, I was there for that one, and front of house served them several day old bottles of wine from the night before and they never realized it... corpos are all the same, they'll drink whatever you tell them is 'high class' in a 'pretty bottle' even if it tastes off. I wanted to see if we could give them the box wine we use on the line at last call to see if they'd notice. We hosted so many FAANG buy outs. 
+
+Restaurants and bars can be pretty insane in that regard. I won't even talk about the place I worked at that had a nightclub inside.",t3_lwjn28,2021-03-03 16:19:47,2021-03-03
+2321,gpidxsg,t1_gpi97rq,20 people?,t3_lwjn28,2021-03-03 15:08:01,2021-03-03
+2322,gpitdhi,t1_gpi1pax,"Out of the two brothers, Dan is the savvy crypto investor and Basshunter the techno viking. Really talented family!",t3_lwjn28,2021-03-03 19:10:16,2021-03-03
+2324,gpii27g,t1_gphyryp,Depends on when they sold. Someone crafty could prob locate the transaction and find the wallet.,t3_lwjn28,2021-03-03 16:08:58,2021-03-03
+2326,gpie40r,t1_gpic3x9,"Haha I didn’t spend! Kashmir Hill did. 
+
+My app “ZeroBlock” is the one we used to check the real time price of Bitcoin.",t3_lwjn28,2021-03-03 15:10:29,2021-03-03
+2327,gpij8xj,t1_gpic3x9,">Is anyone else so over seeing ""X spent in X year""
+
+No, not really; I guess if  you were there and it were you who had done it you'd also feel kind of nostalgic of a time when we treated BTC as a currency, I'm a hodler, too. But if you don't use your bitcoin I think you're just a free-rider that simply ride tail coats, and add little to no value to the network. 
+
+To quote (paraphrase) Blaji: It's not enough to hodl, you must buidl. And if you cant do that, then at least spend it and replenish to incentivize more people to get onboard.",t3_lwjn28,2021-03-03 16:27:22,2021-03-03
+2328,gpis0yw,t1_gpill5k,"If you spend and replace why not cut out the middle man and pay with fiat first time around? 
+
+Spend and replace is just taking two transactions for every time you want to buy anything.",t3_lwjn28,2021-03-03 18:49:23,2021-03-03
+2329,gpie4fc,t1_gphw95m,"Haha I didn’t spend! Kashmir Hill did. 
+
+My app “ZeroBlock” is the one we used to check the real time price of Bitcoin.",t3_lwjn28,2021-03-03 15:10:39,2021-03-03
+2330,gpie4nk,t1_gpi2wso,"Haha I didn’t spend! Kashmir Hill did. 
+
+My app “ZeroBlock” is the one we used to check the real time price of Bitcoin.",t3_lwjn28,2021-03-03 15:10:44,2021-03-03
+2331,gpiybf1,t1_gpie2t1,"Wow in the future your surname is gonna become really relevant. ""Dan held onto his bitcoin"" (or hedl rather) assuming you are hodling",t3_lwjn28,2021-03-03 20:18:24,2021-03-03
+2333,gpigb1h,t1_gpie2t1,[removed],t3_lwjn28,2021-03-03 15:42:11,2021-03-03
+2334,gpip2pt,t1_gpie2t1,Where can I find that app? On google play it is not showing afaik.,t3_lwjn28,2021-03-03 18:00:31,2021-03-03
+2335,gpivlo1,t1_gpijj4z,"My bad, I had it muted while watching",t3_lwjn28,2021-03-03 19:42:44,2021-03-03
+2336,gpiktmz,t1_gpiid7i,It is very common for Chinese people to own sushi restaurants.  Do you think only white people own burger restaurants?,t3_lwjn28,2021-03-03 16:52:06,2021-03-03
+2338,gpi47js,t1_gpi32rt,I am Chinese but... well🥲,t3_lwjn28,2021-03-03 13:07:58,2021-03-03
+2339,gpjbt0h,t1_gpiioy5,"You just spoke my mind 100% on point. You don't make a fool of people who spend BTC then or now. In 2025 BTC might worth more.. Doesn't make you save all BTC till then. It's meant to be spent to gaming more adoption and value. You can spend and save for the future too. As you spend, don't forget to buy at dips.",t3_lwjn28,2021-03-03 22:31:21,2021-03-03
+2340,gpjd3x1,t1_gpizi09,That’s one expensive workbench,t3_lwjn28,2021-03-03 22:41:51,2021-03-03
+2344,gpiibae,t1_gpie4nk,"Cool, can you reply the exact thing to every comment?",t3_lwjn28,2021-03-03 16:12:53,2021-03-03
+2348,gpikf68,t1_gpigb1h,[removed],t3_lwjn28,2021-03-03 16:45:45,2021-03-03
+2349,gpilrlk,t1_gpiktmz,I ve never been to America but Chinese people definitely don’t run sushi restaurants here in Tokyo.,t3_lwjn28,2021-03-03 17:07:08,2021-03-03
+2350,gpisbbz,t1_gpiktmz,No but as a Japanese I can stereotype on a large level and tell you that they prepare the rice differently for sushi (they use sesame oil while Japanese use vinegar)... and a bunch of other things,t3_lwjn28,2021-03-03 18:53:55,2021-03-03
+2352,gpid6h9,t1_gpi47js,[deleted],t3_lwjn28,2021-03-03 14:57:39,2021-03-03
+2355,gpip8ci,t1_gpikf68,[removed],t3_lwjn28,2021-03-03 18:03:03,2021-03-03
+2356,gpith5j,t1_gpilrlk,Most Japanese restaurants including sushi are run by Chinese here in UK. I guess this is very common in western countries.,t3_lwjn28,2021-03-03 19:11:47,2021-03-03
+2357,gpiuutj,t1_gpisbbz,"Yeah I know lol.
+sssame for Chinese food here in Tokyo, 天津飯 and エビチリ etc",t3_lwjn28,2021-03-03 19:32:22,2021-03-03
+2359,gpidacn,t1_gpid6h9,Thanks for your explanation. I live in Tokyo.,t3_lwjn28,2021-03-03 14:59:08,2021-03-03
+2362,gpjawxe,t1_gpiuutj,You got it.,t3_lwjn28,2021-03-03 22:24:08,2021-03-03
+2395,gpiukg8,t3_lwr7my,"""Bitcoin is <up/down> after <marginal news here>""
+
+Yeah I'm sure the whole world of bitcoin holders is constantly checking for news and adjusting their position in response to every article in unison.",t3_lwr7my,2021-03-03 19:28:12,2021-03-03
+2396,gpitw9t,t3_lwr7my,Buy the dip,t3_lwr7my,2021-03-03 19:18:13,2021-03-03
+2400,gpiukps,t3_lwr7my,They don't start till Friday and it's futures not spot. Wth?,t3_lwr7my,2021-03-03 19:28:19,2021-03-03
+2403,gpj5rfy,t3_lwr7my,"dangit, right before my swan buys went through too.
+been stuck in ach processing hell.
+oh well at least its dca",t3_lwr7my,2021-03-03 21:38:39,2021-03-03
+2404,gpjc3ex,t1_gpiukg8,"Not me bro
+Just HODL",t3_lwr7my,2021-03-03 22:33:45,2021-03-03
+2407,gpj39e8,t1_gpitw9t,[deleted],t3_lwr7my,2021-03-03 21:14:10,2021-03-03
+2408,gpiubjd,t1_gpitw9t,Is this the dip though?,t3_lwr7my,2021-03-03 19:24:35,2021-03-03
+2409,gpj9n0x,t1_gpitw9t,"Bogdanov, he bought the dip.",t3_lwr7my,2021-03-03 22:13:23,2021-03-03
+2410,gpiy5ew,t1_gpiukps,Btc rises today cos there's 🍆in my salad. Anal...lsts,t3_lwr7my,2021-03-03 20:16:18,2021-03-03
+2411,gpjahs9,t1_gpiukps,"So a dump is coming this Friday. Got it. Thank you, sir.",t3_lwr7my,2021-03-03 22:20:36,2021-03-03
+2412,gpjc6h9,t1_gpjc3ex,Given i read and listen to news..daily....twice a day...aagghhh hourly...:(,t3_lwr7my,2021-03-03 22:34:27,2021-03-03
+2414,gpiugi9,t1_gpiubjd,"Still below ATH’s, so yes, this is the dip",t3_lwr7my,2021-03-03 19:26:35,2021-03-03
+2415,gpiyhi4,t1_gpiy5ew,Did you just reply to your own post?,t3_lwr7my,2021-03-03 20:20:29,2021-03-03
+2426,gpiu1vt,t3_lwqu0d,I prefer the list that includes gold and silver for comparison.,t3_lwqu0d,2021-03-03 19:20:35,2021-03-03
+2427,gpj0n2z,t3_lwqu0d,Whats the point of these comparions? Bitcoin is not a company.,t3_lwqu0d,2021-03-03 20:46:00,2021-03-03
+2429,gpixfpk,t3_lwqu0d,"News: this happened 
+
+r/bitcoin: this is good for bitcoin 🚀🚀🚀",t3_lwqu0d,2021-03-03 20:07:19,2021-03-03
+2430,gpiuhv0,t3_lwqu0d,🚀🚀🚀,t3_lwqu0d,2021-03-03 19:27:09,2021-03-03
+2431,gpj1ya1,t3_lwqu0d,what does that mean?,t3_lwqu0d,2021-03-03 21:00:28,2021-03-03
+2432,gpiv254,t1_gpiu1vt,https://companiesmarketcap.com/assets-by-market-cap/,t3_lwqu0d,2021-03-03 19:35:15,2021-03-03
+2433,gpj5cs4,t1_gpj0n2z,"shhhh don't want to be banned for pointing the obvious do you?
+
+Somehow people around here need constant validation and anything would do.",t3_lwqu0d,2021-03-03 21:34:45,2021-03-03
+2436,gpja5bm,t1_gpj5cs4,If you’ve been here for at least a year you would understand why. That bear market was nothing to play with.,t3_lwqu0d,2021-03-03 22:17:41,2021-03-03
+2437,gpjakxc,t1_gpja5bm,I've been here since '13; nothing scares me anymore. The hype is fun though.,t3_lwqu0d,2021-03-03 22:21:21,2021-03-03
+2567,gphxhul,t3_lwiqtz,This is the kind of shit posting we deserve. Well done,t3_lwiqtz,2021-03-03 12:00:14,2021-03-03
+2568,gpho7hb,t3_lwiqtz,My MySpace friends were the same way.,t3_lwiqtz,2021-03-03 10:39:23,2021-03-03
+2569,gphn42c,t3_lwiqtz,So good 😂,t3_lwiqtz,2021-03-03 10:29:58,2021-03-03
+2570,gphvoll,t3_lwiqtz,So true. I have people coming up to me saying I'm the smartest person with money they know. If they only knew the truth... Haha,t3_lwiqtz,2021-03-03 11:43:42,2021-03-03
+2571,gphwaea,t3_lwiqtz,"quality post 
+
+it made me laugh",t3_lwiqtz,2021-03-03 11:49:11,2021-03-03
+2572,gphrwa0,t3_lwiqtz,what's this from?!,t3_lwiqtz,2021-03-03 11:10:11,2021-03-03
+2573,gpi5nsw,t3_lwiqtz,"""But will you tell me when a good time to buy is?""",t3_lwiqtz,2021-03-03 13:24:15,2021-03-03
+2574,gpj9obi,t3_lwiqtz,Yeah like 99% of new-coiner discussions are me trying to steer them away from shitcoins during a bull run.,t3_lwiqtz,2021-03-03 22:13:42,2021-03-03
+2575,gpi3w1k,t3_lwiqtz,"Phenomenon lmao, Eric Clapton tie end music video was the goat",t3_lwiqtz,2021-03-03 13:04:26,2021-03-03
+2576,gpi6nvx,t3_lwiqtz,I was unaware of Bitcoin diamond.  Now to drink that one away,t3_lwiqtz,2021-03-03 13:35:40,2021-03-03
+2577,gpi25sw,t3_lwiqtz,Nicely done. I would have said that they need to start buying the dip whenever it falls though!,t3_lwiqtz,2021-03-03 12:46:14,2021-03-03
+2578,gpiyqli,t3_lwiqtz,"My friends still doubt me HAHA, some people man",t3_lwiqtz,2021-03-03 20:23:38,2021-03-03
+2581,gphsrcb,t3_lwiqtz,Perfect,t3_lwiqtz,2021-03-03 11:17:24,2021-03-03
+2582,gphziye,t3_lwiqtz,Buy the dip sell the tip ! Can you buy options on crypto? Or buy a seat for the trip to the moon!,t3_lwiqtz,2021-03-03 12:19:37,2021-03-03
+2583,gpjek16,t1_gphwaea,"Thanks, I always do my best to provide top quality shit.",t3_lwiqtz,2021-03-03 22:53:06,2021-03-03
+2584,gphsowu,t1_gphrwa0,https://en.wikipedia.org/wiki/Phenomenon_(film),t3_lwiqtz,2021-03-03 11:16:48,2021-03-03
+2585,gpjev2k,t1_gpj9obi,"Agree, even people I helped join 3 years ago can't break the shitcoin habit",t3_lwiqtz,2021-03-03 22:55:28,2021-03-03
+2586,gpinfpo,t1_gphsowu,I loved this movie.,t3_lwiqtz,2021-03-03 17:33:58,2021-03-03
+2587,gpi08ns,t1_gphsowu,"Oh shit, this is the Scientology movie right?",t3_lwiqtz,2021-03-03 12:26:31,2021-03-03
+2589,gpi8phq,t1_gpi08ns,"No, you're thinking of the movie [https://en.wikipedia.org/wiki/Cool_Runnings(film/art/masterpiece)](https://en.wikipedia.org/wiki/Cool_Runnings)",t3_lwiqtz,2021-03-03 13:59:55,2021-03-03
+2592,gpiu4wf,t1_gpi8phq,LOL!,t3_lwiqtz,2021-03-03 19:21:49,2021-03-03
+2596,gpj065x,t3_lwqekq,Is that the lost wallets etc?,t3_lwqekq,2021-03-03 20:40:33,2021-03-03
+2597,gpiqfn5,t3_lwqekq,"Yeah basically approx 4m leaving 14.5m bitcoins that are ACTUALLY in supply.
+
+Out of them approx 3m are available to be traded as ""free float"". This number used to be higher and hit a record low of 2m during the 57k run
+
+This is while bitcoin is still fringe.
+
+Imagine the possibilities......
+
+PS : The float which is around 3m rn matters because the smaller the float, the less bitcoins that are not being hodled and available for trade
+
+In a hot run up it means more people chasing after fewer coins allowing the price to run even further.",t3_lwqekq,2021-03-03 18:23:02,2021-03-03
+2599,gpiqxsp,t3_lwqekq,"tldr; A significant chunk of Bitcoin hasn't moved in over seven years, according to data from on-chain analytics tool Glassnode. The HODL Wave shows more than 3.3 million Bitcoin has not moved in that time period. That amount is 17.87% of Bitcoinâ€™s circulating supply and is worth $160 billion at current market prices.
+
+*This summary is auto generated by a bot and not meant to replace reading the original article. As always, DYOR.*",t3_lwqekq,2021-03-03 18:31:46,2021-03-03
+2600,gpiq846,t3_lwqekq,And probably 90% of that will never be moved because they've been lost forever.,t3_lwqekq,2021-03-03 18:19:25,2021-03-03
+2601,gpj5znq,t3_lwqekq,Boats.,t3_lwqekq,2021-03-03 21:40:47,2021-03-03
+2602,gpj9e91,t3_lwqekq,My btc is included in this statistic. I kept only a bit though but just found my wallet from 2014. Guess I’m not the only one,t3_lwqekq,2021-03-03 22:11:17,2021-03-03
+2604,gpj2g2x,t3_lwqekq,"Noob question but still...
+
+Could we imagine a way to retrieve some of the bitcoins lost for ever ?
+
+I mean, that woud be terrific because it would mean a way to steal them, but still...",t3_lwqekq,2021-03-03 21:05:44,2021-03-03
+2606,gpj96fb,t1_gpj065x,"some of it is lost wallets, the rest are wallets that are choosing not to move funds",t3_lwqekq,2021-03-03 22:09:25,2021-03-03
+2612,gpivu6z,t1_gpiq846,Is it theoretically possible that all Bitcoin could one day be lost in rubbish dumps?,t3_lwqekq,2021-03-03 19:46:01,2021-03-03
+2617,gpj4hxp,t1_gpj2g2x,"They’d be valueless if you could steal them. Bitcoin’s value is based on two core things, it’s scarcity and its security. As soon as there is a way to access btc without a private key, its game over. Who wants value stored in something that can be stolen at any moment.",t3_lwqekq,2021-03-03 21:26:31,2021-03-03
+2624,gpiw2yc,t1_gpivu6z,More like due to a global EMP attack.,t3_lwqekq,2021-03-03 19:49:17,2021-03-03
+2630,gpj7jb2,t1_gpiw2yc,It’s ok. I’m working on a t-shirt with the Bitcoin core code and blockchain printed on it. Just trying to buy the right amount of fabric. /s,t3_lwqekq,2021-03-03 21:54:58,2021-03-03
+2631,gpj2q9l,t1_gpiw2yc,"Something that fries all the computers in the world. If this happens, bitcoin would not be at the top of of priorities for humanity.",t3_lwqekq,2021-03-03 21:08:45,2021-03-03
+2638,gpj2x4l,t1_gpj2q9l,No one said it will be a priority.,t3_lwqekq,2021-03-03 21:10:43,2021-03-03
+2642,gpiinjv,t3_lwor1f,"It’s the internet 2.0.  Most people only believe in what they can hold or see.  The idea of a new ecosystem is beyond their thought process.
+
+Until it happens....",t3_lwor1f,2021-03-03 16:18:09,2021-03-03
+2643,gpinbhg,t3_lwor1f,Agree. It’s such a big idea that it’s hard to comprehend. Even if you’re smart. It challenges all your prior conditioning and pre-existing beliefs. Understanding it is possibly more about being open minded than smart.,t3_lwor1f,2021-03-03 17:32:02,2021-03-03
+2644,gpij6s1,t3_lwor1f,Burry is doing it on purpose to attempt to lower TSLA price,t3_lwor1f,2021-03-03 16:26:24,2021-03-03
+2645,gpij40e,t3_lwor1f,Paul krugman on the Internet was a winner.,t3_lwor1f,2021-03-03 16:25:13,2021-03-03
+2646,gpios5m,t3_lwor1f,"The more of these people there are around the better. It just goes to show how early it still is. They'll all come around. Buy now or later, the only two choices. All else is just noise and Bs.",t3_lwor1f,2021-03-03 17:55:46,2021-03-03
+2647,gpip9k8,t3_lwor1f,"Burry’s criticism is leverage, which he is right about. He is missing the point though on how important it is to have something governments cannot touch and you can take in your pocket in case you have to leave your country. Tell Velezuelans or Argentinians.",t3_lwor1f,2021-03-03 18:03:37,2021-03-03
+2648,gpiyatb,t3_lwor1f,"For the record, micael burry explicitly accepted the value of bitcoin. However, he thinks btc is overpriced due to the risk of violent governments (by that I mean almost every government) to battle it. And he's probably at least partially right.",t3_lwor1f,2021-03-03 20:18:12,2021-03-03
+2649,gpirhwu,t3_lwor1f,"If they don’t see a problem with the current system, they aren’t looking for a solution",t3_lwor1f,2021-03-03 18:40:57,2021-03-03
+2650,gpiqpjl,t3_lwor1f,"Some came around early, others later. But all will come around eventually. #BlockchainBelievers",t3_lwor1f,2021-03-03 18:27:55,2021-03-03
+2652,gpit9k0,t3_lwor1f,https://nakamotoinstitute.org/mempool/bitcoins-shroud-of-subtlety-and-allure/,t3_lwor1f,2021-03-03 19:08:35,2021-03-03
+2653,gpjcu6s,t3_lwor1f,Yea Michael Saylor talks about how most people KNOW a lot but do not THINK a lot.,t3_lwor1f,2021-03-03 22:39:43,2021-03-03
+2654,gpiuo7v,t3_lwor1f,Well put.,t3_lwor1f,2021-03-03 19:29:42,2021-03-03
+2655,gpj45m7,t3_lwor1f,I don't think some of the world's smartest investors have short time horizons.,t3_lwor1f,2021-03-03 21:23:11,2021-03-03
+2656,gpj4vyp,t3_lwor1f,If you are at the top of the heap you will push down anyone that threatens your position. Its basic self preservation.,t3_lwor1f,2021-03-03 21:30:16,2021-03-03
+2658,gpindjf,t3_lwor1f,"The problem is not strictly speaking this guy or even a Boomer problem. There's a saying (which I've just made up) which goes something like ""if you need to explain Bitcoin to someone, or you need to have Bitcoin explained to you, they and you don't need bitcoin. And that's fine"".
+
+There are dozens of countries where people are queuing up to ask not ""why?"" but ""how?"". These people need bitcoin and will get Bitcoin much faster than a first-world boomer, Gen X'r or even Millennial because their income and their families need it.
+
+TL;DR so what if someone doesn't get Bitcoin. Move on and concentrate your energies where they're accepted. It's what I did when I built WalletMatrix :-)",t3_lwor1f,2021-03-03 17:32:58,2021-03-03
+2659,gpiyyyw,t3_lwor1f,"I don’t think people fail to consider the time preference. It’s just a view man. Everyone has view risk, you, me, Yellen, burry etc. Trying to attribute causal explanation to their views is pointless/overfitting.
+
+I can see many arguments against btc as those for it. Btc is very very flawed, although it is an imperfect solution to an imperfect world. I do believe some regulation to crypto is necessary to prevent moral hazard like tether printing like fuck. Ultimately I’m on the early adoption side because I think the fed poses a bigger risk than fraud in this crypto scene. The crypto scene really needs to take out tether, it’s undermining the legitimacy of crypto....",t3_lwor1f,2021-03-03 20:26:26,2021-03-03
+2666,gpipm4l,t3_lwor1f,[removed],t3_lwor1f,2021-03-03 18:09:18,2021-03-03
+2667,gpiir18,t1_gpiinjv,"they'll keep telling themselves it's a bubble, and never take the time to learn about it or buy it, and one day they'll wake up and realize the world has become forever changed.",t3_lwor1f,2021-03-03 16:19:37,2021-03-03
+2668,gpjbzj6,t1_gpiinjv,"> internet 2.0.
+
+https://en.wikipedia.org/wiki/Web_2.0
+
+rather 3.0",t3_lwor1f,2021-03-03 22:32:51,2021-03-03
+2670,gpiw3b4,t1_gpinbhg,"Thank you. Intellect won't help on this one, else crypto would have already taken over. That's probably what we have to let go of as a collective.",t3_lwor1f,2021-03-03 19:49:23,2021-03-03
+2671,gpiqhi2,t1_gpios5m,"Nothing movers an asset or equity to its true value, higher or lower, faster then short sellers.  Skeptics are great for bitcoin.  For example, I think Tesla stock would not have done so well so fast without the huge short position and naysayers.",t3_lwor1f,2021-03-03 18:23:56,2021-03-03
+2672,gpj4t71,t1_gpip9k8,How much leverage is used in the stock market?,t3_lwor1f,2021-03-03 21:29:33,2021-03-03
+2675,gpj3ok9,t1_gpindjf,"So millennials, the generation who likely created Bitcoin and brought it to where it is the last 12 years, and invested first and likely the most are now lumped in with Boomers and Gen Xers as not needing Bitcoin? Sorry, but this doesn't make sense.",t3_lwor1f,2021-03-03 21:18:26,2021-03-03
+2676,gpiw4g8,t1_gpipm4l,[removed],t3_lwor1f,2021-03-03 19:49:51,2021-03-03
+2677,gpij98f,t1_gpiir18,"Just like the internet or IT revolution we’ve recently experienced.  The next gens have vision and it’s their only chance to get some leverage moving into the future.  
+
+It’s a crazy thing to try and wrap your head around how important this time is right now for so many people that haven’t had a chance in a system that doesn’t work for the working class people.",t3_lwor1f,2021-03-03 16:27:30,2021-03-03
+2678,gpiqsuf,t1_gpiqhi2,You're right. Short and sweet. Gd luck,t3_lwor1f,2021-03-03 18:29:27,2021-03-03
+2681,gpjfb5r,t1_gpj3ok9,"Millennials did not create Bitcoin... Likely Hal Finney, a boomer. People in the US and other wealthy countries do not need bitcoin like people in poor countries that are experiencing hyperinflation do.",t3_lwor1f,2021-03-03 22:58:54,2021-03-03
+2691,gpj8dvs,t3_lwu0yl,Yeah it’s great. It takes one halving to always been in the green.,t3_lwu0yl,2021-03-03 22:02:27,2021-03-03
+2692,gpj5sig,t3_lwu0yl,C,t3_lwu0yl,2021-03-03 21:38:54,2021-03-03
+2699,gpjakoz,t3_lwuvy3,Guilty as charged.,t3_lwuvy3,2021-03-03 22:21:17,2021-03-03
+2701,gpjefhw,t3_lwuvy3,"tldr; A significant chunk of Bitcoin hasn't moved in over seven years, according to data from on-chain analytics tool Glassnode. The HODL Wave shows more than 3.3 million Bitcoin has not moved in that time period. That amount is 17.87% of Bitcoinâ€™s circulating supply and is worth $160 billion at current market prices.
+
+*This summary is auto generated by a bot and not meant to replace reading the original article. As always, DYOR.*",t3_lwuvy3,2021-03-03 22:52:07,2021-03-03
+2702,gpjcaif,t3_lwuvy3,Plenty lost.,t3_lwuvy3,2021-03-03 22:35:25,2021-03-03
+2705,gpjcl77,t3_lwuvy3,Yea sorry I’m waiting for a big pump,t3_lwuvy3,2021-03-03 22:37:43,2021-03-03
+2709,gpijrrw,t3_lwouov,"She just nails her own coffin it’s hilarious!
+
+Such an old school person in charge during a new school revolution.  
+
+I love the entertainment!",t3_lwouov,2021-03-03 16:35:29,2021-03-03
+2711,gpinxje,t3_lwouov,"America does have a nack of putting very old people in very key jobs.  
+
+How realistically can someone so old / entrenched be expected to learn / comprehend such key new technologies. 
+
+Thank god for Gary though. A potential shining light in the worlds most powerful old people’s home.",t3_lwouov,2021-03-03 17:42:01,2021-03-03
+2712,gpij16b,t3_lwouov,And Bill Gates,t3_lwouov,2021-03-03 16:23:58,2021-03-03
+2713,gpj1g1y,t3_lwouov,"""Old woman Yellen at Bitcoin again"".",t3_lwouov,2021-03-03 20:54:55,2021-03-03
+2714,gpil8uw,t3_lwouov,Wait until I get my stimmy please Jan,t3_lwouov,2021-03-03 16:58:45,2021-03-03
+2715,gpiwsug,t3_lwouov, Any time that fossil speaks it emits only shit.,t3_lwouov,2021-03-03 19:58:58,2021-03-03
+2716,gpiutvv,t3_lwouov,What else you expect from politicians ?,t3_lwouov,2021-03-03 19:31:59,2021-03-03
+2718,gpikgbt,t3_lwouov,Cant wait for more higher up boomers (i.e ny attorney letitia) who dont understand fundamentals of a decentralized blockchain to throw more threats regarding ”crypto market”shutdown. Worst they could do is attack the exchanges as far as I know,t3_lwouov,2021-03-03 16:46:15,2021-03-03
+2719,gpiqf5i,t3_lwouov,"Vindictive, immature nonsense like this just harms adoption. If we badmouth all those who doubt rather than educate then we do a disservice to Bitcoin.",t3_lwouov,2021-03-03 18:22:47,2021-03-03
+2720,gpilsrw,t3_lwouov,i dont know why i hate her so much. she looks soooo ugly. imagine how ugly she was when she was young.,t3_lwouov,2021-03-03 17:07:39,2021-03-03
+2724,gpikkk9,t1_gpij16b,Loving that Bill Gates hates a computing technology that actually works... what do you mean no one has to enter ctrl alt del into it?,t3_lwouov,2021-03-03 16:48:05,2021-03-03
+2725,gpinns1,t1_gpil8uw,When will you receive it? I’ll give her a call today,t3_lwouov,2021-03-03 17:37:36,2021-03-03
+2727,gpj9qu6,t1_gpikgbt,Won't happen since too many politicians hold bitcoin themself. Its not 2015 anymore when this have been possible.,t3_lwouov,2021-03-03 22:14:17,2021-03-03
+2734,gpip5to,t3_lwq3j5,"tldr; US SEC Chairman nominee Gary Gensler has said Bitcoin is a ""catalyst for change"". He added that the SEC will be focused on eliminating scams and fraudulent activities to make the cryptocurrency market a safer place for investors. This comes at a time when the torch for a Bitcoin ETF product has been reignited in the US.
+
+*This summary is auto generated by a bot and not meant to replace reading the original article. As always, DYOR.*",t3_lwq3j5,2021-03-03 18:01:54,2021-03-03
+2735,gpir8n5,t3_lwq3j5,"This is good for bitcoin. There **is** to much fraud in crypto currently, especially with shitcoins.",t3_lwq3j5,2021-03-03 18:36:46,2021-03-03
+2736,gpisqqc,t3_lwq3j5,damn our boy genz really is a dark horse,t3_lwq3j5,2021-03-03 19:00:32,2021-03-03
+2738,gpj2o09,t3_lwq3j5,I was just thinking. He also hinted that any coin that’s mined could be treated like an asset and any coin minted treated like a security. What does this mean for the price of different coins and/or the crypto space overall?,t3_lwq3j5,2021-03-03 21:08:05,2021-03-03

@@ -1,0 +1,205 @@
+,title,score,id,url,comms_num,created,body,date
+0,Decentralization-Boosting Mining Protocol Stratum V2: Overview & Progress Update,392,m16uon,https://www.reddit.com/r/Bitcoin/comments/m16uon/decentralizationboosting_mining_protocol_stratum/,152,2021-03-09 21:54:44,"Over the past year, we've explained many benefits of the Stratum V2 mining protocol **for miners, pools, and the Bitcoin network as a whole**. Now it's time for a recap & update on development + adoption 👇
+
+[https:\/\/braiins.com\/bitcoin-mining-stack-upgrade](https://preview.redd.it/oqq4kyhm30m61.png?width=1199&format=png&auto=webp&s=cb28be028fff3a67534abd209e8d1e009a8315e1)
+
+**For those not familiar** with the features of Stratum V2 or how it compares to Stratum V1 & BetterHash, we have [an overview](https://braiins.com/bitcoin-mining-stack-upgrade) for you (check the Compare tab for more). It also includes a Q&A with protocol authors [Matt Corallo](https://twitter.com/TheBlueMatt), [Jan Capek](https://twitter.com/janbraiins) and [Pavel Moravec](https://twitter.com/mor_pav).
+
+[https:\/\/braiins.com\/upgrade\/compare-mining-protocols](https://preview.redd.it/lfabnz5z30m61.png?width=1108&format=png&auto=webp&s=c0deab79ca092c68515e9c8af5f5492c88c4f1b6)
+
+**DECENTRALIZATION:**
+
+While all of the features are relevant to miners & mining pools, the **aspect of Stratum V2 that most non-miner Bitcoiners care about is Job Negotiation**. This is a sub-protocol that enables miners to construct their own blocks, a task currently only being done by pools.
+
+We recommend the following piece from [Karim Helmy](https://twitter.com/karimhelpme) (R&D at [Coinmetrics](https://twitter.com/coinmetrics)) which includes an explanation of out-of-band payments, a potential economic incentive for miners to adopt Job Negotiation.
+
+>[Deribit Insights](https://insights.deribit.com/market-research/stratum-v2-migration-and-decentralization/): ""Stratum V2: Migration and Decentralization""
+
+We also have a deeper explanation of how Stratum V2 can impact Bitcoin's decentralization and how the Job Negotiation process works. Approximately 94% of Bitcoin's hashrate currently goes through Chinese mining pools, while some \~65% is physically produced in China during the rainy season. Safe to say, **Bitcoin decentralization isn't perfect. TL;DR: Stratum V2 can help** ⬇️
+
+>""[Bitcoin’s Decentralization with Stratum V2](https://braiins.com/blog/stratum-v2-bitcoin-decentralization)""
+
+[https:\/\/braiins.com\/blog\/stratum-v2-bitcoin-decentralization](https://preview.redd.it/vo0x4d1m50m61.png?width=862&format=png&auto=webp&s=d12daa1f9f8dc2f10b861759d8f465a08eb0b442)
+
+**ADOPTION:**
+
+So, what is the state of Stratum V2 adoption today?  Well, it's still very early days. We have an implementation on r/slushpool and in our [Braiins OS+](https://braiins.com/os/plus) firmware, so there are already many miners using V2. However, this doesn't include Job Negotiation yet...
+
+The reason is that **there are changes necessary in Bitcoin Core** in order to make Job Negotiation possible. So there can't be a full implementation of Stratum V2 until those changes are made. Good news: **the development is in progress with a help from Square Crypto!**
+
+[Wohoo!](https://preview.redd.it/ondex2so70m61.png?width=885&format=png&auto=webp&s=5747c121987bb40adfd5240af5ef4dabc7bdd2c3)
+
+Until then, mining pools will remain the sole entities constructing blocks to add to the Bitcoin blockchain. However, **miners can still benefit from partial V2 implementations** which improve efficiency, privacy, and security (e.g. man-in-the-middle attack prevention). 
+
+We believe **Stratum V2 will have a significant long-term impact** on the mining industry, particularly as transaction fees account for an increasing proportion of mining revenue. 
+
+We'll be sure to update the community again as the development progresses.",2021-03-09
+1,"Daily Discussion, March 20, 2021",77,m900xg,https://www.reddit.com/r/Bitcoin/comments/m900xg/daily_discussion_march_20_2021/,914,2021-03-20 13:02:29,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/m89qlp/daily_discussion_march_19_2021/) for unanswered questions.",2021-03-20
+2,The struggle is temporary,9455,m92y4e,https://v.redd.it/0hn5quhxa5o61,633,2021-03-20 16:40:41,,2021-03-20
+3,"Bitcoin is now worth more than the three largest payment services in the world, combined.",1391,m972yd,https://i.redd.it/qqln641mq6o61.jpg,109,2021-03-20 21:30:04,,2021-03-20
+4,"Nigerians are free to use Bitcoin, says Central Bank of Nigeria declares",265,m9eb17,https://www.withinnigeria.com/news/2021/03/20/cryptocurrency-ban-nigerians-are-free-to-use-bitcoin-says-cbn-declares/,34,2021-03-21 03:30:26,,2021-03-21
+5,Reminder: Bitcoin.com / BitcoinCash (BCH) is NOT Bitcoin and is a scam,342,m99pe8,https://www.reddit.com/r/Bitcoin/comments/m99pe8/reminder_bitcoincom_bitcoincash_bch_is_not/,116,2021-03-20 23:50:57,Just another friendly reminder for the new folks. Beware of Bitcoin.com and misleading material designed to trick you into buying BCH. BitcoinCash is just another alt coin but with less honesty and way more protectionism than other projects. BCH is currently dieing and the folks bag holding will say anything to switch places with you. HODL BTC and don’t look back,2021-03-20
+6,Bitcoin is going to ZERO),461,m93u0y,https://v.redd.it/n2ta474xm5o61,77,2021-03-20 17:49:13,,2021-03-20
+7,#Bitcoin Blinding Lights #LaserRayUntil100K 🔊,3363,m8pxv1,https://v.redd.it/k782yxtyk1o61,218,2021-03-20 04:13:07,,2021-03-20
+8,NASA finds rare metal asteroid worth more than global economy,111,m984wy,https://www.mining.com/nasa-finds-rare-metal-asteroid-worth-more-than-global-economy/,42,2021-03-20 22:29:28,,2021-03-20
+9,I was aiming for the other one,32,m9dapo,https://v.redd.it/ox3gzxhp98o61,2,2021-03-21 02:42:27,,2021-03-21
+10,"Why Bitcoin is not a cult, but the fiat system is.",92,m96k8y,https://www.reddit.com/r/Bitcoin/comments/m96k8y/why_bitcoin_is_not_a_cult_but_the_fiat_system_is/,51,2021-03-20 20:59:38,"As the media continues to talk about Bitcoin, I see a recurring narrative being put forward by  legacy financial experts; the lack of intrinsic value.
+
+So let's take a look at the intrinsic value of fiat. (let's stick to dollars and euros for this) The cost to produce a $100 bill is the same as the production cost for a $1 bill. The paper itself is worthless. In fact most dollars and euros are digital.
+
+The value of these currencies comes solely from the promise of the government that they are worth something. If history is a barometer on how trustworthy a government promise is, it is evident this promise instills very little trust.
+
+But it is worse than that. Governments don't even feel the need to earn your trust. They just don't give you a choice to believe in anything else. They force it upon you. Fiat is the religion that you where born with. It is the reward system that allows you to live. By design, in the western world, you are indoctrinated by the belief that labour gets gewarded by fiat, that risk gets rewarded by fiat, that success gets rewarded by fiat. (There is a reason for government backed lotteries you know.) Even the punishment system mostly relies on the confiscation of fiat. (from traffic tickets, to high crimes)
+
+Everybody has been made slave to the money.
+
+If you were born and raised in a muslim society, you become a muslim. If you were born and raised in a christian society, you become a christian. Same goes for government issued fiat. You have no choice but to embrace it, or be rejected in your entirety. (Scientology anyone?)
+
+Bitcoin is the exact opposite of this cult in fact.
+
+It is not enforced upon anyone. You have the choice to believe in it or to dismiss it. It's value is derived from the faith of people in bitcoin. It's value is therefore derived on free will. If you reject it, you are free to do so.
+
+It is an honest asset in the sense that is driven by supply and demand. Sure, there is manipulation going on (mostly from entities with ties to legacy finance by the way), but the effect of the manipulation can only shrink with growing adoption. The same cannot be said about fiat. In fact the more fiat circulates, the bigger the manipulation.
+
+To add to that, unlike the fiat system, in which money production costs are the same regardless of the amount of money being printed, bitcoin relies on proof of work. As price goes up, production costs go up. (Spare me the envirornmental fud, which is nonsensical for a bunch of reasons not relevant to this post.)
+
+Critics often refer to the fact that Bitcoin has only been around for 12 years. It could be a flash in the pan, a temporary fad.
+
+Well, the dollar, as a fiat currency, has only been around for 50 years. The euro is only 20 years old. In fact the euro was only 9 years old when bitcoin was conceived. Not that much of a difference.
+
+The chance of the euro disappearing seems greater to me than bitcoin disappearing.
+
+Just some food for thought.",2021-03-20
+11,"Hmmm. I think BTC is definitely going past SILVER total market cap, THIS CYCLE",19,m9gch2,https://www.reddit.com/r/Bitcoin/comments/m9gch2/hmmm_i_think_btc_is_definitely_going_past_silver/,5,2021-03-21 05:12:03,"maybe amazon and microsoft too!
+
+[https://8marketcap.com/](https://8marketcap.com/)
+
+Do you think so? How long until it catches BTC.  I'm thinking 2022/23.",2021-03-21
+12,Avoid fake YouTube Bitcoin gurus!,450,m8yyu3,https://i.redd.it/1vzf6mz9w3o61.png,208,2021-03-20 11:57:19,,2021-03-20
+13,"What u talking about, BIS? #Bitcoin",33,m9cmin,https://v.redd.it/c4q3dvtd48o61,27,2021-03-21 02:10:31,,2021-03-21
+14,"Bitcoin, before criticizing it, people should study it",48,m99mrx,https://cryptoreportage.com/bitcoin-news/bitcoin-before-criticizing-it-people-should-study-it/,14,2021-03-20 23:47:15,,2021-03-20
+15,Someone in india launched Bitcoin Wheat.,272,m9099w,https://www.reddit.com/gallery/m9099w,47,2021-03-20 13:16:44,,2021-03-20
+16,Buying fractions,23,m9c7j6,https://www.reddit.com/r/Bitcoin/comments/m9c7j6/buying_fractions/,28,2021-03-21 01:51:14,Is buying fractions a good idea? I don't make enough to invest 1000 plus what do you think of buying fractions and any advice?,2021-03-21
+17,Compounding Psychological Price Levels: 60K USD = 50K EUR (+/-),10,m9gxkw,https://www.reddit.com/r/Bitcoin/comments/m9gxkw/compounding_psychological_price_levels_60k_usd/,9,2021-03-21 05:42:06,"I realized one potential significant detail about the 60K USD psychological price level that's been mentioned quite a bit recently for Bitcoin. Since $60,000 USD = $50,215.51 EUR at the time of writing this, I think the 50K level is affecting our European Bitcoin friends at the same time the 60K price level is affecting people buying in USD. The two levels coinciding with each other must undoubtedly be attributing to some of the faltering we've had as of late. Here's to cheers when we pull through these price levels!",2021-03-21
+18,"In a Bitcoin financial system, the ease of verifying a bank’s reserves is shockingly easy. Bitcoin allows for the owner of a UTXO to sign a digital signature verifying they have control of the funds. without actually spending any of the funds.",13,m9g6eg,https://ericblander.com/run-the-numbers-18-bitcoin-proof-of-reserves/,4,2021-03-21 05:03:54,,2021-03-21
+19,Miami Responds Positively to Paying Salaries with Bitcoin,3194,m8i5a7,https://www.1olay.com/2021/03/miami-responds-positively-to-paying.html,257,2021-03-19 22:13:39,,2021-03-19
+20,Former White House Director of Communication’s SkyBridge files for a Bitcoin ETF,23,m9aqwj,https://thedailychain.com/former-white-house-director-of-communications-skybridge-files-for-a-bitcoin-etf/,0,2021-03-21 00:42:28,,2021-03-21
+21,Cryptocurrency mining causes blackouts in territory that belonged to the Soviet Union,7,m9i0hx,https://digesttime.com/2021/03/20/cryptocurrency-mining-causes-blackouts-in-territory-that-belonged-to-the-soviet-union/,3,2021-03-21 06:37:20,,2021-03-21
+22,COINBASE PRO LACK OF CUSTOMER SERVICE,9,m9g6wk,https://www.reddit.com/r/Bitcoin/comments/m9g6wk/coinbase_pro_lack_of_customer_service/,13,2021-03-21 05:04:33,"COINBASE supposedly is the biggest crypto exchange, I don’t know how in hell they got to be so big with such TERRIBLE customer service.
+I am switching to Gemini.
+Thanks",2021-03-21
+23,According to Anthony Scaramucci Elon Musk owns +5 billion $ worth of bitcoin,1994,m8klqc,https://v.redd.it/v60ptmxkd0o61,251,2021-03-20 00:08:10,,2021-03-20
+24,just found a bot that let's you tip bitcoin through discord,12,m9deyt,https://www.reddit.com/r/Bitcoin/comments/m9deyt/just_found_a_bot_that_lets_you_tip_bitcoin/,10,2021-03-21 02:47:54,"I found this bot that let's you send Bitcoin or (Satoshis) through discord, just thought it was pretty cool as I haven't personally seen a tipping feature inside of discord.
+
+[https://twitter.com/zebedeeio/status/1372933656738684933](https://twitter.com/zebedeeio/status/1372933656738684933)",2021-03-21
+25,Switching from 3rd Party Exchange to Anonymous Trading,10,m9ewj2,https://www.reddit.com/r/Bitcoin/comments/m9ewj2/switching_from_3rd_party_exchange_to_anonymous/,3,2021-03-21 04:00:10,"I’ve been buying and storing Bitcoin on Cashapp, Coinbase and similar exchanges for a while now. I want to switch to a cold wallet and peer-to-peer trading for privacy purposes. The 3rd party exchanges I use obviously have my personal info and record of what I’ve bought. If I were to send BTC from these exchanges to my cold wallet, could my cold wallet be traced back to me? If so, how do I get my BTC from these exchanges to my wallet anonymously?",2021-03-21
+26,"Negative yields come to India, as RBI tries to put a leash on short sellers",6,m9hkf8,https://www.reddit.com/r/Bitcoin/comments/m9hkf8/negative_yields_come_to_india_as_rbi_tries_to_put/,2,2021-03-21 06:14:15,"The ongoing tussle between the Reserve Bank of India (RBI) and government bond traders has seen a fresh twist. In a historic first for the Indian bond market, the central bank on Friday enabled quotes for negative yields on government securities in the negotiated dealing system – order matching (NDS-OM) to choke short sellers in the bond market, who have run amok in recent weeks.
+
+Bond dealers said the 6.17 per cent government bond maturing in 2021 was offered at a yield of minus 1.5 per cent, a first in the government securities market.
+
+Read more at:
+https://economictimes.indiatimes.com//markets/bonds/negative-yields-come-to-india-as-rbi-tries-to-put-a-leash-on-short-sellers/articleshow/81589359.cms
+
+If you where wondering why India was trying so hard to ban Bitcoin.  Negative rates are coming around the world to continue the wealth transfer to the 1%.   Bitcoin is the only way to fight back.",2021-03-21
+27,List of exchanges allowing Bitcoin withdrawals with ~0 fees via Lightning Network,63,m93cs3,https://cointastical.medium.com/exchanges-with-support-for-bitcoin-lightning-network-payments-739829bcb7bc,19,2021-03-20 17:11:36,,2021-03-20
+28,"This will change as crypto price/popularity increases, but I hate paying, let’s say, $30 in Bitcoin for a pizza, because then I think “dang, I just potentially paid $1000 for that pizza.”",10,m9d09i,https://www.reddit.com/r/Bitcoin/comments/m9d09i/this_will_change_as_crypto_pricepopularity/,15,2021-03-21 02:28:36,"Edit: yes I understand I can replenish with the amount I would have spent on pizza, but it’s just how it feels psychologically.  To it’s core, it’s the feeling of buying pizza when you could buy crypto haha",2021-03-21
+29,I don’t ever post but felt the need to share this BBC fud. Get an ISA guys!,66,m93108,https://v.redd.it/ynzkdu9yb5o61,52,2021-03-20 16:46:57,,2021-03-20
+30,And how do you store your crypto?,45,m94fii,https://i.redd.it/p4zchlecv5o61.jpg,77,2021-03-20 18:34:43,,2021-03-20
+31,"The fees on Electrum for Android are too high, they don't make sense...",8,m9gqa3,https://www.reddit.com/r/Bitcoin/comments/m9gqa3/the_fees_on_electrum_for_android_are_too_high/,2,2021-03-21 05:31:50,"I was experimenting with wallets and tx fees. On Electrum, with the ETA option, it said that I had to pay around 150 sat/byte for my tx to be included in the next block, while the minimum was around 30 sat/byte, and it should have been confirmed in 25 blocks.
+
+I wanted to see what would have happened if I put the fee lower than that and tried 20 sat/byte. It got included in the next block and confirmed in a few minutes. If I followed the ETA option, I would have paid more than 80% of the tx just in fees (at least Electrum have this warning...).
+
+Then I tried Eclair and it told me that 15 sat/byte were enough to get it confirmed in 20 minutes. What's wrong with Electrum?
+
+EDIT: some corrections.",2021-03-21
+32,Why we gotta HODL — 100K in sight!,4,m9j79q,https://v.redd.it/yd2p0a63r9o61,3,2021-03-21 07:40:31,,2021-03-21
+33,Are you ready to measure everything in Satoshi?,21,m988xp,https://www.reddit.com/r/Bitcoin/comments/m988xp/are_you_ready_to_measure_everything_in_satoshi/,12,2021-03-20 22:35:17,"***In the last two month, the amount of FUD,  spread by the mainstream media regarding Bitcoin, has grown exponentially.***
+
+https://preview.redd.it/7eekhmt527o61.jpg?width=976&format=pjpg&auto=webp&s=325d3b9ec56f7cdc3a9f0e61173e024da3875f94
+
+Here are just a few of these articles. See for yourself:
+
+[Traders lost $ 1.7 billion amid Bitcoin's record fall since March](https://crypptomania.com/traders-lost-1-7-billion-amid-bitcoins-record-fall-since-march/)
+
+[Why bitcoin fell sharply.](https://www.newsy-today.com/why-bitcoin-fell-sharply-cryptoquant-ceo-explained-rbc-crypto/) ^(“Explained” by the  head of CryptoQuant.)
+
+[The bitcoin rate will fall by 30-40% ](https://www.cnbc.com/2021/02/23/bitcoins-fall-shows-why-people-should-be-cautious-before-investing.html)^(by CNBC.)
+
+[Bitcoin is going to crush. ](https://investorplace.com/2021/02/bitcoin-going-crash-question-when/)^(by InvestorPlace)
+
+[Guggenheim Partners warned about the imminent fall of bitcoin to $ 20 thousand.](https://cryptotvplus.com/2021/01/btc-to-drop-as-low-as-20k-guggenheim-partners-chief-investment-officer/)
+
+[Harvard professor: Bitcoin has no future.](https://criptoeconomia.com.br/en/governos-nao-deixarao-bitcoin-se-tornar-enorme-diz-professor-de-harvard/)
+
+**But look what were institutions doing at that time:**
+
+* [Greyscale](https://markets.businessinsider.com/currencies/news/grayscale-bitcoin-trust-largest-public-holder-competition-increasing-osprey-2021-3-1030221296) managed to buy more bitcoin.
+* Tesla [purchased $1.5 billion worth of Bitcoin for its balance sheet](https://www.fool.com/investing/2021/02/19/tesla-is-holding-15-billion-in-bitcoin-marking-a-n/)
+* Signature Bank [has passed the $10 billion mark](https://www.coindesk.com/signature-bank-crosses-10b-in-deposits-from-crypto-customers) in crypto deposits from its clients.
+* Jack Dorsey's company Square bought another 3,318 Bitcoin, [totaling $170 million](https://www.fool.com/investing/2021/02/28/bitcoin-cash-app-e-commerce-highlights-year-end/)
+* Microstrategy is buying more and not planning to sell .
+
+**Do they not read the newspapers?**
+
+Apparently, they understand a little more than the experts listed above. *Here is a tip:*  Don't read American newspapers in the morning and save your money.
+
+Moreover, large Chinese public companies can now be added to the list of American funds and public companies. Last week, one of China's leading internet application makers, Meitu Inc., [acquired bitcoins](https://news.bitcoin.com/chinese-public-company-meitu-buys-bitcoin-treasury-90-million-cryptocurrencies/) for its Treasury. The company now owns nearly $ 90 million in cryptocurrencies. Meitu is listed on the Hong Kong Stock Exchange and its flagship application has over 1 billion users worldwide.
+
+Very soon, others that are only planning to buy bitcoin will be added to the list of Chinese public companies. Any investment in any asset denominated in US dollars, in the short term, and even more so in the distant, will only bring a loss. No options.
+
+[Check out the price of $ 1 in satoshi.](https://usdsat.com/) It is not too long to wait for everything in this world to be evaluated in Satoshi. On January 23, the dollar is worth 3109 satoshi. Today its price is 1,719 satoshi. *When the price reaches 1 satoshi per dollar, you can short a little.*",2021-03-20
+34,"In 2017 I bought an expensive gaming monitor with Bitcoin Right before the run up to $20,000 (hindsight amirite) I spent around .1 bitcoin on the monitor, now worth $5800. I do not regret for a second, I see it a my small helping hand for adoption. Onward and upward!",150,m8ynxv,https://www.reddit.com/gallery/m8ynxv,41,2021-03-20 11:38:28,,2021-03-20
+35,BITCOIN EATS STIMMYS FED Interview with Bitcoin MEME,10,m9ckbd,https://youtube.com/watch?v=bwgV1IuLWbg&feature=share,3,2021-03-21 02:07:41,,2021-03-21
+36,It's the Persian new year!,32,m95esx,https://www.reddit.com/r/Bitcoin/comments/m95esx/its_the_persian_new_year/,13,2021-03-20 19:46:04,"Happy Nowruz to those who celebrate it and to those who don't, well, happy Spring equinox!
+
+Any cash gifts my relatives give me this year will be invested in Bitcoin.",2021-03-20
+37,Chance of guessing a used private key?,34,m94v9w,https://www.reddit.com/r/Bitcoin/comments/m94v9w/chance_of_guessing_a_used_private_key/,38,2021-03-20 19:07:06,"If you try to imagine the 10\^77 number (which equals to 2\^256). Best way is to realise that there is 10\^80 number of atoms in whole Universe! These numbers are quite close to each other so lets say its the same.
+
+Next realise that there is 10x more stars in the universe than grains of sand on the Earth. Single grain of sand has 10\^18 atoms. Imagine how many atoms has just single star with all of its planets in planetary system!
+
+Imagine picking single one of these atoms. Like for example I choose a star number 1 288 439 495 488 833 442 and I choose a single atom which is on its second planet in the rock laying there.
+
+Now tell some other guy to guess which atom you have chosen. He would have to choose a correct star out of 1 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 stars, then the correct planet(or star itself) and then a correct place on its surface to a 1 milimeter precision and then he had to chose yet again the correct number out of 1 000 000 000 000 000 000 atoms. One mistake in any of this and he is wrong....well thats the chance we get a one day a collision of private keys....",2021-03-20
+38,when bitcoin was called bitcoins,4,m9hy9h,https://www.reddit.com/r/Bitcoin/comments/m9hy9h/when_bitcoin_was_called_bitcoins/,2,2021-03-21 06:34:04,"found an old email a colleague had forwarded me 10 years ago. it's possibly one of the first articles i read about bitcoin. did i buy then? no 😣
+
+[https://web.archive.org/web/20160409191715/http://www.dickdavis.com/2011/07/05/an-unusual-recommendation/](https://web.archive.org/web/20160409191715/http://www.dickdavis.com/2011/07/05/an-unusual-recommendation/)",2021-03-21
+39,Selling 1 Bitcoin now is as foolish as selling a Manhattan's block in the 17th Century,118,m8zfb1,https://www.reddit.com/r/Bitcoin/comments/m8zfb1/selling_1_bitcoin_now_is_as_foolish_as_selling_a/,100,2021-03-20 12:25:12,"NEVER sell it for Government ever worth-less printed-to-infinity coupons/promises/IOU's. 
+
+If you ever need fiat, because someone refuses to take real/sound money as payment, borrow it against your prime real estate.
+
+Also if possible, don't buy from that 'someone' in the first place, give your business to smart and ethical people accepting Bitcoin.
+
+> Manhattan traces its origins to a trading post founded by colonists from the Dutch Republic in 1624 on Lower Manhattan; the post was named New Amsterdam in 1626. **Manhattan is historically documented to have been purchased by Dutch colonists from Native Americans in 1626 for 60 guilders, which equals roughly $1059 in current terms.**[22][23][24] The territory and its surroundings came under English control in 1664[24] and were renamed New York after King Charles II of England granted the lands to his brother, the Duke of York.[25] New York, based in present-day Manhattan, served as the capital of the United States from 1785 until 1790.[26] The Statue of Liberty greeted millions of immigrants as they came to America by ship in the late 19th century[27] and is a world symbol of the United States and its ideals of liberty and peace.[28] Manhattan became a borough during the consolidation of New York City in 1898.
+
+https://en.wikipedia.org/wiki/Manhattan",2021-03-20
+40,Help with an old wallet,3,m9j71o,https://www.reddit.com/r/Bitcoin/comments/m9j71o/help_with_an_old_wallet/,0,2021-03-21 07:40:13,"I was cleaning out my bf’s old laptop from university (2013) before donating it and found an old Bitcoin file. I’ve checked and there is a bit of money in the account but he no longer has the seed. 
+
+We have wallet.info, and wallet.wallet files. a key backup that is a .key. Wallet backups with .info and .wallet files and an unencrypted file with .info and .cipher files. 
+
+Is any of this useful in recovering the wallet?",2021-03-21
+41,"Anyone actually tried one of the new ""Crypto Cards"" offered by Visa and other cc companies?",3,m9j1w3,https://www.reddit.com/r/Bitcoin/comments/m9j1w3/anyone_actually_tried_one_of_the_new_crypto_cards/,0,2021-03-21 07:32:25,"I know these are still quite new, but I like the idea of getting ""sats back"", rather than cash. Curious what the catch might be. Doesn't seem beneficial for the cc companies, in the long run, but maybe I'm missing something in the math. Thanks.",2021-03-21
+42,How to buy Bitcoin,5,m9fbf0,https://www.reddit.com/r/Bitcoin/comments/m9fbf0/how_to_buy_bitcoin/,33,2021-03-21 04:20:25,I’m a newbie here and got a ledger and a bit of crypto from a friend as a gift. I was wondering how I could buy crypto with PayPal and cashapp. Thanks for the help!,2021-03-21
+43,Wallet,3,m9iczj,https://www.reddit.com/r/Bitcoin/comments/m9iczj/wallet/,2,2021-03-21 06:55:54,I have other coins but this is my first time for bitcoin so it’s a stupid question but what are the best wallets for Bitcoin,2021-03-21
+44,How much is enough?,12,m98b0c,https://www.reddit.com/r/Bitcoin/comments/m98b0c/how_much_is_enough/,28,2021-03-20 22:38:28,"I can't stop thinking about how I can always buy more Bitcoin. It wouldn't be financially smart to dig deeper into my fiat savings, especially how things are looking currently in my country (USA). At the same time, there is a voice in my head that keeps repeating 'now is the time, fiat is dying before your very eyes'.
+
+Just trying to find a happy medium place to be. So if Bitcoin really takes off and is adopted on a massive scale, how much do you think you would need to be in a comfortable position?",2021-03-20
+45,where would you store 10 Bitcoin?,6,m9d1f2,https://www.reddit.com/r/Bitcoin/comments/m9d1f2/where_would_you_store_10_bitcoin/,64,2021-03-21 02:30:11,"
+Hypothetically speaking if you had 10 Bitcoin where would you store it long-term, among the following options?  Assume for this hypothetical that these Bitcoin are almost purely profit from early Bitcoin investments and are not anticipated to be needed any time soon.  Priorities are safety and to a lesser  (but still significant) extent liquidity and APR/returns.  
+
+- Blockfi/Nexo/Celsius
+
+- Exchange ie Coinbase 
+
+- Cold storage on a hardware wallet 
+
+- Grayscale or similar off-chain asset",2021-03-21
+46,Shenzhen-listed ICT Company Plans to Invest $155 Million in Microbt Bitcoin Mining Hardware,3,m9hbfk,https://www.reddit.com/r/Bitcoin/comments/m9hbfk/shenzhenlisted_ict_company_plans_to_invest_155/,0,2021-03-21 06:01:41,A Shenzhen-listed information and communications technology (ICT) company ZJBC has plans to invest in the bitcoin mining sector according to a recent announcement. ZJBC says that it aims to spend up to $155 million on Microbt manufactured ASIC mining rigs.,2021-03-21
+47,Robinhood plans hiring spree amid explosion of interest in trading digital coins,9,m9ae8q,https://newsbreakforum.com/story/robinhood-plans-hiring-spree-amid-explosion-of-interest-in-trading-digital-coins/,14,2021-03-21 00:25:16,,2021-03-21
+48,"Watch this guy in 2016 realise Bitcoin might hit $30,000",106,m8xhgh,https://www.youtube.com/watch?v=KQLRluir788,32,2021-03-20 10:28:00,,2021-03-20
+49,"If you still don't understand that it's still too early to buy BTC, you need to wake up now. The bitcoin era is just beginning.",2,m9jbha,https://www.reddit.com/gallery/m9jbha,1,2021-03-21 07:46:48,,2021-03-21

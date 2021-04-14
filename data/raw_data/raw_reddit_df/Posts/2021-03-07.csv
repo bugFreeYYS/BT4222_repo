@@ -1,0 +1,273 @@
+,title,score,id,url,comms_num,created,body,date
+0,"promising taproot/schnorr activation proposal BIP8(3m,false)",167,lz0gl9,https://www.reddit.com/r/Bitcoin/comments/lz0gl9/promising_taprootschnorr_activation_proposal/,66,2021-03-06 20:19:21,"https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg09604.html
+
+- 3months activation period, 90% hashrate threshold
+- if activated, schnorr enablement is 6mo after start
+- if not activated, try something else
+
+the longer enablement delay after activation is interesting and reduces the risk from unupgraded nodes on services, miners, wallets, users and gives them time (a risk otherwise increased by short activation window)
+
+while the short activation period avoids delays or perceived indecision resulting in a user-led UASF as SPDY8 is ""fast enough"", and if the unexpected were to happen and miners unreasonably delayed, then it should be easier to find consensus on a flag height activation from there. (actually not clear if BIP 8 or BIP 9, I think BIP 8 is considered an improvement due to use of block heights vs dates which created some subtle problem in the past).",2021-03-06
+1,"Daily Discussion, March 07, 2021",76,lzjp3e,https://www.reddit.com/r/Bitcoin/comments/lzjp3e/daily_discussion_march_07_2021/,998,2021-03-07 13:06:58,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/lyuhq2/daily_discussion_march_06_2021/) for unanswered questions.",2021-03-07
+2,"In the end, I decided against NFTing my painting. Link for highest res (4420x3673px) in first comment, for you all to use as you see fit. Thanks again for the incredible support",1566,lzu3oa,https://i.redd.it/qvtgfo8quml61.jpg,115,2021-03-08 00:31:58,,2021-03-08
+3,Chinese tech company Meitu has announced a massive purchase of 380 BTC,1546,lzsf1v,https://cryptopotato.com/hong-kong-listed-meitu-bought-40m-worth-of-bitcoin-and-ethereum/,206,2021-03-07 23:08:15,,2021-03-07
+4,Born too late to explore the Earth. Born too early to explore the stars. But born just in time to invest in Bitcoin.,445,lzzmlm,https://www.reddit.com/r/Bitcoin/comments/lzzmlm/born_too_late_to_explore_the_earth_born_too_early/,42,2021-03-08 05:02:53,,2021-03-08
+5,+50K on a Sunday - HODL your Satoshis!,2237,lzm8e1,https://www.reddit.com/r/Bitcoin/comments/lzm8e1/50k_on_a_sunday_hodl_your_satoshis/,565,2021-03-07 16:07:07,"Next week is gonna be wild.
+
+We need to hodl the coins, not trade.
+
+- Stimulus is coming in.
+
+- Governments all over the world are printing money, usd, euro, bolivares, you name it.
+
+- Banks are recommending investors to get +1% of their assets in btc
+
+- From corporations to small businesses are moving some of their liquidity to btc.
+
+- We are still waiting for the big 4 big to make a move: Apple, Amazon, Google and Facebook. These 4 can-not-afford-to-be-left-out and when they get in, that will be the real start of adoption.
+
+We can not predict the market, they want your coins, they want you to FOMO a little bit and buy in, then the Whales will dump a bit to make you fear and sell your coins, and the big players will keep buying at discount.
+
+There will be a time to sell and make profits, but we are not even close to the end of this bull run.
+
+Edit: thanks for the awards, send some needed Satoshis Cryptonauts!",2021-03-07
+6,Another whopping $1.9 Trillion printied. The bull case for Bitcoin is stronger than ever.,530,lzpfd6,https://www.reddit.com/r/Bitcoin/comments/lzpfd6/another_whopping_19_trillion_printied_the_bull/,151,2021-03-07 20:07:51,Get you stimulus check and buy an actual scarce asset for your depreciating dollars. The value proposition for Bitcoin is stronger than ever. The dollar is losing purchasing power everyday while Bitcoin remains as scarce as it will always be. Be the change and opt out of this corrupt system.,2021-03-07
+7,"Meitu, a Chinese photo filtering app listed in HK have become the latest public company to add 379.12 BTC to its treasury",314,lzrpdz,https://www.coingecko.com/en/public-companies-bitcoin,37,2021-03-07 22:27:52,,2021-03-07
+8,"PSA: it is mathematically determined that hodlers always have some anxious feelings of being ""below"" their personal Bitcoin all time value peak. This is because Bitcoin is *always* below (or momentarily setting) it's all time high. Don't let this quirk of human psychology deter you. Strong hands.",324,lzqwtm,https://www.reddit.com/r/Bitcoin/comments/lzqwtm/psa_it_is_mathematically_determined_that_hodlers/,41,2021-03-07 21:42:08,,2021-03-07
+9,"Vires in Numeris -- ""Strength in Numbers""",104,lzxzcq,https://i.redd.it/w2s2udy9tnl61.jpg,8,2021-03-08 03:42:46,,2021-03-08
+10,This Ryan Reynolds commercial - Bitcoin DocuMintary (Hilarious!),201,lzs9za,https://www.youtube.com/watch?v=1io6ONPBHI8,12,2021-03-07 23:01:11,,2021-03-07
+11,"Told my boomer parents I invested $4,000 in Bitcoin",44,m01f3i,https://www.reddit.com/r/Bitcoin/comments/m01f3i/told_my_boomer_parents_i_invested_4000_in_bitcoin/,16,2021-03-08 06:33:19,"Instead of scolding me, they want to buy $10k.  I know already that they are doing this for my future, so this is pretty awesome.",2021-03-08
+12,Bitcoin Stimulus Check bump by the numbers,67,lzxydb,https://www.reddit.com/r/Bitcoin/comments/lzxydb/bitcoin_stimulus_check_bump_by_the_numbers/,24,2021-03-08 03:41:24,"I did a bit of research just to see what has happened the previous 2 times. It's very good news.
+
+Stimulus check 1 beginning of disbursements:
+
+April 24, 2020
+
+Price of BTC $7498
+
+Peak May 8 $9917
+
+14 days, growth of 32%
+
+&#x200B;
+
+Stimulus check 2 beginning of disbursements:
+
+December 30, 2020
+
+Price of BTC $28,768
+
+Peak Jan 9 $40,519
+
+10 days, growth of 41%
+
+&#x200B;
+
+Stimulus check 3 beginning of disbursements:
+
+March 22, 2021
+
+Price of BTC ?
+
+Peak maybe 12 days later on April 3?
+
+Average of two previous growth periods, 36.5%
+
+Price today 3/7 is $50,444
+
+If that stayed flat until the 22nd, but then experienced similar growth to the two previous stimulus check bounces, then the new price on April 3rd would be $68,856.
+
+This is only one metric, with limited samples, but chances are… you’re not too late.",2021-03-08
+13,"I'm seriously surprised by the amount of friends who say to me ""but bitcoin is falling hard right now"" like its been a failed project in the past year.",47,m009l3,https://www.reddit.com/r/Bitcoin/comments/m009l3/im_seriously_surprised_by_the_amount_of_friends/,20,2021-03-08 05:34:27,"&#x200B;
+
+https://preview.redd.it/jt0dtt90dol61.jpg?width=1125&format=pjpg&auto=webp&s=3f71b241fadc0d7c665e2a8508e737aff2797b63",2021-03-08
+14,No crypto ban in India: Finance Minister predicts “very calibrated” stance,135,lzrwzm,https://soterovirtualmarketing.com/730615a0,44,2021-03-07 22:40:10,,2021-03-07
+15,I cant talk about Bitcoin with the family.,118,lzt0h8,https://www.reddit.com/r/Bitcoin/comments/lzt0h8/i_cant_talk_about_bitcoin_with_the_family/,126,2021-03-07 23:38:17,"as you can read above, something really gets on my nerves.
+
+I'm someone who didn't learn about finance before Bitcoin. I wasted a lot of money and never really thought about how to manage money properly.
+
+&#x200B;
+
+A while back I tried to talk to a family member about Bitcoins and why I think it's a good thing.
+
+I got super stupid answers and this person had no interest in listening to me even once.
+
+I gave facts why Bitcoin is the future and they still don't want to listen to me, make me out to be an idiot who doesn't know anything about anything and is going to fall flat on his face anyway because I wasn't really good with money in the past.
+
+Since one would like to help one and is then looked at so stupidly.
+
+&#x200B;
+
+Yesterday I started another topic. I'm currently looking at a lot of things about our financial system and have decided for myself to have as little cash as possible and rather put it into real estate, bitcoins or other useful investments. That's why I spoke to this family member again, to get another person's opinion on what I'm trying to do.
+
+There I was once again left wondering if I have any idea about these things and they think it won't work anyway.
+
+&#x200B;
+
+I have made many mistakes in the past. Now I'm trying to work on it and use my money wisely, because I think that the system is slowly collapsing.
+
+&#x200B;
+
+I'm getting so fed up with it. I don't think I will share a single word about my finances with my family anymore as I don't feel like discussing it.
+
+&#x200B;
+
+I am still quite ""young"", have done many things wrong, disappointed many and yet learned from those mistakes.
+
+&#x200B;
+
+To be honest I hope she will stay so stubborn and will be really angry in the future for not listening to me.
+
+&#x200B;
+
+I think Bitcoin is still going to be a very big thing and believe that we are still in the beginning with just $50,000.
+
+&#x200B;
+
+Have you guys had similar situations? Would appreciate some answers and keep hodl.",2021-03-07
+16,"Venezuela update, weekly traded amount keeps going down. Only 80 BTC were traded last week only using LocalBitcoin (Down from 83), that is 7,162,000,000,000 Bs. (Bolivares, local currency). One BTC is around 92,000,000,000 Bs.",169,lzpyut,https://www.reddit.com/r/Bitcoin/comments/lzpyut/venezuela_update_weekly_traded_amount_keeps_going/,134,2021-03-07 20:44:08,"Hi guys, as you know Venezuelan living here, crypto enthusiast like to post these weekly updates.
+
+The traded amount in USD is constant weekly, around 4-5 million USD. Just as reference in February 2019 almost 2,500 BTC were traded in one week. I don't think the drop is to worry.
+
+This is measure ONLY using LocalBitcoin (Trades there are mostly Bolivares to BTC and BTC to Bolivares). Months ago Binance started P2P trades with Venezuelan bolivares, I think some people migrated there (it lets you trade other cryptos). Also AirTM is used as exchange too.
+
+Who trades BTC to Bolivares? People that needs to pay in some places where crypto is not accepted. Where do these BTC come from? Could be miners, could be people abroad that send money to their families in Venezuela, could be the goverment itself (sadly), people with crypto savings, etc.
+
+Who trades Bolivares to BTC? People that gets insane amounts of Bolivares (like store owners), people that get paid in Bolivares, and want to convert them in something better and stable than Bolivares digitally and easy.
+
+Two days ago goverment announced the newest bank note (bill) biggest bill in Venezuelan history 1,000,000 Bolivares that is 0.52 USD (as for now)
+
+A big chunk of the population that works for the goverment have a monthly wage of around 1-10 monthly minium wages, monthly minimum wage is around 1.2 USD. So that would put that people from 1.2 to 12 USD monthly. Sadly this people cannot even think in crypto, they are thinking in something different that is survive.
+
+According to a NGO (CENDAS) a 5 members family need around 350 USD monthly to ""live"", yes if you are from USA, Canada, Australia, Germany that amount is ridiculous low, but that is a standar in Latin America, problem more that what you need to spend are the WAGES, they are crazy low. A really good wage here is around 400 USD monthly (in my opion).
+
+If  you want to know something ask me  anything. Here the economy is a mess,  so many poor people and a lot of  people surviving and of course people living ""good""! I have gotten even work from some redditors  since I started posting here, what a  great community.
+
+And MOONS (cryptocurrency subreddit), wow, have helped me a lot (Sadly I have to cash out usually).
+
+One monthly minimum wage is around 18 MOONS.
+
+Sources (PLEASE  check them!!!):
+
+[https://www.usefultulips.org/combined\_VES\_Page.html](https://www.usefultulips.org/combined_VES_Page.html)
+
+[https://www.caracaschronicles.com/](https://www.caracaschronicles.com/)
+
+[https://coin.dance/volume/localbitcoins/VES/BTC](https://coin.dance/volume/localbitcoins/VES/BTC)
+
+[https://localbitcoins.com/buy-bitcoins-online/ves/](https://localbitcoins.com/buy-bitcoins-online/ves/)
+
+[https://www.reuters.com/article/venezuela-economy/venezuela-to-introduce-1-million-bolivar-bill-as-inflation-persists-idUSL2N2L401H](https://www.reuters.com/article/venezuela-economy/venezuela-to-introduce-1-million-bolivar-bill-as-inflation-persists-idUSL2N2L401H)
+
+[https://www.caracaschronicles.com/2020/10/23/you-need-285-minimum-wages-in-venezuela-to-feed-your-family/](https://www.caracaschronicles.com/2020/10/23/you-need-285-minimum-wages-in-venezuela-to-feed-your-family/)",2021-03-07
+17,I'm all in...,101,lzsnv1,https://www.reddit.com/r/Bitcoin/comments/lzsnv1/im_all_in/,22,2021-03-07 23:20:42,"I've placed faith that humanity will walk the new path of monetary energy. This weekend I made the last of my Bitcoin investments (for a while at least). I've been buying the dips and hodling since 2017 and feel the same conviction buying at 49k as I did at 6k. 90% of my life savings is now Bitcoin, and so far has proven wise. Looking forward to seeing what comes to fruition 🙏✌️.",2021-03-07
+18,Who is spending their whole stimulus on some BTC?,1141,lzgxzf,https://www.reddit.com/r/Bitcoin/comments/lzgxzf/who_is_spending_their_whole_stimulus_on_some_btc/,359,2021-03-07 10:16:57,Ain’t no stopping me now! :),2021-03-07
+19,"Peter Thiel Cofounder of Paypal & Palantir ""It's Bitcoin, More Than Gold"" - Jan 28th 2021",197,lznycy,https://m.youtube.com/watch?v=mX13FcT47_o&feature=youtu.be,10,2021-03-07 18:20:30,,2021-03-07
+20,Investing my coffee money into crypto,22,m00hut,https://www.reddit.com/r/Bitcoin/comments/m00hut/investing_my_coffee_money_into_crypto/,17,2021-03-08 05:46:13,"I love coffee and energy drinks. But I also love long-term wealth and health. So in an effort to ditch those sugary, caffeinated, overly priced beverages in exchange for financial freedom and better health, I’ve implemented a new strategy (in addition to my main crypto investment strategies) in order to save/build money while also investing in my long term health.  
+
+Starting today, anytime I am craving a coffee or energy drink (usually everyday) instead of running to the store to grab one, I will instead invest that same amount of money (usually around $5 coffee) into BTC. 
+
+My hope in doing this is that it will motivate me to finally cut caffeine and excess sugar from my diet, while also helping me save/build my wealth over time. 
+
+I’m hoping this will also inspire others to take on a similar type of strategy in order to flip a negative habit into a positive one and ultimately improve their lives in the process. 
+
+Keep stackin’ those Sats!",2021-03-08
+21,People hating Bitcoin are like...,145,lzoi8a,https://i.redd.it/irk1pa9f8ll61.jpg,32,2021-03-07 19:02:56,,2021-03-07
+22,"Goldman Sachs crypto survey shows 22% of respondents expect $100,000-plus bitcoin",26,lzy96j,https://soterovirtualmarketing.com/f0c65db0,5,2021-03-08 03:55:59,,2021-03-08
+23,"If you’re like me and trying to consume as much Bitcoin knowledge as possible, I highly recommend MIT OpenCourseWare on YouTube. Taught by Gary Gensler, the nominee to head up the SEC. I can’t believe this is free! 🚀",4696,lz4s6p,https://youtube.com/watch?v=EH6vE97qIP4&feature=share,314,2021-03-07 00:12:01,,2021-03-07
+24,What if we don't have a normal bitcoin cycle?,47,lzu5do,https://www.reddit.com/r/Bitcoin/comments/lzu5do/what_if_we_dont_have_a_normal_bitcoin_cycle/,31,2021-03-08 00:34:23,"What if this is a supercycle...similar to Gold going from around $200 to $2000 from 2001 to 2011 when it really blew up on wall street and in the public?
+
+ It seems like the majority think we're going to get a blowoff top and typical 85% correction later this year or next but the market almost never does what the majority think it will do.",2021-03-08
+25,Bitcoin breaks $100!,21,lzzf79,https://youtu.be/vOu6n44ldJU,13,2021-03-08 04:52:57,,2021-03-08
+26,Deeply prophetic ...,2402,lz8tgs,https://i.redd.it/iuxkdujajgl61.jpg,78,2021-03-07 03:15:00,,2021-03-07
+27,Warning: DO NOT TRUST THESE SITES,18,lzyf94,https://www.reddit.com/r/Bitcoin/comments/lzyf94/warning_do_not_trust_these_sites/,11,2021-03-08 04:03:46," It has been brought to my attention that there are a shit load of scam sites for bitcoin trading. 
+This is a warning to EVERYONE THAT USES BITCOIN, do NOT, NOT, NOT use these sites under any circumstances. Only buy bitcoin from a TRUSTED source such as coinbase, binance,  gemini, brave etc. if it even SEEMS shady, DONT BUY IT! 
+I’m exposing these sites to prevent Everyone from being manipulated or scammed. If you see these sites, REPORT THEM TO THE MODERATORS. If you see the person making the scams, report them as well.
+Report these sites to the domain,  and hosting providers, and if possible,  the Police. Report all these sites to Ic3.gov,  as well as any other scam links you spot online.
+Note: 
+This doesn’t break the TOS for the subreddit either because while it is linking to scams,  it is not an attempt to scam people but instead to warn them and prevent them from getting scammed. These are a few popular sites that have been heavily used by scammers.
+
+https://www.bitoption-trade.com/ - changed their domain after getting exposed.
+https://blockchair.com/
+https://www.simplex.com/
+https://honey.is/
+https://dubai.keynote.ae/
+asupower.com
+apureman.site
+seed-bch.bitcoinforks.org
+btccash-seeder.bitcoinunlimited.info
+www.blockchair.com
+blockchair.com
+seed.bitcoinabc.org
+seed-abc.bitcoinforks.org
+
+Stay safe yall.",2021-03-08
+28,$100k profit taking,32,lzug18,https://www.reddit.com/r/Bitcoin/comments/lzug18/100k_profit_taking/,105,2021-03-08 00:48:58,"There has been a lot of speculation that when BTC reaches $100k there will be such a massive profit taking that it will send the price crashing down to ~$50k again.
+
+Do you think this will happen? If so do you have a strategy to take profit also or will you just ride it out?",2021-03-08
+29,Invested my stimulus into crypto and I’m up - we’re in this bullshit together,184,lzliop,https://www.reddit.com/r/Bitcoin/comments/lzliop/invested_my_stimulus_into_crypto_and_im_up_were/,44,2021-03-07 15:13:24,"I don’t know if I can offer much insight because I’m not the ideal Bitcoin success story, in fact not successful at all but here it goes. I’m from Canada and I’m at the lowest point in my life - I’m overweight, lost my job because of the pandemic and I’m living with my strict ass annoying immigrant parents until I find something to get me back on my feet. I’ve invested my stimulus checks into crypto because what the fuck do I have to lose? Nothing. I don’t have a lot invested right now but I’ve made solid gains from the time it was valued at 36k USD. Feel free to call me a piece of shit after this, but I found a new passion and crypto is still in its early stages in terms of its potential. If you ever ask yourself ‘is it too late to invest?’ - the answer is hell no. Talk to the average joe, most are not invested. Bitcoin is STILL in its early stages. Investing only 1 dollar puts you ahead of most people. Hopefully I come back to this post a year from now in a better position.
+
+Edit: thank you for the love guys and I am working on myself to become a healthier person, and I appreciate all the encouragement. Also, thank you to the redditors who gave me awards. Let’s get these coins.",2021-03-07
+30,MicroStrategy buys another $10 million in bitcoin and adds up to $4.4 billion,473,lzgpj6,http://digesttime.com/2021/03/07/microstrategy-buys-another-10-million-in-bitcoin-and-adds-up-to-4-4-billion/,56,2021-03-07 10:03:23,,2021-03-07
+31,Relative passed...left bitcoin,17,lzyamp,https://www.reddit.com/r/Bitcoin/comments/lzyamp/relative_passedleft_bitcoin/,13,2021-03-08 03:58:00,"I have a question, the probate attorney said to transfer any bitcoin into my brother's bank from the app before we close out the account, but it asks for a pin.  I tried the pin he usually uses and it didn't work, so I don't know if I keep trying his other pins, it will lock me out.  Does it lock you out after a certain amount of tries?  Will CashApp transfer Bitcoin if someone passes away?  We don't want to lose the money, but we also don't want to screw it up trying to transfer it out.",2021-03-08
+32,Indian Bitcoiners up your node game please! Only 52 full nodes. Bulgaria has almost the same number with just 7 million!,21,lzvz6g,https://i.redd.it/zplbxh4ibnl61.jpg,18,2021-03-08 02:03:13,,2021-03-08
+33,History of Bitcoin logo,27,lzu0bt,https://youtu.be/Zm2qiOpuFYw,3,2021-03-08 00:27:27,,2021-03-08
+34,"(Reuters) - Bitcoin rose 4.18 % to $50,947.94 on Sunday, adding $2,043.31 to its previous close.",64,lzp5lx,https://www.reuters.com/article/us-cryptocurrency-bitcoin/bitcoin-rises-4-2-to-50947-94-idUSKBN2AZ08P,19,2021-03-07 19:49:47,,2021-03-07
+35,Perfect infographic to address the environmental complaint of Bitcoin,14,lzyp7h,https://i.redd.it/1sjrvf4eznl61.jpg,3,2021-03-08 04:17:02,,2021-03-08
+36,Bitcoin price will reach $ 1 million in 10 years?,68,lzoa5w,http://www.cashtalk.co/2021/03/bitcoin-price-will-reach-1-million-in.html,53,2021-03-07 18:46:04,,2021-03-07
+37,Bitcoin is not volatile. Watch what the fed said,102,lzml7s,https://v.redd.it/mouyq4g2ikl61,18,2021-03-07 16:35:16,,2021-03-07
+38,I can taste the denial,99,lzlob9,https://www.reddit.com/r/Bitcoin/comments/lzlob9/i_can_taste_the_denial/,89,2021-03-07 15:24:42,"Not investment advice.
+
+I think what you are seeing right now is massive denial of what's going on with our economy.
+
+The economy has been battered. Small businesses are failing. Americans now have ""huge savings"" after receiving thousands of dollars of stimulus and no bars/movie theaters/restaurants to spend it on. Mall bankruptcies are epic.
+
+The federal reserve is pretending inflation doesn't exist, but if it does exist, they have ways to deal with it. Sure they do.
+
+We are going to see the middle class nearly disappear in the next 10 years. Are you ready for what that looks like? But before then, are you ready for the ""growth"" aka stimulus fueled inflation. Are you ready for real inflation with suppressed interest rates? How about the infrastructure bill of $2 trill.
+
+2nd nfl star just put bitcoin in their bio.
+
+Does money grow on trees?  
+Does it matter if bitcoin is the solution or only if people and companies believe it can be?",2021-03-07
+39,Another $1.9T stimulus incoming... The reason we choose Bitcoin is simple: because we prefer money that can’t be printed out of thin air. This is what the no-coiners refuse to acknowledge. They’re mad that we don’t want to play the same game anymore.,1018,lz8aux,https://www.reddit.com/r/Bitcoin/comments/lz8aux/another_19t_stimulus_incoming_the_reason_we/,423,2021-03-07 02:51:51,,2021-03-07
+40,"It is clear, that a significant percentage of bitcoin will be forever lost. How large that amount is exactly is (currently) unknown. General discussions around future price predictions seem to always revolve around the 21 m cap, not 21 m * 0.x.",8,lzz13i,https://www.reddit.com/r/Bitcoin/comments/lzz13i/it_is_clear_that_a_significant_percentage_of/,13,2021-03-08 04:33:32,"What might be more important for driving the price? The known max cap of 21 m or the actual but unknown cap of 21 m * 0.x and when will either take effect? Is it natural market movement, always aware of the lower max cap, is it somehow tied to the current stacks available on exchanges, regardless of how much still could be mined in the future or might there be ""a moment of realization"" where the actual lower max cap gets closely predicted, driving the price further up when realizing bitcoin has been valued too cheaply because of ""forgetting"" about the lost coins?",2021-03-08
+41,It’s important to have an asset class that keeps your government on its toes. That’s why crypto is useful. Also the US dollar fuels crime and enforces police brutality so how is it any better... sorry said The Crypto Kidz,48,lznv2h,https://www.marketwatch.com/story/bitcoin-could-prevent-society-from-functioning-and-is-an-extreme-form-of-libertarian-anarchism-warns-this-fund-manager-11614937228?siteid=yhoof2&mod=mw_RHF,8,2021-03-07 18:13:51,,2021-03-07
+42,Is there a website that keeps track of exchange fees?,5,m01ehh,https://www.reddit.com/r/Bitcoin/comments/m01ehh/is_there_a_website_that_keeps_track_of_exchange/,6,2021-03-08 06:32:26,"Hey guys,
+
+Are there any websites that keep track of trading fees on exchanges?
+
+Seeing a ton of people recommend Coinbase Pro as an exchange for newcomers even though their fees are a lot higher than competitors (BinanceUS for example).
+
+Does a website exist that aggregates all this info?
+
+You can put in the amount of BTC you want to purchase, and the website will tell you what the best exchange is?
+
+I tried googling, but all the search results were out of date.
+
+If it doesn't exist I'll build one myself.
+
+Thanks!",2021-03-08
+43,Vancouver Tech Startup Cloud Nine Acquires Industry Leading Mining Software,6,m01cow,https://www.reddit.com/r/Bitcoin/comments/m01cow/vancouver_tech_startup_cloud_nine_acquires/,0,2021-03-08 06:30:02,"Today, more than 100 million people globally use Blockchain and cryptocurrency. Mining software and digital wallets have catalyzed a worldwide phenomenon of decentralized networks and data storage. Peer-to-peer digital mining has not only inspired innovators and entrepreneurs, but an entire generation of everyday people. 
+
+Blockchain technology has the potential to revolutionize the lives of citizens worldwide, and this has everything to do with tech startups such as Cloud Nine Education Group Ltd. (CSE: CNI), (OTC: CLGUF). The Vancouver company recently acquired user-friendly mining software from Limitless Technologies; plug and play digital tools that allow for financial sovereignty. 
+
+The acquisition of this mining software coincides with the global pandemic and economic uncertainty. In a world of fiat money, citizens are finally turning to cryptocurrencies instead. This year the company expects to benefit from increased bitcoin prices which has already triggered an increased demand for its software products. 
+
+More information here: [https://marketbuzz.ca/vancouver-tech-startup-cloud-nine-acquires-industry-leading-mining-software/](https://marketbuzz.ca/vancouver-tech-startup-cloud-nine-acquires-industry-leading-mining-software/)",2021-03-08
+44,Coinbase's Katie Haun Predicts Waves of Companies Adding Bitcoin to Their Balance Sheets (3-minute audio clip),25,lzqsh0,https://podclips.com/c/uuhj7K?ss=r&ss2=bitcoin&d=2021-03-07,3,2021-03-07 21:35:05,,2021-03-07
+45,"Chinese Publicly Listed Company Meitu Buys Bitcoin (BTC), Ether (ETH) worth $40 Million | BTCMANAGER",4,m02j7t,https://btcmanager.com/chinese-publicly-company-meitu-bitcoin-btc-ether-eth-40-million/,1,2021-03-08 07:31:37,,2021-03-08
+46,I'm buying $9k worth of btc in a couple of weeks. My fiance thinks I'm crazy. What do you predict it'll be worth in 10 years?,7,lzypzf,https://www.reddit.com/r/Bitcoin/comments/lzypzf/im_buying_9k_worth_of_btc_in_a_couple_of_weeks_my/,31,2021-03-08 04:18:02,I told her at least $100k?,2021-03-08
+47,"How to Use Uncertainty, Randomness and Chaos | Nassim Taleb - Antifragile",10,lzwasv,https://www.youtube.com/watch?v=AX57rWwc2NU,8,2021-03-08 02:19:19,,2021-03-08
+48,Bloomberg: Bitcoin Making Gold Redundant [?],6,m00t7x,https://assets.bbhub.io/promo/sites/12/1029441_Crypto-Mar2021Outlook.pdf,2,2021-03-08 06:02:14,,2021-03-08
+49,Easy way to introduce someone to Bitcoin,4,m0229o,https://www.reddit.com/r/Bitcoin/comments/m0229o/easy_way_to_introduce_someone_to_bitcoin/,5,2021-03-08 07:06:54,"I recently paid for a weekend at an Airbnb with my younger brothers and younger cousin. I’m a little older than them and more established financially. I did not ask or expect them to pay me back, but they all insisted.
+
+My compromise: I told them all to take that money (a little over $100) and put it into Bitcoin. I told them they could pay me back once the value has doubled, but I’m actually just going to let them keep it.
+
+This same strategy could be used in a variety of circumstances.",2021-03-08
