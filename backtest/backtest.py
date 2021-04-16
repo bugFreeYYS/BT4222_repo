@@ -13,8 +13,8 @@ def backtest_classification_noSentiment(y_pre, # up --> 1, down --> -1
     # read in data
     data = pd.read_csv("../data/cooked_data/cooked_complete_dataset.csv")
     # convert to datetime
-    data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
-    data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
+#     data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
+    data["date"] = pd.to_datetime(data["date"], format='%d/%m/%y', infer_datetime_format=True)
     # subset data set
     data = data[data["date"].isin(date)]
 
@@ -58,8 +58,8 @@ def backtest_regression_noSentiment(y_pre,
     # read in data
     data = pd.read_csv("../data/cooked_data/cooked_complete_dataset.csv")
     # convert to datetime
-    data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
-    data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
+#     data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
+    data["date"] = pd.to_datetime(data["date"], format='%d/%m/%y', infer_datetime_format=True)
     # subset data set
     data = data[data["date"].isin(
         [date[0]- timedelta(days=1),] + date) # add in the previous day to obtain previous close information
@@ -156,8 +156,8 @@ def backtest_regression_WithSentiment(y_pre,
     # read in data
     data = pd.read_csv("../data/cooked_data/cooked_complete_dataset.csv")
     # convert to datetime
-    data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
-    data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
+#     data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
+    data["date"] = pd.to_datetime(data["date"], format='%d/%m/%y', infer_datetime_format=True)
     # subset data set
     data = data[data["date"].isin(
         [date[0]- timedelta(days=1),] + date) # add in the previous day to obtain previous close information
@@ -261,8 +261,8 @@ def backtest_classification_WithSentiment(y_pre, # up --> 1, down --> -1
     # read in data
     data = pd.read_csv("../data/cooked_data/cooked_complete_dataset.csv")
     # convert to datetime
-    data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
-    data["date"] = pd.to_datetime(data["date"], format='%d/%m/%Y', infer_datetime_format=True)
+#     data['date'] = data['date'].apply(lambda x: datetime.datetime.strptime(x, "%d/%m/%y"))
+    data["date"] = pd.to_datetime(data["date"], format='%d/%m/%y', infer_datetime_format=True)
     # subset data set
     data = data[data["date"].isin(date)]
 
