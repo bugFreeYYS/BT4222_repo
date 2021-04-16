@@ -11,7 +11,7 @@ try:
 
     spreadsheet = client.open('cooked_complete_dataset')
 
-    with open('../data/cooked_data/cooked_complete_dataset.csv', 'r') as file_obj:
+    with open('../data/cooked_data/cooked_complete_dataset_growing.csv', 'r') as file_obj:
         content = file_obj.read()
         client.import_csv(spreadsheet.id, data=content) 
 except:
