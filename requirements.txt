@@ -1,0 +1,11 @@
+datetime==4.3
+keras==2.2.4
+numpy==1.19.2
+matplotlib==2.2.2
+pandas==0.25.3
+scipy==1.6.2
+sklearn==0.23.2
+torch==1.8.1
+torchinfo==0.0.9
+torchbnn==1.2
+xgboost=1.2.1
