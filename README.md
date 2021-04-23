@@ -11,6 +11,40 @@ There are a total of five data sources used in this project:
 4. Daily Top 50 Reddit Post and Reddit Comment  Sentiments from [Reddit](https://www.reddit.com/)
 5. CoinDesk Article Sentiments and volume of posts from [CoinDesk](https://www.coindesk.com/)
 
+## Setup
+
+1) Create a [virtual environment](https://docs.python.org/3/library/venv.html) within your project directory.
+
+Conda
+```bash
+conda create -n myenv pip
+```
+Pip
+```bash
+python3 -m venv /path/to/new/virtual/environment
+```
+
+2) Activate the virtual environment in your project directory in your terminal 
+
+Conda
+```bash
+conda activate myenv
+```
+
+Pip
+```
+$ C:\Users\...\project_folder> venv\Scripts\activate
+```
+
+3) Clone repository:
+```bash
+git clone https://github.com/YangYuesong0323/BT4222_repo.git
+```
+
+4) Install the required packages
+```bash
+pip install -r requirements.txt --upgrade
+```
 
 ## Info
 Group Project for NUS BT4222 Module </br>
